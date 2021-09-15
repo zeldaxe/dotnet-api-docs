@@ -135,14 +135,7 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
-        </TypeParameter>
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="provider" Type="System.IServiceProvider" />
@@ -223,14 +216,7 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
-        </TypeParameter>
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="provider" Type="System.IServiceProvider" />
