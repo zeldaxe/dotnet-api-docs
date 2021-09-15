@@ -12,7 +12,8 @@
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
-  <Interfaces></Interfaces>
+  <Interfaces>
+  </Interfaces>
   <Docs>
     <summary>The base class that represents a single node within a mutable JSON document.</summary>
     <remarks>To be added.</remarks>
@@ -109,27 +110,29 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetValue&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public virtual T GetValue&lt;T&gt; ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !!T GetValue&lt;T&gt;() cil managed" />
+    <Member MemberName="GetValue&lt;TValue&gt;">
+      <MemberSignature Language="C#" Value="public virtual TValue GetValue&lt;TValue&gt; ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !!TValue GetValue&lt;TValue&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Nodes.JsonNode.GetValue``1" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetValue(Of T) () As T" />
-      <MemberSignature Language="F#" Value="abstract member GetValue : unit -&gt; 'T&#xA;override this.GetValue : unit -&gt; 'T" Usage="jsonNode.GetValue " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; virtual T GetValue();" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetValue(Of TValue) () As TValue" />
+      <MemberSignature Language="F#" Value="abstract member GetValue : unit -&gt; 'Value&#xA;override this.GetValue : unit -&gt; 'Value" Usage="jsonNode.GetValue " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA; virtual TValue GetValue();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>T</ReturnType>
+        <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
+        <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters />
       <Docs>
         <typeparam name="T">The type of the value to obtain from the <see cref="T:System.Text.Json.Nodes.JsonValue" />.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
         <summary>Gets the value for the current <see cref="T:System.Text.Json.Nodes.JsonValue" />.</summary>
         <returns>A value converted from the <see cref="T:System.Text.Json.Nodes.JsonValue" /> instance.</returns>
         <remarks>
@@ -2234,8 +2237,8 @@
         <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" />.</param>
         <param name="options">Options to control the serialization behavior.</param>
         <summary>Write the <see cref="T:System.Text.Json.Nodes.JsonNode" /> into the provided <see cref="T:System.Text.Json.Utf8JsonWriter" /> as JSON.</summary>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="writer" /> parameter is <see langword="null" />.</exception>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">The <paramref name="writer" /> parameter is <see langword="null" />.</exception>
       </Docs>
     </Member>
   </Members>

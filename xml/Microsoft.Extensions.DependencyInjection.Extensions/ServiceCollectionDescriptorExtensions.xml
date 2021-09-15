@@ -494,12 +494,6 @@
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
@@ -591,12 +585,6 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
             <BaseTypeName>TService</BaseTypeName>
           </Constraints>
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
@@ -751,12 +739,6 @@
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
@@ -892,12 +874,6 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
             <BaseTypeName>TService</BaseTypeName>
           </Constraints>
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
@@ -1052,12 +1028,6 @@
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
@@ -1149,12 +1119,6 @@
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
             <BaseTypeName>TService</BaseTypeName>
           </Constraints>
-          <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
-              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
-              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
-            </Attribute>
-          </Attributes>
         </TypeParameter>
       </TypeParameters>
       <Parameters>
