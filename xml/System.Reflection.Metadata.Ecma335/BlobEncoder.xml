@@ -245,7 +245,7 @@
         <summary>Encodes method signature blob.</summary>
         <returns>An encoder of the rest of the signature including return value and parameters.</returns>
         <remarks>
-        <format type="text/markdown"><![CDATA[  
+          <format type="text/markdown"><![CDATA[  
 
 ## Remarks
 
@@ -257,7 +257,7 @@ This example shows how to encode different method signatures:
 :::code language="csharp" source="~/snippets/csharp/System.Reflection.Metadata.Ecma335/BlobEncoder/MethodSignature/MethodSignatureSnippets.cs" id="SnippetEncodeSignatures":::
 
  ]]></format>
-    </remarks>
+        </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="genericParameterCount" /> is not in range [0, 0xffff].</exception>
       </Docs>
