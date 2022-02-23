@@ -355,7 +355,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetBindOptions">
-      <MemberSignature Language="C#" Value="public void SetBindOptions (ref System.Runtime.InteropServices.BIND_OPTS pbindopts);" />
+      <MemberSignature Language="C#" Value="public void SetBindOptions (in System.Runtime.InteropServices.BIND_OPTS pbindopts);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetBindOptions([in]valuetype System.Runtime.InteropServices.BIND_OPTS&amp; pbindopts) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.UCOMIBindCtx.SetBindOptions(System.Runtime.InteropServices.BIND_OPTS@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetBindOptions (ByRef pbindopts As BIND_OPTS)" />
