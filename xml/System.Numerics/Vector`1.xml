@@ -622,7 +622,7 @@ The type `T` can be any of the following numeric types:
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As Vector(Of T)) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : System.Numerics.Vector&lt;'T (requires 'T : struct)&gt; -&gt; bool" Usage="vector.Equals other" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Numerics::Vector&lt;T&gt; other);" />
-      <MemberSignature Language="C#" Value="public readonly virtual sealed bool Equals (System.Numerics.Vector&lt;T&gt; other);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public readonly bool Equals (System.Numerics.Vector&lt;T&gt; other);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -680,8 +680,8 @@ The type `T` can be any of the following numeric types:
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="vector.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public readonly override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="C#" Value="public readonly override bool Equals (object obj);" FrameworkAlternate="netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override readonly bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override readonly bool Equals (object obj);" FrameworkAlternate="netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -736,7 +736,7 @@ The type `T` can be any of the following numeric types:
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="vector.GetHashCode " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C#" Value="public readonly override int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override readonly int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -2051,7 +2051,7 @@ The type `T` can be any of the following numeric types:
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="vector.ToString " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="C#" Value="public readonly override string ToString ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override readonly string ToString ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -2157,8 +2157,8 @@ The type `T` can be any of the following numeric types:
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String, formatProvider As IFormatProvider) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : string * IFormatProvider -&gt; string" Usage="vector.ToString (format, formatProvider)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(System::String ^ format, IFormatProvider ^ formatProvider);" />
-      <MemberSignature Language="C#" Value="public readonly virtual sealed string ToString (string? format, IFormatProvider? formatProvider);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="C#" Value="public readonly virtual sealed string ToString (string format, IFormatProvider formatProvider);" FrameworkAlternate="netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public readonly string ToString (string? format, IFormatProvider? formatProvider);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public readonly string ToString (string format, IFormatProvider formatProvider);" FrameworkAlternate="netstandard-2.1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IFormattable.ToString(System.String,System.IFormatProvider)</InterfaceMember>

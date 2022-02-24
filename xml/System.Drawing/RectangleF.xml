@@ -465,7 +465,7 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public readonly virtual sealed bool Equals (System.Drawing.RectangleF other);" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public readonly bool Equals (System.Drawing.RectangleF other);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype System.Drawing.RectangleF other) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.RectangleF.Equals(System.Drawing.RectangleF)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As RectangleF) As Boolean" />
@@ -509,7 +509,7 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public readonly override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public override readonly bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.RectangleF.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
@@ -618,7 +618,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
-      <MemberSignature Language="C#" Value="public readonly override int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public override readonly int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.RectangleF.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
@@ -1644,7 +1644,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public readonly override string ToString ();" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public override readonly string ToString ();" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.RectangleF.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
