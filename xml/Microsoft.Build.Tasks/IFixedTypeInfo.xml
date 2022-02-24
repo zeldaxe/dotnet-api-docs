@@ -76,7 +76,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstance">
-      <MemberSignature Language="C#" Value="public void CreateInstance (object pUnkOuter, ref Guid riid, out object ppvObj);" />
+      <MemberSignature Language="C#" Value="public void CreateInstance (object pUnkOuter, in Guid riid, out object ppvObj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreateInstance(object pUnkOuter, [in]valuetype System.Guid&amp; riid, [out] object&amp; ppvObj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Build.Tasks.IFixedTypeInfo.CreateInstance(System.Object,System.Guid@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub CreateInstance (pUnkOuter As Object, ByRef riid As Guid, ByRef ppvObj As Object)" />

@@ -90,7 +90,7 @@
       </Docs>
     </Member>
     <Member MemberName="ClearHmenuProps">
-      <MemberSignature Language="C#" Value="public virtual void ClearHmenuProps (ref Accessibility._RemotableHandle hmenu, uint idChild, ref Guid paProps, int cProps);" />
+      <MemberSignature Language="C#" Value="public virtual void ClearHmenuProps (in Accessibility._RemotableHandle hmenu, uint idChild, in Guid paProps, int cProps);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearHmenuProps([in]valuetype Accessibility._RemotableHandle&amp; hmenu, [in]unsigned int32 idChild, [in]valuetype System.Guid&amp; paProps, [in]int32 cProps) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.ClearHmenuProps(Accessibility._RemotableHandle@,System.UInt32,System.Guid@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ClearHmenuProps (ByRef hmenu As _RemotableHandle, idChild As UInteger, ByRef paProps As Guid, cProps As Integer)" />
@@ -138,7 +138,7 @@
       </Docs>
     </Member>
     <Member MemberName="ClearHwndProps">
-      <MemberSignature Language="C#" Value="public virtual void ClearHwndProps (ref Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, ref Guid paProps, int cProps);" />
+      <MemberSignature Language="C#" Value="public virtual void ClearHwndProps (in Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, in Guid paProps, int cProps);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearHwndProps([in]valuetype Accessibility._RemotableHandle&amp; hwnd, [in]unsigned int32 idObject, [in]unsigned int32 idChild, [in]valuetype System.Guid&amp; paProps, [in]int32 cProps) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.ClearHwndProps(Accessibility._RemotableHandle@,System.UInt32,System.UInt32,System.Guid@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ClearHwndProps (ByRef hwnd As _RemotableHandle, idObject As UInteger, idChild As UInteger, ByRef paProps As Guid, cProps As Integer)" />
@@ -188,7 +188,7 @@
       </Docs>
     </Member>
     <Member MemberName="ClearProps">
-      <MemberSignature Language="C#" Value="public virtual void ClearProps (ref byte pIDString, uint dwIDStringLen, ref Guid paProps, int cProps);" />
+      <MemberSignature Language="C#" Value="public virtual void ClearProps (in byte pIDString, uint dwIDStringLen, in Guid paProps, int cProps);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearProps([in]unsigned int8&amp; pIDString, [in]unsigned int32 dwIDStringLen, [in]valuetype System.Guid&amp; paProps, [in]int32 cProps) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.ClearProps(System.Byte@,System.UInt32,System.Guid@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ClearProps (ByRef pIDString As Byte, dwIDStringLen As UInteger, ByRef paProps As Guid, cProps As Integer)" />
@@ -229,7 +229,7 @@
       </Docs>
     </Member>
     <Member MemberName="ComposeHmenuIdentityString">
-      <MemberSignature Language="C#" Value="public virtual void ComposeHmenuIdentityString (ref Accessibility._RemotableHandle hmenu, uint idChild, IntPtr ppIDString, out uint pdwIDStringLen);" />
+      <MemberSignature Language="C#" Value="public virtual void ComposeHmenuIdentityString (in Accessibility._RemotableHandle hmenu, uint idChild, IntPtr ppIDString, out uint pdwIDStringLen);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ComposeHmenuIdentityString([in]valuetype Accessibility._RemotableHandle&amp; hmenu, [in]unsigned int32 idChild, [out] native int ppIDString, [out] unsigned int32&amp; pdwIDStringLen) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.ComposeHmenuIdentityString(Accessibility._RemotableHandle@,System.UInt32,System.IntPtr,System.UInt32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ComposeHmenuIdentityString (ByRef hmenu As _RemotableHandle, idChild As UInteger, ppIDString As IntPtr, ByRef pdwIDStringLen As UInteger)" />
@@ -277,7 +277,7 @@
       </Docs>
     </Member>
     <Member MemberName="ComposeHwndIdentityString">
-      <MemberSignature Language="C#" Value="public virtual void ComposeHwndIdentityString (ref Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, IntPtr ppIDString, out uint pdwIDStringLen);" />
+      <MemberSignature Language="C#" Value="public virtual void ComposeHwndIdentityString (in Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, IntPtr ppIDString, out uint pdwIDStringLen);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ComposeHwndIdentityString([in]valuetype Accessibility._RemotableHandle&amp; hwnd, [in]unsigned int32 idObject, [in]unsigned int32 idChild, [out] native int ppIDString, [out] unsigned int32&amp; pdwIDStringLen) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.ComposeHwndIdentityString(Accessibility._RemotableHandle@,System.UInt32,System.UInt32,System.IntPtr,System.UInt32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ComposeHwndIdentityString (ByRef hwnd As _RemotableHandle, idObject As UInteger, idChild As UInteger, ppIDString As IntPtr, ByRef pdwIDStringLen As UInteger)" />
@@ -327,7 +327,7 @@
       </Docs>
     </Member>
     <Member MemberName="DecomposeHmenuIdentityString">
-      <MemberSignature Language="C#" Value="public virtual void DecomposeHmenuIdentityString (ref byte pIDString, uint dwIDStringLen, out Accessibility._RemotableHandle phmenu, out uint pidChild);" />
+      <MemberSignature Language="C#" Value="public virtual void DecomposeHmenuIdentityString (in byte pIDString, uint dwIDStringLen, out Accessibility._RemotableHandle phmenu, out uint pidChild);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DecomposeHmenuIdentityString([in]unsigned int8&amp; pIDString, [in]unsigned int32 dwIDStringLen, [out] valuetype Accessibility._RemotableHandle&amp; phmenu, [out] unsigned int32&amp; pidChild) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.DecomposeHmenuIdentityString(System.Byte@,System.UInt32,Accessibility._RemotableHandle@,System.UInt32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DecomposeHmenuIdentityString (ByRef pIDString As Byte, dwIDStringLen As UInteger, ByRef phmenu As _RemotableHandle, ByRef pidChild As UInteger)" />
@@ -366,7 +366,7 @@
       </Docs>
     </Member>
     <Member MemberName="DecomposeHmenuIdentityString">
-      <MemberSignature Language="C#" Value="public virtual void DecomposeHmenuIdentityString (ref byte pIDString, uint dwIDStringLen, IntPtr phmenu, out uint pidChild);" />
+      <MemberSignature Language="C#" Value="public virtual void DecomposeHmenuIdentityString (in byte pIDString, uint dwIDStringLen, IntPtr phmenu, out uint pidChild);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DecomposeHmenuIdentityString([in]unsigned int8&amp; pIDString, [in]unsigned int32 dwIDStringLen, [out] native int phmenu, [out] unsigned int32&amp; pidChild) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.DecomposeHmenuIdentityString(System.Byte@,System.UInt32,System.IntPtr,System.UInt32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DecomposeHmenuIdentityString (ByRef pIDString As Byte, dwIDStringLen As UInteger, phmenu As IntPtr, ByRef pidChild As UInteger)" />
@@ -407,7 +407,7 @@
       </Docs>
     </Member>
     <Member MemberName="DecomposeHwndIdentityString">
-      <MemberSignature Language="C#" Value="public virtual void DecomposeHwndIdentityString (ref byte pIDString, uint dwIDStringLen, out Accessibility._RemotableHandle phwnd, out uint pidObject, out uint pidChild);" />
+      <MemberSignature Language="C#" Value="public virtual void DecomposeHwndIdentityString (in byte pIDString, uint dwIDStringLen, out Accessibility._RemotableHandle phwnd, out uint pidObject, out uint pidChild);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DecomposeHwndIdentityString([in]unsigned int8&amp; pIDString, [in]unsigned int32 dwIDStringLen, [out] valuetype Accessibility._RemotableHandle&amp; phwnd, [out] unsigned int32&amp; pidObject, [out] unsigned int32&amp; pidChild) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.DecomposeHwndIdentityString(System.Byte@,System.UInt32,Accessibility._RemotableHandle@,System.UInt32@,System.UInt32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DecomposeHwndIdentityString (ByRef pIDString As Byte, dwIDStringLen As UInteger, ByRef phwnd As _RemotableHandle, ByRef pidObject As UInteger, ByRef pidChild As UInteger)" />
@@ -448,7 +448,7 @@
       </Docs>
     </Member>
     <Member MemberName="DecomposeHwndIdentityString">
-      <MemberSignature Language="C#" Value="public virtual void DecomposeHwndIdentityString (ref byte pIDString, uint dwIDStringLen, IntPtr phwnd, out uint pidObject, out uint pidChild);" />
+      <MemberSignature Language="C#" Value="public virtual void DecomposeHwndIdentityString (in byte pIDString, uint dwIDStringLen, IntPtr phwnd, out uint pidObject, out uint pidChild);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DecomposeHwndIdentityString([in]unsigned int8&amp; pIDString, [in]unsigned int32 dwIDStringLen, [out] native int phwnd, [out] unsigned int32&amp; pidObject, [out] unsigned int32&amp; pidChild) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.DecomposeHwndIdentityString(System.Byte@,System.UInt32,System.IntPtr,System.UInt32@,System.UInt32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub DecomposeHwndIdentityString (ByRef pIDString As Byte, dwIDStringLen As UInteger, phwnd As IntPtr, ByRef pidObject As UInteger, ByRef pidChild As UInteger)" />
@@ -491,7 +491,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetHmenuProp">
-      <MemberSignature Language="C#" Value="public virtual void SetHmenuProp (ref Accessibility._RemotableHandle hmenu, uint idChild, Guid idProp, object var);" />
+      <MemberSignature Language="C#" Value="public virtual void SetHmenuProp (in Accessibility._RemotableHandle hmenu, uint idChild, Guid idProp, object var);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHmenuProp([in]valuetype Accessibility._RemotableHandle&amp; hmenu, [in]unsigned int32 idChild, [in]valuetype System.Guid idProp, [in]object var) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetHmenuProp(Accessibility._RemotableHandle@,System.UInt32,System.Guid,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetHmenuProp (ByRef hmenu As _RemotableHandle, idChild As UInteger, idProp As Guid, var As Object)" />
@@ -539,7 +539,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetHmenuPropServer">
-      <MemberSignature Language="C#" Value="public virtual void SetHmenuPropServer (ref Accessibility._RemotableHandle hmenu, uint idChild, ref Guid paProps, int cProps, Accessibility.IAccPropServer pServer, Accessibility.AnnoScope AnnoScope);" />
+      <MemberSignature Language="C#" Value="public virtual void SetHmenuPropServer (in Accessibility._RemotableHandle hmenu, uint idChild, in Guid paProps, int cProps, Accessibility.IAccPropServer pServer, Accessibility.AnnoScope AnnoScope);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHmenuPropServer([in]valuetype Accessibility._RemotableHandle&amp; hmenu, [in]unsigned int32 idChild, [in]valuetype System.Guid&amp; paProps, [in]int32 cProps, [in]class Accessibility.IAccPropServer pServer, [in]valuetype Accessibility.AnnoScope AnnoScope) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetHmenuPropServer(Accessibility._RemotableHandle@,System.UInt32,System.Guid@,System.Int32,Accessibility.IAccPropServer,Accessibility.AnnoScope)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetHmenuPropServer (ByRef hmenu As _RemotableHandle, idChild As UInteger, ByRef paProps As Guid, cProps As Integer, pServer As IAccPropServer, AnnoScope As AnnoScope)" />
@@ -591,7 +591,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetHmenuPropStr">
-      <MemberSignature Language="C#" Value="public virtual void SetHmenuPropStr (ref Accessibility._RemotableHandle hmenu, uint idChild, Guid idProp, string str);" />
+      <MemberSignature Language="C#" Value="public virtual void SetHmenuPropStr (in Accessibility._RemotableHandle hmenu, uint idChild, Guid idProp, string str);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHmenuPropStr([in]valuetype Accessibility._RemotableHandle&amp; hmenu, [in]unsigned int32 idChild, [in]valuetype System.Guid idProp, [in]string str) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetHmenuPropStr(Accessibility._RemotableHandle@,System.UInt32,System.Guid,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetHmenuPropStr (ByRef hmenu As _RemotableHandle, idChild As UInteger, idProp As Guid, str As String)" />
@@ -639,7 +639,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetHwndProp">
-      <MemberSignature Language="C#" Value="public virtual void SetHwndProp (ref Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, Guid idProp, object var);" />
+      <MemberSignature Language="C#" Value="public virtual void SetHwndProp (in Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, Guid idProp, object var);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHwndProp([in]valuetype Accessibility._RemotableHandle&amp; hwnd, [in]unsigned int32 idObject, [in]unsigned int32 idChild, [in]valuetype System.Guid idProp, [in]object var) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetHwndProp(Accessibility._RemotableHandle@,System.UInt32,System.UInt32,System.Guid,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetHwndProp (ByRef hwnd As _RemotableHandle, idObject As UInteger, idChild As UInteger, idProp As Guid, var As Object)" />
@@ -689,7 +689,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetHwndPropServer">
-      <MemberSignature Language="C#" Value="public virtual void SetHwndPropServer (ref Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, ref Guid paProps, int cProps, Accessibility.IAccPropServer pServer, Accessibility.AnnoScope AnnoScope);" />
+      <MemberSignature Language="C#" Value="public virtual void SetHwndPropServer (in Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, in Guid paProps, int cProps, Accessibility.IAccPropServer pServer, Accessibility.AnnoScope AnnoScope);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHwndPropServer([in]valuetype Accessibility._RemotableHandle&amp; hwnd, [in]unsigned int32 idObject, [in]unsigned int32 idChild, [in]valuetype System.Guid&amp; paProps, [in]int32 cProps, [in]class Accessibility.IAccPropServer pServer, [in]valuetype Accessibility.AnnoScope AnnoScope) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetHwndPropServer(Accessibility._RemotableHandle@,System.UInt32,System.UInt32,System.Guid@,System.Int32,Accessibility.IAccPropServer,Accessibility.AnnoScope)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetHwndPropServer (ByRef hwnd As _RemotableHandle, idObject As UInteger, idChild As UInteger, ByRef paProps As Guid, cProps As Integer, pServer As IAccPropServer, AnnoScope As AnnoScope)" />
@@ -743,7 +743,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetHwndPropStr">
-      <MemberSignature Language="C#" Value="public virtual void SetHwndPropStr (ref Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, Guid idProp, string str);" />
+      <MemberSignature Language="C#" Value="public virtual void SetHwndPropStr (in Accessibility._RemotableHandle hwnd, uint idObject, uint idChild, Guid idProp, string str);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetHwndPropStr([in]valuetype Accessibility._RemotableHandle&amp; hwnd, [in]unsigned int32 idObject, [in]unsigned int32 idChild, [in]valuetype System.Guid idProp, [in]string str) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetHwndPropStr(Accessibility._RemotableHandle@,System.UInt32,System.UInt32,System.Guid,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetHwndPropStr (ByRef hwnd As _RemotableHandle, idObject As UInteger, idChild As UInteger, idProp As Guid, str As String)" />
@@ -793,7 +793,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetPropServer">
-      <MemberSignature Language="C#" Value="public virtual void SetPropServer (ref byte pIDString, uint dwIDStringLen, ref Guid paProps, int cProps, Accessibility.IAccPropServer pServer, Accessibility.AnnoScope AnnoScope);" />
+      <MemberSignature Language="C#" Value="public virtual void SetPropServer (in byte pIDString, uint dwIDStringLen, in Guid paProps, int cProps, Accessibility.IAccPropServer pServer, Accessibility.AnnoScope AnnoScope);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetPropServer([in]unsigned int8&amp; pIDString, [in]unsigned int32 dwIDStringLen, [in]valuetype System.Guid&amp; paProps, [in]int32 cProps, [in]class Accessibility.IAccPropServer pServer, [in]valuetype Accessibility.AnnoScope AnnoScope) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetPropServer(System.Byte@,System.UInt32,System.Guid@,System.Int32,Accessibility.IAccPropServer,Accessibility.AnnoScope)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetPropServer (ByRef pIDString As Byte, dwIDStringLen As UInteger, ByRef paProps As Guid, cProps As Integer, pServer As IAccPropServer, AnnoScope As AnnoScope)" />
@@ -838,7 +838,7 @@
       </Docs>
     </Member>
     <Member MemberName="SetPropValue">
-      <MemberSignature Language="C#" Value="public virtual void SetPropValue (ref byte pIDString, uint dwIDStringLen, Guid idProp, object var);" />
+      <MemberSignature Language="C#" Value="public virtual void SetPropValue (in byte pIDString, uint dwIDStringLen, Guid idProp, object var);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetPropValue([in]unsigned int8&amp; pIDString, [in]unsigned int32 dwIDStringLen, [in]valuetype System.Guid idProp, [in]object var) runtime managed" />
       <MemberSignature Language="DocId" Value="M:Accessibility.CAccPropServicesClass.SetPropValue(System.Byte@,System.UInt32,System.Guid,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetPropValue (ByRef pIDString As Byte, dwIDStringLen As UInteger, idProp As Guid, var As Object)" />

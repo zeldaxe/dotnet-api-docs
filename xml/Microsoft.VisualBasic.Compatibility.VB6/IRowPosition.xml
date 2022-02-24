@@ -103,7 +103,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetRowset">
-      <MemberSignature Language="C#" Value="public void GetRowset (ref Guid iid, out object rowset);" />
+      <MemberSignature Language="C#" Value="public void GetRowset (in Guid iid, out object rowset);" />
       <MemberSignature Language="ILAsm" Value=".method public newslot virtual instance void GetRowset([in]valuetype System.Guid&amp; iid, [out] object&amp; rowset) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Compatibility.VB6.IRowPosition.GetRowset(System.Guid@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Sub GetRowset (ByRef iid As Guid, ByRef rowset As Object)" />
