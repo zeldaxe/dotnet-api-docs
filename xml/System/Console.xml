@@ -1380,7 +1380,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetCursorPosition">
-      <MemberSignature Language="C#" Value="public static (int,int) GetCursorPosition ();" />
+      <MemberSignature Language="C#" Value="public static (int Left,int Top) GetCursorPosition ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ValueTuple`2&lt;int32, int32&gt; GetCursorPosition() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Console.GetCursorPosition" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCursorPosition () As ValueTuple(Of Integer, Integer)" />
