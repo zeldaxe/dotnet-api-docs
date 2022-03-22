@@ -132,7 +132,7 @@
         
 File version is based on commit height from our public git repository. This is informational and not equal to the assembly version.
        ]]></format>
-         </remarks>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="ProjectFilePath">

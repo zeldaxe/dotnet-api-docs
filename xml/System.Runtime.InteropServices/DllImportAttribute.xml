@@ -35,7 +35,6 @@
     <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime.InteropServices" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.InteropServices" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.InteropServices" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.InteropServices" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -341,7 +340,7 @@
       <MemberSignature Language="VB.NET" Value="Public EntryPoint As String " />
       <MemberSignature Language="F#" Value="val mutable EntryPoint : string" Usage="System.Runtime.InteropServices.DllImportAttribute.EntryPoint" />
       <MemberSignature Language="C++ CLI" Value="public: System::String ^ EntryPoint;" />
-      <MemberSignature Language="C#" Value="public string? EntryPoint;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? EntryPoint;" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>

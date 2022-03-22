@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Interfaces />
   <Docs>
@@ -60,7 +59,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveDesigner As IDesignerHost" />
       <MemberSignature Language="F#" Value="member this.ActiveDesigner : System.ComponentModel.Design.IDesignerHost" Usage="System.ComponentModel.Design.IDesignerEventService.ActiveDesigner" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ComponentModel::Design::IDesignerHost ^ ActiveDesigner { System::ComponentModel::Design::IDesignerHost ^ get(); };" />
-      <MemberSignature Language="C#" Value="public System.ComponentModel.Design.IDesignerHost? ActiveDesigner { get; }" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.ComponentModel.Design.IDesignerHost? ActiveDesigner { get; }" FrameworkAlternate="net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

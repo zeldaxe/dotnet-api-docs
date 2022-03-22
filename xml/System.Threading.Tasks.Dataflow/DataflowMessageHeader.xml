@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Structure DataflowMessageHeader&#xA;Implements IEquatable(Of DataflowMessageHeader)" />
   <TypeSignature Language="F#" Value="type DataflowMessageHeader = struct" />
   <TypeSignature Language="C++ CLI" Value="public value class DataflowMessageHeader : IEquatable&lt;System::Threading::Tasks::Dataflow::DataflowMessageHeader&gt;" />
-  <TypeSignature Language="C#" Value="public readonly struct DataflowMessageHeader : IEquatable&lt;System.Threading.Tasks.Dataflow.DataflowMessageHeader&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C#" Value="public readonly struct DataflowMessageHeader : IEquatable&lt;System.Threading.Tasks.Dataflow.DataflowMessageHeader&gt;" FrameworkAlternate="net-5.0;net-6.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Threading.Tasks.Dataflow</AssemblyName>
     <AssemblyVersion>4.5.25.0</AssemblyVersion>
@@ -32,7 +32,7 @@
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("Id = {Id}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Id = {Id}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-6.0;net-7.0">
+    <Attribute FrameworkAlternate="net-6.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
@@ -87,7 +87,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="dataflowMessageHeader.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks.Dataflow</AssemblyName>

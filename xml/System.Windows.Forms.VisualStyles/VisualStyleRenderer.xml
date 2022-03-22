@@ -484,7 +484,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub DrawText (dc As IDeviceContext, bounds As Rectangle, textToDraw As String)" />
       <MemberSignature Language="F#" Value="member this.DrawText : System.Drawing.IDeviceContext * System.Drawing.Rectangle * string -&gt; unit" Usage="visualStyleRenderer.DrawText (dc, bounds, textToDraw)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DrawText(System::Drawing::IDeviceContext ^ dc, System::Drawing::Rectangle bounds, System::String ^ textToDraw);" />
-      <MemberSignature Language="C#" Value="public void DrawText (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds, string? textToDraw);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public void DrawText (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds, string? textToDraw);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -525,7 +525,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub DrawText (dc As IDeviceContext, bounds As Rectangle, textToDraw As String, drawDisabled As Boolean)" />
       <MemberSignature Language="F#" Value="member this.DrawText : System.Drawing.IDeviceContext * System.Drawing.Rectangle * string * bool -&gt; unit" Usage="visualStyleRenderer.DrawText (dc, bounds, textToDraw, drawDisabled)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DrawText(System::Drawing::IDeviceContext ^ dc, System::Drawing::Rectangle bounds, System::String ^ textToDraw, bool drawDisabled);" />
-      <MemberSignature Language="C#" Value="public void DrawText (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds, string? textToDraw, bool drawDisabled);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public void DrawText (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds, string? textToDraw, bool drawDisabled);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -569,7 +569,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub DrawText (dc As IDeviceContext, bounds As Rectangle, textToDraw As String, drawDisabled As Boolean, flags As TextFormatFlags)" />
       <MemberSignature Language="F#" Value="member this.DrawText : System.Drawing.IDeviceContext * System.Drawing.Rectangle * string * bool * System.Windows.Forms.TextFormatFlags -&gt; unit" Usage="visualStyleRenderer.DrawText (dc, bounds, textToDraw, drawDisabled, flags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void DrawText(System::Drawing::IDeviceContext ^ dc, System::Drawing::Rectangle bounds, System::String ^ textToDraw, bool drawDisabled, System::Windows::Forms::TextFormatFlags flags);" />
-      <MemberSignature Language="C#" Value="public void DrawText (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds, string? textToDraw, bool drawDisabled, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public void DrawText (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds, string? textToDraw, bool drawDisabled, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -689,7 +689,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetBackgroundRegion (dc As IDeviceContext, bounds As Rectangle) As Region" />
       <MemberSignature Language="F#" Value="member this.GetBackgroundRegion : System.Drawing.IDeviceContext * System.Drawing.Rectangle -&gt; System.Drawing.Region" Usage="visualStyleRenderer.GetBackgroundRegion (dc, bounds)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::Region ^ GetBackgroundRegion(System::Drawing::IDeviceContext ^ dc, System::Drawing::Rectangle bounds);" />
-      <MemberSignature Language="C#" Value="public System.Drawing.Region? GetBackgroundRegion (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public System.Drawing.Region? GetBackgroundRegion (System.Drawing.IDeviceContext dc, System.Drawing.Rectangle bounds);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -898,7 +898,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetFont (dc As IDeviceContext, prop As FontProperty) As Font" />
       <MemberSignature Language="F#" Value="member this.GetFont : System.Drawing.IDeviceContext * System.Windows.Forms.VisualStyles.FontProperty -&gt; System.Drawing.Font" Usage="visualStyleRenderer.GetFont (dc, prop)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::Font ^ GetFont(System::Drawing::IDeviceContext ^ dc, System::Windows::Forms::VisualStyles::FontProperty prop);" />
-      <MemberSignature Language="C#" Value="public System.Drawing.Font? GetFont (System.Drawing.IDeviceContext dc, System.Windows.Forms.VisualStyles.FontProperty prop);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public System.Drawing.Font? GetFont (System.Drawing.IDeviceContext dc, System.Windows.Forms.VisualStyles.FontProperty prop);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>

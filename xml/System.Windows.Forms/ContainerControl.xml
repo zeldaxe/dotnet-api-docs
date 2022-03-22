@@ -211,19 +211,19 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Localizable(true)&gt;]</AttributeName>
         </Attribute>
@@ -310,15 +310,15 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
@@ -367,15 +367,15 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.AmbientValue(System.Windows.Forms.AutoValidate.Inherit)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.AmbientValue(System.Windows.Forms.AutoValidate.Inherit)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -427,11 +427,11 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -569,11 +569,11 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
@@ -728,7 +728,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
@@ -790,30 +790,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="OnMove">
-      <MemberSignature Language="C#" Value="protected override void OnMove (EventArgs e);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnMove(class System.EventArgs e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.ContainerControl.OnMove(System.EventArgs)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnMove (e As EventArgs)" />
-      <MemberSignature Language="F#" Value="override this.OnMove : EventArgs -&gt; unit" Usage="containerControl.OnMove e" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnMove(EventArgs ^ e);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="e" Type="System.EventArgs" Index="0" FrameworkAlternate="windowsdesktop-7.0" />
-      </Parameters>
-      <Docs>
-        <param name="e">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="OnParentChanged">
       <MemberSignature Language="C#" Value="protected override void OnParentChanged (EventArgs e);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnParentChanged(class System.EventArgs e) cil managed" />
@@ -841,30 +817,6 @@
         <summary>Raises the <see cref="E:System.Windows.Forms.Control.ParentChanged" /> event.</summary>
         <remarks>To be added.</remarks>
         <altmember cref="M:System.Windows.Forms.Control.OnParentChanged(System.EventArgs)" />
-      </Docs>
-    </Member>
-    <Member MemberName="OnResize">
-      <MemberSignature Language="C#" Value="protected override void OnResize (EventArgs e);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnResize(class System.EventArgs e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.ContainerControl.OnResize(System.EventArgs)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnResize (e As EventArgs)" />
-      <MemberSignature Language="F#" Value="override this.OnResize : EventArgs -&gt; unit" Usage="containerControl.OnResize e" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnResize(EventArgs ^ e);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="e" Type="System.EventArgs" Index="0" FrameworkAlternate="windowsdesktop-7.0" />
-      </Parameters>
-      <Docs>
-        <param name="e">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ParentForm">
@@ -1075,10 +1027,10 @@
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function ProcessMnemonic (charCode As Char) As Boolean" FrameworkAlternate="netframework-1.1" />
       <MemberSignature Language="F#" Value="override this.ProcessMnemonic : char -&gt; bool" Usage="containerControl.ProcessMnemonic charCode" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool ProcessMnemonic(char charCode);" FrameworkAlternate="netframework-1.1" />
-      <MemberSignature Language="C#" Value="protected internal override bool ProcessMnemonic (char charCode);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance bool ProcessMnemonic(char charCode) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Function ProcessMnemonic (charCode As Char) As Boolean" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override bool ProcessMnemonic(char charCode);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="protected internal override bool ProcessMnemonic (char charCode);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance bool ProcessMnemonic(char charCode) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Function ProcessMnemonic (charCode As Char) As Boolean" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override bool ProcessMnemonic(char charCode);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1413,11 +1365,11 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -1473,11 +1425,11 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>

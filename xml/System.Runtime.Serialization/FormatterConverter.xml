@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Formatters" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Formatters" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Formatters" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -780,7 +779,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string? ToString (object value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? ToString (object value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Serialization.FormatterConverter.ToString(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (value As Object) As String" />

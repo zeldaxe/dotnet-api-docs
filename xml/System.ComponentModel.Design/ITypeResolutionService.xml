@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Interfaces />
   <Docs>
@@ -70,7 +69,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetAssembly (name As AssemblyName) As Assembly" />
       <MemberSignature Language="F#" Value="abstract member GetAssembly : System.Reflection.AssemblyName -&gt; System.Reflection.Assembly" Usage="iTypeResolutionService.GetAssembly name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Reflection::Assembly ^ GetAssembly(System::Reflection::AssemblyName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Reflection.Assembly? GetAssembly (System.Reflection.AssemblyName name);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Assembly? GetAssembly (System.Reflection.AssemblyName name);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -113,7 +112,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetAssembly (name As AssemblyName, throwOnError As Boolean) As Assembly" />
       <MemberSignature Language="F#" Value="abstract member GetAssembly : System.Reflection.AssemblyName * bool -&gt; System.Reflection.Assembly" Usage="iTypeResolutionService.GetAssembly (name, throwOnError)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Reflection::Assembly ^ GetAssembly(System::Reflection::AssemblyName ^ name, bool throwOnError);" />
-      <MemberSignature Language="C#" Value="public System.Reflection.Assembly? GetAssembly (System.Reflection.AssemblyName name, bool throwOnError);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Assembly? GetAssembly (System.Reflection.AssemblyName name, bool throwOnError);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -159,7 +158,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetPathOfAssembly (name As AssemblyName) As String" />
       <MemberSignature Language="F#" Value="abstract member GetPathOfAssembly : System.Reflection.AssemblyName -&gt; string" Usage="iTypeResolutionService.GetPathOfAssembly name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetPathOfAssembly(System::Reflection::AssemblyName ^ name);" />
-      <MemberSignature Language="C#" Value="public string? GetPathOfAssembly (System.Reflection.AssemblyName name);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? GetPathOfAssembly (System.Reflection.AssemblyName name);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -212,7 +211,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetType (name As String) As Type" />
       <MemberSignature Language="F#" Value="abstract member GetType : string -&gt; Type" Usage="iTypeResolutionService.GetType name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetType(System::String ^ name);" />
-      <MemberSignature Language="C#" Value="public Type? GetType (string name);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public Type? GetType (string name);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -255,7 +254,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetType (name As String, throwOnError As Boolean) As Type" />
       <MemberSignature Language="F#" Value="abstract member GetType : string * bool -&gt; Type" Usage="iTypeResolutionService.GetType (name, throwOnError)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetType(System::String ^ name, bool throwOnError);" />
-      <MemberSignature Language="C#" Value="public Type? GetType (string name, bool throwOnError);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public Type? GetType (string name, bool throwOnError);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -308,7 +307,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetType (name As String, throwOnError As Boolean, ignoreCase As Boolean) As Type" />
       <MemberSignature Language="F#" Value="abstract member GetType : string * bool * bool -&gt; Type" Usage="iTypeResolutionService.GetType (name, throwOnError, ignoreCase)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Type ^ GetType(System::String ^ name, bool throwOnError, bool ignoreCase);" />
-      <MemberSignature Language="C#" Value="public Type? GetType (string name, bool throwOnError, bool ignoreCase);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public Type? GetType (string name, bool throwOnError, bool ignoreCase);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

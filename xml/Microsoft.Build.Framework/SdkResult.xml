@@ -24,7 +24,7 @@
 > [!NOTE]
 > Use <xref:Microsoft.Build.Framework.SdkResultFactory> to create instances of this class. Do not inherit from this class.
    ]]></format>
-      </remarks>
+    </remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">

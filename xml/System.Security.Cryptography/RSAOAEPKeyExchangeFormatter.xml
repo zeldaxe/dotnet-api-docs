@@ -32,8 +32,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.Algorithms" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.Algorithms" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-    <TypeForwarding From="System.Security.Cryptography.Algorithms" FromVersion="7.0.0.0" To="System.Security.Cryptography" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Security.Cryptography.AsymmetricKeyExchangeFormatter</BaseTypeName>
@@ -245,7 +243,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateKeyExchange">
-      <MemberSignature Language="C#" Value="public override byte[] CreateKeyExchange (byte[] rgbData, Type? symAlgType);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override byte[] CreateKeyExchange (byte[] rgbData, Type? symAlgType);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance unsigned int8[] CreateKeyExchange(unsigned int8[] rgbData, class System.Type symAlgType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.CreateKeyExchange(System.Byte[],System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateKeyExchange (rgbData As Byte(), symAlgType As Type) As Byte()" />
@@ -309,7 +307,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parameter">
-      <MemberSignature Language="C#" Value="public byte[]? Parameter { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public byte[]? Parameter { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Parameter" />
       <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Parameter" />
       <MemberSignature Language="VB.NET" Value="Public Property Parameter As Byte()" />
@@ -363,7 +361,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public override string? Parameters { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override string? Parameters { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Parameters" />
       <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Parameters" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Parameters As String" />
@@ -417,7 +415,7 @@
       </Docs>
     </Member>
     <Member MemberName="Rng">
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.RandomNumberGenerator? Rng { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.RandomNumberGenerator? Rng { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Cryptography.RandomNumberGenerator Rng" />
       <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Rng" />
       <MemberSignature Language="VB.NET" Value="Public Property Rng As RandomNumberGenerator" />

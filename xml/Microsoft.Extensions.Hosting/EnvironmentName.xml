@@ -24,7 +24,7 @@
       <AttributeName Language="C#">[System.Obsolete("This type is obsolete and will be removed in a future version. The recommended alternative is Microsoft.Extensions.Hosting.Environments.", false)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("This type is obsolete and will be removed in a future version. The recommended alternative is Microsoft.Extensions.Hosting.Environments.", false)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
       <AttributeName Language="C#">[System.Obsolete("EnvironmentName has been deprecated. Use Microsoft.Extensions.Hosting.Environments instead.")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("EnvironmentName has been deprecated. Use Microsoft.Extensions.Hosting.Environments instead.")&gt;]</AttributeName>
     </Attribute>

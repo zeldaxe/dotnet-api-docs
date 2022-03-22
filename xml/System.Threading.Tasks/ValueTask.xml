@@ -25,8 +25,6 @@
     <TypeForwarding From="System.Threading.Tasks.Extensions" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Threading.Tasks.Extensions" FromVersion="6.0.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-    <TypeForwarding From="System.Threading.Tasks.Extensions" FromVersion="7.0.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
     <TypeForwarding From="System.Threading.Tasks.Extensions" FromVersion="4.3.0.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
     <TypeForwarding From="System.Threading.Tasks.Extensions" FromVersion="4.3.1.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
   </TypeForwardingChain>
@@ -248,7 +246,7 @@ This method either returns the wrapped task object, if one exists, or it manufac
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Tasks.ValueTask.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
@@ -363,7 +361,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">The cancellation token with which to complete the task.</param>
@@ -399,7 +397,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TResult">The type of the result of the returned task.</typeparam>
@@ -433,7 +431,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="exception" Type="System.Exception" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="exception" Type="System.Exception" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="exception">The exception with which to complete the task.</param>
@@ -469,7 +467,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="exception" Type="System.Exception" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="exception" Type="System.Exception" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TResult">The type of the result of the returned task.</typeparam>
@@ -506,7 +504,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="result" Type="TResult" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="result" Type="TResult" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TResult">The type of the result returned by the task.</typeparam>

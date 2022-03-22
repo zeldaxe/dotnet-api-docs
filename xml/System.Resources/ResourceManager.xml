@@ -1,6 +1,6 @@
 <Type Name="ResourceManager" FullName="System.Resources.ResourceManager">
   <TypeSignature Language="C#" Value="public class ResourceManager" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceManager extends System.Object" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceManager extends System.Object" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.Resources.ResourceManager" />
   <TypeSignature Language="VB.NET" Value="Public Class ResourceManager" />
   <TypeSignature Language="F#" Value="type ResourceManager = class" />
@@ -37,15 +37,13 @@
     <TypeForwarding From="System.Resources.ResourceManager" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Resources.ResourceManager" FromVersion="6.0.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-    <TypeForwarding From="System.Resources.ResourceManager" FromVersion="7.0.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6">
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6">
       <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
     </Attribute>
@@ -688,7 +686,7 @@ csc Example.cs /resource:ExampleResources.resources
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ResourceManager (string baseName, System.Reflection.Assembly assembly, Type? usingResourceSet);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public ResourceManager (string baseName, System.Reflection.Assembly assembly, Type? usingResourceSet);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string baseName, class System.Reflection.Assembly assembly, class System.Type usingResourceSet) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.#ctor(System.String,System.Reflection.Assembly,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (baseName As String, assembly As Assembly, usingResourceSet As Type)" />
@@ -861,7 +859,7 @@ csc Example.cs /resource:ExampleResources.resources
       </Docs>
     </Member>
     <Member MemberName="CreateFileBasedResourceManager">
-      <MemberSignature Language="C#" Value="public static System.Resources.ResourceManager CreateFileBasedResourceManager (string baseName, string resourceDir, Type? usingResourceSet);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Resources.ResourceManager CreateFileBasedResourceManager (string baseName, string resourceDir, Type? usingResourceSet);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Resources.ResourceManager CreateFileBasedResourceManager(string baseName, string resourceDir, class System.Type usingResourceSet) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.CreateFileBasedResourceManager(System.String,System.String,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFileBasedResourceManager (baseName As String, resourceDir As String, usingResourceSet As Type) As ResourceManager" />
@@ -1037,7 +1035,7 @@ csc Example.cs /resource:ExampleResources.resources
       </Docs>
     </MemberGroup>
     <Member MemberName="GetObject">
-      <MemberSignature Language="C#" Value="public virtual object? GetObject (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual object? GetObject (string name);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetObject(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.GetObject(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetObject (name As String) As Object" />
@@ -1138,7 +1136,7 @@ GetObject.exe
       </Docs>
     </Member>
     <Member MemberName="GetObject">
-      <MemberSignature Language="C#" Value="public virtual object? GetObject (string name, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual object? GetObject (string name, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetObject(string name, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.GetObject(System.String,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetObject (name As String, culture As CultureInfo) As Object" />
@@ -1315,7 +1313,7 @@ ShowNumbers.exe
       </Docs>
     </Member>
     <Member MemberName="GetResourceSet">
-      <MemberSignature Language="C#" Value="public virtual System.Resources.ResourceSet? GetResourceSet (System.Globalization.CultureInfo culture, bool createIfNotExists, bool tryParents);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual System.Resources.ResourceSet? GetResourceSet (System.Globalization.CultureInfo culture, bool createIfNotExists, bool tryParents);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Resources.ResourceSet GetResourceSet(class System.Globalization.CultureInfo culture, bool createIfNotExists, bool tryParents) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.GetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetResourceSet (culture As CultureInfo, createIfNotExists As Boolean, tryParents As Boolean) As ResourceSet" />
@@ -1446,7 +1444,7 @@ al /out:fr-FR\ShowNumbers.resources.dll /culture:fr-FR /embed:NumberResources.fr
       </Docs>
     </Member>
     <Member MemberName="GetSatelliteContractVersion">
-      <MemberSignature Language="C#" Value="protected static Version? GetSatelliteContractVersion (System.Reflection.Assembly a);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected static Version? GetSatelliteContractVersion (System.Reflection.Assembly a);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig class System.Version GetSatelliteContractVersion(class System.Reflection.Assembly a) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.GetSatelliteContractVersion(System.Reflection.Assembly)" />
       <MemberSignature Language="VB.NET" Value="Protected Shared Function GetSatelliteContractVersion (a As Assembly) As Version" />
@@ -1519,7 +1517,7 @@ al /out:fr-FR\ShowNumbers.resources.dll /culture:fr-FR /embed:NumberResources.fr
       </Docs>
     </MemberGroup>
     <Member MemberName="GetStream">
-      <MemberSignature Language="C#" Value="public System.IO.UnmanagedMemoryStream? GetStream (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.IO.UnmanagedMemoryStream? GetStream (string name);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IO.UnmanagedMemoryStream GetStream(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.GetStream(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStream (name As String) As UnmanagedMemoryStream" />
@@ -1616,7 +1614,7 @@ csc GetStream.cs /resource:AppResources.resources
       </Docs>
     </Member>
     <Member MemberName="GetStream">
-      <MemberSignature Language="C#" Value="public System.IO.UnmanagedMemoryStream? GetStream (string name, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.IO.UnmanagedMemoryStream? GetStream (string name, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IO.UnmanagedMemoryStream GetStream(string name, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.GetStream(System.String,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStream (name As String, culture As CultureInfo) As UnmanagedMemoryStream" />
@@ -1705,11 +1703,11 @@ csc GetStream.cs /resource:AppResources.resources
       <MemberSignature Language="VB.NET" Value="Public Function GetString (name As String) As String" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6" />
       <MemberSignature Language="F#" Value="member this.GetString : string -&gt; string" Usage="resourceManager.GetString name" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetString(System::String ^ name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6" />
-      <MemberSignature Language="C#" Value="public virtual string? GetString (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetString(string name) cil managed" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetString (name As String) As String" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="F#" Value="abstract member GetString : string -&gt; string&#xA;override this.GetString : string -&gt; string" Usage="resourceManager.GetString name" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetString(System::String ^ name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual string? GetString (string name);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetString(string name) cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetString (name As String) As String" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member GetString : string -&gt; string&#xA;override this.GetString : string -&gt; string" Usage="resourceManager.GetString name" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetString(System::String ^ name);" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C#" Value="public virtual string GetString (string name);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1817,7 +1815,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetString (name As String, culture As CultureInfo) As String" />
       <MemberSignature Language="F#" Value="abstract member GetString : string * System.Globalization.CultureInfo -&gt; string&#xA;override this.GetString : string * System.Globalization.CultureInfo -&gt; string" Usage="resourceManager.GetString (name, culture)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetString(System::String ^ name, System::Globalization::CultureInfo ^ culture);" />
-      <MemberSignature Language="C#" Value="public virtual string? GetString (string name, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual string? GetString (string name, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Resources.ResourceManager</AssemblyName>
@@ -2023,7 +2021,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
       </Docs>
     </Member>
     <Member MemberName="InternalGetResourceSet">
-      <MemberSignature Language="C#" Value="protected virtual System.Resources.ResourceSet? InternalGetResourceSet (System.Globalization.CultureInfo culture, bool createIfNotExists, bool tryParents);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected virtual System.Resources.ResourceSet? InternalGetResourceSet (System.Globalization.CultureInfo culture, bool createIfNotExists, bool tryParents);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Resources.ResourceSet InternalGetResourceSet(class System.Globalization.CultureInfo culture, bool createIfNotExists, bool tryParents) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResourceManager.InternalGetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function InternalGetResourceSet (culture As CultureInfo, createIfNotExists As Boolean, tryParents As Boolean) As ResourceSet" />
@@ -2140,7 +2138,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
       </Docs>
     </Member>
     <Member MemberName="MainAssembly">
-      <MemberSignature Language="C#" Value="protected System.Reflection.Assembly? MainAssembly;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected System.Reflection.Assembly? MainAssembly;" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".field family class System.Reflection.Assembly MainAssembly" />
       <MemberSignature Language="DocId" Value="F:System.Resources.ResourceManager.MainAssembly" />
       <MemberSignature Language="VB.NET" Value="Protected MainAssembly As Assembly " />
@@ -2314,7 +2312,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicConstructors | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicConstructors | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
         </Attribute>

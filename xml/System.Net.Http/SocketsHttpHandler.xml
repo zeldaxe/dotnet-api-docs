@@ -18,7 +18,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0">
       <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
     </Attribute>
@@ -100,7 +100,7 @@ These configuration options are not available starting with .NET 5.
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
@@ -255,7 +255,7 @@ These configuration options are not available starting with .NET 5.
       </Docs>
     </Member>
     <Member MemberName="Credentials">
-      <MemberSignature Language="C#" Value="public System.Net.ICredentials? Credentials { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Net.ICredentials? Credentials { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.ICredentials Credentials" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.Credentials" />
       <MemberSignature Language="VB.NET" Value="Public Property Credentials As ICredentials" />
@@ -281,7 +281,7 @@ These configuration options are not available starting with .NET 5.
       </Docs>
     </Member>
     <Member MemberName="DefaultProxyCredentials">
-      <MemberSignature Language="C#" Value="public System.Net.ICredentials? DefaultProxyCredentials { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Net.ICredentials? DefaultProxyCredentials { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.ICredentials DefaultProxyCredentials" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.DefaultProxyCredentials" />
       <MemberSignature Language="VB.NET" Value="Public Property DefaultProxyCredentials As ICredentials" />
@@ -442,7 +442,7 @@ Larger the values may lead to faster download speed, but potentially higher memo
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatformGuard("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatformGuard("browser")&gt;]</AttributeName>
         </Attribute>
@@ -775,7 +775,7 @@ For example, if the value is 64, then 65,536 bytes are allowed for the maximum r
       </Docs>
     </Member>
     <Member MemberName="Properties">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object?&gt; Properties { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object?&gt; Properties { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Properties" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of String, Object)" />
@@ -801,7 +801,7 @@ For example, if the value is 64, then 65,536 bytes are allowed for the maximum r
       </Docs>
     </Member>
     <Member MemberName="Proxy">
-      <MemberSignature Language="C#" Value="public System.Net.IWebProxy? Proxy { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Net.IWebProxy? Proxy { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IWebProxy Proxy" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.Proxy" />
       <MemberSignature Language="VB.NET" Value="Public Property Proxy As IWebProxy" />
@@ -921,8 +921,8 @@ Draining occurs when a request is cancelled or a response is disposed prior to f
         <ReturnType>System.Net.Http.HttpResponseMessage</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="request" Type="System.Net.Http.HttpRequestMessage" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="request">The HTTP request message to send.</param>

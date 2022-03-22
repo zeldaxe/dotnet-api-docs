@@ -5,10 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TextRenderer" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1" />
   <TypeSignature Language="F#" Value="type TextRenderer = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class TextRenderer sealed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1" />
-  <TypeSignature Language="C#" Value="public static class TextRenderer" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TextRenderer extends System.Object" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-  <TypeSignature Language="VB.NET" Value="Public Class TextRenderer" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TextRenderer abstract sealed" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="C#" Value="public static class TextRenderer" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit TextRenderer extends System.Object" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class TextRenderer" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TextRenderer abstract sealed" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -142,7 +142,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, pt As Point, foreColor As Color)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Point * System.Drawing.Color -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, pt, foreColor)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Point pt, System::Drawing::Color foreColor);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -204,7 +204,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, bounds As Rectangle, foreColor As Color)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Rectangle * System.Drawing.Color -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, bounds, foreColor)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Rectangle bounds, System::Drawing::Color foreColor);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -419,7 +419,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, pt As Point, foreColor As Color, backColor As Color)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Point * System.Drawing.Color * System.Drawing.Color -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, pt, foreColor, backColor)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Point pt, System::Drawing::Color foreColor, System::Drawing::Color backColor);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor, System.Drawing.Color backColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor, System.Drawing.Color backColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -482,7 +482,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, pt As Point, foreColor As Color, flags As TextFormatFlags)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Point * System.Drawing.Color * System.Windows.Forms.TextFormatFlags -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, pt, foreColor, flags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Point pt, System::Drawing::Color foreColor, System::Windows::Forms::TextFormatFlags flags);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -547,7 +547,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, bounds As Rectangle, foreColor As Color, backColor As Color)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Rectangle * System.Drawing.Color * System.Drawing.Color -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, bounds, foreColor, backColor)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Rectangle bounds, System::Drawing::Color foreColor, System::Drawing::Color backColor);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor, System.Drawing.Color backColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor, System.Drawing.Color backColor);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -607,7 +607,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, bounds As Rectangle, foreColor As Color, flags As TextFormatFlags)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Rectangle * System.Drawing.Color * System.Windows.Forms.TextFormatFlags -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, bounds, foreColor, flags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Rectangle bounds, System::Drawing::Color foreColor, System::Windows::Forms::TextFormatFlags flags);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -753,7 +753,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, pt As Point, foreColor As Color, backColor As Color, flags As TextFormatFlags)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Point * System.Drawing.Color * System.Drawing.Color * System.Windows.Forms.TextFormatFlags -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, pt, foreColor, backColor, flags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Point pt, System::Drawing::Color foreColor, System::Drawing::Color backColor, System::Windows::Forms::TextFormatFlags flags);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor, System.Drawing.Color backColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Point pt, System.Drawing.Color foreColor, System.Drawing.Color backColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -820,7 +820,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Sub DrawText (dc As IDeviceContext, text As String, font As Font, bounds As Rectangle, foreColor As Color, backColor As Color, flags As TextFormatFlags)" />
       <MemberSignature Language="F#" Value="static member DrawText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Rectangle * System.Drawing.Color * System.Drawing.Color * System.Windows.Forms.TextFormatFlags -&gt; unit" Usage="System.Windows.Forms.TextRenderer.DrawText (dc, text, font, bounds, foreColor, backColor, flags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void DrawText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Rectangle bounds, System::Drawing::Color foreColor, System::Drawing::Color backColor, System::Windows::Forms::TextFormatFlags flags);" />
-      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor, System.Drawing.Color backColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static void DrawText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Rectangle bounds, System.Drawing.Color foreColor, System.Drawing.Color backColor, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -922,7 +922,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function MeasureText (text As String, font As Font) As Size" />
       <MemberSignature Language="F#" Value="static member MeasureText : string * System.Drawing.Font -&gt; System.Drawing.Size" Usage="System.Windows.Forms.TextRenderer.MeasureText (text, font)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Size MeasureText(System::String ^ text, System::Drawing::Font ^ font);" />
-      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (string? text, System.Drawing.Font? font);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (string? text, System.Drawing.Font? font);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1002,7 +1002,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function MeasureText (dc As IDeviceContext, text As String, font As Font) As Size" />
       <MemberSignature Language="F#" Value="static member MeasureText : System.Drawing.IDeviceContext * string * System.Drawing.Font -&gt; System.Drawing.Size" Usage="System.Windows.Forms.TextRenderer.MeasureText (dc, text, font)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Size MeasureText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font);" />
-      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1082,7 +1082,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function MeasureText (text As String, font As Font, proposedSize As Size) As Size" />
       <MemberSignature Language="F#" Value="static member MeasureText : string * System.Drawing.Font * System.Drawing.Size -&gt; System.Drawing.Size" Usage="System.Windows.Forms.TextRenderer.MeasureText (text, font, proposedSize)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Size MeasureText(System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Size proposedSize);" />
-      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1166,7 +1166,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function MeasureText (dc As IDeviceContext, text As String, font As Font, proposedSize As Size) As Size" />
       <MemberSignature Language="F#" Value="static member MeasureText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Size -&gt; System.Drawing.Size" Usage="System.Windows.Forms.TextRenderer.MeasureText (dc, text, font, proposedSize)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Size MeasureText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Size proposedSize);" />
-      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1254,7 +1254,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function MeasureText (text As String, font As Font, proposedSize As Size, flags As TextFormatFlags) As Size" />
       <MemberSignature Language="F#" Value="static member MeasureText : string * System.Drawing.Font * System.Drawing.Size * System.Windows.Forms.TextFormatFlags -&gt; System.Drawing.Size" Usage="System.Windows.Forms.TextRenderer.MeasureText (text, font, proposedSize, flags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Size MeasureText(System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Size proposedSize, System::Windows::Forms::TextFormatFlags flags);" />
-      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1349,7 +1349,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function MeasureText (dc As IDeviceContext, text As String, font As Font, proposedSize As Size, flags As TextFormatFlags) As Size" />
       <MemberSignature Language="F#" Value="static member MeasureText : System.Drawing.IDeviceContext * string * System.Drawing.Font * System.Drawing.Size * System.Windows.Forms.TextFormatFlags -&gt; System.Drawing.Size" Usage="System.Windows.Forms.TextRenderer.MeasureText (dc, text, font, proposedSize, flags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Size MeasureText(System::Drawing::IDeviceContext ^ dc, System::String ^ text, System::Drawing::Font ^ font, System::Drawing::Size proposedSize, System::Windows::Forms::TextFormatFlags flags);" />
-      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Drawing.Size MeasureText (System.Drawing.IDeviceContext dc, string? text, System.Drawing.Font? font, System.Drawing.Size proposedSize, System.Windows.Forms.TextFormatFlags flags);" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>

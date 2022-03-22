@@ -8513,8 +8513,8 @@ The native signature doesn't exist. This additional overload is provided for com
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="address" Type="System.Int32*" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="source" Type="System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="address" Type="System.Int32*" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="source" Type="System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>
@@ -8572,8 +8572,8 @@ The native signature doesn't exist. This additional overload is provided for com
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="address" Type="System.UInt32*" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="source" Type="System.Runtime.Intrinsics.Vector128&lt;System.UInt32&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="address" Type="System.UInt32*" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="source" Type="System.Runtime.Intrinsics.Vector128&lt;System.UInt32&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="address">To be added.</param>

@@ -77,12 +77,6 @@
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-7.0">
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.StringSyntax("DateTimeFormat")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.StringSyntax("DateTimeFormat")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>

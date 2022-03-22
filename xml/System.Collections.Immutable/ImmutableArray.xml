@@ -79,7 +79,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BinarySearch(Of T) (array As ImmutableArray(Of T), value As T, comparer As IComparer(Of T)) As Integer" />
       <MemberSignature Language="F#" Value="static member BinarySearch : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Collections.Immutable.ImmutableArray.BinarySearch (array, value, comparer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int BinarySearch(System::Collections::Immutable::ImmutableArray&lt;T&gt; array, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -178,7 +178,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BinarySearch(Of T) (array As ImmutableArray(Of T), index As Integer, length As Integer, value As T, comparer As IComparer(Of T)) As Integer" />
       <MemberSignature Language="F#" Value="static member BinarySearch : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * int * int * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Collections.Immutable.ImmutableArray.BinarySearch (array, index, length, value, comparer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int BinarySearch(System::Collections::Immutable::ImmutableArray&lt;T&gt; array, int index, int length, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -312,7 +312,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (ParamArray items As T()) As ImmutableArray(Of T)" />
       <MemberSignature Language="F#" Value="static member Create : 'T[] -&gt; System.Collections.Immutable.ImmutableArray&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableArray.Create items" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableArray&lt;T&gt; Create(... cli::array &lt;T&gt; ^ items);" />
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableArray&lt;T&gt; Create&lt;T&gt; (params T[]? items);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableArray&lt;T&gt; Create&lt;T&gt; (params T[]? items);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>

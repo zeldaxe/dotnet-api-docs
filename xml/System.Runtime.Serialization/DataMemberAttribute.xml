@@ -31,7 +31,6 @@
     <TypeForwarding From="System.Runtime.Serialization" FromVersion="4.0.0.0" To="System.Runtime.Serialization.Primitives" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Primitives" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Primitives" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Primitives" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -271,7 +270,7 @@
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="System.Runtime.Serialization.DataMemberAttribute.Name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
-      <MemberSignature Language="C#" Value="public string? Name { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? Name { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Serialization.Primitives</AssemblyName>

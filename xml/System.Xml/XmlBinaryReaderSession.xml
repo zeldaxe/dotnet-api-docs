@@ -31,7 +31,6 @@
     <TypeForwarding From="System.Runtime.Serialization" FromVersion="4.0.0.0" To="System.Runtime.Serialization.Xml" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Xml" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Xml" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Xml" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -200,7 +199,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function TryLookup (key As Integer, ByRef result As XmlDictionaryString) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member TryLookup : int * XmlDictionaryString -&gt; bool&#xA;override this.TryLookup : int * XmlDictionaryString -&gt; bool" Usage="xmlBinaryReaderSession.TryLookup (key, result)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool TryLookup(int key, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" />
-      <MemberSignature Language="C#" Value="public bool TryLookup (int key, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public bool TryLookup (int key, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Xml.IXmlDictionary.TryLookup(System.Int32,System.Xml.XmlDictionaryString@)</InterfaceMember>
@@ -252,7 +251,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function TryLookup (value As String, ByRef result As XmlDictionaryString) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member TryLookup : string * XmlDictionaryString -&gt; bool&#xA;override this.TryLookup : string * XmlDictionaryString -&gt; bool" Usage="xmlBinaryReaderSession.TryLookup (value, result)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool TryLookup(System::String ^ value, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" />
-      <MemberSignature Language="C#" Value="public bool TryLookup (string value, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public bool TryLookup (string value, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Xml.IXmlDictionary.TryLookup(System.String,System.Xml.XmlDictionaryString@)</InterfaceMember>
@@ -304,7 +303,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function TryLookup (value As XmlDictionaryString, ByRef result As XmlDictionaryString) As Boolean" />
       <MemberSignature Language="F#" Value="abstract member TryLookup : System.Xml.XmlDictionaryString * XmlDictionaryString -&gt; bool&#xA;override this.TryLookup : System.Xml.XmlDictionaryString * XmlDictionaryString -&gt; bool" Usage="xmlBinaryReaderSession.TryLookup (value, result)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool TryLookup(System::Xml::XmlDictionaryString ^ value, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" />
-      <MemberSignature Language="C#" Value="public bool TryLookup (System.Xml.XmlDictionaryString value, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public bool TryLookup (System.Xml.XmlDictionaryString value, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Xml.IXmlDictionary.TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)</InterfaceMember>

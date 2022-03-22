@@ -27,7 +27,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.WebSockets" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.WebSockets" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.WebSockets" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -431,7 +430,7 @@
       </Docs>
     </Member>
     <Member MemberName="User">
-      <MemberSignature Language="C#" Value="public abstract System.Security.Principal.IPrincipal? User { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public abstract System.Security.Principal.IPrincipal? User { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Principal.IPrincipal User" />
       <MemberSignature Language="DocId" Value="P:System.Net.WebSockets.WebSocketContext.User" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property User As IPrincipal" />

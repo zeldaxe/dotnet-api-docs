@@ -11,11 +11,6 @@
   <TypeSignature Language="VB.NET" Value="Public Structure Single&#xA;Implements IComparable, IComparable(Of Single), IConvertible, IEquatable(Of Single), ISpanFormattable" FrameworkAlternate="net-6.0" />
   <TypeSignature Language="F#" Value="type single = struct&#xA;    interface IConvertible&#xA;    interface ISpanFormattable&#xA;    interface IFormattable" FrameworkAlternate="net-6.0" />
   <TypeSignature Language="C++ CLI" Value="public value class float : IComparable, IComparable&lt;float&gt;, IConvertible, IEquatable&lt;float&gt;, ISpanFormattable" FrameworkAlternate="net-6.0" />
-  <TypeSignature Language="C#" Value="public readonly struct Single : IAdditionOperators&lt;float,float,float&gt;, IAdditiveIdentity&lt;float,float&gt;, IBinaryFloatingPoint&lt;float&gt;, IBinaryNumber&lt;float&gt;, IBitwiseOperators&lt;float,float,float&gt;, IComparable&lt;float&gt;, IComparisonOperators&lt;float,float&gt;, IConvertible, IDecrementOperators&lt;float&gt;, IDivisionOperators&lt;float,float,float&gt;, IEqualityOperators&lt;float,float&gt;, IEquatable&lt;float&gt;, IFloatingPoint&lt;float&gt;, IIncrementOperators&lt;float&gt;, IMinMaxValue&lt;float&gt;, IModulusOperators&lt;float,float,float&gt;, IMultiplicativeIdentity&lt;float,float&gt;, IMultiplyOperators&lt;float,float,float&gt;, INumber&lt;float&gt;, IParseable&lt;float&gt;, ISignedNumber&lt;float&gt;, ISpanParseable&lt;float&gt;, ISubtractionOperators&lt;float,float,float&gt;, IUnaryNegationOperators&lt;float,float&gt;, IUnaryPlusOperators&lt;float,float&gt;" FrameworkAlternate="net-7.0" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit float32 extends System.ValueType implements class System.IAdditionOperators`3&lt;float32, float32, float32&gt;, class System.IAdditiveIdentity`2&lt;float32, float32&gt;, class System.IBinaryFloatingPoint`1&lt;float32&gt;, class System.IBinaryNumber`1&lt;float32&gt;, class System.IBitwiseOperators`3&lt;float32, float32, float32&gt;, class System.IComparable, class System.IComparable`1&lt;float32&gt;, class System.IComparisonOperators`2&lt;float32, float32&gt;, class System.IConvertible, class System.IDecrementOperators`1&lt;float32&gt;, class System.IDivisionOperators`3&lt;float32, float32, float32&gt;, class System.IEqualityOperators`2&lt;float32, float32&gt;, class System.IEquatable`1&lt;float32&gt;, class System.IFloatingPoint`1&lt;float32&gt;, class System.IFormattable, class System.IIncrementOperators`1&lt;float32&gt;, class System.IMinMaxValue`1&lt;float32&gt;, class System.IModulusOperators`3&lt;float32, float32, float32&gt;, class System.IMultiplicativeIdentity`2&lt;float32, float32&gt;, class System.IMultiplyOperators`3&lt;float32, float32, float32&gt;, class System.INumber`1&lt;float32&gt;, class System.IParseable`1&lt;float32&gt;, class System.ISignedNumber`1&lt;float32&gt;, class System.ISpanFormattable, class System.ISpanParseable`1&lt;float32&gt;, class System.ISubtractionOperators`3&lt;float32, float32, float32&gt;, class System.IUnaryNegationOperators`2&lt;float32, float32&gt;, class System.IUnaryPlusOperators`2&lt;float32, float32&gt;" FrameworkAlternate="net-7.0" />
-  <TypeSignature Language="VB.NET" Value="Public Structure Single&#xA;Implements IAdditionOperators(Of Single, Single, Single), IAdditiveIdentity(Of Single, Single), IBinaryFloatingPoint(Of Single), IBinaryNumber(Of Single), IBitwiseOperators(Of Single, Single, Single), IComparable(Of Single), IComparisonOperators(Of Single, Single), IConvertible, IDecrementOperators(Of Single), IDivisionOperators(Of Single, Single, Single), IEqualityOperators(Of Single, Single), IEquatable(Of Single), IFloatingPoint(Of Single), IIncrementOperators(Of Single), IMinMaxValue(Of Single), IModulusOperators(Of Single, Single, Single), IMultiplicativeIdentity(Of Single, Single), IMultiplyOperators(Of Single, Single, Single), INumber(Of Single), IParseable(Of Single), ISignedNumber(Of Single), ISpanParseable(Of Single), ISubtractionOperators(Of Single, Single, Single), IUnaryNegationOperators(Of Single, Single), IUnaryPlusOperators(Of Single, Single)" FrameworkAlternate="net-7.0" />
-  <TypeSignature Language="F#" Value="type single = struct&#xA;    interface IConvertible&#xA;    interface ISpanFormattable&#xA;    interface IFormattable&#xA;    interface IBinaryFloatingPoint&lt;single&gt;&#xA;    interface IBinaryNumber&lt;single&gt;&#xA;    interface IBitwiseOperators&lt;single, single, single&gt;&#xA;    interface INumber&lt;single&gt;&#xA;    interface IAdditionOperators&lt;single, single, single&gt;&#xA;    interface IAdditiveIdentity&lt;single, single&gt;&#xA;    interface IComparisonOperators&lt;single, single&gt;&#xA;    interface IEqualityOperators&lt;single, single&gt;&#xA;    interface IDecrementOperators&lt;single&gt;&#xA;    interface IDivisionOperators&lt;single, single, single&gt;&#xA;    interface IIncrementOperators&lt;single&gt;&#xA;    interface IModulusOperators&lt;single, single, single&gt;&#xA;    interface IMultiplicativeIdentity&lt;single, single&gt;&#xA;    interface IMultiplyOperators&lt;single, single, single&gt;&#xA;    interface IParseable&lt;single&gt;&#xA;    interface ISpanParseable&lt;single&gt;&#xA;    interface ISubtractionOperators&lt;single, single, single&gt;&#xA;    interface IUnaryNegationOperators&lt;single, single&gt;&#xA;    interface IUnaryPlusOperators&lt;single, single&gt;&#xA;    interface IFloatingPoint&lt;single&gt;&#xA;    interface ISignedNumber&lt;single&gt;&#xA;    interface IMinMaxValue&lt;single&gt;" FrameworkAlternate="net-7.0" />
-  <TypeSignature Language="C++ CLI" Value="public value class float : IAdditionOperators&lt;float, float, float&gt;, IAdditiveIdentity&lt;float, float&gt;, IBinaryFloatingPoint&lt;float&gt;, IBinaryNumber&lt;float&gt;, IBitwiseOperators&lt;float, float, float&gt;, IComparable&lt;float&gt;, IComparisonOperators&lt;float, float&gt;, IConvertible, IDecrementOperators&lt;float&gt;, IDivisionOperators&lt;float, float, float&gt;, IEqualityOperators&lt;float, float&gt;, IEquatable&lt;float&gt;, IFloatingPoint&lt;float&gt;, IIncrementOperators&lt;float&gt;, IMinMaxValue&lt;float&gt;, IModulusOperators&lt;float, float, float&gt;, IMultiplicativeIdentity&lt;float, float&gt;, IMultiplyOperators&lt;float, float, float&gt;, INumber&lt;float&gt;, IParseable&lt;float&gt;, ISignedNumber&lt;float&gt;, ISpanParseable&lt;float&gt;, ISubtractionOperators&lt;float, float, float&gt;, IUnaryNegationOperators&lt;float, float&gt;, IUnaryPlusOperators&lt;float, float&gt;" FrameworkAlternate="net-7.0" />
   <TypeSignature Language="C#" Value="public struct Single : IComparable, IConvertible, IFormattable" FrameworkAlternate="netframework-1.1" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi serializable sealed beforefieldinit float32 extends System.ValueType implements class System.IComparable, class System.IConvertible, class System.IFormattable" FrameworkAlternate="netframework-1.1" />
   <TypeSignature Language="VB.NET" Value="Public Structure Single&#xA;Implements IComparable, IConvertible, IFormattable" FrameworkAlternate="netframework-1.1" />
@@ -56,7 +51,6 @@
     <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -65,165 +59,24 @@
     <Interface>
       <InterfaceName>System.IComparable</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
       <InterfaceName>System.IComparable&lt;System.Single&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
       <InterfaceName>System.IConvertible</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
       <InterfaceName>System.IEquatable&lt;System.Single&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.IFormattable</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="net-6.0;net-7.0">
+    <Interface FrameworkAlternate="net-6.0">
       <InterfaceName>System.ISpanFormattable</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IAdditionOperators&lt;System.Single,System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IAdditionOperators&lt;TSelf,TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IAdditiveIdentity&lt;System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IAdditiveIdentity&lt;TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IBinaryFloatingPoint&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IBinaryNumber&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IBinaryNumber&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IBitwiseOperators&lt;System.Single,System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IBitwiseOperators&lt;TSelf,TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IComparable&lt;TOther&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IComparable&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IComparisonOperators&lt;System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IComparisonOperators&lt;TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IDecrementOperators&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IDecrementOperators&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IDivisionOperators&lt;System.Single,System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IDivisionOperators&lt;TSelf,TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IEqualityOperators&lt;System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IEqualityOperators&lt;TSelf,TOther&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IEqualityOperators&lt;TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IEquatable&lt;TOther&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IEquatable&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IFloatingPoint&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IFloatingPoint&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IIncrementOperators&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IIncrementOperators&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IMinMaxValue&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IModulusOperators&lt;System.Single,System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IModulusOperators&lt;TSelf,TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IMultiplicativeIdentity&lt;System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IMultiplicativeIdentity&lt;TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IMultiplyOperators&lt;System.Single,System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IMultiplyOperators&lt;TSelf,TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.INumber&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.INumber&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IParseable&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IParseable&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.ISignedNumber&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.ISignedNumber&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.ISpanParseable&lt;System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.ISpanParseable&lt;TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.ISubtractionOperators&lt;System.Single,System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.ISubtractionOperators&lt;TSelf,TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IUnaryNegationOperators&lt;System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IUnaryNegationOperators&lt;TSelf,TSelf&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IUnaryPlusOperators&lt;System.Single,System.Single&gt;</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-7.0">
-      <InterfaceName>System.IUnaryPlusOperators&lt;TSelf,TSelf&gt;</InterfaceName>
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
@@ -487,7 +340,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CompareTo">
-      <MemberSignature Language="C#" Value="public int CompareTo (object? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public int CompareTo (object? value);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Single.CompareTo(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CompareTo (value As Object) As Integer" />
@@ -618,7 +471,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="value" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="value">A single-precision floating-point number to compare.</param>
@@ -772,7 +625,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="single.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -894,7 +747,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="obj" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="obj">An object to compare with this instance.</param>
@@ -1053,9 +906,6 @@
       <MemberSignature Language="F#" Value="static member IsFinite : single -&gt; bool" Usage="System.single.IsFinite f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsFinite(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsFinite(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
@@ -1093,9 +943,6 @@
       <MemberSignature Language="F#" Value="static member IsInfinity : single -&gt; bool" Usage="System.single.IsInfinity f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsInfinity(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsInfinity(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1170,9 +1017,6 @@
       <MemberSignature Language="F#" Value="static member IsNaN : single -&gt; bool" Usage="System.single.IsNaN f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNaN(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsNaN(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1251,9 +1095,6 @@
       <MemberSignature Language="F#" Value="static member IsNegative : single -&gt; bool" Usage="System.single.IsNegative f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNegative(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsNegative(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
@@ -1291,9 +1132,6 @@
       <MemberSignature Language="F#" Value="static member IsNegativeInfinity : single -&gt; bool" Usage="System.single.IsNegativeInfinity f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNegativeInfinity(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsNegativeInfinity(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1368,9 +1206,6 @@
       <MemberSignature Language="F#" Value="static member IsNormal : single -&gt; bool" Usage="System.single.IsNormal f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsNormal(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsNormal(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
@@ -1408,9 +1243,6 @@
       <MemberSignature Language="F#" Value="static member IsPositiveInfinity : single -&gt; bool" Usage="System.single.IsPositiveInfinity f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsPositiveInfinity(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsPositiveInfinity(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1485,9 +1317,6 @@
       <MemberSignature Language="F#" Value="static member IsSubnormal : single -&gt; bool" Usage="System.single.IsSubnormal f" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool IsSubnormal(float f);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IFloatingPoint`1.IsSubnormal(`0)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
@@ -1799,9 +1628,6 @@
       <MemberSignature Language="F#" Value="static member ( = ) : single * single -&gt; bool" Usage="left = right" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(float left, float right);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IEqualityOperators`2.op_Equality(`0,`1)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1829,8 +1655,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="left">The first value to compare.</param>
@@ -1856,9 +1682,6 @@
       <MemberSignature Language="F#" Value="static member ( &gt; ) : single * single -&gt; bool" Usage="left &gt; right" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator &gt;(float left, float right);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IComparisonOperators`2.op_GreaterThan(`0,`1)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1886,8 +1709,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="left">The first value to compare.</param>
@@ -1913,9 +1736,6 @@
       <MemberSignature Language="F#" Value="static member ( &gt;= ) : single * single -&gt; bool" Usage="left &gt;= right" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator &gt;=(float left, float right);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IComparisonOperators`2.op_GreaterThanOrEqual(`0,`1)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1943,8 +1763,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="left">The first value to compare.</param>
@@ -1970,9 +1790,6 @@
       <MemberSignature Language="F#" Value="static member op_Inequality : single * single -&gt; bool" Usage="System.single.op_Inequality (left, right)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(float left, float right);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IEqualityOperators`2.op_Inequality(`0,`1)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2000,8 +1817,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="left">The first value to compare.</param>
@@ -2027,9 +1844,6 @@
       <MemberSignature Language="F#" Value="static member ( &lt; ) : single * single -&gt; bool" Usage="left &lt; right" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator &lt;(float left, float right);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IComparisonOperators`2.op_LessThan(`0,`1)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2057,8 +1871,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="left">The first value to compare.</param>
@@ -2084,9 +1898,6 @@
       <MemberSignature Language="F#" Value="static member ( &lt;= ) : single * single -&gt; bool" Usage="left &lt;= right" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator &lt;=(float left, float right);" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IComparisonOperators`2.op_LessThanOrEqual(`0,`1)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2114,8 +1925,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="left" Type="System.Single" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="right" Type="System.Single" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="left">The first value to compare.</param>
@@ -2398,11 +2209,8 @@ If a separator is encountered in the `s` parameter during a parse operation, and
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As String, provider As IFormatProvider) As Single" />
       <MemberSignature Language="F#" Value="static member Parse : string * IFormatProvider -&gt; single" Usage="System.single.Parse (s, provider)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static float Parse(System::String ^ s, IFormatProvider ^ provider);" />
-      <MemberSignature Language="C#" Value="public static float Parse (string s, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static float Parse (string s, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.IParseable`1.Parse(System.String,System.IFormatProvider)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2502,16 +2310,13 @@ Some examples of `s` are "100", "-123,456,789", "123.45e+6", "+500", "5e2", "3.1
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static float Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.Float, IFormatProvider? provider = default);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static float Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.Float, IFormatProvider? provider = default);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 Parse(valuetype System.ReadOnlySpan`1&lt;char&gt; s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Single.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As ReadOnlySpan(Of Char), Optional style As NumberStyles = System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.Float, Optional provider As IFormatProvider = Nothing) As Single" />
       <MemberSignature Language="F#" Value="static member Parse : ReadOnlySpan&lt;char&gt; * System.Globalization.NumberStyles * IFormatProvider -&gt; single" Usage="System.single.Parse (s, style, provider)" />
       <MemberSignature Language="C#" Value="public static float Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.Float, IFormatProvider provider = default);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.INumber`1.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
@@ -2567,11 +2372,8 @@ If `s` is out of range of the <xref:System.Single> data type, the method returns
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As String, style As NumberStyles, provider As IFormatProvider) As Single" />
       <MemberSignature Language="F#" Value="static member Parse : string * System.Globalization.NumberStyles * IFormatProvider -&gt; single" Usage="System.single.Parse (s, style, provider)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static float Parse(System::String ^ s, System::Globalization::NumberStyles style, IFormatProvider ^ provider);" />
-      <MemberSignature Language="C#" Value="public static float Parse (string s, System.Globalization.NumberStyles style, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static float Parse (string s, System.Globalization.NumberStyles style, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember FrameworkAlternate="net-7.0">M:System.INumber`1.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2899,7 +2701,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -2954,7 +2756,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Byte</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3008,7 +2810,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3056,7 +2858,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3104,7 +2906,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Decimal</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3158,7 +2960,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3212,7 +3014,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Int16</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3266,7 +3068,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3320,7 +3122,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3380,7 +3182,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.SByte</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3434,7 +3236,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3488,8 +3290,8 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="type">The type to which to convert this <see cref="T:System.Single" /> value.</param>
@@ -3550,7 +3352,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.UInt16</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3610,7 +3412,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3670,7 +3472,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.UInt64</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
@@ -3805,17 +3607,17 @@ This member is an explicit interface member implementation. It can be used only 
     </Member>
     <Member MemberName="ToString">
       <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(class System.IFormatProvider provider) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(class System.IFormatProvider provider) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="DocId" Value="M:System.Single.ToString(System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (provider As IFormatProvider) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : IFormatProvider -&gt; string" Usage="single.ToString provider" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(IFormatProvider ^ provider);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(IFormatProvider ^ provider);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(class System.IFormatProvider provider) cil managed" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(IFormatProvider ^ provider);" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.IConvertible.ToString(System.IFormatProvider)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.IConvertible.ToString(System.IFormatProvider)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3920,7 +3722,7 @@ This member is an explicit interface member implementation. It can be used only 
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : string -&gt; string" Usage="single.ToString format" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(System::String ^ format);" />
-      <MemberSignature Language="C#" Value="public string ToString (string? format);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string ToString (string? format);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4019,7 +3821,7 @@ This member is an explicit interface member implementation. It can be used only 
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String, provider As IFormatProvider) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : string * IFormatProvider -&gt; string" Usage="single.ToString (format, provider)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(System::String ^ format, IFormatProvider ^ provider);" />
-      <MemberSignature Language="C#" Value="public string ToString (string? format, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string ToString (string? format, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IFormattable.ToString(System.String,System.IFormatProvider)</InterfaceMember>
@@ -4111,17 +3913,17 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="TryFormat">
-      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider? provider = default);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider? provider = default);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryFormat(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten, valuetype System.ReadOnlySpan`1&lt;char&gt; format, class System.IFormatProvider provider) cil managed" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="DocId" Value="M:System.Single.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryFormat (destination As Span(Of Char), ByRef charsWritten As Integer, Optional format As ReadOnlySpan(Of Char) = Nothing, Optional provider As IFormatProvider = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryFormat : Span&lt;char&gt; * int * ReadOnlySpan&lt;char&gt; * IFormatProvider -&gt; bool" Usage="single.TryFormat (destination, charsWritten, format, provider)" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryFormat(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten, valuetype System.ReadOnlySpan`1&lt;char&gt; format, class System.IFormatProvider provider) cil managed" FrameworkAlternate="net-6.0;net-7.0" />
-      <MemberSignature Language="F#" Value="abstract member TryFormat : Span&lt;char&gt; * int * ReadOnlySpan&lt;char&gt; * IFormatProvider -&gt; bool&#xA;override this.TryFormat : Span&lt;char&gt; * int * ReadOnlySpan&lt;char&gt; * IFormatProvider -&gt; bool" Usage="single.TryFormat (destination, charsWritten, format, provider)" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryFormat(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten, valuetype System.ReadOnlySpan`1&lt;char&gt; format, class System.IFormatProvider provider) cil managed" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="F#" Value="abstract member TryFormat : Span&lt;char&gt; * int * ReadOnlySpan&lt;char&gt; * IFormatProvider -&gt; bool&#xA;override this.TryFormat : Span&lt;char&gt; * int * ReadOnlySpan&lt;char&gt; * IFormatProvider -&gt; bool" Usage="single.TryFormat (destination, charsWritten, format, provider)" FrameworkAlternate="net-6.0" />
       <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider provider = default);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-6.0;net-7.0">M:System.ISpanFormattable.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-6.0">M:System.ISpanFormattable.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4221,7 +4023,7 @@ This member is an explicit interface member implementation. It can be used only 
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (s As String, ByRef result As Single) As Boolean" />
       <MemberSignature Language="F#" Value="static member TryParse : string * single -&gt; bool" Usage="System.single.TryParse (s, result)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ s, [Runtime::InteropServices::Out] float % result);" />
-      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, out float result);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, out float result);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4257,8 +4059,8 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="result" Type="System.Single" RefType="out" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="s" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="result" Type="System.Single" RefType="out" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="s">A string representing a number to convert.</param>
@@ -4318,7 +4120,7 @@ If a separator is encountered in the `s` parameter during a parse operation, and
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style, IFormatProvider? provider, out float result);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style, IFormatProvider? provider, out float result);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;char&gt; s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider, [out] float32&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Single.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Single@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (s As ReadOnlySpan(Of Char), style As NumberStyles, provider As IFormatProvider, ByRef result As Single) As Boolean" />
@@ -4368,7 +4170,7 @@ If a separator is encountered in the `s` parameter during a parse operation, and
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (s As String, style As NumberStyles, provider As IFormatProvider, ByRef result As Single) As Boolean" />
       <MemberSignature Language="F#" Value="static member TryParse : string * System.Globalization.NumberStyles * IFormatProvider * single -&gt; bool" Usage="System.single.TryParse (s, style, provider, result)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ s, System::Globalization::NumberStyles style, IFormatProvider ^ provider, [Runtime::InteropServices::Out] float % result);" />
-      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, System.Globalization.NumberStyles style, IFormatProvider? provider, out float result);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, System.Globalization.NumberStyles style, IFormatProvider? provider, out float result);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4404,10 +4206,10 @@ If a separator is encountered in the `s` parameter during a parse operation, and
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="style" Type="System.Globalization.NumberStyles" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="provider" Type="System.IFormatProvider" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="result" Type="System.Single" RefType="out" Index="3" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="s" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="style" Type="System.Globalization.NumberStyles" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="provider" Type="System.IFormatProvider" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="result" Type="System.Single" RefType="out" Index="3" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="s">A string representing a number to convert.</param>

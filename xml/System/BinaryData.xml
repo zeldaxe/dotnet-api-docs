@@ -103,7 +103,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed.")&gt;]</AttributeName>
         </Attribute>
@@ -245,7 +245,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed.")&gt;]</AttributeName>
         </Attribute>
@@ -489,7 +489,7 @@
       <MemberSignature Language="DocId" Value="M:System.BinaryData.ToObjectFromJson``1(System.Text.Json.JsonSerializerOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToObjectFromJson(Of T) (Optional options As JsonSerializerOptions = Nothing) As T" />
       <MemberSignature Language="F#" Value="member this.ToObjectFromJson : System.Text.Json.JsonSerializerOptions -&gt; 'T" Usage="binaryData.ToObjectFromJson options" />
-      <MemberSignature Language="C#" Value="public T? ToObjectFromJson&lt;T&gt; (System.Text.Json.JsonSerializerOptions? options = default);" FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
+      <MemberSignature Language="C#" Value="public T? ToObjectFromJson&lt;T&gt; (System.Text.Json.JsonSerializerOptions? options = default);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
@@ -498,7 +498,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed.")&gt;]</AttributeName>
         </Attribute>

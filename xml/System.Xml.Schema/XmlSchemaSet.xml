@@ -28,7 +28,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -178,7 +177,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Add (System.Xml.Schema.XmlSchema schema);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Add (System.Xml.Schema.XmlSchema schema);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Xml.Schema.XmlSchema Add(class System.Xml.Schema.XmlSchema schema) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaSet.Add(System.Xml.Schema.XmlSchema)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (schema As XmlSchema) As XmlSchema" />
@@ -338,7 +337,7 @@ schemaSet2.Add(schemaSet1);
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Add (string? targetNamespace, string schemaUri);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Add (string? targetNamespace, string schemaUri);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Xml.Schema.XmlSchema Add(string targetNamespace, string schemaUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaSet.Add(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (targetNamespace As String, schemaUri As String) As XmlSchema" />
@@ -483,7 +482,7 @@ schemaSet.Add("http://www.contoso.com/books", "http://www.contoso.com/books.xsd"
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Add (string? targetNamespace, System.Xml.XmlReader schemaDocument);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Add (string? targetNamespace, System.Xml.XmlReader schemaDocument);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Xml.Schema.XmlSchema Add(string targetNamespace, class System.Xml.XmlReader schemaDocument) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaSet.Add(System.String,System.Xml.XmlReader)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (targetNamespace As String, schemaDocument As XmlReader) As XmlSchema" />
@@ -701,7 +700,7 @@ schemaSet.Compile();
       </Docs>
     </MemberGroup>
     <Member MemberName="Contains">
-      <MemberSignature Language="C#" Value="public bool Contains (string? targetNamespace);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public bool Contains (string? targetNamespace);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(string targetNamespace) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaSet.Contains(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Contains (targetNamespace As String) As Boolean" />
@@ -1136,7 +1135,7 @@ schemaSet.CopyTo(schemas, 0);
       </Docs>
     </Member>
     <Member MemberName="Remove">
-      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Remove (System.Xml.Schema.XmlSchema schema);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Schema.XmlSchema? Remove (System.Xml.Schema.XmlSchema schema);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Xml.Schema.XmlSchema Remove(class System.Xml.Schema.XmlSchema schema) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaSet.Remove(System.Xml.Schema.XmlSchema)" />
       <MemberSignature Language="VB.NET" Value="Public Function Remove (schema As XmlSchema) As XmlSchema" />
@@ -1516,7 +1515,7 @@ foreach (XmlSchema schema in schemaSet.Schemas())
       </Docs>
     </Member>
     <Member MemberName="Schemas">
-      <MemberSignature Language="C#" Value="public System.Collections.ICollection Schemas (string? targetNamespace);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.ICollection Schemas (string? targetNamespace);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.ICollection Schemas(string targetNamespace) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaSet.Schemas(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Schemas (targetNamespace As String) As ICollection" />
@@ -1659,7 +1658,7 @@ foreach (XmlSchema schema in schemaSet.Schemas("http://www.contoso.com/books"))
       </Docs>
     </Member>
     <Member MemberName="XmlResolver">
-      <MemberSignature Language="C#" Value="public System.Xml.XmlResolver? XmlResolver { set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.XmlResolver? XmlResolver { set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlResolver XmlResolver" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaSet.XmlResolver" />
       <MemberSignature Language="VB.NET" Value="Public Property XmlResolver As XmlResolver" />

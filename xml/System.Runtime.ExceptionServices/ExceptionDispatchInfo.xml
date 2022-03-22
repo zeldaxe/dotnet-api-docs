@@ -32,7 +32,6 @@
     <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -276,7 +275,7 @@ If the caller provides untrusted input to this API, this may result in the excep
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DoesNotReturn]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DoesNotReturn&gt;]</AttributeName>
         </Attribute>
@@ -322,7 +321,7 @@ If the caller provides untrusted input to this API, this may result in the excep
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DoesNotReturn]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DoesNotReturn&gt;]</AttributeName>
         </Attribute>

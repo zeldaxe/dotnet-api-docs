@@ -25,7 +25,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -265,7 +264,7 @@
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.RequiresPreviewFeatures("Generic Math is in preview.", Url="https://aka.ms/dotnet-warnings/generic-math-preview")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.RequiresPreviewFeatures("Generic Math is in preview.", Url="https://aka.ms/dotnet-warnings/generic-math-preview")&gt;]</AttributeName>
         </Attribute>

@@ -30,7 +30,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Numerics.Vectors" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Numerics.Vectors" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Numerics.Vectors" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
     <TypeForwarding From="System.Numerics.Vectors" FromVersion="4.0.0.0" To="System.Numerics" ToVersion="4.0.0.0" FrameworkAlternate="netframework-4.6;netframework-4.6.1;xamarinmac-3.0" />
     <TypeForwarding From="System.Numerics.Vectors" FromVersion="2.0.5.0" To="System.Numerics" ToVersion="2.0.5.0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />
   </TypeForwardingChain>
@@ -419,7 +418,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (array As Single())" />
       <MemberSignature Language="F#" Value="member this.CopyTo : single[] -&gt; unit" Usage="vector4.CopyTo array" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyTo(cli::array &lt;float&gt; ^ array);" />
-      <MemberSignature Language="C#" Value="public readonly void CopyTo (float[] array);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public readonly void CopyTo (float[] array);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -444,7 +443,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -495,7 +494,7 @@
         <AssemblyName>System.Numerics</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -520,7 +519,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (array As Single(), index As Integer)" />
       <MemberSignature Language="F#" Value="member this.CopyTo : single[] * int -&gt; unit" Usage="vector4.CopyTo (array, index)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyTo(cli::array &lt;float&gt; ^ array, int index);" />
-      <MemberSignature Language="C#" Value="public readonly void CopyTo (float[] array, int index);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public readonly void CopyTo (float[] array, int index);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -545,7 +544,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -838,7 +837,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As Vector4) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : System.Numerics.Vector4 -&gt; bool" Usage="vector4.Equals other" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Numerics::Vector4 other);" />
-      <MemberSignature Language="C#" Value="public readonly bool Equals (System.Numerics.Vector4 other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public readonly bool Equals (System.Numerics.Vector4 other);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -866,7 +865,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -899,7 +898,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="vector4.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public override readonly bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override readonly bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="C#" Value="public override readonly bool Equals (object obj);" FrameworkAlternate="netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -925,7 +924,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -958,7 +957,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="vector4.GetHashCode " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C#" Value="public override readonly int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override readonly int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -983,7 +982,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -998,37 +997,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Item">
-      <MemberSignature Language="C#" Value="public float this[int index] { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance float32 Item(int32)" />
-      <MemberSignature Language="DocId" Value="P:System.Numerics.Vector4.Item(System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Default Public Property Item(index As Integer) As Single" />
-      <MemberSignature Language="F#" Value="member this.Item(int) : single with get, set" Usage="System.Numerics.Vector4.Item" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float default[int] { float get(int index); void set(int index, float value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Numerics.Vectors</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Single</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="index" Type="System.Int32" Index="0" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <param name="index">To be added.</param>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Length">
       <MemberSignature Language="C#" Value="public float Length ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance float32 Length() cil managed" />
@@ -1036,7 +1004,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function Length () As Single" />
       <MemberSignature Language="F#" Value="member this.Length : unit -&gt; single" Usage="vector4.Length " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float Length();" />
-      <MemberSignature Language="C#" Value="public readonly float Length ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public readonly float Length ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -1061,7 +1029,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -1084,7 +1052,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function LengthSquared () As Single" />
       <MemberSignature Language="F#" Value="member this.LengthSquared : unit -&gt; single" Usage="vector4.LengthSquared " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; float LengthSquared();" />
-      <MemberSignature Language="C#" Value="public readonly float LengthSquared ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public readonly float LengthSquared ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -1109,7 +1077,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -2196,7 +2164,7 @@ The behavior of this method changed in .NET 5. For more information, see [Behavi
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="vector4.ToString " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="C#" Value="public override readonly string ToString ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override readonly string ToString ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Numerics.Vectors</AssemblyName>
@@ -2221,7 +2189,7 @@ The behavior of this method changed in .NET 5. For more information, see [Behavi
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -2250,7 +2218,7 @@ The behavior of this method changed in .NET 5. For more information, see [Behavi
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : string -&gt; string" Usage="vector4.ToString format" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(System::String ^ format);" />
-      <MemberSignature Language="C#" Value="public readonly string ToString (string? format);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public readonly string ToString (string? format);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="C#" Value="public readonly string ToString (string format);" FrameworkAlternate="netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -2276,7 +2244,7 @@ The behavior of this method changed in .NET 5. For more information, see [Behavi
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -2310,7 +2278,7 @@ The behavior of this method changed in .NET 5. For more information, see [Behavi
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String, formatProvider As IFormatProvider) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : string * IFormatProvider -&gt; string" Usage="vector4.ToString (format, formatProvider)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(System::String ^ format, IFormatProvider ^ formatProvider);" />
-      <MemberSignature Language="C#" Value="public readonly string ToString (string? format, IFormatProvider? formatProvider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public readonly string ToString (string? format, IFormatProvider? formatProvider);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="C#" Value="public readonly string ToString (string format, IFormatProvider formatProvider);" FrameworkAlternate="netstandard-2.1" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -2339,7 +2307,7 @@ The behavior of this method changed in .NET 5. For more information, see [Behavi
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -2669,7 +2637,7 @@ The behavior of this method changed in .NET 5. For more information, see [Behavi
         <AssemblyName>System.Numerics</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>

@@ -17,12 +17,6 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="net-7.0">
-      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <typeparam name="T">The object type to serialize or deserialize.</typeparam>
     <summary>Provides serialization metadata about an object type with constructors, properties, and fields.</summary>

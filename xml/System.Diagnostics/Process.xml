@@ -1,10 +1,10 @@
 <Type Name="Process" FullName="System.Diagnostics.Process">
-  <TypeSignature Language="C#" Value="public class Process : System.ComponentModel.Component, IDisposable" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Process extends System.ComponentModel.Component implements class System.IDisposable" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+  <TypeSignature Language="C#" Value="public class Process : System.ComponentModel.Component, IDisposable" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Process extends System.ComponentModel.Component implements class System.IDisposable" FrameworkAlternate="net-5.0;net-6.0" />
   <TypeSignature Language="DocId" Value="T:System.Diagnostics.Process" />
-  <TypeSignature Language="VB.NET" Value="Public Class Process&#xA;Inherits Component&#xA;Implements IDisposable" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="F#" Value="type Process = class&#xA;    inherit Component&#xA;    interface IDisposable" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Process : System::ComponentModel::Component, IDisposable" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class Process&#xA;Inherits Component&#xA;Implements IDisposable" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="F#" Value="type Process = class&#xA;    inherit Component&#xA;    interface IDisposable" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Process : System::ComponentModel::Component, IDisposable" FrameworkAlternate="net-5.0;net-6.0" />
   <TypeSignature Language="C#" Value="public class Process : IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Process extends System.Object implements class System.IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1" />
   <TypeSignature Language="VB.NET" Value="Public Class Process&#xA;Implements IDisposable" FrameworkAlternate="netcore-1.0;netcore-1.1" />
@@ -40,19 +40,18 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Process" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Process" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Process" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.ComponentModel.Component</BaseTypeName>
     <BaseTypeName FrameworkAlternate="netcore-1.0;netcore-1.1">System.Object</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1">
+    <Interface FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1">
       <InterfaceName>System.IDisposable</InterfaceName>
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
       <AttributeName Language="C#">[System.ComponentModel.Designer("System.Diagnostics.Design.ProcessDesigner, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.Designer("System.Diagnostics.Design.ProcessDesigner, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
     </Attribute>
@@ -822,12 +821,12 @@ process.BeginOutputReadLine();
       </Docs>
     </Member>
     <Member MemberName="Dispose">
-      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="protected override void Dispose (bool disposing);" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Dispose(bool disposing) cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.Dispose(System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="process.Dispose disposing" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Dispose(bool disposing);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub Dispose (disposing As Boolean)" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="override this.Dispose : bool -&gt; unit" Usage="process.Dispose disposing" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void Dispose(bool disposing);" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" FrameworkAlternate="netcore-1.0;netcore-1.1" />
@@ -1010,10 +1009,10 @@ The following code example creates a process that prints a file. It sets the <xr
       </Docs>
     </Member>
     <Member MemberName="ErrorDataReceived">
-      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler? ErrorDataReceived;" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler? ErrorDataReceived;" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.Diagnostics.DataReceivedEventHandler ErrorDataReceived" />
       <MemberSignature Language="DocId" Value="E:System.Diagnostics.Process.ErrorDataReceived" />
-      <MemberSignature Language="VB.NET" Value="Public Custom Event ErrorDataReceived As DataReceivedEventHandler " FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ErrorDataReceived As DataReceivedEventHandler " FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="member this.ErrorDataReceived : System.Diagnostics.DataReceivedEventHandler " Usage="member this.ErrorDataReceived : System.Diagnostics.DataReceivedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Diagnostics::DataReceivedEventHandler ^ ErrorDataReceived;" />
       <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler ErrorDataReceived;" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
@@ -1604,18 +1603,6 @@ The following code example creates a process that prints a file. It sets the <xr
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
@@ -1687,18 +1674,6 @@ The following code example creates a process that prints a file. It sets the <xr
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.MonoTODO("There is no support for retrieving process information from a remote machine")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.MonoTODO("There is no support for retrieving process information from a remote machine")&gt;]</AttributeName>
@@ -1760,7 +1735,7 @@ The following code example creates a process that prints a file. It sets the <xr
       </Docs>
     </MemberGroup>
     <Member MemberName="GetProcessesByName">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string? processName);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string? processName);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process[] GetProcessesByName(string processName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.GetProcessesByName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetProcessesByName (processName As String) As Process()" />
@@ -1791,18 +1766,6 @@ The following code example creates a process that prints a file. It sets the <xr
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
@@ -1847,7 +1810,7 @@ The following code example creates a process that prints a file. It sets the <xr
       </Docs>
     </Member>
     <Member MemberName="GetProcessesByName">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string? processName, string machineName);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string? processName, string machineName);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process[] GetProcessesByName(string processName, string machineName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.GetProcessesByName(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetProcessesByName (processName As String, machineName As String) As Process()" />
@@ -1878,18 +1841,6 @@ The following code example creates a process that prints a file. It sets the <xr
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
           <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
@@ -2335,17 +2286,13 @@ You cannot cause processes on remote computers to exit. You can only view inform
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2383,24 +2330,20 @@ You cannot cause processes on remote computers to exit. You can only view inform
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="entireProcessTree" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="entireProcessTree" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="entireProcessTree">
@@ -2555,7 +2498,7 @@ The calling process is a member of the associated process' descendant tree.</exc
       </Docs>
     </Member>
     <Member MemberName="MainModule">
-      <MemberSignature Language="C#" Value="public System.Diagnostics.ProcessModule? MainModule { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Diagnostics.ProcessModule? MainModule { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Diagnostics.ProcessModule MainModule" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Process.MainModule" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MainModule As ProcessModule" />
@@ -2810,33 +2753,25 @@ The calling process is a member of the associated process' descendant tree.</exc
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[get: System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[get: System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("freebsd")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("freebsd")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("macos")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("macos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[get: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;get: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
@@ -2922,33 +2857,25 @@ The calling process is a member of the associated process' descendant tree.</exc
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[get: System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[get: System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("freebsd")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("freebsd")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("macos")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("macos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[get: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;get: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
@@ -3111,7 +3038,7 @@ The calling process is a member of the associated process' descendant tree.</exc
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.NonpagedSystemMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.NonpagedSystemMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.NonpagedSystemMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.NonpagedSystemMemorySize64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.NonpagedSystemMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.NonpagedSystemMemorySize64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -3294,10 +3221,10 @@ The calling process is a member of the associated process' descendant tree.</exc
       </Docs>
     </Member>
     <Member MemberName="OutputDataReceived">
-      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler? OutputDataReceived;" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler? OutputDataReceived;" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.Diagnostics.DataReceivedEventHandler OutputDataReceived" />
       <MemberSignature Language="DocId" Value="E:System.Diagnostics.Process.OutputDataReceived" />
-      <MemberSignature Language="VB.NET" Value="Public Custom Event OutputDataReceived As DataReceivedEventHandler " FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OutputDataReceived As DataReceivedEventHandler " FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="member this.OutputDataReceived : System.Diagnostics.DataReceivedEventHandler " Usage="member this.OutputDataReceived : System.Diagnostics.DataReceivedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Diagnostics::DataReceivedEventHandler ^ OutputDataReceived;" />
       <MemberSignature Language="C#" Value="public event System.Diagnostics.DataReceivedEventHandler OutputDataReceived;" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
@@ -3408,7 +3335,7 @@ The calling process is a member of the associated process' descendant tree.</exc
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PagedMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PagedMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.PagedMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PagedMemorySize64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.PagedMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PagedMemorySize64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -3555,7 +3482,7 @@ The calling process is a member of the associated process' descendant tree.</exc
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PagedSystemMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PagedSystemMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.PagedSystemMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PagedSystemMemorySize64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.PagedSystemMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PagedSystemMemorySize64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -3700,7 +3627,7 @@ The calling process is a member of the associated process' descendant tree.</exc
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PeakPagedMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PeakPagedMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.PeakPagedMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PeakPagedMemorySize64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.PeakPagedMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PeakPagedMemorySize64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -3852,7 +3779,7 @@ The calling process is a member of the associated process' descendant tree.</exc
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PeakVirtualMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PeakVirtualMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.PeakVirtualMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PeakVirtualMemorySize64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.PeakVirtualMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PeakVirtualMemorySize64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -3996,7 +3923,7 @@ The calling process is a member of the associated process' descendant tree.</exc
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PeakWorkingSet64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PeakWorkingSet64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.PeakWorkingSet has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PeakWorkingSet64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.PeakWorkingSet has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PeakWorkingSet64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -4324,7 +4251,7 @@ The calling process is a member of the associated process' descendant tree.</exc
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PrivateMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.PrivateMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.PrivateMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PrivateMemorySize64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.PrivateMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.PrivateMemorySize64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -4603,11 +4530,11 @@ The calling process is a member of the associated process' descendant tree.</exc
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("linux")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("linux")&gt;]</AttributeName>
         </Attribute>
@@ -5269,17 +5196,13 @@ There is a similar issue when you read all text from both the standard output an
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5345,7 +5268,7 @@ The <see cref="P:System.Diagnostics.ProcessStartInfo.UseShellExecute" /> member 
       </Docs>
     </Member>
     <Member MemberName="Start">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (System.Diagnostics.ProcessStartInfo startInfo);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (System.Diagnostics.ProcessStartInfo startInfo);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process Start(class System.Diagnostics.ProcessStartInfo startInfo) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Start (startInfo As ProcessStartInfo) As Process" />
@@ -5376,17 +5299,13 @@ The <see cref="P:System.Diagnostics.ProcessStartInfo.UseShellExecute" /> member 
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5499,17 +5418,13 @@ The <see cref="P:System.Diagnostics.ProcessStartInfo.UseShellExecute" /> member 
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5592,25 +5507,21 @@ The file specified in the <paramref name="fileName" /> could not be found.</exce
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Process</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="fileName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="arguments" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="fileName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="arguments" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="fileName">The name of a document or application file to run in the process.</param>
@@ -5651,17 +5562,13 @@ The file specified in the <paramref name="fileName" /> could not be found.</exce
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5731,7 +5638,7 @@ The file specified in the <paramref name="fileName" /> could not be found.
       </Docs>
     </Member>
     <Member MemberName="Start">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (string fileName, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (string fileName, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process Start(string fileName, string userName, class System.Security.SecureString password, string domain) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.Start(System.String,System.String,System.Security.SecureString,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Start (fileName As String, userName As String, password As SecureString, domain As String) As Process" />
@@ -5760,11 +5667,11 @@ The file specified in the <paramref name="fileName" /> could not be found.
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -5773,10 +5680,10 @@ The file specified in the <paramref name="fileName" /> could not be found.
         <ReturnType>System.Diagnostics.Process</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="fileName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="userName" Type="System.String" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="password" Type="System.Security.SecureString" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="domain" Type="System.String" Index="3" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="fileName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="userName" Type="System.String" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="password" Type="System.Security.SecureString" Index="2" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="domain" Type="System.String" Index="3" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="fileName">The name of an application file to run in the process.</param>
@@ -5827,7 +5734,7 @@ The file specified in the <paramref name="fileName" /> could not be found.</exce
       </Docs>
     </Member>
     <Member MemberName="Start">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (string fileName, string arguments, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (string fileName, string arguments, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process Start(string fileName, string arguments, string userName, class System.Security.SecureString password, string domain) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Start (fileName As String, arguments As String, userName As String, password As SecureString, domain As String) As Process" />
@@ -5856,11 +5763,11 @@ The file specified in the <paramref name="fileName" /> could not be found.</exce
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -5869,11 +5776,11 @@ The file specified in the <paramref name="fileName" /> could not be found.</exce
         <ReturnType>System.Diagnostics.Process</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="fileName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="arguments" Type="System.String" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="userName" Type="System.String" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="password" Type="System.Security.SecureString" Index="3" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="domain" Type="System.String" Index="4" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="fileName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="arguments" Type="System.String" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="userName" Type="System.String" Index="2" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="password" Type="System.Security.SecureString" Index="3" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="domain" Type="System.String" Index="4" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="fileName">The name of an application file to run in the process.</param>
@@ -6066,7 +5973,7 @@ The file specified in the <paramref name="fileName" /> could not be found.
       </Docs>
     </Member>
     <Member MemberName="SynchronizingObject">
-      <MemberSignature Language="C#" Value="public System.ComponentModel.ISynchronizeInvoke? SynchronizingObject { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.ComponentModel.ISynchronizeInvoke? SynchronizingObject { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.ComponentModel.ISynchronizeInvoke SynchronizingObject" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Process.SynchronizingObject" />
       <MemberSignature Language="VB.NET" Value="Public Property SynchronizingObject As ISynchronizeInvoke" />
@@ -6311,18 +6218,6 @@ The file specified in the <paramref name="fileName" /> could not be found.
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
@@ -6390,18 +6285,6 @@ The file specified in the <paramref name="fileName" /> could not be found.
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("maccatalyst")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
@@ -6472,7 +6355,7 @@ The file specified in the <paramref name="fileName" /> could not be found.
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.VirtualMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.VirtualMemorySize64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.VirtualMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.VirtualMemorySize64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.VirtualMemorySize has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.VirtualMemorySize64 instead.")&gt;]</AttributeName>
         </Attribute>
@@ -6783,7 +6666,7 @@ The file specified in the <paramref name="fileName" /> could not be found.
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">An optional token to cancel the asynchronous operation.</param>
@@ -6915,7 +6798,7 @@ Calling this method will set <xref:System.Diagnostics.Process.EnableRaisingEvent
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="milliseconds" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="milliseconds" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="milliseconds">A value of 1 to <see cref="F:System.Int32.MaxValue" /> that specifies the amount of time, in milliseconds, to wait for the associated process to become idle. A value of 0 specifies an immediate return, and a value of -1 specifies an infinite wait.</param>
@@ -6987,7 +6870,7 @@ Calling this method will set <xref:System.Diagnostics.Process.EnableRaisingEvent
           <AttributeName Language="C#">[System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.WorkingSet64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This property has been deprecated.  Please use System.Diagnostics.Process.WorkingSet64 instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Process.WorkingSet has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.WorkingSet64 instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Process.WorkingSet has been deprecated because the type of the property can't represent all valid results. Use System.Diagnostics.Process.WorkingSet64 instead.")&gt;]</AttributeName>
         </Attribute>

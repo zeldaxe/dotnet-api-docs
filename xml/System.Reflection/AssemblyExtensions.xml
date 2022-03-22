@@ -41,7 +41,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Types might be removed")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Types might be removed")&gt;]</AttributeName>
         </Attribute>
@@ -107,7 +107,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Types might be removed")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Types might be removed")&gt;]</AttributeName>
         </Attribute>

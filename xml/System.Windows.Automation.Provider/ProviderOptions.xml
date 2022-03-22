@@ -19,7 +19,6 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="UIAutomationProvider" FromVersion="6.0.0.0" To="UIAutomationTypes" ToVersion="6.0.0.0" FrameworkAlternate="windowsdesktop-6.0" />
-    <TypeForwarding From="UIAutomationProvider" FromVersion="7.0.0.0" To="UIAutomationTypes" ToVersion="7.0.0.0" FrameworkAlternate="windowsdesktop-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>

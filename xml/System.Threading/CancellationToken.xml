@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Structure CancellationToken" />
   <TypeSignature Language="F#" Value="type CancellationToken = struct" />
   <TypeSignature Language="C++ CLI" Value="public value class CancellationToken" />
-  <TypeSignature Language="C#" Value="public readonly struct CancellationToken" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="C#" Value="public readonly struct CancellationToken" FrameworkAlternate="net-5.0;net-6.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
   <AssemblyInfo>
     <AssemblyName>System.Threading.Tasks</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -36,8 +36,6 @@
     <TypeForwarding From="System.Threading.Tasks" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="6.0.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-    <TypeForwarding From="System.Threading.Tasks" FromVersion="7.0.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="4.1.0.0" To="System.Runtime" ToVersion="4.2.0.0" FrameworkAlternate="netcore-2.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="4.1.1.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="4.1.2.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
@@ -47,7 +45,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
@@ -215,7 +213,7 @@ To handle the possible cancellation of the operation, the example instantiates a
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (other As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="cancellationToken.Equals other" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ other);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object? other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? other);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -819,7 +817,7 @@ is captured along with the delegate and is used when executing it. The current <
       <MemberSignature Language="VB.NET" Value="Public Function Register (callback As Action(Of Object), state As Object) As CancellationTokenRegistration" />
       <MemberSignature Language="F#" Value="member this.Register : Action&lt;obj&gt; * obj -&gt; System.Threading.CancellationTokenRegistration" Usage="cancellationToken.Register (callback, state)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::CancellationTokenRegistration Register(Action&lt;System::Object ^&gt; ^ callback, System::Object ^ state);" />
-      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -884,7 +882,7 @@ is captured along with the delegate and is used when executing it. The current <
       <MemberSignature Language="VB.NET" Value="Public Function Register (callback As Action(Of Object), state As Object, useSynchronizationContext As Boolean) As CancellationTokenRegistration" />
       <MemberSignature Language="F#" Value="member this.Register : Action&lt;obj&gt; * obj * bool -&gt; System.Threading.CancellationTokenRegistration" Usage="cancellationToken.Register (callback, state, useSynchronizationContext)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::CancellationTokenRegistration Register(Action&lt;System::Object ^&gt; ^ callback, System::Object ^ state, bool useSynchronizationContext);" />
-      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state, bool useSynchronizationContext);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state, bool useSynchronizationContext);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>

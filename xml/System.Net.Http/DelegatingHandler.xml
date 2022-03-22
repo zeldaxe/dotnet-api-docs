@@ -25,7 +25,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Http" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Http" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Http" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Net.Http.HttpMessageHandler</BaseTypeName>
@@ -173,7 +172,7 @@
       <MemberSignature Language="VB.NET" Value="Public Property InnerHandler As HttpMessageHandler" />
       <MemberSignature Language="F#" Value="member this.InnerHandler : System.Net.Http.HttpMessageHandler with get, set" Usage="System.Net.Http.DelegatingHandler.InnerHandler" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::Http::HttpMessageHandler ^ InnerHandler { System::Net::Http::HttpMessageHandler ^ get(); void set(System::Net::Http::HttpMessageHandler ^ value); };" />
-      <MemberSignature Language="C#" Value="public System.Net.Http.HttpMessageHandler? InnerHandler { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Net.Http.HttpMessageHandler? InnerHandler { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>

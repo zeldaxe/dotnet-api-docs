@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Xml.XmlNode</BaseTypeName>
@@ -400,7 +399,7 @@
       </Docs>
     </Member>
     <Member MemberName="PublicId">
-      <MemberSignature Language="C#" Value="public string? PublicId { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? PublicId { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string PublicId" />
       <MemberSignature Language="DocId" Value="P:System.Xml.XmlNotation.PublicId" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublicId As String" />
@@ -461,7 +460,7 @@
       </Docs>
     </Member>
     <Member MemberName="SystemId">
-      <MemberSignature Language="C#" Value="public string? SystemId { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? SystemId { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string SystemId" />
       <MemberSignature Language="DocId" Value="P:System.Xml.XmlNotation.SystemId" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SystemId As String" />

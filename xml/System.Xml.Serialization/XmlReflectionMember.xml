@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -219,7 +218,7 @@
       </Docs>
     </Member>
     <Member MemberName="MemberType">
-      <MemberSignature Language="C#" Value="public Type? MemberType { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public Type? MemberType { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type MemberType" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Serialization.XmlReflectionMember.MemberType" />
       <MemberSignature Language="VB.NET" Value="Public Property MemberType As Type" />

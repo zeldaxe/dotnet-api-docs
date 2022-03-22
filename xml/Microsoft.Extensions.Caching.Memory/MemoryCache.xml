@@ -92,27 +92,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Clear">
-      <MemberSignature Language="C#" Value="public void Clear ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Caching.Memory.MemoryCache.Clear" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
-      <MemberSignature Language="F#" Value="member this.Clear : unit -&gt; unit" Usage="memoryCache.Clear " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Extensions.Caching.Memory</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Removes all keys and values from the cache.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Compact">
       <MemberSignature Language="C#" Value="public void Compact (double percentage);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Compact(float64 percentage) cil managed" />

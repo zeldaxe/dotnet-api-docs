@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -146,7 +145,7 @@ The root designer may return any type of object, but the object must be compatib
           <AttributeName Language="C#">[System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("ViewTechnology.Passthrough has been deprecated. Use ViewTechnology.Default instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("ViewTechnology.Passthrough has been deprecated. Use ViewTechnology.Default instead.")&gt;]</AttributeName>
         </Attribute>
@@ -203,7 +202,7 @@ The view object must implement any interfaces the development environment requir
           <AttributeName Language="C#">[System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("ViewTechnology.WindowsForms has been deprecated. Use ViewTechnology.Default instead.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("ViewTechnology.WindowsForms has been deprecated. Use ViewTechnology.Default instead.")&gt;]</AttributeName>
         </Attribute>

@@ -649,7 +649,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub Decrypt (recipientInfo As RecipientInfo, privateKey As AsymmetricAlgorithm)" />
       <MemberSignature Language="F#" Value="member this.Decrypt : System.Security.Cryptography.Pkcs.RecipientInfo * System.Security.Cryptography.AsymmetricAlgorithm -&gt; unit" Usage="envelopedCms.Decrypt (recipientInfo, privateKey)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Decrypt(System::Security::Cryptography::Pkcs::RecipientInfo ^ recipientInfo, System::Security::Cryptography::AsymmetricAlgorithm ^ privateKey);" />
-      <MemberSignature Language="C#" Value="public void Decrypt (System.Security.Cryptography.Pkcs.RecipientInfo recipientInfo, System.Security.Cryptography.AsymmetricAlgorithm? privateKey);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public void Decrypt (System.Security.Cryptography.Pkcs.RecipientInfo recipientInfo, System.Security.Cryptography.AsymmetricAlgorithm? privateKey);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>

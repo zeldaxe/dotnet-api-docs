@@ -35,8 +35,6 @@
     <TypeForwarding From="System.Threading.Tasks" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="6.0.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-    <TypeForwarding From="System.Threading.Tasks" FromVersion="7.0.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="4.1.0.0" To="System.Runtime" ToVersion="4.2.0.0" FrameworkAlternate="netcore-2.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="4.1.1.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="4.1.2.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
@@ -367,7 +365,7 @@ This example has some limitations. For example, only 32-bits-per-pixel images ar
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function GetScheduledTasks () As IEnumerable(Of Task)" />
       <MemberSignature Language="F#" Value="abstract member GetScheduledTasks : unit -&gt; seq&lt;System.Threading.Tasks.Task&gt;" Usage="taskScheduler.GetScheduledTasks " />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract System::Collections::Generic::IEnumerable&lt;System::Threading::Tasks::Task ^&gt; ^ GetScheduledTasks();" />
-      <MemberSignature Language="C#" Value="protected abstract System.Collections.Generic.IEnumerable&lt;System.Threading.Tasks.Task&gt;? GetScheduledTasks ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected abstract System.Collections.Generic.IEnumerable&lt;System.Threading.Tasks.Task&gt;? GetScheduledTasks ();" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -813,7 +811,7 @@ protected override IEnumerable<Task> GetScheduledTasks()
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event UnobservedTaskException As EventHandler(Of UnobservedTaskExceptionEventArgs) " />
       <MemberSignature Language="F#" Value="member this.UnobservedTaskException : EventHandler&lt;System.Threading.Tasks.UnobservedTaskExceptionEventArgs&gt; " Usage="member this.UnobservedTaskException : System.EventHandler&lt;System.Threading.Tasks.UnobservedTaskExceptionEventArgs&gt; " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler&lt;System::Threading::Tasks::UnobservedTaskExceptionEventArgs ^&gt; ^ UnobservedTaskException;" />
-      <MemberSignature Language="C#" Value="public static event EventHandler&lt;System.Threading.Tasks.UnobservedTaskExceptionEventArgs&gt;? UnobservedTaskException;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static event EventHandler&lt;System.Threading.Tasks.UnobservedTaskExceptionEventArgs&gt;? UnobservedTaskException;" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>

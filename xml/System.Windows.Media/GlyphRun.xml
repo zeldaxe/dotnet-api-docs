@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Class GlyphRun&#xA;Implements ISupportInitialize" />
   <TypeSignature Language="F#" Value="type GlyphRun = class&#xA;    interface DUCE.IResource&#xA;    interface ISupportInitialize" FrameworkAlternate="netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <TypeSignature Language="C++ CLI" Value="public ref class GlyphRun : System::ComponentModel::ISupportInitialize" />
-  <TypeSignature Language="F#" Value="type GlyphRun = class&#xA;    interface ISupportInitialize" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="F#" Value="type GlyphRun = class&#xA;    interface ISupportInitialize" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -68,7 +68,7 @@ Various typographic qualities of two different glyph characters
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.Obsolete("Use the PixelsPerDip override", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Use the PixelsPerDip override", false)&gt;]</AttributeName>
         </Attribute>
@@ -124,7 +124,7 @@ Various typographic qualities of two different glyph characters
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.Obsolete("Use the PixelsPerDip override", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Use the PixelsPerDip override", false)&gt;]</AttributeName>
         </Attribute>
@@ -178,7 +178,7 @@ Various typographic qualities of two different glyph characters
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>

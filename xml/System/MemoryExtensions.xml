@@ -21,7 +21,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -33,7 +32,7 @@
   </Docs>
   <Members>
     <Member MemberName="AsMemory">
-      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlyMemory`1&lt;char&gt; AsMemory(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory(System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory (text As String) As ReadOnlyMemory(Of Char)" />
@@ -68,7 +67,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsMemory">
-      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, Index startIndex);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, Index startIndex);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlyMemory`1&lt;char&gt; AsMemory(string text, valuetype System.Index startIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory(System.String,System.Index)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory (text As String, startIndex As Index) As ReadOnlyMemory(Of Char)" />
@@ -92,8 +91,8 @@
         <ReturnType>System.ReadOnlyMemory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <param name="text">The target string.</param>
@@ -104,7 +103,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsMemory">
-      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, int start);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, int start);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlyMemory`1&lt;char&gt; AsMemory(string text, int32 start) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory(System.String,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory (text As String, start As Integer) As ReadOnlyMemory(Of Char)" />
@@ -143,7 +142,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsMemory">
-      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, Range range);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, Range range);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlyMemory`1&lt;char&gt; AsMemory(string text, valuetype System.Range range) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory(System.String,System.Range)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory (text As String, range As Range) As ReadOnlyMemory(Of Char)" />
@@ -167,8 +166,8 @@
         <ReturnType>System.ReadOnlyMemory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="text" Type="System.String" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <param name="text">The target string.</param>
@@ -179,7 +178,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsMemory">
-      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlyMemory&lt;char&gt; AsMemory (this string? text, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlyMemory`1&lt;char&gt; AsMemory(string text, int32 start, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory(System.String,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory (text As String, start As Integer, length As Integer) As ReadOnlyMemory(Of Char)" />
@@ -258,7 +257,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsMemory&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[] array) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory``1(``0[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T()) As Memory(Of T)" />
@@ -349,7 +348,7 @@ Returns `default` when `segment` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsMemory&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, Index startIndex);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, Index startIndex);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[] array, valuetype System.Index startIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory``1(``0[],System.Index)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T(), startIndex As Index) As Memory(Of T)" />
@@ -376,8 +375,8 @@ Returns `default` when `segment` is `null`.
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the array.</typeparam>
@@ -389,7 +388,7 @@ Returns `default` when `segment` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsMemory&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, int start);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, int start);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[] array, int32 start) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory``1(``0[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T(), start As Integer) As Memory(Of T)" />
@@ -442,7 +441,7 @@ Returns `default` when `array` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsMemory&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, Range range);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, Range range);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[] array, valuetype System.Range range) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory``1(``0[],System.Range)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T(), range As Range) As Memory(Of T)" />
@@ -469,8 +468,8 @@ Returns `default` when `array` is `null`.
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the array.</typeparam>
@@ -536,7 +535,7 @@ Returns `default` when `segment` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsMemory&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (this T[]? array, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(!!T[] array, int32 start, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsMemory``1(``0[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsMemory(Of T) (array As T(), start As Integer, length As Integer) As Memory(Of T)" />
@@ -591,7 +590,7 @@ Returns `default` when `array` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;char&gt; AsSpan (this string? text);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;char&gt; AsSpan (this string? text);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;char&gt; AsSpan(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan(System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan (text As String) As ReadOnlySpan(Of Char)" />
@@ -634,7 +633,7 @@ Returns `default` when `text` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;char&gt; AsSpan (this string? text, int start);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;char&gt; AsSpan (this string? text, int start);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;char&gt; AsSpan(string text, int32 start) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan(System.String,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan (text As String, start As Integer) As ReadOnlySpan(Of Char)" />
@@ -673,7 +672,7 @@ Returns `default` when `text` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;char&gt; AsSpan (this string? text, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;char&gt; AsSpan (this string? text, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;char&gt; AsSpan(string text, int32 start, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan(System.String,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan (text As String, start As Integer, length As Integer) As ReadOnlySpan(Of Char)" />
@@ -760,7 +759,7 @@ Returns `default` when `text` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[] array) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan``1(``0[])" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T()) As Span(Of T)" />
@@ -825,8 +824,8 @@ Returns `default` when `text` is `null`.
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="segment" Type="System.ArraySegment&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="segment" Type="System.ArraySegment&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the array segment.</typeparam>
@@ -916,8 +915,8 @@ Returns `default` when `segment` is `null`.
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="segment" Type="System.ArraySegment&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="segment" Type="System.ArraySegment&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the array segment.</typeparam>
@@ -929,7 +928,7 @@ Returns `default` when `segment` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, Index startIndex);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, Index startIndex);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[] array, valuetype System.Index startIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan``1(``0[],System.Index)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T(), startIndex As Index) As Span(Of T)" />
@@ -956,8 +955,8 @@ Returns `default` when `segment` is `null`.
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="startIndex" Type="System.Index" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The array type.</typeparam>
@@ -969,7 +968,7 @@ Returns `default` when `segment` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, int start);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, int start);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[] array, int32 start) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan``1(``0[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T(), start As Integer) As Span(Of T)" />
@@ -1010,7 +1009,7 @@ Returns `default` when `segment` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, Range range);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, Range range);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[] array, valuetype System.Range range) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan``1(``0[],System.Range)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T(), range As Range) As Span(Of T)" />
@@ -1037,8 +1036,8 @@ Returns `default` when `segment` is `null`.
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
-        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="range" Type="System.Range" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the array.</typeparam>
@@ -1104,7 +1103,7 @@ Returns `default` when `segment` is `null`.
       </Docs>
     </Member>
     <Member MemberName="AsSpan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; AsSpan&lt;T&gt; (this T[]? array, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; AsSpan&lt;T&gt;(!!T[] array, int32 start, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.AsSpan``1(``0[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSpan(Of T) (array As T(), start As Integer, length As Integer) As Span(Of T)" />
@@ -1545,8 +1544,8 @@ Returns `default` when `array` is `null`.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="value" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="value" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the span.</typeparam>
@@ -1588,8 +1587,8 @@ Returns `default` when `array` is `null`.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="value" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="value" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the span.</typeparam>
@@ -1602,7 +1601,7 @@ Returns `default` when `array` is `null`.
       </Docs>
     </Member>
     <Member MemberName="CopyTo&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void CopyTo&lt;T&gt; (this T[]? source, Memory&lt;T&gt; destination);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static void CopyTo&lt;T&gt; (this T[]? source, Memory&lt;T&gt; destination);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CopyTo&lt;T&gt;(!!T[] source, valuetype System.Memory`1&lt;!!T&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.CopyTo``1(``0[],System.Memory{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub CopyTo(Of T) (source As T(), destination As Memory(Of T))" />
@@ -1649,7 +1648,7 @@ If `source` and `destination` overlap, this method behaves as if the original va
       </Docs>
     </Member>
     <Member MemberName="CopyTo&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void CopyTo&lt;T&gt; (this T[]? source, Span&lt;T&gt; destination);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static void CopyTo&lt;T&gt; (this T[]? source, Span&lt;T&gt; destination);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CopyTo&lt;T&gt;(!!T[] source, valuetype System.Span`1&lt;!!T&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.CopyTo``1(``0[],System.Span{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub CopyTo(Of T) (source As T(), destination As Span(Of T))" />
@@ -1925,7 +1924,7 @@ It is recommended that protocol parsers not utilize this API. See the documentat
         <ReturnType>System.Text.SpanRuneEnumerator</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="span">The source span.</param>
@@ -1965,7 +1964,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Text.SpanRuneEnumerator</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="span">The source span.</param>
@@ -2569,9 +2568,9 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="value" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="comparisonType" Type="System.StringComparison" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="value" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="comparisonType" Type="System.StringComparison" Index="2" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="span">The source span.</param>
@@ -3515,7 +3514,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements of the span.</typeparam>
@@ -3549,8 +3548,8 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="comparison" Type="System.Comparison&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="comparison" Type="System.Comparison&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements of the span.</typeparam>
@@ -3591,8 +3590,8 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="comparer" Type="TComparer" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="comparer" Type="TComparer" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements of the span.</typeparam>
@@ -3631,8 +3630,8 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="items" Type="System.Span&lt;TValue&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="items" Type="System.Span&lt;TValue&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TKey">The type of the elements of the key span.</typeparam>
@@ -3670,9 +3669,9 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="items" Type="System.Span&lt;TValue&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="comparison" Type="System.Comparison&lt;TKey&gt;" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="items" Type="System.Span&lt;TValue&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="comparison" Type="System.Comparison&lt;TKey&gt;" Index="2" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TKey">The type of the elements of the key span.</typeparam>
@@ -3717,9 +3716,9 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="items" Type="System.Span&lt;TValue&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="comparer" Type="TComparer" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="items" Type="System.Span&lt;TValue&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="comparer" Type="TComparer" Index="2" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TKey">The type of the elements of the key span.</typeparam>
@@ -3865,7 +3864,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
       </Docs>
     </Member>
     <Member MemberName="ToLower">
-      <MemberSignature Language="C#" Value="public static int ToLower (this ReadOnlySpan&lt;char&gt; source, Span&lt;char&gt; destination, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static int ToLower (this ReadOnlySpan&lt;char&gt; source, Span&lt;char&gt; destination, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ToLower(valuetype System.ReadOnlySpan`1&lt;char&gt; source, valuetype System.Span`1&lt;char&gt; destination, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.ToLower(System.ReadOnlySpan{System.Char},System.Span{System.Char},System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToLower (source As ReadOnlySpan(Of Char), destination As Span(Of Char), culture As CultureInfo) As Integer" />
@@ -3950,7 +3949,7 @@ If `culture` is `null`, <xref:System.Globalization.CultureInfo.CurrentCulture?di
       </Docs>
     </Member>
     <Member MemberName="ToUpper">
-      <MemberSignature Language="C#" Value="public static int ToUpper (this ReadOnlySpan&lt;char&gt; source, Span&lt;char&gt; destination, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static int ToUpper (this ReadOnlySpan&lt;char&gt; source, Span&lt;char&gt; destination, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ToUpper(valuetype System.ReadOnlySpan`1&lt;char&gt; source, valuetype System.Span`1&lt;char&gt; destination, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MemoryExtensions.ToUpper(System.ReadOnlySpan{System.Char},System.Span{System.Char},System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToUpper (source As ReadOnlySpan(Of Char), destination As Span(Of Char), culture As CultureInfo) As Integer" />
@@ -4057,7 +4056,7 @@ If `culture` is `null`, <xref:System.Globalization.CultureInfo.CurrentCulture?di
         <ReturnType>System.Memory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="memory">The source memory from which the characters are removed.</param>
@@ -4089,7 +4088,7 @@ If `culture` is `null`, <xref:System.Globalization.CultureInfo.CurrentCulture?di
         <ReturnType>System.ReadOnlyMemory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="memory">The source memory from which the characters are removed.</param>
@@ -4155,7 +4154,7 @@ If `culture` is `null`, <xref:System.Globalization.CultureInfo.CurrentCulture?di
         <ReturnType>System.Span&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="span">The source span from which the characters are removed.</param>
@@ -4274,8 +4273,8 @@ If `trimChars` is empty, whitespace characters are removed instead.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the memory region.</typeparam>
@@ -4324,8 +4323,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the memory region.</typeparam>
@@ -4366,8 +4365,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only memory region.</typeparam>
@@ -4416,8 +4415,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only memory region.</typeparam>
@@ -4458,8 +4457,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only span.</typeparam>
@@ -4508,8 +4507,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only span.</typeparam>
@@ -4550,8 +4549,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the span.</typeparam>
@@ -4600,8 +4599,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the span.</typeparam>
@@ -4635,7 +4634,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Memory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="memory">The source memory from which the characters are removed.</param>
@@ -4667,7 +4666,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="memory">The source memory from which the characters are removed.</param>
@@ -4733,7 +4732,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="span">The source span from which the characters are removed.</param>
@@ -4852,8 +4851,8 @@ If `trimChars` is empty, whitespace characters are removed instead.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the memory region.</typeparam>
@@ -4902,8 +4901,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the memory region.</typeparam>
@@ -4944,8 +4943,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only memory region.</typeparam>
@@ -4994,8 +4993,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only memory region.</typeparam>
@@ -5036,8 +5035,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only span.</typeparam>
@@ -5086,8 +5085,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only span.</typeparam>
@@ -5128,8 +5127,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the span.</typeparam>
@@ -5178,8 +5177,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the span.</typeparam>
@@ -5213,7 +5212,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Memory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="memory">The source memory from which the characters are removed.</param>
@@ -5245,7 +5244,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="memory">The source memory from which the characters are removed.</param>
@@ -5311,7 +5310,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;System.Char&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;System.Char&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="span">The source span from which the characters are removed.</param>
@@ -5430,8 +5429,8 @@ If `trimChars` is empty, whitespace characters are removed instead.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the memory region.</typeparam>
@@ -5480,8 +5479,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.Memory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the memory region.</typeparam>
@@ -5522,8 +5521,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only memory region.</typeparam>
@@ -5572,8 +5571,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="memory" Type="System.ReadOnlyMemory&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only memory region.</typeparam>
@@ -5614,8 +5613,8 @@ If `trimElements` is empty, the memory is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only span.</typeparam>
@@ -5664,8 +5663,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the read-only span.</typeparam>
@@ -5706,8 +5705,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElements" Type="System.ReadOnlySpan&lt;T&gt;" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the span.</typeparam>
@@ -5756,8 +5755,8 @@ If `trimElements` is empty, the span is returned unaltered.
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="trimElement" Type="T" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the elements in the span.</typeparam>

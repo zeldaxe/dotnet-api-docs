@@ -27,7 +27,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Linq.Expressions" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Linq.Expressions" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Linq.Expressions" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -104,7 +103,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Obsolete("The CreatePdbGenerator API is not supported and throws PlatformNotSupportedException.", DiagnosticId="SYSLIB0008", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("The CreatePdbGenerator API is not supported and throws PlatformNotSupportedException.", DiagnosticId="SYSLIB0008", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
         </Attribute>

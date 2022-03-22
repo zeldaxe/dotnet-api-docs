@@ -135,33 +135,6 @@
         <altmember cref="P:System.Windows.Forms.FileDialog.FilterIndex" />
       </Docs>
     </Member>
-    <Member MemberName="AddToRecent">
-      <MemberSignature Language="C#" Value="public bool AddToRecent { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool AddToRecent" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.FileDialog.AddToRecent" />
-      <MemberSignature Language="VB.NET" Value="Public Property AddToRecent As Boolean" />
-      <MemberSignature Language="F#" Value="member this.AddToRecent : bool with get, set" Usage="System.Windows.Forms.FileDialog.AddToRecent" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AddToRecent { bool get(); void set(bool value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="windowsdesktop-7.0">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(true)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(true)&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="AutoUpgradeEnabled">
       <MemberSignature Language="C#" Value="public bool AutoUpgradeEnabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool AutoUpgradeEnabled" />
@@ -179,7 +152,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue(true)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(true)&gt;]</AttributeName>
         </Attribute>
@@ -309,15 +282,15 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Localizable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Localizable(false)&gt;]</AttributeName>
         </Attribute>
@@ -353,11 +326,11 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
@@ -846,7 +819,7 @@
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue("")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.Editor("System.Windows.Forms.Design.InitialDirectoryEditor, System.Windows.Forms.Design, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", typeof(System.Drawing.Design.UITypeEditor))]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Editor("System.Windows.Forms.Design.InitialDirectoryEditor, System.Windows.Forms.Design, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", typeof(System.Drawing.Design.UITypeEditor))&gt;]</AttributeName>
         </Attribute>
@@ -916,33 +889,6 @@
       <Docs>
         <summary>Gets the Win32 instance handle for the application.</summary>
         <value>A Win32 instance handle for the application.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="OkRequiresInteraction">
-      <MemberSignature Language="C#" Value="public bool OkRequiresInteraction { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool OkRequiresInteraction" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.FileDialog.OkRequiresInteraction" />
-      <MemberSignature Language="VB.NET" Value="Public Property OkRequiresInteraction As Boolean" />
-      <MemberSignature Language="F#" Value="member this.OkRequiresInteraction : bool with get, set" Usage="System.Windows.Forms.FileDialog.OkRequiresInteraction" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OkRequiresInteraction { bool get(); void set(bool value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="windowsdesktop-7.0">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(false)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(false)&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1175,60 +1121,6 @@
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="ShowHiddenFiles">
-      <MemberSignature Language="C#" Value="public bool ShowHiddenFiles { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool ShowHiddenFiles" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.FileDialog.ShowHiddenFiles" />
-      <MemberSignature Language="VB.NET" Value="Public Property ShowHiddenFiles As Boolean" />
-      <MemberSignature Language="F#" Value="member this.ShowHiddenFiles : bool with get, set" Usage="System.Windows.Forms.FileDialog.ShowHiddenFiles" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowHiddenFiles { bool get(); void set(bool value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="windowsdesktop-7.0">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(false)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(false)&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ShowPinnedPlaces">
-      <MemberSignature Language="C#" Value="public bool ShowPinnedPlaces { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool ShowPinnedPlaces" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Forms.FileDialog.ShowPinnedPlaces" />
-      <MemberSignature Language="VB.NET" Value="Public Property ShowPinnedPlaces As Boolean" />
-      <MemberSignature Language="F#" Value="member this.ShowPinnedPlaces : bool with get, set" Usage="System.Windows.Forms.FileDialog.ShowPinnedPlaces" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowPinnedPlaces { bool get(); void set(bool value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="windowsdesktop-7.0">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(true)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(true)&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="SupportMultiDottedExtensions">
       <MemberSignature Language="C#" Value="public bool SupportMultiDottedExtensions { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool SupportMultiDottedExtensions" />
@@ -1246,7 +1138,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0">
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(false)&gt;]</AttributeName>
         </Attribute>

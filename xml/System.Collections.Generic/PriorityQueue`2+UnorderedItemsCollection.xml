@@ -107,7 +107,7 @@
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.ValueTuple&lt;TElement,TPriority&gt;&gt;</ReturnType>
         <Attributes>
-          <Attribute FrameworkAlternate="net-6.0">
+          <Attribute>
             <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Element", "Priority" })]</AttributeName>
             <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Element", "Priority" })&gt;]</AttributeName>
           </Attribute>

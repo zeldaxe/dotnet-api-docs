@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Class ByteAnimation&#xA;Inherits ByteAnimationBase" />
   <TypeSignature Language="F#" Value="type ByteAnimation = class&#xA;    inherit ByteAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ByteAnimation : System::Windows::Media::Animation::ByteAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ByteAnimation extends System.Windows.Media.Animation.ByteAnimationBase" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ByteAnimation extends System.Windows.Media.Animation.ByteAnimationBase" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

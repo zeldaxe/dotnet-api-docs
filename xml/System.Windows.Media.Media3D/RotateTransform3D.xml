@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RotateTransform3D&#xA;Inherits AffineTransform3D" />
   <TypeSignature Language="F#" Value="type RotateTransform3D = class&#xA;    inherit AffineTransform3D" />
   <TypeSignature Language="C++ CLI" Value="public ref class RotateTransform3D sealed : System::Windows::Media::Media3D::AffineTransform3D" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RotateTransform3D extends System.Windows.Media.Media3D.AffineTransform3D" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RotateTransform3D extends System.Windows.Media.Media3D.AffineTransform3D" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

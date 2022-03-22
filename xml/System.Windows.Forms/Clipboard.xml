@@ -5,10 +5,10 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Clipboard" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1" />
   <TypeSignature Language="F#" Value="type Clipboard = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class Clipboard sealed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1" />
-  <TypeSignature Language="C#" Value="public static class Clipboard" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Clipboard extends System.Object" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-  <TypeSignature Language="VB.NET" Value="Public Class Clipboard" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Clipboard abstract sealed" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="C#" Value="public static class Clipboard" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Clipboard extends System.Object" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class Clipboard" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Clipboard abstract sealed" FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -165,13 +165,12 @@
       </Docs>
     </Member>
     <Member MemberName="ContainsData">
-      <MemberSignature Language="C#" Value="public static bool ContainsData (string format);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="C#" Value="public static bool ContainsData (string format);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ContainsData(string format) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.Clipboard.ContainsData(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ContainsData (format As String) As Boolean" />
       <MemberSignature Language="F#" Value="static member ContainsData : string -&gt; bool" Usage="System.Windows.Forms.Clipboard.ContainsData format" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool ContainsData(System::String ^ format);" />
-      <MemberSignature Language="C#" Value="public static bool ContainsData (string? format);" FrameworkAlternate="windowsdesktop-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -446,13 +445,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetAudioStream">
-      <MemberSignature Language="C#" Value="public static System.IO.Stream GetAudioStream ();" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="C#" Value="public static System.IO.Stream GetAudioStream ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Stream GetAudioStream() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.Clipboard.GetAudioStream" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetAudioStream () As Stream" />
       <MemberSignature Language="F#" Value="static member GetAudioStream : unit -&gt; System.IO.Stream" Usage="System.Windows.Forms.Clipboard.GetAudioStream " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::Stream ^ GetAudioStream();" />
-      <MemberSignature Language="C#" Value="public static System.IO.Stream? GetAudioStream ();" FrameworkAlternate="windowsdesktop-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -499,13 +497,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetData">
-      <MemberSignature Language="C#" Value="public static object GetData (string format);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="C#" Value="public static object GetData (string format);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetData(string format) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.Clipboard.GetData(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetData (format As String) As Object" />
       <MemberSignature Language="F#" Value="static member GetData : string -&gt; obj" Usage="System.Windows.Forms.Clipboard.GetData format" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetData(System::String ^ format);" />
-      <MemberSignature Language="C#" Value="public static object? GetData (string format);" FrameworkAlternate="windowsdesktop-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -559,13 +556,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetDataObject">
-      <MemberSignature Language="C#" Value="public static System.Windows.Forms.IDataObject GetDataObject ();" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="C#" Value="public static System.Windows.Forms.IDataObject GetDataObject ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Windows.Forms.IDataObject GetDataObject() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.Clipboard.GetDataObject" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetDataObject () As IDataObject" />
       <MemberSignature Language="F#" Value="static member GetDataObject : unit -&gt; System.Windows.Forms.IDataObject" Usage="System.Windows.Forms.Clipboard.GetDataObject " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Windows::Forms::IDataObject ^ GetDataObject();" />
-      <MemberSignature Language="C#" Value="public static System.Windows.Forms.IDataObject? GetDataObject ();" FrameworkAlternate="windowsdesktop-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -674,13 +670,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetImage">
-      <MemberSignature Language="C#" Value="public static System.Drawing.Image GetImage ();" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
+      <MemberSignature Language="C#" Value="public static System.Drawing.Image GetImage ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Drawing.Image GetImage() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.Clipboard.GetImage" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetImage () As Image" />
       <MemberSignature Language="F#" Value="static member GetImage : unit -&gt; System.Drawing.Image" Usage="System.Windows.Forms.Clipboard.GetImage " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Image ^ GetImage();" />
-      <MemberSignature Language="C#" Value="public static System.Drawing.Image? GetImage ();" FrameworkAlternate="windowsdesktop-7.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>

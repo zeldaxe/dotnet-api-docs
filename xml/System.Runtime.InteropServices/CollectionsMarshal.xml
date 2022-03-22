@@ -65,7 +65,7 @@
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue RefType="Ref">
+      <ReturnValue>
         <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <TypeParameters>
@@ -109,7 +109,7 @@ Items should not be added to or removed from the <xref:System.Collections.Generi
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue RefType="Ref">
+      <ReturnValue>
         <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <TypeParameters>

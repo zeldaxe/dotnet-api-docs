@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Class Floater&#xA;Inherits AnchoredBlock" />
   <TypeSignature Language="F#" Value="type Floater = class&#xA;    inherit AnchoredBlock" />
   <TypeSignature Language="C++ CLI" Value="public ref class Floater : System::Windows::Documents::AnchoredBlock" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Floater extends System.Windows.Documents.AnchoredBlock" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Floater extends System.Windows.Documents.AnchoredBlock" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

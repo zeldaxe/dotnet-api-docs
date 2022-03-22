@@ -17,12 +17,6 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="net-7.0">
-      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <typeparam name="T">The type to convert of the <see cref="T:System.Text.Json.Serialization.JsonConverter`1" /> for the property.</typeparam>
     <summary>Provides serialization metadata about a property or field.</summary>

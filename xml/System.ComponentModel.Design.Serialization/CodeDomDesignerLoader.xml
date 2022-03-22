@@ -20,16 +20,15 @@
   <TypeForwardingChain>
     <TypeForwarding From="System.Design" FromVersion="5.0.0.0" To="System.Windows.Forms.Design" ToVersion="5.0.0.0" FrameworkAlternate="windowsdesktop-5.0" />
     <TypeForwarding From="System.Design" FromVersion="6.0.0.0" To="System.Windows.Forms.Design" ToVersion="6.0.0.0" FrameworkAlternate="windowsdesktop-6.0" />
-    <TypeForwarding From="System.Design" FromVersion="7.0.0.0" To="System.Windows.Forms.Design" ToVersion="7.0.0.0" FrameworkAlternate="windowsdesktop-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.ComponentModel.Design.Serialization.BasicDesignerLoader</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="windowsdesktop-7.0">
+    <Interface FrameworkAlternate="windowsdesktop-6.0">
       <InterfaceName>System.ComponentModel.Design.Serialization.IDesignerSerializationService</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="windowsdesktop-7.0">
+    <Interface FrameworkAlternate="windowsdesktop-6.0">
       <InterfaceName>System.ComponentModel.Design.Serialization.INameCreationService</InterfaceName>
     </Interface>
   </Interfaces>
@@ -329,7 +328,7 @@
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub OnComponentRename (component As Object, oldName As String, newName As String)" />
       <MemberSignature Language="F#" Value="override this.OnComponentRename : obj * string * string -&gt; unit" Usage="codeDomDesignerLoader.OnComponentRename (component, oldName, newName)" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnComponentRename(System::Object ^ component, System::String ^ oldName, System::String ^ newName);" />
-      <MemberSignature Language="F#" Value="abstract member OnComponentRename : obj * string * string -&gt; unit&#xA;override this.OnComponentRename : obj * string * string -&gt; unit" Usage="codeDomDesignerLoader.OnComponentRename (component, oldName, newName)" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="F#" Value="abstract member OnComponentRename : obj * string * string -&gt; unit&#xA;override this.OnComponentRename : obj * string * string -&gt; unit" Usage="codeDomDesignerLoader.OnComponentRename (component, oldName, newName)" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>

@@ -1,11 +1,11 @@
 <Type Name="PackUriHelper" FullName="System.IO.Packaging.PackUriHelper">
   <TypeSignature Language="C#" Value="public static class PackUriHelper" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PackUriHelper extends System.Object" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netcore-1.0;netcore-1.1;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit PackUriHelper extends System.Object" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netcore-1.0;netcore-1.1;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <TypeSignature Language="DocId" Value="T:System.IO.Packaging.PackUriHelper" />
   <TypeSignature Language="VB.NET" Value="Public Class PackUriHelper" />
   <TypeSignature Language="F#" Value="type PackUriHelper = class" />
   <TypeSignature Language="C++ CLI" Value="public ref class PackUriHelper abstract sealed" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed PackUriHelper extends System.Object" FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed PackUriHelper extends System.Object" FrameworkAlternate="dotnet-plat-ext-6.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <AssemblyInfo>
     <AssemblyName>System.IO.Packaging</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -26,7 +26,6 @@
     <TypeForwarding From="WindowsBase" FromVersion="4.0.0.0" To="System.IO.Packaging" ToVersion="4.0.5.0" FrameworkAlternate="windowsdesktop-3.1" />
     <TypeForwarding From="WindowsBase" FromVersion="5.0.0.0" To="System.IO.Packaging" ToVersion="5.0.0.0" FrameworkAlternate="windowsdesktop-5.0" />
     <TypeForwarding From="WindowsBase" FromVersion="6.0.0.0" To="System.IO.Packaging" ToVersion="6.0.0.0" FrameworkAlternate="windowsdesktop-6.0" />
-    <TypeForwarding From="WindowsBase" FromVersion="7.0.0.0" To="System.IO.Packaging" ToVersion="7.0.0.0" FrameworkAlternate="windowsdesktop-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -44,7 +43,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function ComparePackUri (firstPackUri As Uri, secondPackUri As Uri) As Integer" />
       <MemberSignature Language="F#" Value="static member ComparePackUri : Uri * Uri -&gt; int" Usage="System.IO.Packaging.PackUriHelper.ComparePackUri (firstPackUri, secondPackUri)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int ComparePackUri(Uri ^ firstPackUri, Uri ^ secondPackUri);" />
-      <MemberSignature Language="C#" Value="public static int ComparePackUri (Uri? firstPackUri, Uri? secondPackUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static int ComparePackUri (Uri? firstPackUri, Uri? secondPackUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>WindowsBase</AssemblyName>
@@ -112,7 +111,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function ComparePartUri (firstPartUri As Uri, secondPartUri As Uri) As Integer" />
       <MemberSignature Language="F#" Value="static member ComparePartUri : Uri * Uri -&gt; int" Usage="System.IO.Packaging.PackUriHelper.ComparePartUri (firstPartUri, secondPartUri)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int ComparePartUri(Uri ^ firstPartUri, Uri ^ secondPartUri);" />
-      <MemberSignature Language="C#" Value="public static int ComparePartUri (Uri? firstPartUri, Uri? secondPartUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static int ComparePartUri (Uri? firstPartUri, Uri? secondPartUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.Packaging</AssemblyName>
@@ -286,7 +285,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create (packageUri As Uri, partUri As Uri) As Uri" />
       <MemberSignature Language="F#" Value="static member Create : Uri * Uri -&gt; Uri" Usage="System.IO.Packaging.PackUriHelper.Create (packageUri, partUri)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Uri ^ Create(Uri ^ packageUri, Uri ^ partUri);" />
-      <MemberSignature Language="C#" Value="public static Uri Create (Uri packageUri, Uri? partUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static Uri Create (Uri packageUri, Uri? partUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>WindowsBase</AssemblyName>
@@ -371,7 +370,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create (packageUri As Uri, partUri As Uri, fragment As String) As Uri" />
       <MemberSignature Language="F#" Value="static member Create : Uri * Uri * string -&gt; Uri" Usage="System.IO.Packaging.PackUriHelper.Create (packageUri, partUri, fragment)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Uri ^ Create(Uri ^ packageUri, Uri ^ partUri, System::String ^ fragment);" />
-      <MemberSignature Language="C#" Value="public static Uri Create (Uri packageUri, Uri? partUri, string? fragment);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static Uri Create (Uri packageUri, Uri? partUri, string? fragment);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>WindowsBase</AssemblyName>
@@ -640,7 +639,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetPartUri (packUri As Uri) As Uri" />
       <MemberSignature Language="F#" Value="static member GetPartUri : Uri -&gt; Uri" Usage="System.IO.Packaging.PackUriHelper.GetPartUri packUri" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Uri ^ GetPartUri(Uri ^ packUri);" />
-      <MemberSignature Language="C#" Value="public static Uri? GetPartUri (Uri packUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public static Uri? GetPartUri (Uri packUri);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>WindowsBase</AssemblyName>

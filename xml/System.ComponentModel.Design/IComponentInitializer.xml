@@ -28,7 +28,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Interfaces />
   <Docs>
@@ -58,7 +57,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub InitializeExistingComponent (defaultValues As IDictionary)" />
       <MemberSignature Language="F#" Value="abstract member InitializeExistingComponent : System.Collections.IDictionary -&gt; unit" Usage="iComponentInitializer.InitializeExistingComponent defaultValues" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InitializeExistingComponent(System::Collections::IDictionary ^ defaultValues);" />
-      <MemberSignature Language="C#" Value="public void InitializeExistingComponent (System.Collections.IDictionary? defaultValues);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void InitializeExistingComponent (System.Collections.IDictionary? defaultValues);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -111,7 +110,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub InitializeNewComponent (defaultValues As IDictionary)" />
       <MemberSignature Language="F#" Value="abstract member InitializeNewComponent : System.Collections.IDictionary -&gt; unit" Usage="iComponentInitializer.InitializeNewComponent defaultValues" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void InitializeNewComponent(System::Collections::IDictionary ^ defaultValues);" />
-      <MemberSignature Language="C#" Value="public void InitializeNewComponent (System.Collections.IDictionary? defaultValues);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void InitializeNewComponent (System.Collections.IDictionary? defaultValues);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

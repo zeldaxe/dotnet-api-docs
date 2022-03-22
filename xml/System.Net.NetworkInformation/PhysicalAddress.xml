@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.NetworkInformation" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.NetworkInformation" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.NetworkInformation" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -113,7 +112,7 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object? comparand);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? comparand);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object comparand) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.NetworkInformation.PhysicalAddress.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (comparand As Object) As Boolean" />
@@ -327,7 +326,7 @@
         <ReturnType>System.Net.NetworkInformation.PhysicalAddress</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="address" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="address" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="address">A span containing the address that will be used to initialize the <see cref="T:System.Net.NetworkInformation.PhysicalAddress" /> instance returned by this method.</param>
@@ -367,7 +366,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static System.Net.NetworkInformation.PhysicalAddress Parse (string? address);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Net.NetworkInformation.PhysicalAddress Parse (string? address);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.NetworkInformation.PhysicalAddress Parse(string address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.NetworkInformation.PhysicalAddress.Parse(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (address As String) As PhysicalAddress" />
@@ -513,8 +512,8 @@ In .NET Framework and .NET Core 3.1 and earlier, an address that contains `f0-e1
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="address" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Net.NetworkInformation.PhysicalAddress" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Parameter Name="address" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Net.NetworkInformation.PhysicalAddress" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
@@ -574,8 +573,8 @@ In .NET Framework and .NET Core 3.1 and earlier, an address that contains `f0-e1
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="address" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Net.NetworkInformation.PhysicalAddress" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Parameter Name="address" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Net.NetworkInformation.PhysicalAddress" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>

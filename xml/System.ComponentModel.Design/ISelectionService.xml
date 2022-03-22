@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Interfaces />
   <Attributes>
@@ -364,7 +363,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub SetSelectedComponents (components As ICollection)" />
       <MemberSignature Language="F#" Value="abstract member SetSelectedComponents : System.Collections.ICollection -&gt; unit" Usage="iSelectionService.SetSelectedComponents components" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetSelectedComponents(System::Collections::ICollection ^ components);" />
-      <MemberSignature Language="C#" Value="public void SetSelectedComponents (System.Collections.ICollection? components);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void SetSelectedComponents (System.Collections.ICollection? components);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -413,7 +412,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub SetSelectedComponents (components As ICollection, selectionType As SelectionTypes)" />
       <MemberSignature Language="F#" Value="abstract member SetSelectedComponents : System.Collections.ICollection * System.ComponentModel.Design.SelectionTypes -&gt; unit" Usage="iSelectionService.SetSelectedComponents (components, selectionType)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetSelectedComponents(System::Collections::ICollection ^ components, System::ComponentModel::Design::SelectionTypes selectionType);" />
-      <MemberSignature Language="C#" Value="public void SetSelectedComponents (System.Collections.ICollection? components, System.ComponentModel.Design.SelectionTypes selectionType);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void SetSelectedComponents (System.Collections.ICollection? components, System.ComponentModel.Design.SelectionTypes selectionType);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

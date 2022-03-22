@@ -37,7 +37,7 @@
       <AttributeName Language="C#">[System.Obsolete("This attribute is no longer in use and will be ignored if applied.")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("This attribute is no longer in use and will be ignored if applied.")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-6.0;net-7.0">
+    <Attribute FrameworkAlternate="net-6.0">
       <AttributeName Language="C#">[System.Obsolete("AssociationAttribute has been deprecated and is not supported.")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("AssociationAttribute has been deprecated and is not supported.")&gt;]</AttributeName>
     </Attribute>

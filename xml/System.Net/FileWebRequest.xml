@@ -1,10 +1,10 @@
 <Type Name="FileWebRequest" FullName="System.Net.FileWebRequest">
-  <TypeSignature Language="C#" Value="public class FileWebRequest : System.Net.WebRequest, System.Runtime.Serialization.ISerializable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileWebRequest extends System.Net.WebRequest implements class System.Runtime.Serialization.ISerializable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="C#" Value="public class FileWebRequest : System.Net.WebRequest, System.Runtime.Serialization.ISerializable" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileWebRequest extends System.Net.WebRequest implements class System.Runtime.Serialization.ISerializable" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.Net.FileWebRequest" />
-  <TypeSignature Language="VB.NET" Value="Public Class FileWebRequest&#xA;Inherits WebRequest&#xA;Implements ISerializable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileWebRequest&#xA;Inherits WebRequest&#xA;Implements ISerializable" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="F#" Value="type FileWebRequest = class&#xA;    inherit WebRequest&#xA;    interface ISerializable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class FileWebRequest : System::Net::WebRequest, System::Runtime::Serialization::ISerializable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileWebRequest : System::Net::WebRequest, System::Runtime::Serialization::ISerializable" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FileWebRequest extends System.Net.WebRequest implements class System.Runtime.Serialization.ISerializable" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="C#" Value="public class FileWebRequest : System.Net.WebRequest" FrameworkAlternate="netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="VB.NET" Value="Public Class FileWebRequest&#xA;Inherits WebRequest" FrameworkAlternate="netstandard-2.0;netstandard-2.1" />
@@ -33,7 +33,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Requests" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Requests" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Requests" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Net.WebRequest</BaseTypeName>
@@ -113,7 +112,7 @@
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("Serialization has been deprecated for FileWebRequest.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization has been deprecated for FileWebRequest.")&gt;]</AttributeName>
         </Attribute>
@@ -188,7 +187,7 @@
       </Docs>
     </Member>
     <Member MemberName="BeginGetRequestStream">
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginGetRequestStream (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override IAsyncResult BeginGetRequestStream (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.IAsyncResult BeginGetRequestStream(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.FileWebRequest.BeginGetRequestStream(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function BeginGetRequestStream (callback As AsyncCallback, state As Object) As IAsyncResult" />
@@ -256,7 +255,7 @@
       </Docs>
     </Member>
     <Member MemberName="BeginGetResponse">
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginGetResponse (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override IAsyncResult BeginGetResponse (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.IAsyncResult BeginGetResponse(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.FileWebRequest.BeginGetResponse(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function BeginGetResponse (callback As AsyncCallback, state As Object) As IAsyncResult" />
@@ -322,7 +321,7 @@
       </Docs>
     </Member>
     <Member MemberName="ConnectionGroupName">
-      <MemberSignature Language="C#" Value="public override string? ConnectionGroupName { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override string? ConnectionGroupName { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string ConnectionGroupName" />
       <MemberSignature Language="DocId" Value="P:System.Net.FileWebRequest.ConnectionGroupName" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property ConnectionGroupName As String" />
@@ -435,7 +434,7 @@
       </Docs>
     </Member>
     <Member MemberName="ContentType">
-      <MemberSignature Language="C#" Value="public override string? ContentType { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override string? ContentType { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContentType" />
       <MemberSignature Language="DocId" Value="P:System.Net.FileWebRequest.ContentType" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property ContentType As String" />
@@ -481,7 +480,7 @@
       </Docs>
     </Member>
     <Member MemberName="Credentials">
-      <MemberSignature Language="C#" Value="public override System.Net.ICredentials? Credentials { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override System.Net.ICredentials? Credentials { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.ICredentials Credentials" />
       <MemberSignature Language="DocId" Value="P:System.Net.FileWebRequest.Credentials" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property Credentials As ICredentials" />
@@ -697,8 +696,8 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializationInfo" Type="System.Runtime.Serialization.SerializationInfo" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="streamingContext" Type="System.Runtime.Serialization.StreamingContext" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="serializationInfo" Type="System.Runtime.Serialization.SerializationInfo" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="streamingContext" Type="System.Runtime.Serialization.StreamingContext" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="serializationInfo">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> to populate with data.</param>
@@ -1089,7 +1088,7 @@ The stream already received a response previous to your request.</exception>
       </Docs>
     </Member>
     <Member MemberName="Proxy">
-      <MemberSignature Language="C#" Value="public override System.Net.IWebProxy? Proxy { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override System.Net.IWebProxy? Proxy { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IWebProxy Proxy" />
       <MemberSignature Language="DocId" Value="P:System.Net.FileWebRequest.Proxy" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property Proxy As IWebProxy" />

@@ -25,7 +25,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.X509Certificates" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.X509Certificates" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.X509Certificates" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -437,10 +436,10 @@ The <see cref="P:System.Security.Cryptography.X509Certificates.X509Certificate2.
         <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="issuerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="notBefore" Type="System.DateTimeOffset" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="notAfter" Type="System.DateTimeOffset" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="serialNumber" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="3" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="issuerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="notBefore" Type="System.DateTimeOffset" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="notAfter" Type="System.DateTimeOffset" Index="2" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="serialNumber" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="3" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="issuerCertificate">An X509Certificate2 instance representing the issuing Certificate Authority (CA).</param>
@@ -546,11 +545,11 @@ The <see cref="P:System.Security.Cryptography.X509Certificates.X509Certificate2.
         <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate2</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="issuerName" Type="System.Security.Cryptography.X509Certificates.X500DistinguishedName" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="generator" Type="System.Security.Cryptography.X509Certificates.X509SignatureGenerator" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="notBefore" Type="System.DateTimeOffset" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="notAfter" Type="System.DateTimeOffset" Index="3" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="serialNumber" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="4" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="issuerName" Type="System.Security.Cryptography.X509Certificates.X500DistinguishedName" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="generator" Type="System.Security.Cryptography.X509Certificates.X509SignatureGenerator" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="notBefore" Type="System.DateTimeOffset" Index="2" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="notAfter" Type="System.DateTimeOffset" Index="3" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="serialNumber" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="4" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="issuerName">The distinguished name of the issuer.</param>

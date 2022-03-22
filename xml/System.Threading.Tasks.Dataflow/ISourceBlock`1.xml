@@ -50,7 +50,7 @@
       <MemberSignature Language="DocId" Value="M:System.Threading.Tasks.Dataflow.ISourceBlock`1.ConsumeMessage(System.Threading.Tasks.Dataflow.DataflowMessageHeader,System.Threading.Tasks.Dataflow.ITargetBlock{`0},System.Boolean@)" />
       <MemberSignature Language="VB.NET" Value="Public Function ConsumeMessage (messageHeader As DataflowMessageHeader, target As ITargetBlock(Of Out TOutput), ByRef messageConsumed As Boolean) As TOutput" />
       <MemberSignature Language="F#" Value="abstract member ConsumeMessage : System.Threading.Tasks.Dataflow.DataflowMessageHeader * System.Threading.Tasks.Dataflow.ITargetBlock&lt;'Output&gt; * bool -&gt; 'Output" Usage="iSourceBlock.ConsumeMessage (messageHeader, target, messageConsumed)" />
-      <MemberSignature Language="C#" Value="public TOutput? ConsumeMessage (System.Threading.Tasks.Dataflow.DataflowMessageHeader messageHeader, System.Threading.Tasks.Dataflow.ITargetBlock&lt;out TOutput&gt; target, out bool messageConsumed);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public TOutput? ConsumeMessage (System.Threading.Tasks.Dataflow.DataflowMessageHeader messageHeader, System.Threading.Tasks.Dataflow.ITargetBlock&lt;out TOutput&gt; target, out bool messageConsumed);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks.Dataflow</AssemblyName>

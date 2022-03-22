@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PrintStringProperty&#xA;Inherits PrintProperty" />
   <TypeSignature Language="F#" Value="type PrintStringProperty = class&#xA;    inherit PrintProperty" />
   <TypeSignature Language="C++ CLI" Value="public ref class PrintStringProperty sealed : System::Printing::IndexedProperties::PrintProperty" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PrintStringProperty extends System.Printing.IndexedProperties.PrintProperty" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PrintStringProperty extends System.Printing.IndexedProperties.PrintProperty" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>System.Printing</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -172,7 +172,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (attributeRef As PrintStringProperty) As String" />
       <MemberSignature Language="F#" Value="static member op_Implicit : System.Printing.IndexedProperties.PrintStringProperty -&gt; string" Usage="System.Printing.IndexedProperties.PrintStringProperty.op_Implicit attributeRef" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(System::Printing::IndexedProperties::PrintStringProperty ^ attributeRef);" />
-      <MemberSignature Language="DocId" Value="M:System.Printing.IndexedProperties.PrintStringProperty.op_Implicit(System.Printing.IndexedProperties.PrintStringProperty)~System.String" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="DocId" Value="M:System.Printing.IndexedProperties.PrintStringProperty.op_Implicit(System.Printing.IndexedProperties.PrintStringProperty)~System.String" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Printing</AssemblyName>

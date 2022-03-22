@@ -33,14 +33,13 @@
     <TypeForwarding From="System.Core" FromVersion="4.0.0.0" To="System.Runtime.InteropServices" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.InteropServices" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.InteropServices" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.InteropServices" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Reflection.EventInfo</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.1">
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.1">
       <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
     </Attribute>
@@ -145,7 +144,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -240,7 +239,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property DeclaringType As Type" />
       <MemberSignature Language="F#" Value="member this.DeclaringType : Type" Usage="System.Runtime.InteropServices.ComAwareEventInfo.DeclaringType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Type ^ DeclaringType { Type ^ get(); };" />
-      <MemberSignature Language="C#" Value="public override Type? DeclaringType { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override Type? DeclaringType { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
@@ -277,7 +276,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetAddMethod">
-      <MemberSignature Language="C#" Value="public override System.Reflection.MethodInfo? GetAddMethod (bool nonPublic);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override System.Reflection.MethodInfo? GetAddMethod (bool nonPublic);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Reflection.MethodInfo GetAddMethod(bool nonPublic) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.ComAwareEventInfo.GetAddMethod(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetAddMethod (nonPublic As Boolean) As MethodInfo" />
@@ -505,7 +504,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetRaiseMethod">
-      <MemberSignature Language="C#" Value="public override System.Reflection.MethodInfo? GetRaiseMethod (bool nonPublic);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override System.Reflection.MethodInfo? GetRaiseMethod (bool nonPublic);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Reflection.MethodInfo GetRaiseMethod(bool nonPublic) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.ComAwareEventInfo.GetRaiseMethod(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetRaiseMethod (nonPublic As Boolean) As MethodInfo" />
@@ -556,7 +555,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetRemoveMethod">
-      <MemberSignature Language="C#" Value="public override System.Reflection.MethodInfo? GetRemoveMethod (bool nonPublic);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override System.Reflection.MethodInfo? GetRemoveMethod (bool nonPublic);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Reflection.MethodInfo GetRemoveMethod(bool nonPublic) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.ComAwareEventInfo.GetRemoveMethod(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetRemoveMethod (nonPublic As Boolean) As MethodInfo" />
@@ -752,7 +751,7 @@
       </Docs>
     </Member>
     <Member MemberName="ReflectedType">
-      <MemberSignature Language="C#" Value="public override Type? ReflectedType { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override Type? ReflectedType { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type ReflectedType" />
       <MemberSignature Language="DocId" Value="P:System.Runtime.InteropServices.ComAwareEventInfo.ReflectedType" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property ReflectedType As Type" />
@@ -821,7 +820,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>

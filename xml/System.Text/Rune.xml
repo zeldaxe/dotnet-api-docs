@@ -5,12 +5,11 @@
   <TypeSignature Language="VB.NET" Value="Public Structure Rune&#xA;Implements IComparable, IComparable(Of Rune), IEquatable(Of Rune)" FrameworkAlternate="net-5.0" />
   <TypeSignature Language="F#" Value="type Rune = struct" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="C++ CLI" Value="public value class Rune : IComparable, IComparable&lt;System::Text::Rune&gt;, IEquatable&lt;System::Text::Rune&gt;" FrameworkAlternate="net-5.0" />
-  <TypeSignature Language="C#" Value="public readonly struct Rune : IComparable, IComparable&lt;System.Text.Rune&gt;, IEquatable&lt;System.Text.Rune&gt;, ISpanFormattable" FrameworkAlternate="net-6.0;net-7.0" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Rune extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype System.Text.Rune&gt;, class System.IEquatable`1&lt;valuetype System.Text.Rune&gt;, class System.IFormattable, class System.ISpanFormattable" FrameworkAlternate="net-6.0;net-7.0" />
-  <TypeSignature Language="VB.NET" Value="Public Structure Rune&#xA;Implements IComparable, IComparable(Of Rune), IEquatable(Of Rune), ISpanFormattable" FrameworkAlternate="net-6.0;net-7.0" />
+  <TypeSignature Language="C#" Value="public readonly struct Rune : IComparable, IComparable&lt;System.Text.Rune&gt;, IEquatable&lt;System.Text.Rune&gt;, ISpanFormattable" FrameworkAlternate="net-6.0" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Rune extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype System.Text.Rune&gt;, class System.IEquatable`1&lt;valuetype System.Text.Rune&gt;, class System.IFormattable, class System.ISpanFormattable" FrameworkAlternate="net-6.0" />
+  <TypeSignature Language="VB.NET" Value="Public Structure Rune&#xA;Implements IComparable, IComparable(Of Rune), IEquatable(Of Rune), ISpanFormattable" FrameworkAlternate="net-6.0" />
   <TypeSignature Language="F#" Value="type Rune = struct&#xA;    interface ISpanFormattable&#xA;    interface IFormattable" FrameworkAlternate="net-6.0" />
-  <TypeSignature Language="C++ CLI" Value="public value class Rune : IComparable, IComparable&lt;System::Text::Rune&gt;, IEquatable&lt;System::Text::Rune&gt;, ISpanFormattable" FrameworkAlternate="net-6.0;net-7.0" />
-  <TypeSignature Language="F#" Value="type Rune = struct&#xA;    interface IFormattable&#xA;    interface ISpanFormattable" FrameworkAlternate="net-7.0" />
+  <TypeSignature Language="C++ CLI" Value="public value class Rune : IComparable, IComparable&lt;System::Text::Rune&gt;, IEquatable&lt;System::Text::Rune&gt;, ISpanFormattable" FrameworkAlternate="net-6.0" />
   <TypeSignature Language="C#" Value="public readonly struct Rune : IComparable&lt;System.Text.Rune&gt;, IEquatable&lt;System.Text.Rune&gt;" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Rune extends System.ValueType implements class System.IComparable`1&lt;valuetype System.Text.Rune&gt;, class System.IEquatable`1&lt;valuetype System.Text.Rune&gt;" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="VB.NET" Value="Public Structure Rune&#xA;Implements IComparable(Of Rune), IEquatable(Of Rune)" FrameworkAlternate="netcore-3.0;netcore-3.1" />
@@ -27,7 +26,7 @@
     <BaseTypeName>System.ValueType</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+    <Interface FrameworkAlternate="net-5.0;net-6.0">
       <InterfaceName>System.IComparable</InterfaceName>
     </Interface>
     <Interface>
@@ -36,10 +35,10 @@
     <Interface>
       <InterfaceName>System.IEquatable&lt;System.Text.Rune&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="net-6.0;net-7.0">
+    <Interface FrameworkAlternate="net-6.0">
       <InterfaceName>System.IFormattable</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="net-6.0;net-7.0">
+    <Interface FrameworkAlternate="net-6.0">
       <InterfaceName>System.ISpanFormattable</InterfaceName>
     </Interface>
   </Interfaces>
@@ -1795,7 +1794,7 @@ For more information, see <xref:System.Char.IsWhiteSpace%2A?displayProperty=name
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="obj" Type="System.Object" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="obj">The object to compare with the current instance.</param>

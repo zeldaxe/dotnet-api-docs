@@ -29,7 +29,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.TypeConverter" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Interfaces />
   <Attributes>
@@ -210,7 +209,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function FindCommand (commandID As CommandID) As MenuCommand" />
       <MemberSignature Language="F#" Value="abstract member FindCommand : System.ComponentModel.Design.CommandID -&gt; System.ComponentModel.Design.MenuCommand" Usage="iMenuCommandService.FindCommand commandID" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::ComponentModel::Design::MenuCommand ^ FindCommand(System::ComponentModel::Design::CommandID ^ commandID);" />
-      <MemberSignature Language="C#" Value="public System.ComponentModel.Design.MenuCommand? FindCommand (System.ComponentModel.Design.CommandID commandID);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.ComponentModel.Design.MenuCommand? FindCommand (System.ComponentModel.Design.CommandID commandID);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

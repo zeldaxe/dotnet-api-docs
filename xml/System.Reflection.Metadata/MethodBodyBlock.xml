@@ -113,7 +113,7 @@ This example shows how to read method bodies for all methods in the specified ty
       <MemberSignature Language="VB.NET" Value="Public Function GetILBytes () As Byte()" />
       <MemberSignature Language="F#" Value="member this.GetILBytes : unit -&gt; byte[]" Usage="methodBodyBlock.GetILBytes " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::Byte&gt; ^ GetILBytes();" />
-      <MemberSignature Language="C#" Value="public byte[]? GetILBytes ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public byte[]? GetILBytes ();" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>

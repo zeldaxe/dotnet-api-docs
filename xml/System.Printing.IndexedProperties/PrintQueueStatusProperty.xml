@@ -147,7 +147,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (attributeRef As PrintQueueStatusProperty) As PrintQueueStatus" />
       <MemberSignature Language="F#" Value="static member op_Implicit : System.Printing.IndexedProperties.PrintQueueStatusProperty -&gt; System.Printing.PrintQueueStatus" Usage="System.Printing.IndexedProperties.PrintQueueStatusProperty.op_Implicit attributeRef" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::Printing::PrintQueueStatus(System::Printing::IndexedProperties::PrintQueueStatusProperty ^ attributeRef);" />
-      <MemberSignature Language="DocId" Value="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.op_Implicit(System.Printing.IndexedProperties.PrintQueueStatusProperty)~System.Printing.PrintQueueStatus" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="DocId" Value="M:System.Printing.IndexedProperties.PrintQueueStatusProperty.op_Implicit(System.Printing.IndexedProperties.PrintQueueStatusProperty)~System.Printing.PrintQueueStatus" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Printing</AssemblyName>

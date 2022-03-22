@@ -31,7 +31,6 @@
     <TypeForwarding From="System" FromVersion="4.0.0.0" To="System.ObjectModel" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ObjectModel" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ObjectModel" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ObjectModel" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Interfaces />
   <Docs>
@@ -370,7 +369,7 @@ End Class
       <MemberSignature Language="VB.NET" Value="Event PropertyChanged As PropertyChangedEventHandler " />
       <MemberSignature Language="F#" Value="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " Usage="member this.PropertyChanged : System.ComponentModel.PropertyChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::ComponentModel::PropertyChangedEventHandler ^ PropertyChanged;" />
-      <MemberSignature Language="C#" Value="event System.ComponentModel.PropertyChangedEventHandler? PropertyChanged;" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="event System.ComponentModel.PropertyChangedEventHandler? PropertyChanged;" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ObjectModel</AssemblyName>

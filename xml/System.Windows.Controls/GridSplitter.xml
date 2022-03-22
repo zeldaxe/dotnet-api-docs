@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Class GridSplitter&#xA;Inherits Thumb" />
   <TypeSignature Language="F#" Value="type GridSplitter = class&#xA;    inherit Thumb" />
   <TypeSignature Language="C++ CLI" Value="public ref class GridSplitter : System::Windows::Controls::Primitives::Thumb" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GridSplitter extends System.Windows.Controls.Primitives.Thumb" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GridSplitter extends System.Windows.Controls.Primitives.Thumb" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

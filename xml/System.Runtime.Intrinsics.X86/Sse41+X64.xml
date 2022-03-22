@@ -1,10 +1,10 @@
 <Type Name="Sse41+X64" FullName="System.Runtime.Intrinsics.X86.Sse41+X64">
-  <TypeSignature Language="C#" Value="public abstract class Sse41.X64 : System.Runtime.Intrinsics.X86.Ssse3.X64" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit Sse41/X64 extends System.Runtime.Intrinsics.X86.Ssse3/X64" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+  <TypeSignature Language="C#" Value="public abstract class Sse41.X64 : System.Runtime.Intrinsics.X86.Ssse3.X64" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit Sse41/X64 extends System.Runtime.Intrinsics.X86.Ssse3/X64" FrameworkAlternate="net-5.0;net-6.0" />
   <TypeSignature Language="DocId" Value="T:System.Runtime.Intrinsics.X86.Sse41.X64" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Sse41.X64&#xA;Inherits Ssse3.X64" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="F#" Value="type Sse41.X64 = class&#xA;    inherit Ssse3.X64" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="C++ CLI" Value="public: ref class Sse41::X64 abstract : System::Runtime::Intrinsics::X86::Ssse3::X64" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Sse41.X64&#xA;Inherits Ssse3.X64" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="F#" Value="type Sse41.X64 = class&#xA;    inherit Ssse3.X64" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Sse41::X64 abstract : System::Runtime::Intrinsics::X86::Ssse3::X64" FrameworkAlternate="net-5.0;net-6.0" />
   <TypeSignature Language="C#" Value="public abstract class Sse41.X64 : System.Runtime.Intrinsics.X86.Sse2.X64" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit Sse41/X64 extends System.Runtime.Intrinsics.X86.Sse2/X64" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Sse41.X64&#xA;Inherits Sse2.X64" FrameworkAlternate="netcore-3.0;netcore-3.1" />

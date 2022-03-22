@@ -21,7 +21,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -226,7 +225,7 @@ This method must be used with extreme caution. <xref:System.ReadOnlyMemory%601> 
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the returned reference.</typeparam>
@@ -278,7 +277,7 @@ This method is supported only on platforms that support misaligned memory access
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="span" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="span" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the returned reference.</typeparam>
@@ -433,7 +432,7 @@ This method is supported only on platforms that support misaligned memory access
       </Docs>
     </Member>
     <Member MemberName="CreateFromPinnedArray&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; CreateFromPinnedArray&lt;T&gt; (T[]? array, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; CreateFromPinnedArray&lt;T&gt; (T[]? array, int start, int length);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; CreateFromPinnedArray&lt;T&gt;(!!T[] array, int32 start, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.CreateFromPinnedArray``1(``0[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromPinnedArray(Of T) (array As T(), start As Integer, length As Integer) As Memory(Of T)" />
@@ -553,7 +552,7 @@ This method can be useful if part of a managed object represents a fixed array.
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
@@ -596,7 +595,7 @@ The returned span does not include the `null` terminator, nor does it validate t
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
@@ -740,7 +739,7 @@ The caller must manually reinterpret the returned <em>ref byte</em> as a ref to 
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="T[]" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="array" Type="T[]" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the array elements.</typeparam>
@@ -996,7 +995,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryGetMemoryManager&lt;T,TManager&gt;">
-      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt; memory, out TManager? manager) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt; memory, out TManager? manager) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryGetMemoryManager&lt;T, (class System.Buffers.MemoryManager`1&lt;!!T&gt;) TManager&gt;(valuetype System.ReadOnlyMemory`1&lt;!!T&gt; memory, [out] !!TManager&amp; manager) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryGetMemoryManager``2(System.ReadOnlyMemory{``0},``1@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryGetMemoryManager(Of T, TManager) (memory As ReadOnlyMemory(Of T), ByRef manager As TManager) As Boolean" />
@@ -1051,7 +1050,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryGetMemoryManager&lt;T,TManager&gt;">
-      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt; memory, out TManager? manager, out int start, out int length) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt; memory, out TManager? manager, out int start, out int length) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryGetMemoryManager&lt;T, (class System.Buffers.MemoryManager`1&lt;!!T&gt;) TManager&gt;(valuetype System.ReadOnlyMemory`1&lt;!!T&gt; memory, [out] !!TManager&amp; manager, [out] int32&amp; start, [out] int32&amp; length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryGetMemoryManager``2(System.ReadOnlyMemory{``0},``1@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryGetMemoryManager(Of T, TManager) (memory As ReadOnlyMemory(Of T), ByRef manager As TManager, ByRef start As Integer, ByRef length As Integer) As Boolean" />
@@ -1110,7 +1109,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryGetString">
-      <MemberSignature Language="C#" Value="public static bool TryGetString (ReadOnlyMemory&lt;char&gt; memory, out string? text, out int start, out int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetString (ReadOnlyMemory&lt;char&gt; memory, out string? text, out int start, out int length);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryGetString(valuetype System.ReadOnlyMemory`1&lt;char&gt; memory, [out] string&amp; text, [out] int32&amp; start, [out] int32&amp; length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryGetString(System.ReadOnlyMemory{System.Char},System.String@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryGetString (memory As ReadOnlyMemory(Of Char), ByRef text As String, ByRef start As Integer, ByRef length As Integer) As Boolean" />

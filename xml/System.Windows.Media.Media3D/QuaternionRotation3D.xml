@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class QuaternionRotation3D&#xA;Inherits Rotation3D" />
   <TypeSignature Language="F#" Value="type QuaternionRotation3D = class&#xA;    inherit Rotation3D" />
   <TypeSignature Language="C++ CLI" Value="public ref class QuaternionRotation3D sealed : System::Windows::Media::Media3D::Rotation3D" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit QuaternionRotation3D extends System.Windows.Media.Media3D.Rotation3D" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit QuaternionRotation3D extends System.Windows.Media.Media3D.Rotation3D" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

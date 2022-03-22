@@ -1,10 +1,10 @@
 <Type Name="XElement" FullName="System.Xml.Linq.XElement">
-  <TypeSignature Language="C#" Value="public class XElement : System.Xml.Linq.XContainer, System.Xml.Serialization.IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XElement extends System.Xml.Linq.XContainer implements class System.Xml.Serialization.IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public class XElement : System.Xml.Linq.XContainer, System.Xml.Serialization.IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XElement extends System.Xml.Linq.XContainer implements class System.Xml.Serialization.IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="DocId" Value="T:System.Xml.Linq.XElement" />
-  <TypeSignature Language="VB.NET" Value="Public Class XElement&#xA;Inherits XContainer&#xA;Implements IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="F#" Value="type XElement = class&#xA;    inherit XContainer&#xA;    interface IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="C++ CLI" Value="public ref class XElement : System::Xml::Linq::XContainer, System::Xml::Serialization::IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class XElement&#xA;Inherits XContainer&#xA;Implements IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type XElement = class&#xA;    inherit XContainer&#xA;    interface IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XElement : System::Xml::Linq::XContainer, System::Xml::Serialization::IXmlSerializable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="C#" Value="public class XElement : System.Xml.Linq.XContainer" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XElement extends System.Xml.Linq.XContainer" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
   <TypeSignature Language="VB.NET" Value="Public Class XElement&#xA;Inherits XContainer" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
@@ -36,22 +36,21 @@
     <TypeForwarding From="System.Xml.Linq" FromVersion="4.0.0.0" To="System.Xml.XDocument" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Xml.Linq.XContainer</BaseTypeName>
   </Base>
   <Interfaces>
-    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+    <Interface FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
       <InterfaceName>System.Xml.Serialization.IXmlSerializable</InterfaceName>
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0">
       <AttributeName Language="C#">[System.ComponentModel.TypeDescriptionProvider("MS.Internal.Xml.Linq.ComponentModel.XTypeDescriptionProvider`1[[System.Xml.Linq.XElement, System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],System.ComponentModel.TypeConverter")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.TypeDescriptionProvider("MS.Internal.Xml.Linq.ComponentModel.XTypeDescriptionProvider`1[[System.Xml.Linq.XElement, System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],System.ComponentModel.TypeConverter")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
       <AttributeName Language="C#">[System.Xml.Serialization.XmlSchemaProvider(null, IsAny=true)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlSchemaProvider(null, IsAny=true)&gt;]</AttributeName>
     </Attribute>
@@ -588,7 +587,7 @@ Console.WriteLine(xse)
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As XName, content As Object)" />
       <MemberSignature Language="F#" Value="new System.Xml.Linq.XElement : System.Xml.Linq.XName * obj -&gt; System.Xml.Linq.XElement" Usage="new System.Xml.Linq.XElement (name, content)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; XElement(System::Xml::Linq::XName ^ name, System::Object ^ content);" />
-      <MemberSignature Language="C#" Value="public XElement (System.Xml.Linq.XName name, object? content);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public XElement (System.Xml.Linq.XName name, object? content);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -904,7 +903,7 @@ Console.WriteLine(root)
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As XName, ParamArray content As Object())" />
       <MemberSignature Language="F#" Value="new System.Xml.Linq.XElement : System.Xml.Linq.XName * obj[] -&gt; System.Xml.Linq.XElement" Usage="new System.Xml.Linq.XElement (name, content)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; XElement(System::Xml::Linq::XName ^ name, ... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="C#" Value="public XElement (System.Xml.Linq.XName name, params object?[] content);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public XElement (System.Xml.Linq.XName name, params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1349,7 +1348,7 @@ Root
       <MemberSignature Language="VB.NET" Value="Public Function AncestorsAndSelf (name As XName) As IEnumerable(Of XElement)" />
       <MemberSignature Language="F#" Value="member this.AncestorsAndSelf : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xElement.AncestorsAndSelf name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ AncestorsAndSelf(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; AncestorsAndSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; AncestorsAndSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1442,7 +1441,7 @@ Child
       <MemberSignature Language="VB.NET" Value="Public Function Attribute (name As XName) As XAttribute" />
       <MemberSignature Language="F#" Value="member this.Attribute : System.Xml.Linq.XName -&gt; System.Xml.Linq.XAttribute" Usage="xElement.Attribute name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Xml::Linq::XAttribute ^ Attribute(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XAttribute? Attribute (System.Xml.Linq.XName name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XAttribute? Attribute (System.Xml.Linq.XName name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1707,7 +1706,7 @@ xmlns:aw="http://www.adventure-works.com"
       <MemberSignature Language="VB.NET" Value="Public Function Attributes (name As XName) As IEnumerable(Of XAttribute)" />
       <MemberSignature Language="F#" Value="member this.Attributes : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XAttribute&gt;" Usage="xElement.Attributes name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XAttribute ^&gt; ^ Attributes(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XAttribute&gt; Attributes (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XAttribute&gt; Attributes (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2044,7 +2043,7 @@ GrandChild
       <MemberSignature Language="VB.NET" Value="Public Function DescendantsAndSelf (name As XName) As IEnumerable(Of XElement)" />
       <MemberSignature Language="F#" Value="member this.DescendantsAndSelf : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xElement.DescendantsAndSelf name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ DescendantsAndSelf(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; DescendantsAndSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; DescendantsAndSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2182,7 +2181,7 @@ Child
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstAttribute As XAttribute" />
       <MemberSignature Language="F#" Value="member this.FirstAttribute : System.Xml.Linq.XAttribute" Usage="System.Xml.Linq.XElement.FirstAttribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Linq::XAttribute ^ FirstAttribute { System::Xml::Linq::XAttribute ^ get(); };" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XAttribute? FirstAttribute { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XAttribute? FirstAttribute { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2337,7 +2336,7 @@ Default namespace: http://www.adventure-works.com
       <MemberSignature Language="VB.NET" Value="Public Function GetNamespaceOfPrefix (prefix As String) As XNamespace" />
       <MemberSignature Language="F#" Value="member this.GetNamespaceOfPrefix : string -&gt; System.Xml.Linq.XNamespace" Usage="xElement.GetNamespaceOfPrefix prefix" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Xml::Linq::XNamespace ^ GetNamespaceOfPrefix(System::String ^ prefix);" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNamespace? GetNamespaceOfPrefix (string prefix);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNamespace? GetNamespaceOfPrefix (string prefix);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2420,7 +2419,7 @@ Namespace: http://www.adventure-works.com
       <MemberSignature Language="VB.NET" Value="Public Function GetPrefixOfNamespace (ns As XNamespace) As String" />
       <MemberSignature Language="F#" Value="member this.GetPrefixOfNamespace : System.Xml.Linq.XNamespace -&gt; string" Usage="xElement.GetPrefixOfNamespace ns" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetPrefixOfNamespace(System::Xml::Linq::XNamespace ^ ns);" />
-      <MemberSignature Language="C#" Value="public string? GetPrefixOfNamespace (System.Xml.Linq.XNamespace ns);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? GetPrefixOfNamespace (System.Xml.Linq.XNamespace ns);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2755,7 +2754,7 @@ True
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastAttribute As XAttribute" />
       <MemberSignature Language="F#" Value="member this.LastAttribute : System.Xml.Linq.XAttribute" Usage="System.Xml.Linq.XElement.LastAttribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Linq::XAttribute ^ LastAttribute { System::Xml::Linq::XAttribute ^ get(); };" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XAttribute? LastAttribute { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XAttribute? LastAttribute { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2889,7 +2888,7 @@ Att3="3"
         <ReturnType>System.Xml.Linq.XElement</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="stream">The stream that contains the XML data.</param>
@@ -3237,8 +3236,8 @@ End Using
         <ReturnType>System.Xml.Linq.XElement</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="options" Type="System.Xml.Linq.LoadOptions" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="options" Type="System.Xml.Linq.LoadOptions" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="stream">The stream containing the XML data.</param>
@@ -4821,7 +4820,7 @@ value=9223372036854775807
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of Boolean)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;bool&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;bool&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator bool? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator bool? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -4913,7 +4912,7 @@ Nullable Boolean: value2=False
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of DateTime)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;DateTime&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;DateTime&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator DateTime? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator DateTime? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5002,7 +5001,7 @@ Nullable DateTime: value=10/6/2006 12:30:00 PM
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of DateTimeOffset)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;DateTimeOffset&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;DateTimeOffset&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator DateTimeOffset? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator DateTimeOffset? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5094,7 +5093,7 @@ dt=10/6/2006 12:30:00 PM -07:00
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of Decimal)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;decimal&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;System::Decimal&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator decimal? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator decimal? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5176,7 +5175,7 @@ Nullable decimal: value=79228162514264337593543950335
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of Double)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;double&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;double&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator double? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator double? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5259,7 +5258,7 @@ Nullable double: value=1.79769313486231E+308
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of Guid)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;Guid&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;Guid&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator Guid? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator Guid? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5341,7 +5340,7 @@ Nullable Guid: value=3c1cc55b-baff-4b7a-9d17-077af3aa5730
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of Integer)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;int&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;int&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator int? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator int? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5424,7 +5423,7 @@ Nullable integer: value=2147483647
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of Long)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;int64&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;long&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator long? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator long? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5506,7 +5505,7 @@ Nullable ulong: value=9223372036854775807
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of Single)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;single&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;float&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator float? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator float? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5588,7 +5587,7 @@ Nullable Single: value=3.402823E+38
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of TimeSpan)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;TimeSpan&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;TimeSpan&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator TimeSpan? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator TimeSpan? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5675,7 +5674,7 @@ Nullable TimeSpan: value=01:05:30
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of UInteger)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;uint32&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;System::UInt32&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator uint? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator uint? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5757,7 +5756,7 @@ Nullable uint: value=4294967295
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As Nullable(Of ULong)" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; Nullable&lt;uint64&gt;" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator Nullable&lt;System::UInt64&gt;(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator ulong? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator ulong? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -5919,7 +5918,7 @@ value=3.402823E+38
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (element As XElement) As String" />
       <MemberSignature Language="F#" Value="static member op_Explicit : System.Xml.Linq.XElement -&gt; string" Usage="System.Xml.Linq.XElement.op_Explicit element" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static explicit operator System::String ^(System::Xml::Linq::XElement ^ element);" />
-      <MemberSignature Language="C#" Value="public static explicit operator string? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static explicit operator string? (System.Xml.Linq.XElement? element);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -6777,7 +6776,7 @@ Console.WriteLine(xmlTree)
       <MemberSignature Language="VB.NET" Value="Public Sub ReplaceAll (content As Object)" />
       <MemberSignature Language="F#" Value="member this.ReplaceAll : obj -&gt; unit" Usage="xElement.ReplaceAll content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceAll(System::Object ^ content);" />
-      <MemberSignature Language="C#" Value="public void ReplaceAll (object? content);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void ReplaceAll (object? content);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -6973,7 +6972,7 @@ Console.WriteLine(root)
       <MemberSignature Language="VB.NET" Value="Public Sub ReplaceAll (ParamArray content As Object())" />
       <MemberSignature Language="F#" Value="member this.ReplaceAll : obj[] -&gt; unit" Usage="xElement.ReplaceAll content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceAll(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="C#" Value="public void ReplaceAll (params object?[] content);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void ReplaceAll (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -7154,7 +7153,7 @@ Console.WriteLine(root)
       <MemberSignature Language="VB.NET" Value="Public Sub ReplaceAttributes (content As Object)" />
       <MemberSignature Language="F#" Value="member this.ReplaceAttributes : obj -&gt; unit" Usage="xElement.ReplaceAttributes content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceAttributes(System::Object ^ content);" />
-      <MemberSignature Language="C#" Value="public void ReplaceAttributes (object? content);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void ReplaceAttributes (object? content);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -7238,7 +7237,7 @@ Console.WriteLine(root)
       <MemberSignature Language="VB.NET" Value="Public Sub ReplaceAttributes (ParamArray content As Object())" />
       <MemberSignature Language="F#" Value="member this.ReplaceAttributes : obj[] -&gt; unit" Usage="xElement.ReplaceAttributes content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceAttributes(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="C#" Value="public void ReplaceAttributes (params object?[] content);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void ReplaceAttributes (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -7378,7 +7377,7 @@ Console.WriteLine(root)
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="stream">The stream to output this <see cref="T:System.Xml.Linq.XElement" /> to.</param>
@@ -7677,8 +7676,8 @@ Console.WriteLine(sb.ToString())
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="options" Type="System.Xml.Linq.SaveOptions" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="options" Type="System.Xml.Linq.SaveOptions" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="stream">The stream to output this <see cref="T:System.Xml.Linq.XElement" /> to.</param>
@@ -8032,7 +8031,7 @@ Console.WriteLine(str)
       <MemberSignature Language="VB.NET" Value="Public Sub SetAttributeValue (name As XName, value As Object)" />
       <MemberSignature Language="F#" Value="member this.SetAttributeValue : System.Xml.Linq.XName * obj -&gt; unit" Usage="xElement.SetAttributeValue (name, value)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetAttributeValue(System::Xml::Linq::XName ^ name, System::Object ^ value);" />
-      <MemberSignature Language="C#" Value="public void SetAttributeValue (System.Xml.Linq.XName name, object? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void SetAttributeValue (System.Xml.Linq.XName name, object? value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -8147,7 +8146,7 @@ Console.WriteLine(root)
       <MemberSignature Language="VB.NET" Value="Public Sub SetElementValue (name As XName, value As Object)" />
       <MemberSignature Language="F#" Value="member this.SetElementValue : System.Xml.Linq.XName * obj -&gt; unit" Usage="xElement.SetElementValue (name, value)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetElementValue(System::Xml::Linq::XName ^ name, System::Object ^ value);" />
-      <MemberSignature Language="C#" Value="public void SetElementValue (System.Xml.Linq.XName name, object? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void SetElementValue (System.Xml.Linq.XName name, object? value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -8441,7 +8440,7 @@ Console.WriteLine(root)
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="reader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="reader">The <see cref="T:System.Xml.XmlReader" /> from which the object is deserialized.</param>
@@ -8494,7 +8493,7 @@ Console.WriteLine(root)
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="writer" Type="System.Xml.XmlWriter" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="writer" Type="System.Xml.XmlWriter" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="writer">The <see cref="T:System.Xml.XmlWriter" /> to which this object is serialized.</param>

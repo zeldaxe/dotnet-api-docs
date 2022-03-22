@@ -21,7 +21,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Memory" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -61,7 +60,7 @@ Use these helpers when you need to read specific endianness.
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span to read.</param>
@@ -101,7 +100,7 @@ Reads exactly 8 bytes from the beginning of the span.
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span to read.</param>
@@ -483,7 +482,7 @@ Reads exactly 8 bytes from the beginning of the span.
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span to read.</param>
@@ -523,7 +522,7 @@ Reads exactly 4 bytes from the beginning of the span.
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span to read.</param>
@@ -1175,8 +1174,8 @@ This method effectively does nothing and was added only for consistency.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Double" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Double" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span of bytes to read.</param>
@@ -1216,8 +1215,8 @@ Reads exactly 8 bytes from the beginning of the span.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Double" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Double" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span of bytes to read.</param>
@@ -1607,8 +1606,8 @@ Reads exactly 8 bytes from the beginning of the span.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Single" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Single" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span of bytes to read.</param>
@@ -1648,8 +1647,8 @@ Reads exactly 4 bytes from the beginning of the span.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Single" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Single" RefType="out" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The read-only span of bytes to read.</param>
@@ -1995,8 +1994,8 @@ Reads exactly 8 bytes from the beginning of the span.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as big endian.</param>
@@ -2036,8 +2035,8 @@ Writes exactly 8 bytes to the beginning of the span.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as little endian.</param>
@@ -2427,8 +2426,8 @@ Writes exactly 8 bytes to the beginning of the span.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as big endian.</param>
@@ -2468,8 +2467,8 @@ Writes exactly 4 bytes to the beginning of the span.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as little endian.</param>
@@ -2815,8 +2814,8 @@ Writes exactly 8 bytes to the beginning of the span.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as big endian.</param>
@@ -2856,8 +2855,8 @@ Writes exactly 8 bytes to the beginning of the span.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as little endian.</param>
@@ -3247,8 +3246,8 @@ Writes exactly 8 bytes to the beginning of the span.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as big endian.</param>
@@ -3288,8 +3287,8 @@ Writes exactly 4 bytes to the beginning of the span.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="destination" Type="System.Span&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="value" Type="System.Single" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="destination">The span of bytes where the value is to be written, as little endian.</param>

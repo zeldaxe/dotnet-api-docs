@@ -169,26 +169,5 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Yield">
-      <MemberSignature Language="C#" Value="public static void Yield ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Yield() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.ArmBase.Yield" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Yield ()" />
-      <MemberSignature Language="F#" Value="static member Yield : unit -&gt; unit" Usage="System.Runtime.Intrinsics.Arm.ArmBase.Yield " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Yield();" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>A32: YIELD A64: YIELD</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
   </Members>
 </Type>

@@ -27,7 +27,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -113,7 +112,7 @@
       </Docs>
     </Member>
     <Member MemberName="BaseCatalogName">
-      <MemberSignature Language="C#" Value="public string? BaseCatalogName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? BaseCatalogName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string BaseCatalogName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.BaseCatalogName" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseCatalogName As String" />
@@ -150,7 +149,7 @@
       </Docs>
     </Member>
     <Member MemberName="BaseColumnName">
-      <MemberSignature Language="C#" Value="public string? BaseColumnName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? BaseColumnName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string BaseColumnName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.BaseColumnName" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseColumnName As String" />
@@ -187,7 +186,7 @@
       </Docs>
     </Member>
     <Member MemberName="BaseSchemaName">
-      <MemberSignature Language="C#" Value="public string? BaseSchemaName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? BaseSchemaName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string BaseSchemaName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.BaseSchemaName" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseSchemaName As String" />
@@ -224,7 +223,7 @@
       </Docs>
     </Member>
     <Member MemberName="BaseServerName">
-      <MemberSignature Language="C#" Value="public string? BaseServerName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? BaseServerName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string BaseServerName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.BaseServerName" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseServerName As String" />
@@ -261,7 +260,7 @@
       </Docs>
     </Member>
     <Member MemberName="BaseTableName">
-      <MemberSignature Language="C#" Value="public string? BaseTableName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? BaseTableName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string BaseTableName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.BaseTableName" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseTableName As String" />
@@ -406,7 +405,7 @@
       </Docs>
     </Member>
     <Member MemberName="DataType">
-      <MemberSignature Language="C#" Value="public Type? DataType { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public Type? DataType { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type DataType" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.DataType" />
       <MemberSignature Language="VB.NET" Value="Public Property DataType As Type" />
@@ -443,7 +442,7 @@
       </Docs>
     </Member>
     <Member MemberName="DataTypeName">
-      <MemberSignature Language="C#" Value="public string? DataTypeName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? DataTypeName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string DataTypeName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.DataTypeName" />
       <MemberSignature Language="VB.NET" Value="Public Property DataTypeName As String" />
@@ -916,7 +915,7 @@
       </Docs>
     </Member>
     <Member MemberName="UdtAssemblyQualifiedName">
-      <MemberSignature Language="C#" Value="public string? UdtAssemblyQualifiedName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? UdtAssemblyQualifiedName { get; protected set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string UdtAssemblyQualifiedName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbColumn.UdtAssemblyQualifiedName" />
       <MemberSignature Language="VB.NET" Value="Public Property UdtAssemblyQualifiedName As String" />

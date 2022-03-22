@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TimelineGroup&#xA;Inherits Timeline&#xA;Implements IAddChild" />
   <TypeSignature Language="F#" Value="type TimelineGroup = class&#xA;    inherit Timeline&#xA;    interface IAddChild" />
   <TypeSignature Language="C++ CLI" Value="public ref class TimelineGroup abstract : System::Windows::Media::Animation::Timeline, System::Windows::Markup::IAddChild" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TimelineGroup extends System.Windows.Media.Animation.Timeline implements class System.Windows.Markup.IAddChild" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TimelineGroup extends System.Windows.Media.Animation.Timeline implements class System.Windows.Markup.IAddChild" FrameworkAlternate="windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;windowsdesktop-6.0" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

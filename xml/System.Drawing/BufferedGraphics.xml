@@ -258,7 +258,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub Render (target As Graphics)" />
       <MemberSignature Language="F#" Value="member this.Render : System.Drawing.Graphics -&gt; unit" Usage="bufferedGraphics.Render target" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Render(System::Drawing::Graphics ^ target);" />
-      <MemberSignature Language="C#" Value="public void Render (System.Drawing.Graphics? target);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0" />
+      <MemberSignature Language="C#" Value="public void Render (System.Drawing.Graphics? target);" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;windowsdesktop-5.0;windowsdesktop-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing</AssemblyName>

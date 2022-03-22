@@ -104,7 +104,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub Log(Of TState) (logLevel As LogLevel, eventId As EventId, state As TState, exception As Exception, formatter As Func(Of TState, Exception, String))" />
       <MemberSignature Language="F#" Value="abstract member Log : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * 'State * Exception * Func&lt;'State, Exception, string&gt; -&gt; unit" Usage="iLogger.Log (logLevel, eventId, state, exception, formatter)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TState&gt;&#xA; void Log(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, TState state, Exception ^ exception, Func&lt;TState, Exception ^, System::String ^&gt; ^ formatter);" />
-      <MemberSignature Language="C#" Value="public void Log&lt;TState&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, TState state, Exception? exception, Func&lt;TState,Exception?,string&gt; formatter);" FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
+      <MemberSignature Language="C#" Value="public void Log&lt;TState&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, TState state, Exception? exception, Func&lt;TState,Exception?,string&gt; formatter);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>

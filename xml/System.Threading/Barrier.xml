@@ -30,7 +30,6 @@
     <TypeForwarding From="System" FromVersion="4.0.0.0" To="System.Threading" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Threading" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Threading" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Threading" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -141,7 +140,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (participantCount As Integer, postPhaseAction As Action(Of Barrier))" />
       <MemberSignature Language="F#" Value="new System.Threading.Barrier : int * Action&lt;System.Threading.Barrier&gt; -&gt; System.Threading.Barrier" Usage="new System.Threading.Barrier (participantCount, postPhaseAction)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Barrier(int participantCount, Action&lt;System::Threading::Barrier ^&gt; ^ postPhaseAction);" />
-      <MemberSignature Language="C#" Value="public Barrier (int participantCount, Action&lt;System.Threading.Barrier&gt;? postPhaseAction);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public Barrier (int participantCount, Action&lt;System.Threading.Barrier&gt;? postPhaseAction);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading</AssemblyName>
@@ -216,7 +215,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
@@ -276,7 +275,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
@@ -719,7 +718,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
@@ -768,7 +767,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
@@ -824,7 +823,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
@@ -877,7 +876,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
@@ -932,7 +931,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
@@ -998,7 +997,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>

@@ -35,7 +35,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>

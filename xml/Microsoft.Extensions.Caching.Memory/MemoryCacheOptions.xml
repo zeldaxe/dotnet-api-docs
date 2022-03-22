@@ -237,35 +237,5 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="TrackLinkedCacheEntries">
-      <MemberSignature Language="C#" Value="public bool TrackLinkedCacheEntries { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool TrackLinkedCacheEntries" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.TrackLinkedCacheEntries" />
-      <MemberSignature Language="VB.NET" Value="Public Property TrackLinkedCacheEntries As Boolean" />
-      <MemberSignature Language="F#" Value="member this.TrackLinkedCacheEntries : bool with get, set" Usage="Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.TrackLinkedCacheEntries" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TrackLinkedCacheEntries { bool get(); void set(bool value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Extensions.Caching.Memory</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets a value that indicates whether to track linked entries.</summary>
-        <value>
-          <see langword="true" /> if linked entries are tracked; otherwise, <see langword="false" />. The default is <see langword="false" /> in .NET 7 and later versions.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks
-
-Prior to .NET 7 this feature was always enabled.
-
-          ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
   </Members>
 </Type>

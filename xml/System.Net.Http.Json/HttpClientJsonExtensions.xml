@@ -34,7 +34,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -80,7 +80,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -126,7 +126,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -199,7 +199,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -272,7 +272,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -320,7 +320,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -368,7 +368,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -445,7 +445,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -508,250 +508,6 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PatchAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PatchAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PatchAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync (client, requestUri, value, cancellationToken)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PatchAsJsonAsync(System::Net::Http::HttpClient ^ client, System::String ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Http.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TValue" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-7.0" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-7.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TValue">The type of the value to serialize.</typeparam>
-        <param name="client">The client used to send the request.</param>
-        <param name="requestUri">The Uri the request is sent to.</param>
-        <param name="value">The value to serialize.</param>
-        <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
-        <summary>Sends a PATCH request to the specified Uri containing the <paramref name="value" /> serialized as JSON in the request body.</summary>
-        <returns>The task object representing the asynchronous operation.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="client" /> is <see langword="null" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="PatchAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PatchAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PatchAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync (client, requestUri, value, cancellationToken)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PatchAsJsonAsync(System::Net::Http::HttpClient ^ client, Uri ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Http.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TValue" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-7.0" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-7.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TValue">The type of the value to serialize.</typeparam>
-        <param name="client">The client used to send the request.</param>
-        <param name="requestUri">The Uri the request is sent to.</param>
-        <param name="value">The value to serialize.</param>
-        <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
-        <summary>Sends a PATCH request to the specified Uri containing the <paramref name="value" /> serialized as JSON in the request body.</summary>
-        <returns>The task object representing the asynchronous operation.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="client" /> is <see langword="null" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="PatchAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PatchAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PatchAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync (client, requestUri, value, options, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Http.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TValue" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-7.0" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-7.0" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="3" FrameworkAlternate="net-7.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TValue">The type of the value to serialize.</typeparam>
-        <param name="client">The client used to send the request.</param>
-        <param name="requestUri">The Uri the request is sent to.</param>
-        <param name="value">The value to serialize.</param>
-        <param name="options">Options to control the behavior during serialization. The default options are those specified by <see cref="F:System.Text.Json.JsonSerializerDefaults.Web" />.</param>
-        <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
-        <summary>Sends a PATCH request to the specified Uri containing the <paramref name="value" /> serialized as JSON in the request body.</summary>
-        <returns>The task object representing the asynchronous operation.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="client" /> is <see langword="null" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="PatchAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;TValue&gt; jsonTypeInfo, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.Serialization.Metadata.JsonTypeInfo`1&lt;!!TValue&gt; jsonTypeInfo, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.Serialization.Metadata.JsonTypeInfo{``0},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PatchAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, jsonTypeInfo As JsonTypeInfo(Of TValue), Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PatchAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;'Value&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync (client, requestUri, value, jsonTypeInfo, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Http.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TValue" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-7.0" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-7.0" />
-        <Parameter Name="jsonTypeInfo" Type="System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;TValue&gt;" Index="3" FrameworkAlternate="net-7.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TValue">The type of the value to serialize.</typeparam>
-        <param name="client">The client used to send the request.</param>
-        <param name="requestUri">The Uri the request is sent to.</param>
-        <param name="value">The value to serialize.</param>
-        <param name="jsonTypeInfo">Metadata about the type to convert.</param>
-        <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
-        <summary>Sends a PATCH request to the specified Uri containing the <paramref name="value" /> serialized as JSON in the request body.</summary>
-        <returns>The task object representing the asynchronous operation.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="client" /> is <see langword="null" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="PatchAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PatchAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PatchAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync (client, requestUri, value, options, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Http.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TValue" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-7.0" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-7.0" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="3" FrameworkAlternate="net-7.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TValue">The type of the value to serialize.</typeparam>
-        <param name="client">The client used to send the request.</param>
-        <param name="requestUri">The Uri the request is sent to.</param>
-        <param name="value">The value to serialize.</param>
-        <param name="options">Options to control the behavior during serialization. The default options are those specified by <see cref="F:System.Text.Json.JsonSerializerDefaults.Web" />.</param>
-        <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
-        <summary>Sends a PATCH request to the specified Uri containing the <paramref name="value" /> serialized as JSON in the request body.</summary>
-        <returns>The task object representing the asynchronous operation.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="client" /> is <see langword="null" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="PatchAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;TValue&gt; jsonTypeInfo, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.Serialization.Metadata.JsonTypeInfo`1&lt;!!TValue&gt; jsonTypeInfo, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.Serialization.Metadata.JsonTypeInfo{``0},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PatchAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, jsonTypeInfo As JsonTypeInfo(Of TValue), Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PatchAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;'Value&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PatchAsJsonAsync (client, requestUri, value, jsonTypeInfo, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Http.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TValue" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-7.0" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-7.0" />
-        <Parameter Name="jsonTypeInfo" Type="System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;TValue&gt;" Index="3" FrameworkAlternate="net-7.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TValue">The type of the value to serialize.</typeparam>
-        <param name="client">The client used to send the request.</param>
-        <param name="requestUri">The Uri the request is sent to.</param>
-        <param name="value">The value to serialize.</param>
-        <param name="jsonTypeInfo">Metadata about the type to convert.</param>
-        <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
-        <summary>Sends a PATCH request to the specified Uri containing the <paramref name="value" /> serialized as JSON in the request body.</summary>
-        <returns>The task object representing the asynchronous operation.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="client" /> is <see langword="null" />.</exception>
-      </Docs>
-    </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -767,7 +523,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -818,7 +574,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -868,7 +624,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -949,7 +705,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -1031,7 +787,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -1082,7 +838,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -1132,7 +888,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>
@@ -1213,7 +969,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("JSON serialization and deserialization might require types that cannot be statically analyzed. Use the overload that takes a JsonTypeInfo or JsonSerializerContext, or make sure all of the required types are preserved.")&gt;]</AttributeName>
         </Attribute>

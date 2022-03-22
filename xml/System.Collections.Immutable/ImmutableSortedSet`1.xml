@@ -5,11 +5,11 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImmutableSortedSet(Of T)&#xA;Implements ICollection(Of T), IEnumerable(Of T), IImmutableSet(Of T), IList, IList(Of T), IReadOnlyCollection(Of T), IReadOnlyList(Of T), ISet(Of T)" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="F#" Value="type ImmutableSortedSet&lt;'T&gt; = class&#xA;    interface IImmutableSet&lt;'T&gt;&#xA;    interface IReadOnlyCollection&lt;'T&gt;&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyList&lt;'T&gt;&#xA;    interface IList&lt;'T&gt;&#xA;    interface ICollection&lt;'T&gt;&#xA;    interface ISet&lt;'T&gt;&#xA;    interface IList&#xA;    interface ICollection" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class ImmutableSortedSet sealed : System::Collections::Generic::ICollection&lt;T&gt;, System::Collections::Generic::IEnumerable&lt;T&gt;, System::Collections::Generic::IList&lt;T&gt;, System::Collections::Generic::IReadOnlyCollection&lt;T&gt;, System::Collections::Generic::IReadOnlyList&lt;T&gt;, System::Collections::Generic::ISet&lt;T&gt;, System::Collections::IList, System::Collections::Immutable::IImmutableSet&lt;T&gt;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-  <TypeSignature Language="C#" Value="public sealed class ImmutableSortedSet&lt;T&gt; : System.Collections.Generic.ICollection&lt;T&gt;, System.Collections.Generic.IEnumerable&lt;T&gt;, System.Collections.Generic.IList&lt;T&gt;, System.Collections.Generic.IReadOnlyCollection&lt;T&gt;, System.Collections.Generic.IReadOnlyList&lt;T&gt;, System.Collections.Generic.IReadOnlySet&lt;T&gt;, System.Collections.Generic.ISet&lt;T&gt;, System.Collections.IList, System.Collections.Immutable.IImmutableSet&lt;T&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImmutableSortedSet`1&lt;T&gt; extends System.Object implements class System.Collections.Generic.ICollection`1&lt;!T&gt;, class System.Collections.Generic.IEnumerable`1&lt;!T&gt;, class System.Collections.Generic.IList`1&lt;!T&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;!T&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;!T&gt;, class System.Collections.Generic.IReadOnlySet`1&lt;!T&gt;, class System.Collections.Generic.ISet`1&lt;!T&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable, class System.Collections.IList, class System.Collections.Immutable.IImmutableSet`1&lt;!T&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImmutableSortedSet(Of T)&#xA;Implements ICollection(Of T), IEnumerable(Of T), IImmutableSet(Of T), IList, IList(Of T), IReadOnlyCollection(Of T), IReadOnlyList(Of T), IReadOnlySet(Of T), ISet(Of T)" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="F#" Value="type ImmutableSortedSet&lt;'T&gt; = class&#xA;    interface ICollection&lt;'T&gt;&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;'T&gt;&#xA;    interface IReadOnlyCollection&lt;'T&gt;&#xA;    interface IReadOnlyList&lt;'T&gt;&#xA;    interface ISet&lt;'T&gt;&#xA;    interface IReadOnlySet&lt;'T&gt;&#xA;    interface ICollection&#xA;    interface IList&#xA;    interface IImmutableSet&lt;'T&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class ImmutableSortedSet sealed : System::Collections::Generic::ICollection&lt;T&gt;, System::Collections::Generic::IEnumerable&lt;T&gt;, System::Collections::Generic::IList&lt;T&gt;, System::Collections::Generic::IReadOnlyCollection&lt;T&gt;, System::Collections::Generic::IReadOnlyList&lt;T&gt;, System::Collections::Generic::IReadOnlySet&lt;T&gt;, System::Collections::Generic::ISet&lt;T&gt;, System::Collections::IList, System::Collections::Immutable::IImmutableSet&lt;T&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+  <TypeSignature Language="C#" Value="public sealed class ImmutableSortedSet&lt;T&gt; : System.Collections.Generic.ICollection&lt;T&gt;, System.Collections.Generic.IEnumerable&lt;T&gt;, System.Collections.Generic.IList&lt;T&gt;, System.Collections.Generic.IReadOnlyCollection&lt;T&gt;, System.Collections.Generic.IReadOnlyList&lt;T&gt;, System.Collections.Generic.IReadOnlySet&lt;T&gt;, System.Collections.Generic.ISet&lt;T&gt;, System.Collections.IList, System.Collections.Immutable.IImmutableSet&lt;T&gt;" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImmutableSortedSet`1&lt;T&gt; extends System.Object implements class System.Collections.Generic.ICollection`1&lt;!T&gt;, class System.Collections.Generic.IEnumerable`1&lt;!T&gt;, class System.Collections.Generic.IList`1&lt;!T&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;!T&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;!T&gt;, class System.Collections.Generic.IReadOnlySet`1&lt;!T&gt;, class System.Collections.Generic.ISet`1&lt;!T&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable, class System.Collections.IList, class System.Collections.Immutable.IImmutableSet`1&lt;!T&gt;" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImmutableSortedSet(Of T)&#xA;Implements ICollection(Of T), IEnumerable(Of T), IImmutableSet(Of T), IList, IList(Of T), IReadOnlyCollection(Of T), IReadOnlyList(Of T), IReadOnlySet(Of T), ISet(Of T)" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="F#" Value="type ImmutableSortedSet&lt;'T&gt; = class&#xA;    interface ICollection&lt;'T&gt;&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;'T&gt;&#xA;    interface IReadOnlyCollection&lt;'T&gt;&#xA;    interface IReadOnlyList&lt;'T&gt;&#xA;    interface ISet&lt;'T&gt;&#xA;    interface IReadOnlySet&lt;'T&gt;&#xA;    interface ICollection&#xA;    interface IList&#xA;    interface IImmutableSet&lt;'T&gt;" FrameworkAlternate="net-5.0;net-6.0" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class ImmutableSortedSet sealed : System::Collections::Generic::ICollection&lt;T&gt;, System::Collections::Generic::IEnumerable&lt;T&gt;, System::Collections::Generic::IList&lt;T&gt;, System::Collections::Generic::IReadOnlyCollection&lt;T&gt;, System::Collections::Generic::IReadOnlyList&lt;T&gt;, System::Collections::Generic::IReadOnlySet&lt;T&gt;, System::Collections::Generic::ISet&lt;T&gt;, System::Collections::IList, System::Collections::Immutable::IImmutableSet&lt;T&gt;" FrameworkAlternate="net-5.0;net-6.0" />
   <TypeSignature Language="F#" Value="type ImmutableSortedSet&lt;'T&gt; = class&#xA;    interface ICollection&lt;'T&gt;&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;'T&gt;&#xA;    interface IReadOnlyCollection&lt;'T&gt;&#xA;    interface IReadOnlyList&lt;'T&gt;&#xA;    interface ISet&lt;'T&gt;&#xA;    interface ICollection&#xA;    interface IList&#xA;    interface IImmutableSet&lt;'T&gt;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -61,7 +61,7 @@
     <Interface>
       <InterfaceName>System.Collections.Immutable.IImmutableSet&lt;T&gt;</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+    <Interface FrameworkAlternate="net-5.0;net-6.0">
       <InterfaceName>System.Collections.Generic.IReadOnlySet&lt;T&gt;</InterfaceName>
     </Interface>
   </Interfaces>
@@ -191,7 +191,7 @@ If you need to perform multiple operations on an immutable collection, to increa
       <Implements>
         <InterfaceMember>M:System.Collections.Immutable.IImmutableSet`1.Contains(`0)</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Contains(`0)</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0">M:System.Collections.Generic.IReadOnlySet`1.Contains(`0)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0">M:System.Collections.Generic.IReadOnlySet`1.Contains(`0)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -241,7 +241,7 @@ If you need to perform multiple operations on an immutable collection, to increa
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">P:System.Collections.ICollection.Count</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -355,9 +355,9 @@ If you need to perform multiple operations on an immutable collection, to increa
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As ImmutableSortedSet(Of T).Enumerator" />
       <MemberSignature Language="F#" Value="abstract member GetEnumerator : unit -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Enumerator&#xA;override this.GetEnumerator : unit -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Enumerator" Usage="immutableSortedSet.GetEnumerator " FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Immutable::ImmutableSortedSet&lt;T&gt;::Enumerator GetEnumerator();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableSortedSet`1/Enumerator&lt;!T&gt; GetEnumerator() cil managed" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="F#" Value="member this.GetEnumerator : unit -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Enumerator" Usage="immutableSortedSet.GetEnumerator " FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Immutable::ImmutableSortedSet&lt;T&gt;::Enumerator GetEnumerator();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableSortedSet`1/Enumerator&lt;!T&gt; GetEnumerator() cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="F#" Value="member this.GetEnumerator : unit -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Enumerator" Usage="immutableSortedSet.GetEnumerator " FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Immutable::ImmutableSortedSet&lt;T&gt;::Enumerator GetEnumerator();" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -538,7 +538,7 @@ If you need to perform multiple operations on an immutable collection, to increa
       <Implements>
         <InterfaceMember>M:System.Collections.Immutable.IImmutableSet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ISet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0">M:System.Collections.Generic.IReadOnlySet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0">M:System.Collections.Generic.IReadOnlySet`1.IsProperSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -589,7 +589,7 @@ An empty set is a proper subset of any other collection. Therefore, this method 
       <Implements>
         <InterfaceMember>M:System.Collections.Immutable.IImmutableSet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ISet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0">M:System.Collections.Generic.IReadOnlySet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0">M:System.Collections.Generic.IReadOnlySet`1.IsProperSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -641,7 +641,7 @@ An empty set is a proper superset of any other collection. Therefore, this metho
       <Implements>
         <InterfaceMember>M:System.Collections.Immutable.IImmutableSet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ISet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0">M:System.Collections.Generic.IReadOnlySet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0">M:System.Collections.Generic.IReadOnlySet`1.IsSubsetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -693,7 +693,7 @@ An empty set is a subset of any other set, including another empty set. Therefor
       <Implements>
         <InterfaceMember>M:System.Collections.Immutable.IImmutableSet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ISet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0">M:System.Collections.Generic.IReadOnlySet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0">M:System.Collections.Generic.IReadOnlySet`1.IsSupersetOf(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -864,7 +864,7 @@ All collections, including empty sets, are supersets of an empty set. Therefore,
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Max As T" />
       <MemberSignature Language="F#" Value="member this.Max : 'T" Usage="System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Max" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Max { T get(); };" />
-      <MemberSignature Language="C#" Value="public T? Max { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public T? Max { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -905,7 +905,7 @@ All collections, including empty sets, are supersets of an empty set. Therefore,
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Min As T" />
       <MemberSignature Language="F#" Value="member this.Min : 'T" Usage="System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Min" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Min { T get(); };" />
-      <MemberSignature Language="C#" Value="public T? Min { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public T? Min { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -950,7 +950,7 @@ All collections, including empty sets, are supersets of an empty set. Therefore,
       <Implements>
         <InterfaceMember>M:System.Collections.Immutable.IImmutableSet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ISet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0">M:System.Collections.Generic.IReadOnlySet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0">M:System.Collections.Generic.IReadOnlySet`1.Overlaps(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -1085,7 +1085,7 @@ All collections, including empty sets, are supersets of an empty set. Therefore,
       <Implements>
         <InterfaceMember>M:System.Collections.Immutable.IImmutableSet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ISet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0">M:System.Collections.Generic.IReadOnlySet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0">M:System.Collections.Generic.IReadOnlySet`1.SetEquals(System.Collections.Generic.IEnumerable{`0})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -2344,7 +2344,7 @@ This member is an explicit interface member implementation. It can be used only 
       <MemberSignature Language="VB.NET" Value=" Property Item(index As Integer) As Object Implements IList.Item" />
       <MemberSignature Language="F#" Value="member this.System.Collections.IList.Item(int) : obj with get, set" Usage="System.Collections.IList.Item" />
       <MemberSignature Language="C++ CLI" Value="property System::Object ^ System::Collections::IList::Item[int] { System::Object ^ get(int index); void set(int index, System::Object ^ value); };" />
-      <MemberSignature Language="C#" Value="object? System.Collections.IList.Item[int index] { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="object? System.Collections.IList.Item[int index] { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.IList.Item(System.Int32)</InterfaceMember>
@@ -2961,7 +2961,7 @@ This can be useful when you want to reuse a previously stored reference instead 
       <MemberSignature Language="VB.NET" Value="Public Function WithComparer (comparer As IComparer(Of T)) As ImmutableSortedSet(Of T)" />
       <MemberSignature Language="F#" Value="member this.WithComparer : System.Collections.Generic.IComparer&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="immutableSortedSet.WithComparer comparer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ WithComparer(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; WithComparer (System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; WithComparer (System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>

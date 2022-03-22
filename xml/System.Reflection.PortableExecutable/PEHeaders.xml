@@ -208,7 +208,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CorHeader As CorHeader" />
       <MemberSignature Language="F#" Value="member this.CorHeader : System.Reflection.PortableExecutable.CorHeader" Usage="System.Reflection.PortableExecutable.PEHeaders.CorHeader" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Reflection::PortableExecutable::CorHeader ^ CorHeader { System::Reflection::PortableExecutable::CorHeader ^ get(); };" />
-      <MemberSignature Language="C#" Value="public System.Reflection.PortableExecutable.CorHeader? CorHeader { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Reflection.PortableExecutable.CorHeader? CorHeader { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -487,7 +487,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PEHeader As PEHeader" />
       <MemberSignature Language="F#" Value="member this.PEHeader : System.Reflection.PortableExecutable.PEHeader" Usage="System.Reflection.PortableExecutable.PEHeaders.PEHeader" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Reflection::PortableExecutable::PEHeader ^ PEHeader { System::Reflection::PortableExecutable::PEHeader ^ get(); };" />
-      <MemberSignature Language="C#" Value="public System.Reflection.PortableExecutable.PEHeader? PEHeader { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Reflection.PortableExecutable.PEHeader? PEHeader { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>

@@ -171,35 +171,6 @@ For the full set of characters in this block, see [The Unicode Standard, Version
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="ArabicExtendedB">
-      <MemberSignature Language="C#" Value="public static System.Text.Unicode.UnicodeRange ArabicExtendedB { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property class System.Text.Unicode.UnicodeRange ArabicExtendedB" />
-      <MemberSignature Language="DocId" Value="P:System.Text.Unicode.UnicodeRanges.ArabicExtendedB" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ArabicExtendedB As UnicodeRange" />
-      <MemberSignature Language="F#" Value="member this.ArabicExtendedB : System.Text.Unicode.UnicodeRange" Usage="System.Text.Unicode.UnicodeRanges.ArabicExtendedB" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Text::Unicode::UnicodeRange ^ ArabicExtendedB { System::Text::Unicode::UnicodeRange ^ get(); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.Encodings.Web</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Text.Unicode.UnicodeRange</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>A <see cref="T:System.Text.Unicode.UnicodeRange" /> corresponding to the 'Arabic Extended-B' Unicode block (U+0870..U+089F).</summary>
-        <value>To be added.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks
-
-See https://www.unicode.org/charts/PDF/U0870.pdf for the full set of characters in this block.
-
-          ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ArabicPresentationFormsA">
       <MemberSignature Language="C#" Value="public static System.Text.Unicode.UnicodeRange ArabicPresentationFormsA { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Text.Unicode.UnicodeRange ArabicPresentationFormsA" />

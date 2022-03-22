@@ -3624,7 +3624,7 @@ The property name and value are escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;byte&gt; utf8PropertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;byte&gt; utf8PropertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8PropertyName, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.ReadOnlySpan{System.Byte},System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (utf8PropertyName As ReadOnlySpan(Of Byte), value As String)" />
@@ -3915,7 +3915,7 @@ The property name and value are escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;char&gt; propertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;char&gt; propertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(valuetype System.ReadOnlySpan`1&lt;char&gt; propertyName, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.ReadOnlySpan{System.Char},System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (propertyName As ReadOnlySpan(Of Char), value As String)" />
@@ -4211,7 +4211,7 @@ The property name and value are escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(string propertyName, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (propertyName As String, value As String)" />
@@ -4509,7 +4509,7 @@ If `value` is `null`, the JSON **null** value is written, as if the <xref:System
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (System.Text.Json.JsonEncodedText propertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (System.Text.Json.JsonEncodedText propertyName, string? value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(valuetype System.Text.Json.JsonEncodedText propertyName, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.Text.Json.JsonEncodedText,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (propertyName As JsonEncodedText, value As String)" />
@@ -4781,7 +4781,7 @@ The value is escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteStringValue">
-      <MemberSignature Language="C#" Value="public void WriteStringValue (string? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void WriteStringValue (string? value);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteStringValue(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteStringValue(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteStringValue (value As String)" />

@@ -28,7 +28,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.HttpListener" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.HttpListener" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.HttpListener" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -451,7 +450,7 @@
       </Docs>
     </Member>
     <Member MemberName="ContentEncoding">
-      <MemberSignature Language="C#" Value="public System.Text.Encoding? ContentEncoding { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Encoding? ContentEncoding { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encoding ContentEncoding" />
       <MemberSignature Language="DocId" Value="P:System.Net.HttpListenerResponse.ContentEncoding" />
       <MemberSignature Language="VB.NET" Value="Public Property ContentEncoding As Encoding" />
@@ -583,7 +582,7 @@
       </Docs>
     </Member>
     <Member MemberName="ContentType">
-      <MemberSignature Language="C#" Value="public string? ContentType { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? ContentType { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContentType" />
       <MemberSignature Language="DocId" Value="P:System.Net.HttpListenerResponse.ContentType" />
       <MemberSignature Language="VB.NET" Value="Public Property ContentType As String" />
@@ -1076,7 +1075,7 @@
       </Docs>
     </Member>
     <Member MemberName="RedirectLocation">
-      <MemberSignature Language="C#" Value="public string? RedirectLocation { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? RedirectLocation { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string RedirectLocation" />
       <MemberSignature Language="DocId" Value="P:System.Net.HttpListenerResponse.RedirectLocation" />
       <MemberSignature Language="VB.NET" Value="Public Property RedirectLocation As String" />

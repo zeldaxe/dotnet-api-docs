@@ -28,7 +28,6 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.HttpListener" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.HttpListener" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.HttpListener" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -271,7 +270,7 @@ Use the [HttpCfg.exe](/windows/win32/http/httpcfg-exe) tool to add SSL certifica
       </Docs>
     </Member>
     <Member MemberName="AuthenticationSchemeSelectorDelegate">
-      <MemberSignature Language="C#" Value="public System.Net.AuthenticationSchemeSelector? AuthenticationSchemeSelectorDelegate { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Net.AuthenticationSchemeSelector? AuthenticationSchemeSelectorDelegate { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.AuthenticationSchemeSelector AuthenticationSchemeSelectorDelegate" />
       <MemberSignature Language="DocId" Value="P:System.Net.HttpListener.AuthenticationSchemeSelectorDelegate" />
       <MemberSignature Language="VB.NET" Value="Public Property AuthenticationSchemeSelectorDelegate As AuthenticationSchemeSelector" />
@@ -339,7 +338,7 @@ Use the [HttpCfg.exe](/windows/win32/http/httpcfg-exe) tool to add SSL certifica
       </Docs>
     </Member>
     <Member MemberName="BeginGetContext">
-      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetContext (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetContext (AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginGetContext(class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.HttpListener.BeginGetContext(System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function BeginGetContext (callback As AsyncCallback, state As Object) As IAsyncResult" />
@@ -688,7 +687,7 @@ The following code example demonstrates calling the `Close` method:
       </Docs>
     </Member>
     <Member MemberName="ExtendedProtectionSelectorDelegate">
-      <MemberSignature Language="C#" Value="public System.Net.HttpListener.ExtendedProtectionSelector? ExtendedProtectionSelectorDelegate { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Net.HttpListener.ExtendedProtectionSelector? ExtendedProtectionSelectorDelegate { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.HttpListener/ExtendedProtectionSelector ExtendedProtectionSelectorDelegate" />
       <MemberSignature Language="DocId" Value="P:System.Net.HttpListener.ExtendedProtectionSelectorDelegate" />
       <MemberSignature Language="VB.NET" Value="Public Property ExtendedProtectionSelectorDelegate As HttpListener.ExtendedProtectionSelector" />
@@ -1082,7 +1081,7 @@ The following code example demonstrates calling the `Close` method:
       </Docs>
     </Member>
     <Member MemberName="Realm">
-      <MemberSignature Language="C#" Value="public string? Realm { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string? Realm { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Realm" />
       <MemberSignature Language="DocId" Value="P:System.Net.HttpListener.Realm" />
       <MemberSignature Language="VB.NET" Value="Public Property Realm As String" />

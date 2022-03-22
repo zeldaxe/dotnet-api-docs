@@ -34,7 +34,6 @@
     <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Interfaces>
     <Interface>
@@ -97,7 +96,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub Add (key As Object, value As Object)" />
       <MemberSignature Language="F#" Value="abstract member Add : obj * obj -&gt; unit" Usage="iDictionary.Add (key, value)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::Object ^ key, System::Object ^ value);" />
-      <MemberSignature Language="C#" Value="public void Add (object key, object? value);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public void Add (object key, object? value);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -478,7 +477,7 @@
       <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As Object) As Object" />
       <MemberSignature Language="F#" Value="member this.Item(obj) : obj with get, set" Usage="System.Collections.IDictionary.Item" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ key); void set(System::Object ^ key, System::Object ^ value); };" />
-      <MemberSignature Language="C#" Value="public object? this[object key] { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object? this[object key] { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>

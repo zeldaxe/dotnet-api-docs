@@ -31,7 +31,6 @@
     <TypeForwarding From="System.Xml.Linq" FromVersion="4.0.0.0" To="System.Xml.XDocument" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Xml.Linq.XObject</BaseTypeName>
@@ -171,7 +170,7 @@ Console.WriteLine(xmlTree)
       <MemberSignature Language="VB.NET" Value="Public Sub AddAfterSelf (content As Object)" />
       <MemberSignature Language="F#" Value="member this.AddAfterSelf : obj -&gt; unit" Usage="xNode.AddAfterSelf content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddAfterSelf(System::Object ^ content);" />
-      <MemberSignature Language="C#" Value="public void AddAfterSelf (object? content);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void AddAfterSelf (object? content);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -271,7 +270,7 @@ Console.WriteLine(xmlTree)
       <MemberSignature Language="VB.NET" Value="Public Sub AddAfterSelf (ParamArray content As Object())" />
       <MemberSignature Language="F#" Value="member this.AddAfterSelf : obj[] -&gt; unit" Usage="xNode.AddAfterSelf content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddAfterSelf(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="C#" Value="public void AddAfterSelf (params object?[] content);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void AddAfterSelf (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -498,7 +497,7 @@ Console.WriteLine(xmlTree)
       <MemberSignature Language="VB.NET" Value="Public Sub AddBeforeSelf (content As Object)" />
       <MemberSignature Language="F#" Value="member this.AddBeforeSelf : obj -&gt; unit" Usage="xNode.AddBeforeSelf content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddBeforeSelf(System::Object ^ content);" />
-      <MemberSignature Language="C#" Value="public void AddBeforeSelf (object? content);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void AddBeforeSelf (object? content);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -600,7 +599,7 @@ Console.WriteLine(xmlTree)
       <MemberSignature Language="VB.NET" Value="Public Sub AddBeforeSelf (ParamArray content As Object())" />
       <MemberSignature Language="F#" Value="member this.AddBeforeSelf : obj[] -&gt; unit" Usage="xNode.AddBeforeSelf content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddBeforeSelf(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="C#" Value="public void AddBeforeSelf (params object?[] content);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void AddBeforeSelf (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -854,7 +853,7 @@ Root
       <MemberSignature Language="VB.NET" Value="Public Function Ancestors (name As XName) As IEnumerable(Of XElement)" />
       <MemberSignature Language="F#" Value="member this.Ancestors : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xNode.Ancestors name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Ancestors(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Ancestors (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Ancestors (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -944,7 +943,7 @@ Child
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareDocumentOrder (n1 As XNode, n2 As XNode) As Integer" />
       <MemberSignature Language="F#" Value="static member CompareDocumentOrder : System.Xml.Linq.XNode * System.Xml.Linq.XNode -&gt; int" Usage="System.Xml.Linq.XNode.CompareDocumentOrder (n1, n2)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int CompareDocumentOrder(System::Xml::Linq::XNode ^ n1, System::Xml::Linq::XNode ^ n2);" />
-      <MemberSignature Language="C#" Value="public static int CompareDocumentOrder (System.Xml.Linq.XNode? n1, System.Xml.Linq.XNode? n2);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static int CompareDocumentOrder (System.Xml.Linq.XNode? n1, System.Xml.Linq.XNode? n2);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1276,7 +1275,7 @@ Console.WriteLine(newTree)
         <ReturnType>System.Xml.XmlReader</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="readerOptions" Type="System.Xml.Linq.ReaderOptions" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="readerOptions" Type="System.Xml.Linq.ReaderOptions" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="readerOptions">A <see cref="T:System.Xml.Linq.ReaderOptions" /> object that specifies whether to omit duplicate namespaces.</param>
@@ -1292,7 +1291,7 @@ Console.WriteLine(newTree)
       <MemberSignature Language="VB.NET" Value="Public Shared Function DeepEquals (n1 As XNode, n2 As XNode) As Boolean" />
       <MemberSignature Language="F#" Value="static member DeepEquals : System.Xml.Linq.XNode * System.Xml.Linq.XNode -&gt; bool" Usage="System.Xml.Linq.XNode.DeepEquals (n1, n2)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool DeepEquals(System::Xml::Linq::XNode ^ n1, System::Xml::Linq::XNode ^ n2);" />
-      <MemberSignature Language="C#" Value="public static bool DeepEquals (System.Xml.Linq.XNode? n1, System.Xml.Linq.XNode? n2);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static bool DeepEquals (System.Xml.Linq.XNode? n1, System.Xml.Linq.XNode? n2);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1624,7 +1623,7 @@ Child5
       <MemberSignature Language="VB.NET" Value="Public Function ElementsAfterSelf (name As XName) As IEnumerable(Of XElement)" />
       <MemberSignature Language="F#" Value="member this.ElementsAfterSelf : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xNode.ElementsAfterSelf name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ ElementsAfterSelf(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; ElementsAfterSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; ElementsAfterSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1840,7 +1839,7 @@ Child2
       <MemberSignature Language="VB.NET" Value="Public Function ElementsBeforeSelf (name As XName) As IEnumerable(Of XElement)" />
       <MemberSignature Language="F#" Value="member this.ElementsBeforeSelf : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xNode.ElementsBeforeSelf name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ ElementsBeforeSelf(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; ElementsBeforeSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; ElementsBeforeSelf (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2027,7 +2026,7 @@ Child 3 Information
       <MemberSignature Language="VB.NET" Value="Public Function IsAfter (node As XNode) As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsAfter : System.Xml.Linq.XNode -&gt; bool" Usage="xNode.IsAfter node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsAfter(System::Xml::Linq::XNode ^ node);" />
-      <MemberSignature Language="C#" Value="public bool IsAfter (System.Xml.Linq.XNode? node);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public bool IsAfter (System.Xml.Linq.XNode? node);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2126,7 +2125,7 @@ Child5 is after Child3
       <MemberSignature Language="VB.NET" Value="Public Function IsBefore (node As XNode) As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsBefore : System.Xml.Linq.XNode -&gt; bool" Usage="xNode.IsBefore node" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsBefore(System::Xml::Linq::XNode ^ node);" />
-      <MemberSignature Language="C#" Value="public bool IsBefore (System.Xml.Linq.XNode? node);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public bool IsBefore (System.Xml.Linq.XNode? node);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2225,7 +2224,7 @@ Child5 is not before Child3
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NextNode As XNode" />
       <MemberSignature Language="F#" Value="member this.NextNode : System.Xml.Linq.XNode" Usage="System.Xml.Linq.XNode.NextNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Linq::XNode ^ NextNode { System::Xml::Linq::XNode ^ get(); };" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? NextNode { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? NextNode { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2342,7 +2341,7 @@ NodeType: Element   Child3
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XNode&gt; NodesAfterSelf ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XNode&gt; NodesAfterSelf() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XNode.NodesAfterSelf" />
-      <MemberSignature Language="VB.NET" Value="Public Function NodesAfterSelf () As IEnumerable(Of XNode)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function NodesAfterSelf () As IEnumerable(Of XNode)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="member this.NodesAfterSelf : unit -&gt; seq&lt;System.Xml.Linq.XNode&gt;" Usage="xNode.NodesAfterSelf " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XNode ^&gt; ^ NodesAfterSelf();" />
       <MemberSignature Language="VB.NET" Value="Public Iterator Function NodesAfterSelf () As IEnumerable(Of XNode)" FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -2454,7 +2453,7 @@ Node type: Element
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XNode&gt; NodesBeforeSelf ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XNode&gt; NodesBeforeSelf() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XNode.NodesBeforeSelf" />
-      <MemberSignature Language="VB.NET" Value="Public Function NodesBeforeSelf () As IEnumerable(Of XNode)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function NodesBeforeSelf () As IEnumerable(Of XNode)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="member this.NodesBeforeSelf : unit -&gt; seq&lt;System.Xml.Linq.XNode&gt;" Usage="xNode.NodesBeforeSelf " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XNode ^&gt; ^ NodesBeforeSelf();" />
       <MemberSignature Language="VB.NET" Value="Public Iterator Function NodesBeforeSelf () As IEnumerable(Of XNode)" FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -2568,7 +2567,7 @@ Node type: Element
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PreviousNode As XNode" />
       <MemberSignature Language="F#" Value="member this.PreviousNode : System.Xml.Linq.XNode" Usage="System.Xml.Linq.XNode.PreviousNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Linq::XNode ^ PreviousNode { System::Xml::Linq::XNode ^ get(); };" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? PreviousNode { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? PreviousNode { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2972,7 +2971,7 @@ Console.WriteLine(xmlTree)
       <MemberSignature Language="VB.NET" Value="Public Sub ReplaceWith (content As Object)" />
       <MemberSignature Language="F#" Value="member this.ReplaceWith : obj -&gt; unit" Usage="xNode.ReplaceWith content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceWith(System::Object ^ content);" />
-      <MemberSignature Language="C#" Value="public void ReplaceWith (object? content);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void ReplaceWith (object? content);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -3074,7 +3073,7 @@ Console.WriteLine(xmlTree)
       <MemberSignature Language="VB.NET" Value="Public Sub ReplaceWith (ParamArray content As Object())" />
       <MemberSignature Language="F#" Value="member this.ReplaceWith : obj[] -&gt; unit" Usage="xNode.ReplaceWith content" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceWith(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="C#" Value="public void ReplaceWith (params object?[] content);" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void ReplaceWith (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>

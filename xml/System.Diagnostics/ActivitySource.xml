@@ -277,8 +277,8 @@ If the Activity object is created, it will not start automatically. Callers need
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivitySource.StartActivity(System.String,System.Diagnostics.ActivityKind)" />
       <MemberSignature Language="VB.NET" Value="Public Function StartActivity (name As String, Optional kind As ActivityKind = System.Diagnostics.ActivityKind.Internal) As Activity" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="F#" Value="member this.StartActivity : string * System.Diagnostics.ActivityKind -&gt; System.Diagnostics.Activity" Usage="activitySource.StartActivity (name, kind)" />
-      <MemberSignature Language="C#" Value="public System.Diagnostics.Activity? StartActivity (string name = &quot;&quot;, System.Diagnostics.ActivityKind kind = System.Diagnostics.ActivityKind.Internal);" FrameworkAlternate="net-6.0;net-7.0" />
-      <MemberSignature Language="VB.NET" Value="Public Function StartActivity (Optional name As String = &quot;&quot;, Optional kind As ActivityKind = System.Diagnostics.ActivityKind.Internal) As Activity" FrameworkAlternate="net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Diagnostics.Activity? StartActivity (string name = &quot;&quot;, System.Diagnostics.ActivityKind kind = System.Diagnostics.ActivityKind.Internal);" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function StartActivity (Optional name As String = &quot;&quot;, Optional kind As ActivityKind = System.Diagnostics.ActivityKind.Internal) As Activity" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>

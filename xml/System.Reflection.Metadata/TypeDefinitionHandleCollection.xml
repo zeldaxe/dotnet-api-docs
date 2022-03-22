@@ -5,8 +5,8 @@
   <TypeSignature Language="VB.NET" Value="Public Structure TypeDefinitionHandleCollection&#xA;Implements IEnumerable(Of TypeDefinitionHandle), IReadOnlyCollection(Of TypeDefinitionHandle)" />
   <TypeSignature Language="F#" Value="type TypeDefinitionHandleCollection = struct&#xA;    interface IReadOnlyCollection&lt;TypeDefinitionHandle&gt;&#xA;    interface seq&lt;TypeDefinitionHandle&gt;&#xA;    interface IEnumerable" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
   <TypeSignature Language="C++ CLI" Value="public value class TypeDefinitionHandleCollection : System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::TypeDefinitionHandle&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Reflection::Metadata::TypeDefinitionHandle&gt;" />
-  <TypeSignature Language="C#" Value="public readonly struct TypeDefinitionHandleCollection : System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;, System.Collections.Generic.IReadOnlyCollection&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-  <TypeSignature Language="F#" Value="type TypeDefinitionHandleCollection = struct&#xA;    interface seq&lt;TypeDefinitionHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;TypeDefinitionHandle&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C#" Value="public readonly struct TypeDefinitionHandleCollection : System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;, System.Collections.Generic.IReadOnlyCollection&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;" FrameworkAlternate="net-5.0;net-6.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type TypeDefinitionHandleCollection = struct&#xA;    interface seq&lt;TypeDefinitionHandle&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;TypeDefinitionHandle&gt;" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Metadata</AssemblyName>
     <AssemblyVersion>1.0.22.0</AssemblyVersion>
@@ -38,7 +38,7 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>

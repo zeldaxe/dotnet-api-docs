@@ -66,7 +66,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="defaults" Type="System.Text.Json.JsonSerializerDefaults" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="defaults" Type="System.Text.Json.JsonSerializerDefaults" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="defaults">The <see cref="T:System.Text.Json.JsonSerializerDefaults" /> to reason about.</param>
@@ -89,7 +89,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="options">The options instance to copy options from.</param>
@@ -210,37 +210,6 @@ For more information, see [How to write custom converters](/dotnet/standard/seri
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="Default">
-      <MemberSignature Language="C#" Value="public static System.Text.Json.JsonSerializerOptions Default { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property class System.Text.Json.JsonSerializerOptions Default" />
-      <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.Default" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Default As JsonSerializerOptions" />
-      <MemberSignature Language="F#" Value="member this.Default : System.Text.Json.JsonSerializerOptions" Usage="System.Text.Json.JsonSerializerOptions.Default" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Text::Json::JsonSerializerOptions ^ Default { System::Text::Json::JsonSerializerOptions ^ get(); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.Json</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Text.Json.JsonSerializerOptions</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a read-only, singleton instance of <see cref="T:System.Text.Json.JsonSerializerOptions" /> that uses the default configuration.</summary>
-        <value>To be added.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks
-
-Each <xref:System.Text.Json.JsonSerializerOptions> instance encapsulates its own serialization metadata caches,
-            so using fresh default instances every time one is needed can result in redundant recomputation of converters.
-            This property provides a shared instance that can be consumed by any number of components without necessitating any converter recomputation.
-
-          ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="DefaultBufferSize">
       <MemberSignature Language="C#" Value="public int DefaultBufferSize { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 DefaultBufferSize" />
@@ -311,7 +280,7 @@ We recommend that you leave this value unchanged unless changing it makes an obs
       </Docs>
     </Member>
     <Member MemberName="DictionaryKeyPolicy">
-      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? DictionaryKeyPolicy { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? DictionaryKeyPolicy { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Json.JsonNamingPolicy DictionaryKeyPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.DictionaryKeyPolicy" />
       <MemberSignature Language="VB.NET" Value="Public Property DictionaryKeyPolicy As JsonNamingPolicy" />
@@ -351,7 +320,7 @@ For more information, see [How to customize property names and values with Syste
       </Docs>
     </Member>
     <Member MemberName="Encoder">
-      <MemberSignature Language="C#" Value="public System.Text.Encodings.Web.JavaScriptEncoder? Encoder { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Encodings.Web.JavaScriptEncoder? Encoder { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encodings.Web.JavaScriptEncoder Encoder" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.Encoder" />
       <MemberSignature Language="VB.NET" Value="Public Property Encoder As JavaScriptEncoder" />
@@ -401,7 +370,7 @@ For more information, see [How to customize character encoding with System.Text.
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Getting a converter for a type may require reflection which depends on unreferenced code.")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.RequiresUnreferencedCode("Getting a converter for a type may require reflection which depends on unreferenced code.")&gt;]</AttributeName>
         </Attribute>
@@ -446,11 +415,11 @@ For more information, see [How to write custom converters for JSON serialization
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-6.0">
           <AttributeName Language="C#">[System.Obsolete("JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.", DiagnosticId="SYSLIB0020", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.", DiagnosticId="SYSLIB0020", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
         </Attribute>
@@ -672,7 +641,7 @@ For more information, see [How to enable case-insensitive property name matching
       </Docs>
     </Member>
     <Member MemberName="PropertyNamingPolicy">
-      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? PropertyNamingPolicy { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? PropertyNamingPolicy { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Json.JsonNamingPolicy PropertyNamingPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.PropertyNamingPolicy" />
       <MemberSignature Language="VB.NET" Value="Public Property PropertyNamingPolicy As JsonNamingPolicy" />
