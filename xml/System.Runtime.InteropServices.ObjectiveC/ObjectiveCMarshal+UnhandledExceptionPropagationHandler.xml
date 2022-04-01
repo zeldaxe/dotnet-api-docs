@@ -1,5 +1,5 @@
 <Type Name="ObjectiveCMarshal+UnhandledExceptionPropagationHandler" FullName="System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal+UnhandledExceptionPropagationHandler">
-  <TypeSignature Language="C#" Value="public delegate method ObjectiveCMarshal.UnhandledExceptionPropagationHandler(Exception exception, RuntimeMethodHandle lastMethod, out IntPtr context);" />
+  <TypeSignature Language="C#" Value="public delegate delegate* unmanaged&lt;IntPtr, void&gt; ObjectiveCMarshal.UnhandledExceptionPropagationHandler(Exception exception, RuntimeMethodHandle lastMethod, out IntPtr context);" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ObjectiveCMarshal/UnhandledExceptionPropagationHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:System.Runtime.InteropServices.ObjectiveC.ObjectiveCMarshal.UnhandledExceptionPropagationHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Function ObjectiveCMarshal.UnhandledExceptionPropagationHandler(exception As Exception, lastMethod As RuntimeMethodHandle, ByRef context As IntPtr) As method " />
