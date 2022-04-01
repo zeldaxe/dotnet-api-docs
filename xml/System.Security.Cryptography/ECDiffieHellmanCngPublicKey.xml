@@ -24,9 +24,6 @@
     <AssemblyName>System.Security.Cryptography</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
-  <TypeForwardingChain>
-    <TypeForwarding From="System.Security.Cryptography.Cng" FromVersion="7.0.0.0" To="System.Security.Cryptography" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Security.Cryptography.ECDiffieHellmanPublicKey</BaseTypeName>
   </Base>
@@ -235,10 +232,6 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-3.5;netframework-4.0">
           <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>

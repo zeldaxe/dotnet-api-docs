@@ -39,8 +39,7 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.Csp" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.Csp" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
-    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-    <TypeForwarding From="System.Security.Cryptography.Csp" FromVersion="7.0.0.0" To="System.Security.Cryptography" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Security.Cryptography.Csp" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Security.Cryptography.RSA</BaseTypeName>
@@ -139,10 +138,6 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[System.Security.SecuritySafeCritical]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Security.SecuritySafeCritical&gt;]</AttributeName>
@@ -210,10 +205,6 @@ If no key is loaded via the <xref:System.Security.Cryptography.RSACryptoServiceP
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[System.Security.SecuritySafeCritical]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Security.SecuritySafeCritical&gt;]</AttributeName>
@@ -1302,74 +1293,6 @@ If no key is loaded via the <xref:System.Security.Cryptography.RSACryptoServiceP
  ]]></format>
         </remarks>
         <related type="Article" href="/dotnet/standard/security/cryptographic-services">Cryptographic Services</related>
-      </Docs>
-    </Member>
-    <Member MemberName="ImportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; passwordBytes, ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; passwordBytes, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Int32@)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportEncryptedPkcs8PrivateKey (passwordBytes As ReadOnlySpan(Of Byte), source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
-      <MemberSignature Language="F#" Value="override this.ImportEncryptedPkcs8PrivateKey : ReadOnlySpan&lt;byte&gt; * ReadOnlySpan&lt;byte&gt; * int -&gt; unit" Usage="rSACryptoServiceProvider.ImportEncryptedPkcs8PrivateKey (passwordBytes, source, bytesRead)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ImportEncryptedPkcs8PrivateKey(ReadOnlySpan&lt;System::Byte&gt; passwordBytes, ReadOnlySpan&lt;System::Byte&gt; source, [Runtime::InteropServices::Out] int % bytesRead);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Csp</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="passwordBytes" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-7.0" />
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="bytesRead" Type="System.Int32" RefType="out" Index="2" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <param name="passwordBytes">To be added.</param>
-        <param name="source">To be added.</param>
-        <param name="bytesRead">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ImportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;char&gt; password, ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;char&gt; password, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.RSACryptoServiceProvider.ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Byte},System.Int32@)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportEncryptedPkcs8PrivateKey (password As ReadOnlySpan(Of Char), source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
-      <MemberSignature Language="F#" Value="override this.ImportEncryptedPkcs8PrivateKey : ReadOnlySpan&lt;char&gt; * ReadOnlySpan&lt;byte&gt; * int -&gt; unit" Usage="rSACryptoServiceProvider.ImportEncryptedPkcs8PrivateKey (password, source, bytesRead)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ImportEncryptedPkcs8PrivateKey(ReadOnlySpan&lt;char&gt; password, ReadOnlySpan&lt;System::Byte&gt; source, [Runtime::InteropServices::Out] int % bytesRead);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Csp</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="password" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="0" FrameworkAlternate="net-7.0" />
-        <Parameter Name="source" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="1" FrameworkAlternate="net-7.0" />
-        <Parameter Name="bytesRead" Type="System.Int32" RefType="out" Index="2" FrameworkAlternate="net-7.0" />
-      </Parameters>
-      <Docs>
-        <param name="password">To be added.</param>
-        <param name="source">To be added.</param>
-        <param name="bytesRead">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ImportParameters">

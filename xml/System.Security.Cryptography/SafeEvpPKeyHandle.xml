@@ -19,9 +19,6 @@
     <AssemblyName>System.Security.Cryptography</AssemblyName>
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
-  <TypeForwardingChain>
-    <TypeForwarding From="System.Security.Cryptography.OpenSsl" FromVersion="7.0.0.0" To="System.Security.Cryptography" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
-  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Runtime.InteropServices.SafeHandle</BaseTypeName>
   </Base>
@@ -55,28 +52,6 @@
         <AssemblyName>System.Security.Cryptography</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("android")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("android")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("windows")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("windows")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Security.Cryptography.SafeEvpPKeyHandle" /> class, representing an invalid handle.</summary>
@@ -105,28 +80,6 @@
         <AssemblyName>System.Security.Cryptography</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("android")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("android")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("windows")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("windows")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="handle" Type="System.IntPtr" />
         <Parameter Name="ownsHandle" Type="System.Boolean" />
@@ -225,28 +178,6 @@
         <AssemblyName>System.Security.Cryptography</AssemblyName>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("android")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("android")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="net-7.0">
-          <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("windows")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("windows")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
