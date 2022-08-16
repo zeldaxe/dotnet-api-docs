@@ -69,8 +69,8 @@
         <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TValue" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="dictionary" Type="System.Collections.Generic.Dictionary&lt;TKey,TValue&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -113,8 +113,8 @@ Items should not be added to or removed from the <xref:System.Collections.Generi
         <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TValue" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="dictionary" Type="System.Collections.Generic.Dictionary&lt;TKey,TValue&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />

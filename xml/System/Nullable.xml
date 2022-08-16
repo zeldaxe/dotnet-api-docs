@@ -327,7 +327,7 @@
         </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="T">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>

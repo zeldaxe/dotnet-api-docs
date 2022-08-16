@@ -341,7 +341,7 @@
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TDerived" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TDerived">
           <Constraints>
             <BaseTypeName>T</BaseTypeName>
           </Constraints>
@@ -374,7 +374,7 @@
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TDerived" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TDerived">
           <Constraints>
             <BaseTypeName>T</BaseTypeName>
           </Constraints>

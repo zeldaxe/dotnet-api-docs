@@ -2468,7 +2468,7 @@
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IAsyncEnumerable&lt;TSource&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2516,7 +2516,7 @@ The operation will execute at most <xref:System.Environment.ProcessorCount> oper
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2564,7 +2564,7 @@ The operation will execute at most <xref:System.Environment.ProcessorCount> oper
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IAsyncEnumerable&lt;TSource&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2614,7 +2614,7 @@ The operation will execute at most <xref:System.Environment.ProcessorCount> oper
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IAsyncEnumerable&lt;TSource&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2656,7 +2656,7 @@ The operation will execute at most <xref:System.Environment.ProcessorCount> oper
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2706,7 +2706,7 @@ The operation will execute at most <xref:System.Environment.ProcessorCount> oper
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" Index="0" FrameworkAlternate="net-6.0;net-7.0" />

@@ -544,7 +544,7 @@
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
@@ -2006,7 +2006,7 @@ Dim doubles = From item As Integer In sequence
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource[]&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2757,8 +2757,8 @@ Each chunk except the last one will be of size `size`. The last chunk will conta
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2810,8 +2810,8 @@ The <xref:System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnume
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2865,7 +2865,7 @@ The <xref:System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnume
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2985,7 +2985,7 @@ This method throws an exception if `index` is out of range. To instead return a 
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3339,8 +3339,8 @@ Only unique elements are returned.
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3382,8 +3382,8 @@ Only unique elements are returned.
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3718,7 +3718,7 @@ Only unique elements are returned.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3759,7 +3759,7 @@ Only unique elements are returned.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -4790,8 +4790,8 @@ Only unique elements are returned.
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -4849,8 +4849,8 @@ The default equality comparer, <xref:System.Collections.Generic.EqualityComparer
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5385,7 +5385,7 @@ If `comparer` is `null`, the default equality comparer, <xref:System.Collections
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5426,7 +5426,7 @@ If `comparer` is `null`, the default equality comparer, <xref:System.Collections
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -6276,7 +6276,7 @@ If `comparer` is `null`, the default equality comparer, <xref:System.Collections
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -7119,8 +7119,8 @@ In Visual Basic query expression syntax, an `Aggregate Into Max()` clause transl
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -7170,8 +7170,8 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -7885,7 +7885,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -8728,8 +8728,8 @@ In Visual Basic query expression syntax, an `Aggregate Into Min()` clause transl
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -8779,8 +8779,8 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -8899,7 +8899,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>System.Linq.IOrderedEnumerable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -8934,7 +8934,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>System.Linq.IOrderedEnumerable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -9313,7 +9313,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>System.Linq.IOrderedEnumerable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -9348,7 +9348,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>System.Linq.IOrderedEnumerable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -9401,7 +9401,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
@@ -10590,7 +10590,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -10631,7 +10631,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -10747,7 +10747,7 @@ If `TKey` is a reference type and the source sequence is empty or contains only 
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -12340,7 +12340,7 @@ If `count` is not a positive number, this method returns an identical copy of th
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -12392,7 +12392,7 @@ This method is implemented by using deferred execution. The immediate return val
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -13300,7 +13300,7 @@ If `count` is not a positive number, this method returns an empty enumerable col
         <ReturnType>System.Collections.Generic.HashSet&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
@@ -13343,7 +13343,7 @@ If `count` is not a positive number, this method returns an empty enumerable col
         <ReturnType>System.Collections.Generic.HashSet&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
@@ -13724,7 +13724,7 @@ If `count` is not a positive number, this method returns an empty enumerable col
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -13947,8 +13947,8 @@ The method is typically a constant-time operation, but ultimately this depends o
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -14004,8 +14004,8 @@ When the object returned by this method is enumerated, <xref:System.Linq.Enumera
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TKey" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -14214,8 +14214,8 @@ When the object returned by this method is enumerated, <xref:System.Linq.Enumera
         </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFirst" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <TypeParameter Name="TSecond" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <TypeParameter Name="TFirst" />
+        <TypeParameter Name="TSecond" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TFirst&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -14265,9 +14265,9 @@ When the object returned by this method is enumerated, <xref:System.Linq.Enumera
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TResult&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFirst" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <TypeParameter Name="TSecond" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <TypeParameter Name="TResult" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <TypeParameter Name="TFirst" />
+        <TypeParameter Name="TSecond" />
+        <TypeParameter Name="TResult" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TFirst&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
@@ -14333,9 +14333,9 @@ When the object returned by this method is enumerated, <xref:System.Linq.Enumera
         </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFirst" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TSecond" FrameworkAlternate="net-6.0;net-7.0" />
-        <TypeParameter Name="TThird" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TFirst" />
+        <TypeParameter Name="TSecond" />
+        <TypeParameter Name="TThird" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="first" Type="System.Collections.Generic.IEnumerable&lt;TFirst&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />

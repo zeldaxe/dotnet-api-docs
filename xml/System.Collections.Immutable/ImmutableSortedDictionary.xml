@@ -460,8 +460,8 @@
         <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
-        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="builder" Type="System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;+Builder" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />

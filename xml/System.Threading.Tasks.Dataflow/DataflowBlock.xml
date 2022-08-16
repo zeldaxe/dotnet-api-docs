@@ -998,7 +998,7 @@ batchBlock.Complete();
         <ReturnType>System.Collections.Generic.IAsyncEnumerable&lt;TOutput&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOutput" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TOutput" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Threading.Tasks.Dataflow.IReceivableSourceBlock&lt;TOutput&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />

@@ -50,7 +50,7 @@
         <ReturnType FrameworkAlternate="netcore-1.1">System.Collections.Immutable.ImmutableArray&lt;TType&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TType" FrameworkAlternate="netcore-1.1" />
+        <TypeParameter Name="TType" Index="0" FrameworkAlternate="netcore-1.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="provider" Type="System.Reflection.Metadata.ISignatureTypeProvider&lt;TType&gt;" Index="0" FrameworkAlternate="netcore-1.1" />
@@ -85,8 +85,8 @@
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;TType&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TType" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-        <TypeParameter Name="TGenericContext" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+        <TypeParameter Name="TType" />
+        <TypeParameter Name="TGenericContext" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="provider" Type="System.Reflection.Metadata.ISignatureTypeProvider&lt;TType,TGenericContext&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
@@ -118,7 +118,7 @@
         <ReturnType FrameworkAlternate="netcore-1.1">System.Reflection.Metadata.MethodSignature&lt;TType&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TType" FrameworkAlternate="netcore-1.1" />
+        <TypeParameter Name="TType" Index="0" FrameworkAlternate="netcore-1.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="provider" Type="System.Reflection.Metadata.ISignatureTypeProvider&lt;TType&gt;" Index="0" FrameworkAlternate="netcore-1.1" />
@@ -153,8 +153,8 @@
         <ReturnType>System.Reflection.Metadata.MethodSignature&lt;TType&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TType" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-        <TypeParameter Name="TGenericContext" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+        <TypeParameter Name="TType" />
+        <TypeParameter Name="TGenericContext" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="provider" Type="System.Reflection.Metadata.ISignatureTypeProvider&lt;TType,TGenericContext&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />

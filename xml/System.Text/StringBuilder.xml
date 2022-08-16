@@ -3591,7 +3591,7 @@
         <ReturnType>System.Text.StringBuilder</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="separator" Type="System.Char" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -3632,7 +3632,7 @@
         <ReturnType>System.Text.StringBuilder</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="separator" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />

@@ -12,7 +12,7 @@
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="TContext" Index="0" FrameworkAlternate="net-7.0" />
+    <TypeParameter Name="TContext" />
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>

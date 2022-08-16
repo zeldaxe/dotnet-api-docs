@@ -1920,7 +1920,7 @@ public class ImpersonationDemo
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-6.0;net-7.0;netcore-1.0;netcore-1.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="safeAccessTokenHandle" Type="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" Index="0" FrameworkAlternate="net-6.0;net-7.0;netcore-1.0;netcore-1.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
@@ -2071,7 +2071,7 @@ public class ImpersonationDemo
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-6.0;net-7.0;windowsdesktop-5.0" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="safeAccessTokenHandle" Type="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" Index="0" FrameworkAlternate="net-6.0;net-7.0;windowsdesktop-5.0" />

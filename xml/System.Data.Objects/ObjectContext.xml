@@ -316,7 +316,7 @@
         <ReturnType>TEntity</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TEntity">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -377,7 +377,7 @@
         <ReturnType>TEntity</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TEntity">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -887,7 +887,7 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="T">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -924,7 +924,7 @@
         <ReturnType>System.Data.Objects.ObjectSet&lt;TEntity&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TEntity">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -959,7 +959,7 @@
         <ReturnType>System.Data.Objects.ObjectSet&lt;TEntity&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TEntity">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -1530,7 +1530,7 @@
         <ReturnType>System.Data.Objects.ObjectResult&lt;TElement&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TElement" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <TypeParameter Name="TElement" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="functionName" Type="System.String" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -1648,7 +1648,7 @@
         <ReturnType>System.Data.Objects.ObjectResult&lt;TElement&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TElement" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <TypeParameter Name="TElement" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -1709,7 +1709,7 @@
         <ReturnType>System.Data.Objects.ObjectResult&lt;TEntity&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <TypeParameter Name="TEntity" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="commandText" Type="System.String" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -1991,7 +1991,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <TypeParameter Name="TEntity" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="entity" Type="TEntity" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -2043,7 +2043,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <TypeParameter Name="TEntity" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="entity" Type="TEntity" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -2533,7 +2533,7 @@
         <ReturnType>System.Data.Objects.ObjectResult&lt;TElement&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TElement" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <TypeParameter Name="TElement" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="reader" Type="System.Data.Common.DbDataReader" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -2578,7 +2578,7 @@
         <ReturnType>System.Data.Objects.ObjectResult&lt;TEntity&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <TypeParameter Name="TEntity" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="reader" Type="System.Data.Common.DbDataReader" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />

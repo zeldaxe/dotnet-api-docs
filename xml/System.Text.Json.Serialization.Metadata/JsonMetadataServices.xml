@@ -341,12 +341,12 @@ This API is for use by the output of the System.Text.Json source generator and s
         <ReturnType>System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;TCollection&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TCollection" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TCollection">
           <Constraints>
             <InterfaceName>System.Collections.Generic.IAsyncEnumerable&lt;TElement&gt;</InterfaceName>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="TElement" FrameworkAlternate="net-7.0" />
+        <TypeParameter Name="TElement" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="0" FrameworkAlternate="net-7.0" />
@@ -1441,7 +1441,7 @@ This API is for use by the output of the System.Text.Json source generator and s
         <ReturnType>System.Text.Json.Serialization.JsonConverter&lt;System.Nullable&lt;T&gt;&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="T">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>

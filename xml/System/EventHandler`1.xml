@@ -41,7 +41,7 @@
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <TypeParameters>
-    <TypeParameter Name="TEventArgs" Index="0" FrameworkAlternate="xamarinmac-3.0" />
+    <TypeParameter Name="TEventArgs" />
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>

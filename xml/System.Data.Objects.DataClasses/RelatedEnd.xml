@@ -102,7 +102,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" Index="0" FrameworkAlternate="netframework-3.5" />
+        <TypeParameter Name="TEntity" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="entities" Type="System.Collections.Generic.IEnumerable&lt;TEntity&gt;" Index="0" FrameworkAlternate="netframework-3.5" />
@@ -855,7 +855,7 @@ The `Merge<TEntity>` method is called by Object Services during relationship ope
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" Index="0" FrameworkAlternate="netframework-3.5" />
+        <TypeParameter Name="TEntity" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="entity" Type="TEntity" Index="0" FrameworkAlternate="netframework-3.5" />
@@ -905,7 +905,7 @@ The `ValidateEntityForAttach<TEntity>` method is called by Object Services durin
         <ReturnType>System.Data.Objects.ObjectQuery&lt;TEntity&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TEntity" Index="0" FrameworkAlternate="netframework-3.5" />
+        <TypeParameter Name="TEntity" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="mergeOption" Type="System.Data.Objects.MergeOption" Index="0" FrameworkAlternate="netframework-3.5" />

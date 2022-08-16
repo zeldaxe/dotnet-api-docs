@@ -930,7 +930,7 @@ The addition of a complex number (a + bi) and a real number (which can be regard
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TOther">
           <Constraints>
             <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>
@@ -972,7 +972,7 @@ The addition of a complex number (a + bi) and a real number (which can be regard
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TOther">
           <Constraints>
             <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>
@@ -1014,7 +1014,7 @@ The addition of a complex number (a + bi) and a real number (which can be regard
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TOther">
           <Constraints>
             <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>

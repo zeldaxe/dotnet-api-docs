@@ -34,27 +34,27 @@
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <TypeParameters>
-    <TypeParameter Name="T1" Index="0" FrameworkAlternate="xamarinmac-3.0">
+    <TypeParameter Name="T1">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T2" Index="1" FrameworkAlternate="xamarinmac-3.0">
+    <TypeParameter Name="T2">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T3" Index="2" FrameworkAlternate="xamarinmac-3.0">
+    <TypeParameter Name="T3">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T4" Index="3" FrameworkAlternate="xamarinmac-3.0">
+    <TypeParameter Name="T4">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T5" Index="4" FrameworkAlternate="xamarinmac-3.0">
+    <TypeParameter Name="T5">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>

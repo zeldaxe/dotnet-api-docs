@@ -526,7 +526,7 @@
         <ReturnType>System.Collections.Generic.List&lt;TOutput&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOutput" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />
+        <TypeParameter Name="TOutput" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="converter" Type="System.Converter&lt;System.Diagnostics.ProcessModule,TOutput&gt;" Index="0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />

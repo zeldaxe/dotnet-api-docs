@@ -566,9 +566,9 @@
         <ReturnType>System.Int16</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TOther">
           <Constraints>
-            <InterfaceName>System.Numerics.INumber&lt;TOther&gt;</InterfaceName>
+            <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>
         </TypeParameter>
       </TypeParameters>
@@ -608,9 +608,9 @@
         <ReturnType>System.Int16</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TOther">
           <Constraints>
-            <InterfaceName>System.Numerics.INumber&lt;TOther&gt;</InterfaceName>
+            <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>
         </TypeParameter>
       </TypeParameters>
@@ -650,9 +650,9 @@
         <ReturnType>System.Int16</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
+        <TypeParameter Name="TOther">
           <Constraints>
-            <InterfaceName>System.Numerics.INumber&lt;TOther&gt;</InterfaceName>
+            <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>
         </TypeParameter>
       </TypeParameters>

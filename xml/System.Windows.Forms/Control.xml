@@ -7716,7 +7716,7 @@ MyControl.Font = New Font(MyControl.Font, _
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="windowsdesktop-6.0;windowsdesktop-7.0" />
+        <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="method" Type="System.Func&lt;T&gt;" Index="0" FrameworkAlternate="net-6.0;windowsdesktop-6.0;windowsdesktop-7.0" />

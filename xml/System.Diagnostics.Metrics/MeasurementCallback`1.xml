@@ -11,7 +11,7 @@
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T" Index="0" FrameworkAlternate="net-7.0" />
+    <TypeParameter Name="T" />
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>

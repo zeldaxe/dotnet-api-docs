@@ -116,7 +116,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TContext" FrameworkAlternate="net-6.0;net-7.0">
+        <TypeParameter Name="TContext">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <BaseTypeName>System.Text.Json.Serialization.JsonSerializerContext</BaseTypeName>

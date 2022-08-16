@@ -216,14 +216,14 @@
         <ReturnType>System.Numerics.Vector&lt;TTo&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFrom" FrameworkAlternate="net-6.0;net-7.0">
+        <TypeParameter Name="TFrom">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
             <BaseTypeName>System.ValueType</BaseTypeName>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="TTo" FrameworkAlternate="net-6.0;net-7.0">
+        <TypeParameter Name="TTo">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -532,7 +532,7 @@
         </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0">
+        <TypeParameter Name="T">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -586,7 +586,7 @@
         </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0">
+        <TypeParameter Name="T">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5068,7 +5068,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0">
+        <TypeParameter Name="T">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>

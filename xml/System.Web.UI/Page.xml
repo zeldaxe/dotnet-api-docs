@@ -5887,7 +5887,7 @@ int year = Convert.ToInt32(Page.RouteData.Values["year"])
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TModel" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TModel">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -5930,7 +5930,7 @@ int year = Convert.ToInt32(Page.RouteData.Values["year"])
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TModel" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TModel">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -6147,7 +6147,7 @@ int year = Convert.ToInt32(Page.RouteData.Values["year"])
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TModel" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TModel">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>
@@ -6188,7 +6188,7 @@ int year = Convert.ToInt32(Page.RouteData.Values["year"])
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TModel" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <TypeParameter Name="TModel">
           <Constraints>
             <ParameterAttribute>ReferenceTypeConstraint</ParameterAttribute>
           </Constraints>

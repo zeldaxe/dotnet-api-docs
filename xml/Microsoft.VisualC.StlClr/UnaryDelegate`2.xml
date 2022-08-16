@@ -14,8 +14,8 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="TArg" Index="0" FrameworkAlternate="netframework-4.8" />
-    <TypeParameter Name="TResult" Index="1" FrameworkAlternate="netframework-4.8" />
+    <TypeParameter Name="TArg" />
+    <TypeParameter Name="TResult" />
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>
