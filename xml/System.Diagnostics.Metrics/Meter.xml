@@ -455,7 +455,7 @@ Example uses for ObservableCounter: The number of page faults for each process.
         <ReturnType>System.Diagnostics.Metrics.ObservableUpDownCounter&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -503,7 +503,7 @@ Example uses for ObservableUpDownCounter: the process heap size or the approxima
         <ReturnType>System.Diagnostics.Metrics.ObservableUpDownCounter&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -551,7 +551,7 @@ Example uses for ObservableUpDownCounter: the process heap size or the approxima
         <ReturnType>System.Diagnostics.Metrics.ObservableUpDownCounter&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -599,7 +599,7 @@ Example uses for ObservableUpDownCounter: the process heap size or the approxima
         <ReturnType>System.Diagnostics.Metrics.UpDownCounter&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>

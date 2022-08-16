@@ -38,7 +38,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -73,7 +73,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -110,7 +110,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -131,13 +131,13 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="As&lt;T,U&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;U&gt; As&lt;T,U&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct where U : struct;" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!U&gt; As&lt;struct .ctor (class System.ValueType) T, struct .ctor (class System.ValueType) U&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.As``2(System.Runtime.Intrinsics.Vector64{``0})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function As(Of T As Structure, U As Structure) (vector As Vector64(Of T)) As Vector64(Of U)" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="F#" Value="static member As : System.Runtime.Intrinsics.Vector64&lt;'T (requires 'T : struct)&gt; -&gt; System.Runtime.Intrinsics.Vector64&lt;'U (requires 'U : struct)&gt; (requires 'T : struct and 'U : struct)" Usage="System.Runtime.Intrinsics.Vector64.As vector" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename U&gt;&#xA; where T : value class where U : value class[System::Runtime::CompilerServices::Extension]&#xA; static System::Runtime::Intrinsics::Vector64&lt;U&gt; As(System::Runtime::Intrinsics::Vector64&lt;T&gt; vector);" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
+    <Member MemberName="As&lt;TFrom,TTo&gt;">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;U&gt; As&lt;T,U&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct where U : struct;" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!U&gt; As&lt;struct .ctor (class System.ValueType) T, struct .ctor (class System.ValueType) U&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.As``2(System.Runtime.Intrinsics.Vector64{``0})" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function As(Of T As Structure, U As Structure) (vector As Vector64(Of T)) As Vector64(Of U)" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="F#" Value="static member As : System.Runtime.Intrinsics.Vector64&lt;'T (requires 'T : struct)&gt; -&gt; System.Runtime.Intrinsics.Vector64&lt;'U (requires 'U : struct)&gt; (requires 'T : struct and 'U : struct)" Usage="System.Runtime.Intrinsics.Vector64.As vector" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename U&gt;&#xA; where T : value class where U : value class[System::Runtime::CompilerServices::Extension]&#xA; static System::Runtime::Intrinsics::Vector64&lt;U&gt; As(System::Runtime::Intrinsics::Vector64&lt;T&gt; vector);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;TTo&gt; As&lt;TFrom,TTo&gt; (this System.Runtime.Intrinsics.Vector64&lt;TFrom&gt; vector) where TFrom : struct where TTo : struct;" FrameworkAlternate="net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!TTo&gt; As&lt;struct .ctor (class System.ValueType) TFrom, struct .ctor (class System.ValueType) TTo&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!TFrom&gt; vector) cil managed" FrameworkAlternate="net-7.0" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function As(Of TFrom As Structure, TTo As Structure) (vector As Vector64(Of TFrom)) As Vector64(Of TTo)" FrameworkAlternate="net-7.0" />
@@ -153,18 +153,32 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.Runtime.Intrinsics.Vector64&lt;U&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Runtime.Intrinsics.Vector64&lt;U&gt;</ReturnType>
         <ReturnType FrameworkAlternate="net-7.0">System.Runtime.Intrinsics.Vector64&lt;TTo&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
             <BaseTypeName>System.ValueType</BaseTypeName>
           </Constraints>
         </TypeParameter>
-        <TypeParameter Name="U">
+        <TypeParameter Name="TFrom" Index="0" FrameworkAlternate="net-7.0">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+            <BaseTypeName>System.ValueType</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="U" Index="1" FrameworkAlternate="net-5.0;net-6.0">
+          <Constraints>
+            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
+            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
+            <BaseTypeName>System.ValueType</BaseTypeName>
+          </Constraints>
+        </TypeParameter>
+        <TypeParameter Name="TTo" Index="1" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -173,11 +187,13 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="vector" Type="System.Runtime.Intrinsics.Vector64&lt;T&gt;" RefType="this" />
+        <Parameter Name="vector" Type="System.Runtime.Intrinsics.Vector64&lt;TFrom&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the input vector.</typeparam>
         <typeparam name="U">The type that the vector <paramref name="vector" /> should be reinterpreted as.</typeparam>
+        <typeparam name="TFrom">To be added.</typeparam>
+        <typeparam name="TTo">To be added.</typeparam>
         <param name="vector">The vector to reinterpret.</param>
         <summary>Reinterprets a <see cref="T:System.Runtime.Intrinsics.Vector64`1" /> of type <typeparamref name="T" /> as a new <see cref="T:System.Runtime.Intrinsics.Vector64`1" /> of type <typeparamref name="U" />.</summary>
         <returns>
@@ -407,7 +423,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;System.IntPtr&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -450,7 +466,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;System.UIntPtr&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -716,7 +732,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -753,7 +769,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -840,7 +856,7 @@
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -1103,7 +1119,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -1140,7 +1156,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -1179,7 +1195,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -1955,7 +1971,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -1991,7 +2007,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2026,7 +2042,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2064,7 +2080,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2745,7 +2761,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2782,7 +2798,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2819,7 +2835,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2856,7 +2872,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2894,7 +2910,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2938,7 +2954,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3067,7 +3083,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3104,7 +3120,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3142,7 +3158,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3180,7 +3196,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3217,7 +3233,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3255,7 +3271,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3323,7 +3339,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3360,7 +3376,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3398,7 +3414,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3436,7 +3452,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3473,7 +3489,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3511,7 +3527,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3554,7 +3570,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3594,7 +3610,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3634,7 +3650,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3677,7 +3693,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3718,7 +3734,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3755,7 +3771,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3792,7 +3808,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3829,7 +3845,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3866,7 +3882,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -3903,7 +3919,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -4153,7 +4169,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -4188,7 +4204,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5171,7 +5187,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5211,7 +5227,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5252,7 +5268,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5293,7 +5309,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5337,7 +5353,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5379,7 +5395,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5417,7 +5433,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5454,7 +5470,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5609,7 +5625,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -5934,7 +5950,7 @@ This method may bypass the cache on certain platforms.
         <ReturnType>System.Runtime.Intrinsics.Vector64&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>

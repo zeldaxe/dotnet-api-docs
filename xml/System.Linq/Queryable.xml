@@ -527,7 +527,7 @@
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -2104,7 +2104,7 @@
         <ReturnType>System.Linq.IQueryable&lt;TSource[]&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2781,8 +2781,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2823,8 +2823,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2867,7 +2867,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2977,7 +2977,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3223,8 +3223,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3265,8 +3265,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3610,7 +3610,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -3651,7 +3651,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -4578,8 +4578,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -4622,8 +4622,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5134,7 +5134,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5175,7 +5175,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5429,7 +5429,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5542,8 +5542,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5585,8 +5585,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5697,7 +5697,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5811,8 +5811,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5854,8 +5854,8 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -5962,7 +5962,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -5997,7 +5997,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -6324,7 +6324,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -6359,7 +6359,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IOrderedQueryable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -6398,7 +6398,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -7397,7 +7397,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -7438,7 +7438,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>TSource</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -7548,7 +7548,7 @@ The last chunk will contain the remaining elements and may be of a smaller size.
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -9064,7 +9064,7 @@ If `count` is not a positive number, this method returns an identical copy of th
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -9105,7 +9105,7 @@ If `count` is not a positive number, this method returns an identical copy of th
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
+        <TypeParameter Name="TSource" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -9726,8 +9726,8 @@ If `count` is not a positive number, this method returns an empty queryable sequ
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -9770,8 +9770,8 @@ If `count` is not a positive number, this method returns an empty queryable sequ
         <ReturnType>System.Linq.IQueryable&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TSource" />
-        <TypeParameter Name="TKey" />
+        <TypeParameter Name="TSource" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TKey" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -9968,8 +9968,8 @@ If `count` is not a positive number, this method returns an empty queryable sequ
         </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFirst" />
-        <TypeParameter Name="TSecond" />
+        <TypeParameter Name="TFirst" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <TypeParameter Name="TSecond" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TFirst&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -10016,9 +10016,9 @@ If `count` is not a positive number, this method returns an empty queryable sequ
         <ReturnType>System.Linq.IQueryable&lt;TResult&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFirst" />
-        <TypeParameter Name="TSecond" />
-        <TypeParameter Name="TResult" />
+        <TypeParameter Name="TFirst" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <TypeParameter Name="TSecond" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <TypeParameter Name="TResult" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TFirst&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
@@ -10085,9 +10085,9 @@ If `count` is not a positive number, this method returns an empty queryable sequ
         </Attributes>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFirst" />
-        <TypeParameter Name="TSecond" />
-        <TypeParameter Name="TThird" />
+        <TypeParameter Name="TFirst" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TSecond" FrameworkAlternate="net-6.0;net-7.0" />
+        <TypeParameter Name="TThird" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source1" Type="System.Linq.IQueryable&lt;TFirst&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />

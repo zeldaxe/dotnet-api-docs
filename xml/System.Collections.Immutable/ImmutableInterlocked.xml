@@ -717,7 +717,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="location" Type="System.Collections.Immutable.ImmutableArray&lt;T&gt;" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -797,8 +797,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
-        <TypeParameter Name="TArg" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <TypeParameter Name="TArg" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="location" Type="System.Collections.Immutable.ImmutableArray&lt;T&gt;" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />

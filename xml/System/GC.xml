@@ -202,7 +202,7 @@
         <ReturnType>T[]</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="length" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -245,7 +245,7 @@ If pinned is set to `true`, `T` must not be a reference type or a type that cont
         <ReturnType>T[]</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="length" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />

@@ -403,7 +403,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <ReturnType>System.Threading.Tasks.ValueTask&lt;TResult&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TResult" />
+        <TypeParameter Name="TResult" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -473,7 +473,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <ReturnType>System.Threading.Tasks.ValueTask&lt;TResult&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TResult" />
+        <TypeParameter Name="TResult" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="exception" Type="System.Exception" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -510,7 +510,7 @@ Two <xref:System.Threading.Tasks.ValueTask> instances are equal when they wrap t
         <ReturnType>System.Threading.Tasks.ValueTask&lt;TResult&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TResult" />
+        <TypeParameter Name="TResult" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="result" Type="TResult" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />

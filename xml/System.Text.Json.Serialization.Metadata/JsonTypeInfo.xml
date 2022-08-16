@@ -185,7 +185,7 @@ Which converter gets resolved influences the value of <xref:System.Text.Json.Ser
         <ReturnType>System.Text.Json.Serialization.Metadata.JsonTypeInfo&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="0" FrameworkAlternate="net-7.0" />

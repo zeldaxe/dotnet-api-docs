@@ -619,7 +619,7 @@
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther">
+        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.Numerics.INumber&lt;TOther&gt;</InterfaceName>
           </Constraints>
@@ -661,7 +661,7 @@
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther">
+        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.Numerics.INumber&lt;TOther&gt;</InterfaceName>
           </Constraints>
@@ -703,7 +703,7 @@
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther">
+        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.Numerics.INumber&lt;TOther&gt;</InterfaceName>
           </Constraints>

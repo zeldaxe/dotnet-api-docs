@@ -145,7 +145,7 @@
         <ReturnType>System.Threading.Tasks.Task&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="content" Type="System.Net.Http.HttpContent" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />

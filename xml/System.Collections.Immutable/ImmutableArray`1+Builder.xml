@@ -429,7 +429,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TDerived">
+        <TypeParameter Name="TDerived" FrameworkAlternate="net-7.0">
           <Constraints>
             <BaseTypeName>T</BaseTypeName>
           </Constraints>

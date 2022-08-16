@@ -36,7 +36,11 @@
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Linq" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <TypeParameters>
-    <TypeParameter Name="TElement" />
+    <TypeParameter Name="TElement">
+      <Constraints>
+        <ParameterAttribute>Covariant</ParameterAttribute>
+      </Constraints>
+    </TypeParameter>
   </TypeParameters>
   <Interfaces>
     <Interface>

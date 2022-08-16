@@ -325,7 +325,7 @@ For a list of the invariant conditions for other terms used in generic reflectio
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0">
           <Constraints>
             <BaseTypeName>System.Delegate</BaseTypeName>
           </Constraints>
@@ -363,7 +363,7 @@ For a list of the invariant conditions for other terms used in generic reflectio
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0">
           <Constraints>
             <BaseTypeName>System.Delegate</BaseTypeName>
           </Constraints>

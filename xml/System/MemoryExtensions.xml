@@ -373,7 +373,7 @@ Returns `default` when `segment` is `null`.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -466,7 +466,7 @@ Returns `default` when `array` is `null`.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -823,7 +823,7 @@ Returns `default` when `text` is `null`.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="segment" Type="System.ArraySegment&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -914,7 +914,7 @@ Returns `default` when `segment` is `null`.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="segment" Type="System.ArraySegment&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -954,7 +954,7 @@ Returns `default` when `segment` is `null`.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -1035,7 +1035,7 @@ Returns `default` when `segment` is `null`.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="array" Type="T[]" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -1458,7 +1458,7 @@ Returns `default` when `array` is `null`.
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -1492,7 +1492,7 @@ Returns `default` when `array` is `null`.
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -1526,7 +1526,7 @@ Returns `default` when `array` is `null`.
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -1562,7 +1562,7 @@ Returns `default` when `array` is `null`.
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-7.0" />
@@ -1679,7 +1679,7 @@ Returns `default` when `array` is `null`.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -1722,7 +1722,7 @@ Returns `default` when `array` is `null`.
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2671,7 +2671,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2710,7 +2710,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2749,7 +2749,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2788,7 +2788,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2827,7 +2827,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2868,7 +2868,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2909,7 +2909,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -2952,7 +2952,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3518,7 +3518,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3557,7 +3557,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3596,7 +3596,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3635,7 +3635,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3674,7 +3674,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3715,7 +3715,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3756,7 +3756,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -3799,7 +3799,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -4225,7 +4225,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.ReadOnlySpan&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -4262,7 +4262,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -4301,7 +4301,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -4335,7 +4335,7 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="span" Type="System.Span&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -4372,8 +4372,8 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
-        <TypeParameter Name="TComparer">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <TypeParameter Name="TComparer" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0">
           <Constraints>
             <InterfaceName>System.Collections.Generic.IComparer&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -4416,8 +4416,8 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TKey" />
-        <TypeParameter Name="TValue" />
+        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -4455,8 +4455,8 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TKey" />
-        <TypeParameter Name="TValue" />
+        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="keys" Type="System.Span&lt;TKey&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -4497,9 +4497,9 @@ Invalid sequences will be represented in the enumeration by <xref:System.Text.Ru
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TKey" />
-        <TypeParameter Name="TValue" />
-        <TypeParameter Name="TComparer">
+        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+        <TypeParameter Name="TComparer" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0">
           <Constraints>
             <InterfaceName>System.Collections.Generic.IComparer&lt;TKey&gt;</InterfaceName>
           </Constraints>
@@ -5056,7 +5056,7 @@ If `trimChars` is empty, whitespace characters are removed instead.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5106,7 +5106,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5148,7 +5148,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5198,7 +5198,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5240,7 +5240,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5290,7 +5290,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5332,7 +5332,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5382,7 +5382,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5634,7 +5634,7 @@ If `trimChars` is empty, whitespace characters are removed instead.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5684,7 +5684,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5726,7 +5726,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5776,7 +5776,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5818,7 +5818,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5868,7 +5868,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5910,7 +5910,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -5960,7 +5960,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6212,7 +6212,7 @@ If `trimChars` is empty, whitespace characters are removed instead.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6262,7 +6262,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.Memory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6304,7 +6304,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6354,7 +6354,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlyMemory&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6396,7 +6396,7 @@ If `trimElements` is empty, the memory is returned unaltered.
         <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6446,7 +6446,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.ReadOnlySpan&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6488,7 +6488,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>
@@ -6538,7 +6538,7 @@ If `trimElements` is empty, the span is returned unaltered.
         <ReturnType>System.Span&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <InterfaceName>System.IEquatable&lt;T&gt;</InterfaceName>
           </Constraints>

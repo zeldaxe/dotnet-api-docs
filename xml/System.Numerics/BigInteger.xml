@@ -1469,7 +1469,7 @@
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther">
+        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>
@@ -1511,7 +1511,7 @@
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther">
+        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>
@@ -1553,7 +1553,7 @@
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TOther">
+        <TypeParameter Name="TOther" FrameworkAlternate="net-7.0">
           <Constraints>
             <InterfaceName>System.Numerics.INumberBase&lt;TOther&gt;</InterfaceName>
           </Constraints>

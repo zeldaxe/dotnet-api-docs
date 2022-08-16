@@ -122,7 +122,7 @@ Since the `Unsafe` APIs suppress typical type-safety validation, it is up to cal
         <ReturnType>System.Void*</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Void*" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -174,7 +174,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
@@ -225,7 +225,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -278,7 +278,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -336,7 +336,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -389,7 +389,7 @@ If `byteOffset` is a calculated value rather than a hardcoded literal, callers s
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -448,7 +448,7 @@ If `byteOffset` is a calculated value rather than a hardcoded literal, callers s
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="left" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1">
@@ -600,8 +600,8 @@ void ReinterpretCastAndUse_Sample2(object o)
         <ReturnType>TTo</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TFrom" />
-        <TypeParameter Name="TTo" />
+        <TypeParameter Name="TFrom" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
+        <TypeParameter Name="TTo" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="TFrom" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
@@ -770,7 +770,7 @@ The caller is responsible for ensuring that the resulting managed pointer is pro
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
@@ -850,7 +850,7 @@ int ComputeSumOfElements(ref readonly int refToFirstElement, nint numElements)
         <ReturnType>System.IntPtr</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="origin" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
@@ -1485,7 +1485,7 @@ This API corresponds to the `unaligned.1 initblk` opcode sequence. No alignment 
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="left" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
@@ -1553,7 +1553,7 @@ The return value is guaranteed stable if `left` and `right` point to the same ma
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="left" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
@@ -1617,7 +1617,7 @@ The return value is guaranteed stable if `left` and `right` point to the same ma
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -1653,7 +1653,7 @@ The return value is guaranteed stable if `left` and `right` point to the same ma
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters />
       <Docs>
@@ -1747,7 +1747,7 @@ The return value is guaranteed stable if `left` and `right` point to the same ma
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Byte" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -1800,7 +1800,7 @@ The return value is guaranteed stable if `left` and `right` point to the same ma
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Void*" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -1893,7 +1893,7 @@ This API corresponds to the `sizeof` opcode. If `T` is a reference type, the ret
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="value" Type="T" RefType="out" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
@@ -1995,7 +1995,7 @@ public static MyUnionStruct MyMethod() {
         <ReturnType>System.Void*</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="System.Void*" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -2047,7 +2047,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-3.0;netcore-3.1" />
@@ -2098,7 +2098,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -2151,7 +2151,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2209,7 +2209,7 @@ If `elementOffset` is a calculated value rather than a hardcoded literal, caller
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -2262,7 +2262,7 @@ If `byteOffset` is a calculated value rather than a hardcoded literal, callers s
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" FrameworkAlternate="net-6.0;net-7.0" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="source" Type="T" RefType="ref" Index="0" FrameworkAlternate="net-6.0;net-7.0" />
@@ -2318,7 +2318,7 @@ If `byteOffset` is a calculated value rather than a hardcoded literal, callers s
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T">
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1">
           <Constraints>
             <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
             <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
@@ -2465,7 +2465,7 @@ For more information, including detailed discussion of the usage constraints of 
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="destination" Type="System.Byte" RefType="ref" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -2519,7 +2519,7 @@ For more information, including detailed discussion of the usage constraints of 
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="T" />
+        <TypeParameter Name="T" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="destination" Type="System.Void*" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />

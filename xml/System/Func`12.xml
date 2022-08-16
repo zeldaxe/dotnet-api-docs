@@ -34,62 +34,62 @@
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <TypeParameters>
-    <TypeParameter Name="T1">
+    <TypeParameter Name="T1" Index="0" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T2">
+    <TypeParameter Name="T2" Index="1" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T3">
+    <TypeParameter Name="T3" Index="2" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T4">
+    <TypeParameter Name="T4" Index="3" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T5">
+    <TypeParameter Name="T5" Index="4" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T6">
+    <TypeParameter Name="T6" Index="5" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T7">
+    <TypeParameter Name="T7" Index="6" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T8">
+    <TypeParameter Name="T8" Index="7" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T9">
+    <TypeParameter Name="T9" Index="8" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T10">
+    <TypeParameter Name="T10" Index="9" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="T11">
+    <TypeParameter Name="T11" Index="10" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Contravariant</ParameterAttribute>
       </Constraints>
     </TypeParameter>
-    <TypeParameter Name="TResult">
+    <TypeParameter Name="TResult" Index="11" FrameworkAlternate="xamarinmac-3.0">
       <Constraints>
         <ParameterAttribute>Covariant</ParameterAttribute>
       </Constraints>

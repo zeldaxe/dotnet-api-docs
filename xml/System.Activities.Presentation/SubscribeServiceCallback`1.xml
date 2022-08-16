@@ -10,7 +10,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="TServiceType" />
+    <TypeParameter Name="TServiceType" Index="0" FrameworkAlternate="netframework-4.8" />
   </TypeParameters>
   <Base>
     <BaseTypeName>System.Delegate</BaseTypeName>

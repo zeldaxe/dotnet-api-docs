@@ -635,7 +635,7 @@
         <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TArg" />
+        <TypeParameter Name="TArg" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="key" Type="TKey" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
@@ -1079,7 +1079,7 @@
         <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <TypeParameters>
-        <TypeParameter Name="TArg" />
+        <TypeParameter Name="TArg" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
       </TypeParameters>
       <Parameters>
         <Parameter Name="key" Type="TKey" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
