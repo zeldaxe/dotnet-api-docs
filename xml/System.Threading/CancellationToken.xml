@@ -1,15 +1,15 @@
 <Type Name="CancellationToken" FullName="System.Threading.CancellationToken">
-  <TypeSignature Language="C#" Value="public struct CancellationToken" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CancellationToken extends System.ValueType" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="DocId" Value="T:System.Threading.CancellationToken" />
-  <TypeSignature Language="VB.NET" Value="Public Structure CancellationToken" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="F#" Value="type CancellationToken = struct" />
-  <TypeSignature Language="C++ CLI" Value="public value class CancellationToken" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="C#" Value="public readonly struct CancellationToken" FrameworkAlternate="net-5.0;net-6.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CancellationToken extends System.ValueType" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="DocId" Value="T:System.Threading.CancellationToken" />
+  <TypeSignature Language="VB.NET" Value="Public Structure CancellationToken" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type CancellationToken = struct" />
+  <TypeSignature Language="C++ CLI" Value="public value class CancellationToken" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="C#" Value="public readonly struct CancellationToken : IEquatable&lt;System.Threading.CancellationToken&gt;" FrameworkAlternate="net-7.0" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit CancellationToken extends System.ValueType implements class System.IEquatable`1&lt;valuetype System.Threading.CancellationToken&gt;" FrameworkAlternate="net-7.0" />
   <TypeSignature Language="VB.NET" Value="Public Structure CancellationToken&#xA;Implements IEquatable(Of CancellationToken)" FrameworkAlternate="net-7.0" />
   <TypeSignature Language="C++ CLI" Value="public value class CancellationToken : IEquatable&lt;System::Threading::CancellationToken&gt;" FrameworkAlternate="net-7.0" />
+  <TypeSignature Language="C#" Value="public struct CancellationToken" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.Threading.Tasks</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -35,7 +35,6 @@
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Threading.Tasks" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Threading.Tasks" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
@@ -217,13 +216,13 @@ To handle the possible cancellation of the operation, the example instantiates a
       </Docs>
     </MemberGroup>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object other);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object other) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.CancellationToken.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (other As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="cancellationToken.Equals other" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ other);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object? other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object other);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -288,11 +287,11 @@ Two cancellation tokens are equal if any one of the following conditions is true
     </Member>
     <Member MemberName="Equals">
       <MemberSignature Language="C#" Value="public bool Equals (System.Threading.CancellationToken other);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Equals(valuetype System.Threading.CancellationToken other) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Equals(valuetype System.Threading.CancellationToken other) cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="DocId" Value="M:System.Threading.CancellationToken.Equals(System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As CancellationToken) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : System.Threading.CancellationToken -&gt; bool" Usage="cancellationToken.Equals other" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Equals(System::Threading::CancellationToken other);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Equals(System::Threading::CancellationToken other);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype System.Threading.CancellationToken other) cil managed" FrameworkAlternate="net-7.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Threading::CancellationToken other);" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
@@ -470,7 +469,7 @@ Two cancellation tokens are equal if any one of the following conditions is true
       <MemberSignature Language="ILAsm" Value=".property valuetype System.Threading.CancellationToken None" />
       <MemberSignature Language="DocId" Value="P:System.Threading.CancellationToken.None" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property None As CancellationToken" />
-      <MemberSignature Language="F#" Value="member this.None : System.Threading.CancellationToken" Usage="System.Threading.CancellationToken.None" />
+      <MemberSignature Language="F#" Value="static member None : System.Threading.CancellationToken" Usage="System.Threading.CancellationToken.None" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Threading::CancellationToken None { System::Threading::CancellationToken get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -833,13 +832,13 @@ is captured along with the delegate and is used when executing it. The current <
       </Docs>
     </Member>
     <Member MemberName="Register">
-      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object&gt; callback, object state);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.CancellationTokenRegistration Register(class System.Action`1&lt;object&gt; callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.CancellationToken.Register(System.Action{System.Object},System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Register (callback As Action(Of Object), state As Object) As CancellationTokenRegistration" />
       <MemberSignature Language="F#" Value="member this.Register : Action&lt;obj&gt; * obj -&gt; System.Threading.CancellationTokenRegistration" Usage="cancellationToken.Register (callback, state)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::CancellationTokenRegistration Register(Action&lt;System::Object ^&gt; ^ callback, System::Object ^ state);" />
-      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object&gt; callback, object state);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -898,13 +897,13 @@ is captured along with the delegate and is used when executing it. The current <
       </Docs>
     </Member>
     <Member MemberName="Register">
-      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object&gt; callback, object state, bool useSynchronizationContext);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state, bool useSynchronizationContext);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.CancellationTokenRegistration Register(class System.Action`1&lt;object&gt; callback, object state, bool useSynchronizationContext) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.CancellationToken.Register(System.Action{System.Object},System.Object,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function Register (callback As Action(Of Object), state As Object, useSynchronizationContext As Boolean) As CancellationTokenRegistration" />
       <MemberSignature Language="F#" Value="member this.Register : Action&lt;obj&gt; * obj * bool -&gt; System.Threading.CancellationTokenRegistration" Usage="cancellationToken.Register (callback, state, useSynchronizationContext)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::CancellationTokenRegistration Register(Action&lt;System::Object ^&gt; ^ callback, System::Object ^ state, bool useSynchronizationContext);" />
-      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object?&gt; callback, object? state, bool useSynchronizationContext);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.CancellationTokenRegistration Register (Action&lt;object&gt; callback, object state, bool useSynchronizationContext);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -1100,20 +1099,17 @@ generates is propagated out of this method call. <xref:System.Threading.Executio
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Threading.Tasks</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Threading.Tasks</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.CancellationTokenRegistration</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="callback" Type="System.Action&lt;System.Object&gt;" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="state" Type="System.Object" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="callback" Type="System.Action&lt;System.Object&gt;" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="state" Type="System.Object" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="callback">The delegate to execute when the <see cref="T:System.Threading.CancellationToken" /> is canceled.</param>

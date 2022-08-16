@@ -1,10 +1,10 @@
 <Type Name="Complex" FullName="System.Numerics.Complex">
-  <TypeSignature Language="C#" Value="public struct Complex : IEquatable&lt;System.Numerics.Complex&gt;, IFormattable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Complex extends System.ValueType implements class System.IEquatable`1&lt;valuetype System.Numerics.Complex&gt;, class System.IFormattable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="C#" Value="public struct Complex : IEquatable&lt;System.Numerics.Complex&gt;, IFormattable" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Complex extends System.ValueType implements class System.IEquatable`1&lt;valuetype System.Numerics.Complex&gt;, class System.IFormattable" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.Numerics.Complex" />
-  <TypeSignature Language="VB.NET" Value="Public Structure Complex&#xA;Implements IEquatable(Of Complex), IFormattable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="F#" Value="type Complex = struct&#xA;    interface IFormattable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-  <TypeSignature Language="C++ CLI" Value="public value class Complex : IEquatable&lt;System::Numerics::Complex&gt;, IFormattable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="VB.NET" Value="Public Structure Complex&#xA;Implements IEquatable(Of Complex), IFormattable" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="F#" Value="type Complex = struct&#xA;    interface IFormattable" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C++ CLI" Value="public value class Complex : IEquatable&lt;System::Numerics::Complex&gt;, IFormattable" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="C#" Value="public readonly struct Complex : IEquatable&lt;System.Numerics.Complex&gt;, IFormattable" FrameworkAlternate="net-6.0" />
   <TypeSignature Language="C#" Value="public readonly struct Complex : IEquatable&lt;System.Numerics.Complex&gt;, IParsable&lt;System.Numerics.Complex&gt;, ISpanParsable&lt;System.Numerics.Complex&gt;, System.Numerics.IAdditionOperators&lt;System.Numerics.Complex,System.Numerics.Complex,System.Numerics.Complex&gt;, System.Numerics.IAdditiveIdentity&lt;System.Numerics.Complex,System.Numerics.Complex&gt;, System.Numerics.IDecrementOperators&lt;System.Numerics.Complex&gt;, System.Numerics.IDivisionOperators&lt;System.Numerics.Complex,System.Numerics.Complex,System.Numerics.Complex&gt;, System.Numerics.IEqualityOperators&lt;System.Numerics.Complex,System.Numerics.Complex,bool&gt;, System.Numerics.IIncrementOperators&lt;System.Numerics.Complex&gt;, System.Numerics.IMultiplicativeIdentity&lt;System.Numerics.Complex,System.Numerics.Complex&gt;, System.Numerics.IMultiplyOperators&lt;System.Numerics.Complex,System.Numerics.Complex,System.Numerics.Complex&gt;, System.Numerics.INumberBase&lt;System.Numerics.Complex&gt;, System.Numerics.ISignedNumber&lt;System.Numerics.Complex&gt;, System.Numerics.ISubtractionOperators&lt;System.Numerics.Complex,System.Numerics.Complex,System.Numerics.Complex&gt;, System.Numerics.IUnaryNegationOperators&lt;System.Numerics.Complex,System.Numerics.Complex&gt;, System.Numerics.IUnaryPlusOperators&lt;System.Numerics.Complex,System.Numerics.Complex&gt;" FrameworkAlternate="net-7.0" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Complex extends System.ValueType implements class System.IEquatable`1&lt;valuetype System.Numerics.Complex&gt;, class System.IFormattable, class System.IParsable`1&lt;valuetype System.Numerics.Complex&gt;, class System.ISpanFormattable, class System.ISpanParsable`1&lt;valuetype System.Numerics.Complex&gt;, class System.Numerics.IAdditionOperators`3&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;, class System.Numerics.IAdditiveIdentity`2&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;, class System.Numerics.IDecrementOperators`1&lt;valuetype System.Numerics.Complex&gt;, class System.Numerics.IDivisionOperators`3&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;, class System.Numerics.IEqualityOperators`3&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex, bool&gt;, class System.Numerics.IIncrementOperators`1&lt;valuetype System.Numerics.Complex&gt;, class System.Numerics.IMultiplicativeIdentity`2&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;, class System.Numerics.IMultiplyOperators`3&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;, class System.Numerics.INumberBase`1&lt;valuetype System.Numerics.Complex&gt;, class System.Numerics.ISignedNumber`1&lt;valuetype System.Numerics.Complex&gt;, class System.Numerics.ISubtractionOperators`3&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;, class System.Numerics.IUnaryNegationOperators`2&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;, class System.Numerics.IUnaryPlusOperators`2&lt;valuetype System.Numerics.Complex, valuetype System.Numerics.Complex&gt;" FrameworkAlternate="net-7.0" />
@@ -33,7 +33,6 @@
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="System.Numerics" FromVersion="4.0.0.0" To="System.Runtime.Numerics" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Numerics" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Numerics" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Numerics" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
@@ -484,17 +483,14 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The double-precision real value to add.</param>
@@ -529,17 +525,14 @@ The addition of a real number (which can be regarded as the complex number a + 0
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The complex value to add.</param>
@@ -1080,17 +1073,14 @@ The addition of a complex number (a + bi) and a real number (which can be regard
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="dividend" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="divisor" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="dividend" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="divisor" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="dividend">The double-precision real number to be divided.</param>
@@ -1128,17 +1118,14 @@ The addition of a complex number (a + bi) and a real number (which can be regard
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="dividend" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="divisor" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="dividend" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="divisor" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="dividend">The complex number to be divided.</param>
@@ -1298,13 +1285,13 @@ The addition of a complex number (a + bi) and a real number (which can be regard
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="complex.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Numerics</AssemblyName>
@@ -1658,9 +1645,6 @@ The addition of a complex number (a + bi) and a real number (which can be regard
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
@@ -1780,16 +1764,13 @@ A return value of `false` does not imply that <xref:System.Numerics.INumberBase%
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="value" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="value">A complex number.</param>
@@ -1863,16 +1844,13 @@ This function returns `false` for a complex number `a + bi` where `a` is non-zer
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="value" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="value">A complex number.</param>
@@ -1946,16 +1924,13 @@ This method correctly handles floating-point values and so `2.0` and `3.0` will 
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="value" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="value">A complex number.</param>
@@ -2640,17 +2615,14 @@ The following example multiples a complex number by each element in an array of 
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The double-precision real number to multiply.</param>
@@ -2687,17 +2659,14 @@ The following example multiples a complex number by each element in an array of 
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The complex number to multiply.</param>
@@ -2791,9 +2760,6 @@ ac + bci
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -2966,17 +2932,14 @@ The following example illustrates addition with complex numbers:
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The double-precision real value to add.</param>
@@ -3016,17 +2979,14 @@ Languages that do not support custom operators can call the <xref:System.Numeric
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The complex value to add.</param>
@@ -3055,7 +3015,7 @@ Languages that do not support custom operators can call the <xref:System.Numeric
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.op_Addition(System.Numerics.Complex,System.Numerics.Complex)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator + (left As Complex, right As Complex) As Complex" />
       <MemberSignature Language="F#" Value="static member ( + ) : System.Numerics.Complex * System.Numerics.Complex -&gt; System.Numerics.Complex" Usage="left + right" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator +(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator +(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator +(System::Numerics::Complex left, System::Numerics::Complex right) = System::Numerics::IAdditionOperators&lt;System::Numerics::Complex, System::Numerics::Complex, System::Numerics::Complex&gt;::op_Addition;" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -3183,17 +3143,14 @@ The <xref:System.Numerics.Complex.op_Division%2A> operators that receive one dou
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The double-precision real value to be divided.</param>
@@ -3233,17 +3190,14 @@ Languages that do not support custom operators and operator overloading can call
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The complex value to be divided.</param>
@@ -3272,7 +3226,7 @@ Languages that do not support custom operators and operator overloading can call
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.op_Division(System.Numerics.Complex,System.Numerics.Complex)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator / (left As Complex, right As Complex) As Complex" />
       <MemberSignature Language="F#" Value="static member ( / ) : System.Numerics.Complex * System.Numerics.Complex -&gt; System.Numerics.Complex" Usage="left / right" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator /(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator /(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator /(System::Numerics::Complex left, System::Numerics::Complex right) = System::Numerics::IDivisionOperators&lt;System::Numerics::Complex, System::Numerics::Complex, System::Numerics::Complex&gt;::op_Division;" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -3332,7 +3286,7 @@ Languages that do not support custom operators and operator overloading can call
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.op_Equality(System.Numerics.Complex,System.Numerics.Complex)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As Complex, right As Complex) As Boolean" />
       <MemberSignature Language="F#" Value="static member ( = ) : System.Numerics.Complex * System.Numerics.Complex -&gt; bool" Usage="left = right" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(System::Numerics::Complex left, System::Numerics::Complex right) = System::Numerics::IEqualityOperators&lt;System::Numerics::Complex, System::Numerics::Complex, bool&gt;::op_Equality;" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -4338,7 +4292,7 @@ This API is not CLS-compliant.</summary>
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.op_Inequality(System.Numerics.Complex,System.Numerics.Complex)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As Complex, right As Complex) As Boolean" />
       <MemberSignature Language="F#" Value="static member op_Inequality : System.Numerics.Complex * System.Numerics.Complex -&gt; bool" Usage="System.Numerics.Complex.op_Inequality (left, right)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(System::Numerics::Complex left, System::Numerics::Complex right) = System::Numerics::IEqualityOperators&lt;System::Numerics::Complex, System::Numerics::Complex, bool&gt;::op_Inequality;" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -4435,17 +4389,14 @@ The <xref:System.Numerics.Complex.op_Multiply%2A> operators that receive one dou
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The double-precision real value to multiply.</param>
@@ -4486,17 +4437,14 @@ Languages that do not support custom operators can call the <xref:System.Numeric
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The complex value to multiply.</param>
@@ -4525,7 +4473,7 @@ Languages that do not support custom operators can call the <xref:System.Numeric
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.op_Multiply(System.Numerics.Complex,System.Numerics.Complex)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator * (left As Complex, right As Complex) As Complex" />
       <MemberSignature Language="F#" Value="static member ( * ) : System.Numerics.Complex * System.Numerics.Complex -&gt; System.Numerics.Complex" Usage="left * right" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator *(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator *(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator *(System::Numerics::Complex left, System::Numerics::Complex right) = System::Numerics::IMultiplyOperators&lt;System::Numerics::Complex, System::Numerics::Complex, System::Numerics::Complex&gt;::op_Multiply;" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -4619,17 +4567,14 @@ The <xref:System.Numerics.Complex.op_Addition%2A> operators that receive one dou
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The double-precision real value to subtract from (the minuend).</param>
@@ -4669,17 +4614,14 @@ Languages that do not support custom operators can call the <xref:System.Numeric
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The complex value to subtract from (the minuend).</param>
@@ -4708,7 +4650,7 @@ Languages that do not support custom operators can call the <xref:System.Numeric
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.op_Subtraction(System.Numerics.Complex,System.Numerics.Complex)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator - (left As Complex, right As Complex) As Complex" />
       <MemberSignature Language="F#" Value="static member ( - ) : System.Numerics.Complex * System.Numerics.Complex -&gt; System.Numerics.Complex" Usage="left - right" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator -(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator -(System::Numerics::Complex left, System::Numerics::Complex right);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator -(System::Numerics::Complex left, System::Numerics::Complex right) = System::Numerics::ISubtractionOperators&lt;System::Numerics::Complex, System::Numerics::Complex, System::Numerics::Complex&gt;::op_Subtraction;" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -4768,7 +4710,7 @@ Languages that do not support custom operators can call the <xref:System.Numeric
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.op_UnaryNegation(System.Numerics.Complex)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator - (value As Complex) As Complex" />
       <MemberSignature Language="F#" Value="static member ( ~- ) : System.Numerics.Complex -&gt; System.Numerics.Complex" Usage="- value" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator -(System::Numerics::Complex value);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator -(System::Numerics::Complex value);" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Numerics::Complex operator -(System::Numerics::Complex value) = System::Numerics::IUnaryNegationOperators&lt;System::Numerics::Complex, System::Numerics::Complex&gt;::op_UnaryNegation;" FrameworkAlternate="net-7.0" />
       <MemberType>Method</MemberType>
       <Implements>
@@ -5502,17 +5444,14 @@ The following example subtracts each complex number in an array from a complex n
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Double" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Numerics.Complex" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The double-precision real value to subtract from (the minuend).</param>
@@ -5552,17 +5491,14 @@ Languages that support custom operators can use the <xref:System.Numerics.Comple
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Complex</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="left" Type="System.Numerics.Complex" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="right" Type="System.Double" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="left">The complex value to subtract from (the minuend).</param>
@@ -5826,13 +5762,13 @@ Languages that support custom operators can use the <xref:System.Numerics.Comple
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.ToString(System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (provider As IFormatProvider) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : IFormatProvider -&gt; string" Usage="complex.ToString provider" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(IFormatProvider ^ provider);" />
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Numerics</AssemblyName>
@@ -5893,13 +5829,13 @@ Languages that support custom operators can use the <xref:System.Numerics.Comple
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (string format);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string ToString (string? format);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(string format) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.ToString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : string -&gt; string" Usage="complex.ToString format" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(System::String ^ format);" />
-      <MemberSignature Language="C#" Value="public string ToString (string? format);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string ToString (string format);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Numerics</AssemblyName>
@@ -5969,13 +5905,13 @@ Languages that support custom operators can use the <xref:System.Numerics.Comple
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (string format, IFormatProvider provider);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string ToString (string? format, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(string format, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Complex.ToString(System.String,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String, provider As IFormatProvider) As String" />
       <MemberSignature Language="F#" Value="override this.ToString : string * IFormatProvider -&gt; string" Usage="complex.ToString (format, provider)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(System::String ^ format, IFormatProvider ^ provider);" />
-      <MemberSignature Language="C#" Value="public string ToString (string? format, IFormatProvider? provider);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string ToString (string format, IFormatProvider provider);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IFormattable.ToString(System.String,System.IFormatProvider)</InterfaceMember>

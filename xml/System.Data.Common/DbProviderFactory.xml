@@ -145,9 +145,6 @@ This property returns `false` by default; providers that implement <xref:System.
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
@@ -177,9 +174,6 @@ This property returns `false` by default; providers that implement <xref:System.
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -292,13 +286,13 @@ This property returns `false` by default; providers that implement <xref:System.
       </Docs>
     </Member>
     <Member MemberName="CreateCommand">
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbCommand CreateCommand ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbCommand? CreateCommand ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Data.Common.DbCommand CreateCommand() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderFactory.CreateCommand" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateCommand () As DbCommand" />
       <MemberSignature Language="F#" Value="abstract member CreateCommand : unit -&gt; System.Data.Common.DbCommand&#xA;override this.CreateCommand : unit -&gt; System.Data.Common.DbCommand" Usage="dbProviderFactory.CreateCommand " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Data::Common::DbCommand ^ CreateCommand();" />
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbCommand? CreateCommand ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbCommand CreateCommand ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -376,13 +370,13 @@ This property returns `false` by default; providers that implement <xref:System.
       </Docs>
     </Member>
     <Member MemberName="CreateConnection">
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnection CreateConnection ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnection? CreateConnection ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Data.Common.DbConnection CreateConnection() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderFactory.CreateConnection" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateConnection () As DbConnection" />
       <MemberSignature Language="F#" Value="abstract member CreateConnection : unit -&gt; System.Data.Common.DbConnection&#xA;override this.CreateConnection : unit -&gt; System.Data.Common.DbConnection" Usage="dbProviderFactory.CreateConnection " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Data::Common::DbConnection ^ CreateConnection();" />
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnection? CreateConnection ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnection CreateConnection ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -419,13 +413,13 @@ This property returns `false` by default; providers that implement <xref:System.
       </Docs>
     </Member>
     <Member MemberName="CreateConnectionStringBuilder">
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnectionStringBuilder CreateConnectionStringBuilder ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnectionStringBuilder? CreateConnectionStringBuilder ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Data.Common.DbConnectionStringBuilder CreateConnectionStringBuilder() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderFactory.CreateConnectionStringBuilder" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateConnectionStringBuilder () As DbConnectionStringBuilder" />
       <MemberSignature Language="F#" Value="abstract member CreateConnectionStringBuilder : unit -&gt; System.Data.Common.DbConnectionStringBuilder&#xA;override this.CreateConnectionStringBuilder : unit -&gt; System.Data.Common.DbConnectionStringBuilder" Usage="dbProviderFactory.CreateConnectionStringBuilder " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Data::Common::DbConnectionStringBuilder ^ CreateConnectionStringBuilder();" />
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnectionStringBuilder? CreateConnectionStringBuilder ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbConnectionStringBuilder CreateConnectionStringBuilder ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -573,13 +567,13 @@ This property returns `false` by default; providers that implement <xref:System.
       </Docs>
     </Member>
     <Member MemberName="CreateParameter">
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbParameter CreateParameter ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbParameter? CreateParameter ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Data.Common.DbParameter CreateParameter() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderFactory.CreateParameter" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateParameter () As DbParameter" />
       <MemberSignature Language="F#" Value="abstract member CreateParameter : unit -&gt; System.Data.Common.DbParameter&#xA;override this.CreateParameter : unit -&gt; System.Data.Common.DbParameter" Usage="dbProviderFactory.CreateParameter " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Data::Common::DbParameter ^ CreateParameter();" />
-      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbParameter? CreateParameter ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.Common.DbParameter CreateParameter ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>

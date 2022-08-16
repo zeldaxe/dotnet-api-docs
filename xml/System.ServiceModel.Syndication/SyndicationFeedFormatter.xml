@@ -24,7 +24,6 @@
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Syndication" ToVersion="4.0.0.0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
     <TypeForwarding From="System.ServiceModel.Web" FromVersion="4.0.0.0" To="System.ServiceModel" ToVersion="4.0.0.0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   </TypeForwardingChain>
   <Base>
@@ -569,45 +568,6 @@
   
 ## Remarks  
  The newly created <xref:System.ServiceModel.Syndication.SyndicationPerson> instance is not automatically added to the <xref:System.ServiceModel.Syndication.SyndicationItem> instance used to create it.  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="DateTimeParser">
-      <MemberSignature Language="C#" Value="public System.ServiceModel.Syndication.TryParseDateTimeCallback DateTimeParser { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Syndication.TryParseDateTimeCallback DateTimeParser" />
-      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Syndication.SyndicationFeedFormatter.DateTimeParser" />
-      <MemberSignature Language="VB.NET" Value="Public Property DateTimeParser As TryParseDateTimeCallback" />
-      <MemberSignature Language="F#" Value="member this.DateTimeParser : System.ServiceModel.Syndication.TryParseDateTimeCallback with get, set" Usage="System.ServiceModel.Syndication.SyndicationFeedFormatter.DateTimeParser" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Syndication::TryParseDateTimeCallback ^ DateTimeParser { System::ServiceModel::Syndication::TryParseDateTimeCallback ^ get(); void set(System::ServiceModel::Syndication::TryParseDateTimeCallback ^ value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel.Syndication</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.1.0</AssemblyVersion>
-        <AssemblyVersion>4.0.2.0</AssemblyVersion>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel.Web</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.ServiceModel.Syndication.TryParseDateTimeCallback</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Delegate that is used by the <see cref="T:System.ServiceModel.Syndication.SyndicationFeedFormatter" /> class for converting <see cref="T:System.ServiceModel.Syndication.XmlDateTimeData" /> string data to <see cref="T:System.DateTimeOffset" />.</summary>
-        <value>The <see cref="T:System.ServiceModel.Syndication.TryParseDateTimeCallback" /> that is used for converting string data from <see cref="T:System.ServiceModel.Syndication.XmlDateTimeData" /> to a <see cref="T:System.DateTimeOffset" /> instance.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The default callback is specific to each implementation of <xref:System.ServiceModel.Syndication.SyndicationFeedFormatter>.
   
  ]]></format>
         </remarks>
@@ -1642,45 +1602,6 @@
   
 ## Remarks  
  To control how element extensions are parsed, derive your own class from <xref:System.ServiceModel.Syndication.SyndicationPerson> and override the <xref:System.ServiceModel.Syndication.SyndicationPerson.TryParseElement%28System.Xml.XmlReader%2CSystem.String%29> method.  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="UriParser">
-      <MemberSignature Language="C#" Value="public System.ServiceModel.Syndication.TryParseUriCallback UriParser { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Syndication.TryParseUriCallback UriParser" />
-      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Syndication.SyndicationFeedFormatter.UriParser" />
-      <MemberSignature Language="VB.NET" Value="Public Property UriParser As TryParseUriCallback" />
-      <MemberSignature Language="F#" Value="member this.UriParser : System.ServiceModel.Syndication.TryParseUriCallback with get, set" Usage="System.ServiceModel.Syndication.SyndicationFeedFormatter.UriParser" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Syndication::TryParseUriCallback ^ UriParser { System::ServiceModel::Syndication::TryParseUriCallback ^ get(); void set(System::ServiceModel::Syndication::TryParseUriCallback ^ value); };" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel.Syndication</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.1.0</AssemblyVersion>
-        <AssemblyVersion>4.0.2.0</AssemblyVersion>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceModel.Web</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.ServiceModel.Syndication.TryParseUriCallback</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Delegate that is used by the <see cref="T:System.ServiceModel.Syndication.SyndicationFeedFormatter" /> class for creating <see cref="T:System.Uri" /> instances from string input.</summary>
-        <value>The <see cref="T:System.ServiceModel.Syndication.TryParseUriCallback" /> that is used for creating Uri instances from string input.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The default callback leverages <xref:System.Uri.%23ctor%2A> contructor to parse the given string into a <xref:System.Uri> object.
   
  ]]></format>
         </remarks>

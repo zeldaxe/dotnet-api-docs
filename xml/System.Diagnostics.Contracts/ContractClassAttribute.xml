@@ -25,7 +25,6 @@
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Diagnostics.Contracts" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Contracts" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Contracts" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Contracts" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
@@ -40,12 +39,12 @@
       <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Delegate | System.AttributeTargets.Interface, AllowMultiple=false, Inherited=false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Diagnostics.Conditional("DEBUG")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("DEBUG")&gt;]</AttributeName>
-    </Attribute>
-    <Attribute>
       <AttributeName Language="C#">[System.Diagnostics.Conditional("CONTRACTS_FULL")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("CONTRACTS_FULL")&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Diagnostics.Conditional("DEBUG")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("DEBUG")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

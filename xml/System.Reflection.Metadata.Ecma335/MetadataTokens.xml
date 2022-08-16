@@ -221,7 +221,7 @@
         <ReturnType>System.Reflection.Metadata.CustomDebugInformationHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>
@@ -288,7 +288,7 @@
         <ReturnType>System.Reflection.Metadata.DocumentHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>
@@ -321,7 +321,7 @@
         <ReturnType>System.Reflection.Metadata.DocumentNameBlobHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="offset" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="offset" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="offset">To be added.</param>
@@ -390,8 +390,8 @@
         <ReturnType>System.Reflection.Metadata.EntityHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="tableIndex" Type="System.Reflection.Metadata.Ecma335.TableIndex" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="rowNumber" Type="System.Int32" Index="1" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="tableIndex" Type="System.Reflection.Metadata.Ecma335.TableIndex" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="tableIndex">To be added.</param>
@@ -596,7 +596,7 @@
         <ReturnType FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.BlobHandle" Index="0" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.BlobHandle" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -628,7 +628,7 @@
         <ReturnType FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.GuidHandle" Index="0" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.GuidHandle" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -694,7 +694,7 @@
         <ReturnType FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.StringHandle" Index="0" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.StringHandle" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -726,7 +726,7 @@
         <ReturnType FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.UserStringHandle" Index="0" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.UserStringHandle" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -869,7 +869,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.EntityHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.EntityHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -938,8 +938,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Reflection.Metadata.MetadataReader" RefType="this" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="handle" Type="System.Reflection.Metadata.EntityHandle" Index="1" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="reader" Type="System.Reflection.Metadata.MetadataReader" RefType="this" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.EntityHandle" />
       </Parameters>
       <Docs>
         <param name="reader">To be added.</param>
@@ -1151,7 +1151,7 @@
         <ReturnType>System.Reflection.Metadata.ImportScopeHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>
@@ -1184,7 +1184,7 @@
         <ReturnType>System.Reflection.Metadata.InterfaceImplementationHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>
@@ -1217,7 +1217,7 @@
         <ReturnType>System.Reflection.Metadata.LocalConstantHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>
@@ -1250,7 +1250,7 @@
         <ReturnType>System.Reflection.Metadata.LocalScopeHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>
@@ -1283,7 +1283,7 @@
         <ReturnType>System.Reflection.Metadata.LocalVariableHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>
@@ -1384,7 +1384,7 @@
         <ReturnType>System.Reflection.Metadata.MethodDebugInformationHandle</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="rowNumber" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="rowNumber" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="rowNumber">To be added.</param>

@@ -1,6 +1,6 @@
 <Type Name="XmlSerializer" FullName="System.Xml.Serialization.XmlSerializer">
   <TypeSignature Language="C#" Value="public class XmlSerializer" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlSerializer extends System.Object" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit XmlSerializer extends System.Object" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinmac-3.0" />
   <TypeSignature Language="DocId" Value="T:System.Xml.Serialization.XmlSerializer" />
   <TypeSignature Language="VB.NET" Value="Public Class XmlSerializer" />
   <TypeSignature Language="F#" Value="type XmlSerializer = class" />
@@ -32,8 +32,6 @@
     <AssemblyName>System.Xml.Serialization</AssemblyName>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="System.Xml" FromVersion="4.0.0.0" To="System.Xml.XmlSerializer" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
-    <TypeForwarding From="System.Xml.Serialization" FromVersion="4.0.0.0" To="System.Xml.XmlSerializer" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
@@ -424,7 +422,7 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         </Attribute>
       </Attributes>
       <Parameters>
-        <Parameter Name="xmlTypeMapping" Type="System.Xml.Serialization.XmlTypeMapping" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="xmlTypeMapping" Type="System.Xml.Serialization.XmlTypeMapping" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="xmlTypeMapping">An <see cref="T:System.Xml.Serialization.XmlTypeMapping" /> that maps one type to another.</param>
@@ -455,13 +453,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, string defaultNamespace);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, string? defaultNamespace);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type, string defaultNamespace) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.#ctor(System.Type,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As Type, defaultNamespace As String)" />
       <MemberSignature Language="F#" Value="new System.Xml.Serialization.XmlSerializer : Type * string -&gt; System.Xml.Serialization.XmlSerializer" Usage="new System.Xml.Serialization.XmlSerializer (type, defaultNamespace)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlSerializer(Type ^ type, System::String ^ defaultNamespace);" />
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, string? defaultNamespace);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, string defaultNamespace);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -523,13 +521,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, Type[] extraTypes);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, Type[]? extraTypes);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type, class System.Type[] extraTypes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.#ctor(System.Type,System.Type[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As Type, extraTypes As Type())" />
       <MemberSignature Language="F#" Value="new System.Xml.Serialization.XmlSerializer : Type * Type[] -&gt; System.Xml.Serialization.XmlSerializer" Usage="new System.Xml.Serialization.XmlSerializer (type, extraTypes)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlSerializer(Type ^ type, cli::array &lt;Type ^&gt; ^ extraTypes);" />
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, Type[]? extraTypes);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, Type[] extraTypes);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -602,13 +600,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides overrides);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides? overrides);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type, class System.Xml.Serialization.XmlAttributeOverrides overrides) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.#ctor(System.Type,System.Xml.Serialization.XmlAttributeOverrides)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As Type, overrides As XmlAttributeOverrides)" />
       <MemberSignature Language="F#" Value="new System.Xml.Serialization.XmlSerializer : Type * System.Xml.Serialization.XmlAttributeOverrides -&gt; System.Xml.Serialization.XmlSerializer" Usage="new System.Xml.Serialization.XmlSerializer (type, overrides)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlSerializer(Type ^ type, System::Xml::Serialization::XmlAttributeOverrides ^ overrides);" />
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides? overrides);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides overrides);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -676,13 +674,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlRootAttribute root);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlRootAttribute? root);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type, class System.Xml.Serialization.XmlRootAttribute root) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.#ctor(System.Type,System.Xml.Serialization.XmlRootAttribute)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As Type, root As XmlRootAttribute)" />
       <MemberSignature Language="F#" Value="new System.Xml.Serialization.XmlSerializer : Type * System.Xml.Serialization.XmlRootAttribute -&gt; System.Xml.Serialization.XmlSerializer" Usage="new System.Xml.Serialization.XmlSerializer (type, root)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlSerializer(Type ^ type, System::Xml::Serialization::XmlRootAttribute ^ root);" />
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlRootAttribute? root);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlRootAttribute root);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -749,13 +747,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides overrides, Type[] extraTypes, System.Xml.Serialization.XmlRootAttribute root, string defaultNamespace);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides? overrides, Type[]? extraTypes, System.Xml.Serialization.XmlRootAttribute? root, string? defaultNamespace);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type, class System.Xml.Serialization.XmlAttributeOverrides overrides, class System.Type[] extraTypes, class System.Xml.Serialization.XmlRootAttribute root, string defaultNamespace) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.#ctor(System.Type,System.Xml.Serialization.XmlAttributeOverrides,System.Type[],System.Xml.Serialization.XmlRootAttribute,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (type As Type, overrides As XmlAttributeOverrides, extraTypes As Type(), root As XmlRootAttribute, defaultNamespace As String)" />
       <MemberSignature Language="F#" Value="new System.Xml.Serialization.XmlSerializer : Type * System.Xml.Serialization.XmlAttributeOverrides * Type[] * System.Xml.Serialization.XmlRootAttribute * string -&gt; System.Xml.Serialization.XmlSerializer" Usage="new System.Xml.Serialization.XmlSerializer (type, overrides, extraTypes, root, defaultNamespace)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlSerializer(Type ^ type, System::Xml::Serialization::XmlAttributeOverrides ^ overrides, cli::array &lt;Type ^&gt; ^ extraTypes, System::Xml::Serialization::XmlRootAttribute ^ root, System::String ^ defaultNamespace);" />
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides? overrides, Type[]? extraTypes, System.Xml.Serialization.XmlRootAttribute? root, string? defaultNamespace);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides overrides, Type[] extraTypes, System.Xml.Serialization.XmlRootAttribute root, string defaultNamespace);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -879,12 +877,12 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         </Attribute>
       </Attributes>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="overrides" Type="System.Xml.Serialization.XmlAttributeOverrides" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="extraTypes" Type="System.Type[]" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="root" Type="System.Xml.Serialization.XmlRootAttribute" Index="3" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="defaultNamespace" Type="System.String" Index="4" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="location" Type="System.String" Index="5" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="overrides" Type="System.Xml.Serialization.XmlAttributeOverrides" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="extraTypes" Type="System.Type[]" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="root" Type="System.Xml.Serialization.XmlRootAttribute" Index="3" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="defaultNamespace" Type="System.String" Index="4" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="location" Type="System.String" Index="5" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="type">The type of the object that this <see cref="T:System.Xml.Serialization.XmlSerializer" /> can serialize.</param>
@@ -1110,13 +1108,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </MemberGroup>
     <Member MemberName="Deserialize">
-      <MemberSignature Language="C#" Value="public object Deserialize (System.IO.Stream stream);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public object? Deserialize (System.IO.Stream stream);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object Deserialize(class System.IO.Stream stream) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.Stream)" />
       <MemberSignature Language="VB.NET" Value="Public Function Deserialize (stream As Stream) As Object" />
       <MemberSignature Language="F#" Value="member this.Deserialize : System.IO.Stream -&gt; obj" Usage="xmlSerializer.Deserialize stream" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Deserialize(System::IO::Stream ^ stream);" />
-      <MemberSignature Language="C#" Value="public object? Deserialize (System.IO.Stream stream);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public object Deserialize (System.IO.Stream stream);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -1205,13 +1203,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="Deserialize">
-      <MemberSignature Language="C#" Value="public object Deserialize (System.IO.TextReader textReader);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public object? Deserialize (System.IO.TextReader textReader);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object Deserialize(class System.IO.TextReader textReader) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.TextReader)" />
       <MemberSignature Language="VB.NET" Value="Public Function Deserialize (textReader As TextReader) As Object" />
       <MemberSignature Language="F#" Value="member this.Deserialize : System.IO.TextReader -&gt; obj" Usage="xmlSerializer.Deserialize textReader" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Deserialize(System::IO::TextReader ^ textReader);" />
-      <MemberSignature Language="C#" Value="public object? Deserialize (System.IO.TextReader textReader);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public object Deserialize (System.IO.TextReader textReader);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -1328,7 +1326,7 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="reader" Type="System.Xml.Serialization.XmlSerializationReader" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="reader" Type="System.Xml.Serialization.XmlSerializationReader" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="reader">The <see cref="T:System.Xml.Serialization.XmlSerializationReader" /> that contains the XML document to deserialize.</param>
@@ -1339,13 +1337,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="Deserialize">
-      <MemberSignature Language="C#" Value="public object Deserialize (System.Xml.XmlReader xmlReader);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public object? Deserialize (System.Xml.XmlReader xmlReader);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object Deserialize(class System.Xml.XmlReader xmlReader) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)" />
       <MemberSignature Language="VB.NET" Value="Public Function Deserialize (xmlReader As XmlReader) As Object" />
       <MemberSignature Language="F#" Value="member this.Deserialize : System.Xml.XmlReader -&gt; obj" Usage="xmlSerializer.Deserialize xmlReader" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Deserialize(System::Xml::XmlReader ^ xmlReader);" />
-      <MemberSignature Language="C#" Value="public object? Deserialize (System.Xml.XmlReader xmlReader);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public object Deserialize (System.Xml.XmlReader xmlReader);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -1470,8 +1468,8 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="xmlReader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="encodingStyle" Type="System.String" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="xmlReader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="encodingStyle" Type="System.String" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="xmlReader">The <see cref="T:System.Xml.XmlReader" /> that contains the XML document to deserialize.</param>
@@ -1550,8 +1548,8 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="xmlReader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="events" Type="System.Xml.Serialization.XmlDeserializationEvents" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="xmlReader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="events" Type="System.Xml.Serialization.XmlDeserializationEvents" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="xmlReader">The <see cref="T:System.Xml.XmlReader" /> that contains the document to deserialize.</param>
@@ -1610,9 +1608,9 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="xmlReader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="encodingStyle" Type="System.String" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="events" Type="System.Xml.Serialization.XmlDeserializationEvents" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="xmlReader" Type="System.Xml.XmlReader" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="encodingStyle" Type="System.String" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="events" Type="System.Xml.Serialization.XmlDeserializationEvents" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="xmlReader">An instance of the <see cref="T:System.Xml.XmlReader" /> class used to read the document.</param>
@@ -1687,7 +1685,7 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.Xml.Serialization.XmlSerializer[]</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="mappings" Type="System.Xml.Serialization.XmlMapping[]" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="mappings" Type="System.Xml.Serialization.XmlMapping[]" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="mappings">An array of <see cref="T:System.Xml.Serialization.XmlTypeMapping" /> that maps one type to another.</param>
@@ -1782,8 +1780,8 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.Xml.Serialization.XmlSerializer[]</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="mappings" Type="System.Xml.Serialization.XmlMapping[]" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="type" Type="System.Type" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="mappings" Type="System.Xml.Serialization.XmlMapping[]" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="type" Type="System.Type" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="mappings">An array of <see cref="T:System.Xml.Serialization.XmlMapping" /> objects.</param>
@@ -1794,13 +1792,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="FromTypes">
-      <MemberSignature Language="C#" Value="public static System.Xml.Serialization.XmlSerializer[] FromTypes (Type[] types);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static System.Xml.Serialization.XmlSerializer[] FromTypes (Type[]? types);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Xml.Serialization.XmlSerializer[] FromTypes(class System.Type[] types) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.FromTypes(System.Type[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromTypes (types As Type()) As XmlSerializer()" />
       <MemberSignature Language="F#" Value="static member FromTypes : Type[] -&gt; System.Xml.Serialization.XmlSerializer[]" Usage="System.Xml.Serialization.XmlSerializer.FromTypes types" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Xml::Serialization::XmlSerializer ^&gt; ^ FromTypes(cli::array &lt;Type ^&gt; ^ types);" />
-      <MemberSignature Language="C#" Value="public static System.Xml.Serialization.XmlSerializer[] FromTypes (Type[]? types);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.Xml.Serialization.XmlSerializer[] FromTypes (Type[] types);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -2024,7 +2022,7 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="type">The <see cref="T:System.Type" /> you are deserializing.</param>
@@ -2078,8 +2076,8 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="defaultNamespace" Type="System.String" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="defaultNamespace" Type="System.String" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="type">The <see cref="T:System.Type" /> you are interested in.</param>
@@ -2109,13 +2107,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </MemberGroup>
     <Member MemberName="Serialize">
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object o);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object? o);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Serialize(class System.IO.Stream stream, object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Serialize (stream As Stream, o As Object)" />
       <MemberSignature Language="F#" Value="member this.Serialize : System.IO.Stream * obj -&gt; unit" Usage="xmlSerializer.Serialize (stream, o)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Serialize(System::IO::Stream ^ stream, System::Object ^ o);" />
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object? o);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object o);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -2207,13 +2205,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="Serialize">
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object o);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object? o);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Serialize(class System.IO.TextWriter textWriter, object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Serialize (textWriter As TextWriter, o As Object)" />
       <MemberSignature Language="F#" Value="member this.Serialize : System.IO.TextWriter * obj -&gt; unit" Usage="xmlSerializer.Serialize (textWriter, o)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Serialize(System::IO::TextWriter ^ textWriter, System::Object ^ o);" />
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object? o);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object o);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -2335,8 +2333,8 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o" Type="System.Object" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="writer" Type="System.Xml.Serialization.XmlSerializationWriter" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="o" Type="System.Object" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="writer" Type="System.Xml.Serialization.XmlSerializationWriter" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="o">The <see cref="T:System.Object" /> to serialize.</param>
@@ -2347,13 +2345,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="Serialize">
-      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object o);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object? o);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Serialize(class System.Xml.XmlWriter xmlWriter, object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Serialize (xmlWriter As XmlWriter, o As Object)" />
       <MemberSignature Language="F#" Value="member this.Serialize : System.Xml.XmlWriter * obj -&gt; unit" Usage="xmlSerializer.Serialize (xmlWriter, o)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Serialize(System::Xml::XmlWriter ^ xmlWriter, System::Object ^ o);" />
-      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object? o);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object o);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -2435,13 +2433,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="Serialize">
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object o, System.Xml.Serialization.XmlSerializerNamespaces namespaces);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object? o, System.Xml.Serialization.XmlSerializerNamespaces? namespaces);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Serialize(class System.IO.Stream stream, object o, class System.Xml.Serialization.XmlSerializerNamespaces namespaces) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Serialize (stream As Stream, o As Object, namespaces As XmlSerializerNamespaces)" />
       <MemberSignature Language="F#" Value="member this.Serialize : System.IO.Stream * obj * System.Xml.Serialization.XmlSerializerNamespaces -&gt; unit" Usage="xmlSerializer.Serialize (stream, o, namespaces)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Serialize(System::IO::Stream ^ stream, System::Object ^ o, System::Xml::Serialization::XmlSerializerNamespaces ^ namespaces);" />
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object? o, System.Xml.Serialization.XmlSerializerNamespaces? namespaces);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.Stream stream, object o, System.Xml.Serialization.XmlSerializerNamespaces namespaces);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -2530,13 +2528,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="Serialize">
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object o, System.Xml.Serialization.XmlSerializerNamespaces namespaces);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object? o, System.Xml.Serialization.XmlSerializerNamespaces? namespaces);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Serialize(class System.IO.TextWriter textWriter, object o, class System.Xml.Serialization.XmlSerializerNamespaces namespaces) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Serialize (textWriter As TextWriter, o As Object, namespaces As XmlSerializerNamespaces)" />
       <MemberSignature Language="F#" Value="member this.Serialize : System.IO.TextWriter * obj * System.Xml.Serialization.XmlSerializerNamespaces -&gt; unit" Usage="xmlSerializer.Serialize (textWriter, o, namespaces)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Serialize(System::IO::TextWriter ^ textWriter, System::Object ^ o, System::Xml::Serialization::XmlSerializerNamespaces ^ namespaces);" />
-      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object? o, System.Xml.Serialization.XmlSerializerNamespaces? namespaces);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.IO.TextWriter textWriter, object o, System.Xml.Serialization.XmlSerializerNamespaces namespaces);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -2621,13 +2619,13 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       </Docs>
     </Member>
     <Member MemberName="Serialize">
-      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object o, System.Xml.Serialization.XmlSerializerNamespaces namespaces);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object? o, System.Xml.Serialization.XmlSerializerNamespaces? namespaces);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Serialize(class System.Xml.XmlWriter xmlWriter, object o, class System.Xml.Serialization.XmlSerializerNamespaces namespaces) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Serialize (xmlWriter As XmlWriter, o As Object, namespaces As XmlSerializerNamespaces)" />
       <MemberSignature Language="F#" Value="member this.Serialize : System.Xml.XmlWriter * obj * System.Xml.Serialization.XmlSerializerNamespaces -&gt; unit" Usage="xmlSerializer.Serialize (xmlWriter, o, namespaces)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Serialize(System::Xml::XmlWriter ^ xmlWriter, System::Object ^ o, System::Xml::Serialization::XmlSerializerNamespaces ^ namespaces);" />
-      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object? o, System.Xml.Serialization.XmlSerializerNamespaces? namespaces);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Serialize (System.Xml.XmlWriter xmlWriter, object o, System.Xml.Serialization.XmlSerializerNamespaces namespaces);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
@@ -2756,10 +2754,10 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="xmlWriter" Type="System.Xml.XmlWriter" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="o" Type="System.Object" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="namespaces" Type="System.Xml.Serialization.XmlSerializerNamespaces" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="encodingStyle" Type="System.String" Index="3" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="xmlWriter" Type="System.Xml.XmlWriter" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="o" Type="System.Object" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="namespaces" Type="System.Xml.Serialization.XmlSerializerNamespaces" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="encodingStyle" Type="System.String" Index="3" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="xmlWriter">The <see cref="T:System.Xml.XmlWriter" /> used to write the XML document.</param>
@@ -2834,11 +2832,11 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="xmlWriter" Type="System.Xml.XmlWriter" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="o" Type="System.Object" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="namespaces" Type="System.Xml.Serialization.XmlSerializerNamespaces" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="encodingStyle" Type="System.String" Index="3" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="id" Type="System.String" Index="4" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="xmlWriter" Type="System.Xml.XmlWriter" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="o" Type="System.Object" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="namespaces" Type="System.Xml.Serialization.XmlSerializerNamespaces" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="encodingStyle" Type="System.String" Index="3" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="id" Type="System.String" Index="4" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="xmlWriter">The <see cref="T:System.Xml.XmlWriter" /> used to write the XML document.</param>

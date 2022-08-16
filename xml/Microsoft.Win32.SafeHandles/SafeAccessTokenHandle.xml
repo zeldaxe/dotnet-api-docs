@@ -45,9 +45,6 @@
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>Creates a <see cref="T:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" />.</summary>
@@ -89,7 +86,7 @@
       <MemberSignature Language="ILAsm" Value=".property class Microsoft.Win32.SafeHandles.SafeAccessTokenHandle InvalidHandle" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.InvalidHandle" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property InvalidHandle As SafeAccessTokenHandle" />
-      <MemberSignature Language="F#" Value="member this.InvalidHandle : Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" Usage="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.InvalidHandle" />
+      <MemberSignature Language="F#" Value="static member InvalidHandle : Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" Usage="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.InvalidHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Microsoft::Win32::SafeHandles::SafeAccessTokenHandle ^ InvalidHandle { Microsoft::Win32::SafeHandles::SafeAccessTokenHandle ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>

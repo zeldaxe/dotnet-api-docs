@@ -29,7 +29,7 @@
       <AttributeName Language="C#">[System.ComponentModel.Designer("Microsoft.VisualStudio.Install.UserNTServiceDesigner, Microsoft.VisualStudio, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.ComponentModel.Design.IRootDesigner")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.Designer("Microsoft.VisualStudio.Install.UserNTServiceDesigner, Microsoft.VisualStudio, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.ComponentModel.Design.IRootDesigner")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+    <Attribute>
       <AttributeName Language="C#">[System.ComponentModel.InstallerType(typeof(System.ServiceProcess.ServiceProcessInstaller))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.InstallerType(typeof(System.ServiceProcess.ServiceProcessInstaller))&gt;]</AttributeName>
     </Attribute>
@@ -142,11 +142,11 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue(true)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(true)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute>
           <AttributeName Language="C#">[System.ServiceProcess.ServiceProcessDescription("SBAutoLog")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ServiceProcess.ServiceProcessDescription("SBAutoLog")&gt;]</AttributeName>
         </Attribute>
@@ -253,7 +253,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(false)&gt;]</AttributeName>
         </Attribute>
@@ -517,11 +517,11 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
@@ -1101,30 +1101,6 @@
         <altmember cref="M:System.ServiceProcess.ServiceBase.OnStop" />
       </Docs>
     </Member>
-    <Member MemberName="RequestAdditionalTime">
-      <MemberSignature Language="C#" Value="public void RequestAdditionalTime (TimeSpan time);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RequestAdditionalTime(valuetype System.TimeSpan time) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ServiceProcess.ServiceBase.RequestAdditionalTime(System.TimeSpan)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub RequestAdditionalTime (time As TimeSpan)" />
-      <MemberSignature Language="F#" Value="member this.RequestAdditionalTime : TimeSpan -&gt; unit" Usage="serviceBase.RequestAdditionalTime time" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RequestAdditionalTime(TimeSpan time);" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.ServiceProcess.ServiceController</AssemblyName>
-        <AssemblyVersion>7.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="time" Type="System.TimeSpan" Index="0" FrameworkAlternate="dotnet-plat-ext-7.0" />
-      </Parameters>
-      <Docs>
-        <param name="time">The requested additional time.</param>
-        <summary>When this method is called from OnStart, OnStop, OnPause or OnContinue, the specified wait hint is passed to the Service Control Manager to avoid having the service marked as not responding.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <MemberGroup MemberName="Run">
       <AssemblyInfo>
         <AssemblyName>System.ServiceProcess</AssemblyName>
@@ -1256,7 +1232,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
@@ -1300,7 +1276,7 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -1351,7 +1327,7 @@
           <AttributeName Language="C#">[System.ComponentModel.TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+        <Attribute>
           <AttributeName Language="C#">[System.ServiceProcess.ServiceProcessDescription("SBServiceName")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ServiceProcess.ServiceProcessDescription("SBServiceName")&gt;]</AttributeName>
         </Attribute>

@@ -126,12 +126,12 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public MetadataReader (byte* metadata, int length, System.Reflection.Metadata.MetadataReaderOptions options, System.Reflection.Metadata.MetadataStringDecoder utf8Decoder);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public MetadataReader (byte* metadata, int length, System.Reflection.Metadata.MetadataReaderOptions options, System.Reflection.Metadata.MetadataStringDecoder? utf8Decoder);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8* metadata, int32 length, valuetype System.Reflection.Metadata.MetadataReaderOptions options, class System.Reflection.Metadata.MetadataStringDecoder utf8Decoder) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.MetadataReader.#ctor(System.Byte*,System.Int32,System.Reflection.Metadata.MetadataReaderOptions,System.Reflection.Metadata.MetadataStringDecoder)" />
       <MemberSignature Language="F#" Value="new System.Reflection.Metadata.MetadataReader : nativeptr&lt;byte&gt; * int * System.Reflection.Metadata.MetadataReaderOptions * System.Reflection.Metadata.MetadataStringDecoder -&gt; System.Reflection.Metadata.MetadataReader" Usage="new System.Reflection.Metadata.MetadataReader (metadata, length, options, utf8Decoder)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; MetadataReader(System::Byte* metadata, int length, System::Reflection::Metadata::MetadataReaderOptions options, System::Reflection::Metadata::MetadataStringDecoder ^ utf8Decoder);" />
-      <MemberSignature Language="C#" Value="public MetadataReader (byte* metadata, int length, System.Reflection.Metadata.MetadataReaderOptions options, System.Reflection.Metadata.MetadataStringDecoder? utf8Decoder);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public MetadataReader (byte* metadata, int length, System.Reflection.Metadata.MetadataReaderOptions options, System.Reflection.Metadata.MetadataStringDecoder utf8Decoder);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -725,7 +725,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.BlobReader</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.StringHandle" Index="0" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.StringHandle" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -860,7 +860,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.CustomDebugInformation</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.CustomDebugInformationHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.CustomDebugInformationHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -893,7 +893,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.CustomDebugInformationHandleCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.EntityHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.EntityHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -960,7 +960,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.Document</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.DocumentHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.DocumentHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1197,7 +1197,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.ImportScope</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.ImportScopeHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.ImportScopeHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1264,7 +1264,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.LocalConstant</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.LocalConstantHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.LocalConstantHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1297,7 +1297,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.LocalScope</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.LocalScopeHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.LocalScopeHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1330,7 +1330,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.LocalScopeHandleCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDebugInformationHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDebugInformationHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1363,7 +1363,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.LocalScopeHandleCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDefinitionHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDefinitionHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1396,7 +1396,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.LocalVariable</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.LocalVariableHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.LocalVariableHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1497,7 +1497,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.MethodDebugInformation</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDebugInformationHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDebugInformationHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1530,7 +1530,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.Reflection.Metadata.MethodDebugInformation</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDefinitionHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.MethodDefinitionHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>
@@ -1897,7 +1897,7 @@ Use <xref:System.Reflection.Metadata.PEReaderExtensions.GetMetadataReader(System
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="handle" Type="System.Reflection.Metadata.DocumentNameBlobHandle" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="handle" Type="System.Reflection.Metadata.DocumentNameBlobHandle" />
       </Parameters>
       <Docs>
         <param name="handle">To be added.</param>

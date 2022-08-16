@@ -23,7 +23,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("TaskScheduler = {TaskScheduler}, MaxMessagesPerTask = {MaxMessagesPerTask}, BoundedCapacity = {BoundedCapacity}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("TaskScheduler = {TaskScheduler}, MaxMessagesPerTask = {MaxMessagesPerTask}, BoundedCapacity = {BoundedCapacity}")&gt;]</AttributeName>
     </Attribute>

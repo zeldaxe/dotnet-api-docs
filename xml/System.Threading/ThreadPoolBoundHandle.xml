@@ -127,12 +127,12 @@
       </Docs>
     </Member>
     <Member MemberName="AllocateNativeOverlapped">
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* AllocateNativeOverlapped (System.Threading.IOCompletionCallback callback, object state, object pinData);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* AllocateNativeOverlapped (System.Threading.IOCompletionCallback callback, object? state, object? pinData);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.NativeOverlapped* AllocateNativeOverlapped(class System.Threading.IOCompletionCallback callback, object state, object pinData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.ThreadPoolBoundHandle.AllocateNativeOverlapped(System.Threading.IOCompletionCallback,System.Object,System.Object)" />
       <MemberSignature Language="F#" Value="member this.AllocateNativeOverlapped : System.Threading.IOCompletionCallback * obj * obj -&gt; nativeptr&lt;System.Threading.NativeOverlapped&gt;" Usage="threadPoolBoundHandle.AllocateNativeOverlapped (callback, state, pinData)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::NativeOverlapped* AllocateNativeOverlapped(System::Threading::IOCompletionCallback ^ callback, System::Object ^ state, System::Object ^ pinData);" />
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* AllocateNativeOverlapped (System.Threading.IOCompletionCallback callback, object? state, object? pinData);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* AllocateNativeOverlapped (System.Threading.IOCompletionCallback callback, object state, object pinData);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Overlapped</AssemblyName>
@@ -369,12 +369,12 @@ The buffer or buffers specified in `pinData` must be the same as those passed to
       </Docs>
     </Member>
     <Member MemberName="GetNativeOverlappedState">
-      <MemberSignature Language="C#" Value="public static object GetNativeOverlappedState (System.Threading.NativeOverlapped* overlapped);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static object? GetNativeOverlappedState (System.Threading.NativeOverlapped* overlapped);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetNativeOverlappedState(valuetype System.Threading.NativeOverlapped* overlapped) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.ThreadPoolBoundHandle.GetNativeOverlappedState(System.Threading.NativeOverlapped*)" />
       <MemberSignature Language="F#" Value="static member GetNativeOverlappedState : nativeptr&lt;System.Threading.NativeOverlapped&gt; -&gt; obj" Usage="System.Threading.ThreadPoolBoundHandle.GetNativeOverlappedState overlapped" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetNativeOverlappedState(System::Threading::NativeOverlapped* overlapped);" />
-      <MemberSignature Language="C#" Value="public static object? GetNativeOverlappedState (System.Threading.NativeOverlapped* overlapped);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static object GetNativeOverlappedState (System.Threading.NativeOverlapped* overlapped);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Overlapped</AssemblyName>

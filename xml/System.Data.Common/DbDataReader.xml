@@ -1,12 +1,7 @@
 <Type Name="DbDataReader" FullName="System.Data.Common.DbDataReader">
-  <TypeSignature Language="C#" Value="public abstract class DbDataReader : IDisposable, System.Collections.IEnumerable" FrameworkAlternate="dotnet-uwp-10.0" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbDataReader extends System.Object implements class System.Collections.IEnumerable, class System.IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
-  <TypeSignature Language="DocId" Value="T:System.Data.Common.DbDataReader" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbDataReader&#xA;Implements IDisposable, IEnumerable" FrameworkAlternate="dotnet-uwp-10.0" />
-  <TypeSignature Language="F#" Value="type DbDataReader = class&#xA;    interface IEnumerable&#xA;    interface IDisposable" FrameworkAlternate="dotnet-uwp-10.0" />
-  <TypeSignature Language="C++ CLI" Value="public ref class DbDataReader abstract : IDisposable, System::Collections::IEnumerable" FrameworkAlternate="dotnet-uwp-10.0" />
   <TypeSignature Language="C#" Value="public abstract class DbDataReader : MarshalByRefObject, IAsyncDisposable, IDisposable, System.Collections.IEnumerable, System.Data.IDataReader" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DbDataReader extends System.MarshalByRefObject implements class System.Collections.IEnumerable, class System.Data.IDataReader, class System.Data.IDataRecord, class System.IAsyncDisposable, class System.IDisposable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="DocId" Value="T:System.Data.Common.DbDataReader" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbDataReader&#xA;Inherits MarshalByRefObject&#xA;Implements IAsyncDisposable, IDataReader, IDisposable, IEnumerable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="F#" Value="type DbDataReader = class&#xA;    inherit MarshalByRefObject&#xA;    interface IEnumerable&#xA;    interface IDataReader&#xA;    interface IDataRecord&#xA;    interface IDisposable&#xA;    interface IAsyncDisposable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
   <TypeSignature Language="C++ CLI" Value="public ref class DbDataReader abstract : MarshalByRefObject, IAsyncDisposable, IDisposable, System::Collections::IEnumerable, System::Data::IDataReader" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
@@ -56,24 +51,24 @@
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
   </TypeForwardingChain>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.MarshalByRefObject</BaseTypeName>
+    <BaseTypeName>System.MarshalByRefObject</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-1.0;netcore-1.1">System.Object</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
       <InterfaceName>System.Collections.IEnumerable</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.IDisposable</InterfaceName>
-    </Interface>
-    <Interface FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
       <InterfaceName>System.Data.IDataReader</InterfaceName>
     </Interface>
-    <Interface FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+    <Interface>
       <InterfaceName>System.Data.IDataRecord</InterfaceName>
     </Interface>
     <Interface FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1">
       <InterfaceName>System.IAsyncDisposable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
     </Interface>
   </Interfaces>
   <Docs>
@@ -185,9 +180,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -216,7 +208,7 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property int Depth { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">P:System.Data.IDataReader.Depth</InterfaceMember>
+        <InterfaceMember>P:System.Data.IDataReader.Depth</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -403,9 +395,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
       </ReturnValue>
@@ -441,7 +430,7 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property int FieldCount { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">P:System.Data.IDataRecord.FieldCount</InterfaceMember>
+        <InterfaceMember>P:System.Data.IDataRecord.FieldCount</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -492,7 +481,7 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract bool GetBoolean(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetBoolean(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetBoolean(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -541,7 +530,7 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract System::Byte GetByte(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetByte(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetByte(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -582,16 +571,16 @@
       </Docs>
     </Member>
     <Member MemberName="GetBytes">
-      <MemberSignature Language="C#" Value="public abstract long GetBytes (int ordinal, long dataOffset, byte[] buffer, int bufferOffset, int length);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public abstract long GetBytes (int ordinal, long dataOffset, byte[]? buffer, int bufferOffset, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int64 GetBytes(int32 ordinal, int64 dataOffset, unsigned int8[] buffer, int32 bufferOffset, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbDataReader.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetBytes (ordinal As Integer, dataOffset As Long, buffer As Byte(), bufferOffset As Integer, length As Integer) As Long" />
       <MemberSignature Language="F#" Value="abstract member GetBytes : int * int64 * byte[] * int * int -&gt; int64" Usage="dbDataReader.GetBytes (ordinal, dataOffset, buffer, bufferOffset, length)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract long GetBytes(int ordinal, long dataOffset, cli::array &lt;System::Byte&gt; ^ buffer, int bufferOffset, int length);" />
-      <MemberSignature Language="C#" Value="public abstract long GetBytes (int ordinal, long dataOffset, byte[]? buffer, int bufferOffset, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public abstract long GetBytes (int ordinal, long dataOffset, byte[] buffer, int bufferOffset, int length);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -648,7 +637,7 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract char GetChar(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetChar(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetChar(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -689,16 +678,16 @@
       </Docs>
     </Member>
     <Member MemberName="GetChars">
-      <MemberSignature Language="C#" Value="public abstract long GetChars (int ordinal, long dataOffset, char[] buffer, int bufferOffset, int length);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public abstract long GetChars (int ordinal, long dataOffset, char[]? buffer, int bufferOffset, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int64 GetChars(int32 ordinal, int64 dataOffset, char[] buffer, int32 bufferOffset, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.DbDataReader.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetChars (ordinal As Integer, dataOffset As Long, buffer As Char(), bufferOffset As Integer, length As Integer) As Long" />
       <MemberSignature Language="F#" Value="abstract member GetChars : int * int64 * char[] * int * int -&gt; int64" Usage="dbDataReader.GetChars (ordinal, dataOffset, buffer, bufferOffset, length)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract long GetChars(int ordinal, long dataOffset, cli::array &lt;char&gt; ^ buffer, int bufferOffset, int length);" />
-      <MemberSignature Language="C#" Value="public abstract long GetChars (int ordinal, long dataOffset, char[]? buffer, int bufferOffset, int length);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public abstract long GetChars (int ordinal, long dataOffset, char[] buffer, int bufferOffset, int length);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -838,7 +827,7 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract System::String ^ GetDataTypeName(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetDataTypeName(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetDataTypeName(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -913,7 +902,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract DateTime GetDateTime(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetDateTime(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetDateTime(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1006,7 +995,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract System::Decimal GetDecimal(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetDecimal(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetDecimal(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1055,7 +1044,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract double GetDouble(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetDouble(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetDouble(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1162,7 +1151,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Type ^ GetFieldType(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetFieldType(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetFieldType(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1238,7 +1227,7 @@ private static void GetDataTypes(String connectionString)
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the value to be returned.</typeparam>
@@ -1312,7 +1301,7 @@ private static void GetDataTypes(String connectionString)
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the value to be returned.</typeparam>
@@ -1391,8 +1380,8 @@ private static void GetDataTypes(String connectionString)
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the value to be returned.</typeparam>
@@ -1446,7 +1435,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract float GetFloat(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetFloat(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetFloat(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1495,7 +1484,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract Guid GetGuid(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetGuid(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetGuid(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1544,7 +1533,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract short GetInt16(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetInt16(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetInt16(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1593,7 +1582,7 @@ private static void GetDataTypes(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract int GetInt32(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetInt32(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetInt32(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1671,7 +1660,7 @@ private static void GetCredits(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract long GetInt64(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetInt64(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetInt64(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1720,7 +1709,7 @@ private static void GetCredits(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract System::String ^ GetName(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetName(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetName(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -1767,7 +1756,7 @@ private static void GetCredits(String connectionString)
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract int GetOrdinal(System::String ^ name);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetOrdinal(System.String)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetOrdinal(System.String)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2082,7 +2071,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
         <ReturnType>System.IO.Stream</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column ordinal.</param>
@@ -2125,7 +2114,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract System::String ^ GetString(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetString(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetString(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2198,7 +2187,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
         <ReturnType>System.IO.TextReader</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column ordinal.</param>
@@ -2241,7 +2230,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract System::Object ^ GetValue(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetValue(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetValue(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2289,7 +2278,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract int GetValues(cli::array &lt;System::Object ^&gt; ^ values);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.GetValues(System.Object[])</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.GetValues(System.Object[])</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2377,7 +2366,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property bool IsClosed { bool get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">P:System.Data.IDataReader.IsClosed</InterfaceMember>
+        <InterfaceMember>P:System.Data.IDataReader.IsClosed</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2425,7 +2414,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract bool IsDBNull(int ordinal);" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataRecord.IsDBNull(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataRecord.IsDBNull(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2515,7 +2504,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column to be retrieved.</param>
@@ -2589,8 +2578,8 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column to be retrieved.</param>
@@ -2653,7 +2642,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property System::Object ^ default[int] { System::Object ^ get(int ordinal); };" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">P:System.Data.IDataRecord.Item(System.Int32)</InterfaceMember>
+        <InterfaceMember>P:System.Data.IDataRecord.Item(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2701,7 +2690,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property System::Object ^ default[System::String ^] { System::Object ^ get(System::String ^ name); };" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">P:System.Data.IDataRecord.Item(System.String)</InterfaceMember>
+        <InterfaceMember>P:System.Data.IDataRecord.Item(System.String)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2749,7 +2738,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract bool NextResult();" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataReader.NextResult</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataReader.NextResult</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -2893,7 +2882,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">The cancellation instruction.</param>
@@ -2924,7 +2913,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract bool Read();" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">M:System.Data.IDataReader.Read</InterfaceMember>
+        <InterfaceMember>M:System.Data.IDataReader.Read</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -3069,7 +3058,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">The cancellation instruction.</param>
@@ -3101,7 +3090,7 @@ Returns <see langword="null" /> if the executed command returned no resultset, o
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract property int RecordsAffected { int get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">P:System.Data.IDataReader.RecordsAffected</InterfaceMember>
+        <InterfaceMember>P:System.Data.IDataReader.RecordsAffected</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.Common</AssemblyName>
@@ -3258,7 +3247,7 @@ This member is an explicit interface member implementation. It can be used only 
         <ReturnType>System.Data.IDataReader</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ordinal" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="ordinal" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="ordinal">The zero-based column ordinal.</param>

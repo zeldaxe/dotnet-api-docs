@@ -23,7 +23,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{GetDebuggerDisplay(),nq}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{GetDebuggerDisplay(),nq}")&gt;]</AttributeName>
     </Attribute>
@@ -70,12 +70,12 @@
       </Docs>
     </Member>
     <Member MemberName="Align">
-      <MemberSignature Language="C#" Value="public void Align (byte alignment);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Align(unsigned int8 alignment) cil managed" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobReader.Align(System.Byte)" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Align (alignment As Byte)" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Align(System::Byte alignment);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="F#" Value="member this.Align : byte -&gt; unit" Usage="blobReader.Align alignment" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Align (byte alignment);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Align(unsigned int8 alignment) cil managed" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobReader.Align(System.Byte)" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Align (alignment As Byte)" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="F#" Value="member this.Align : byte -&gt; unit" Usage="blobReader.Align alignment" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Align(System::Byte alignment);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -89,10 +89,10 @@
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="net-5.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-6.0;net-7.0">System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="alignment" Type="System.Byte" Index="0" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="alignment" Type="System.Byte" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="alignment">To be added.</param>
@@ -149,7 +149,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Byte" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="value" Type="System.Byte" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="value">The byte value to find.</param>
@@ -197,16 +197,16 @@ Doesn't change the current position.
       </Docs>
     </Member>
     <Member MemberName="Offset">
-      <MemberSignature Language="C#" Value="public int Offset { get; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
+      <MemberSignature Language="C#" Value="public int Offset { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Offset" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.BlobReader.Offset" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offset As Integer" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="F#" Value="member this.Offset : int" Usage="System.Reflection.Metadata.BlobReader.Offset" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Offset { int get(); };" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-      <MemberSignature Language="C#" Value="public int Offset { get; set; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="VB.NET" Value="Public Property Offset As Integer" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="member this.Offset : int with get, set" Usage="System.Reflection.Metadata.BlobReader.Offset" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Offset { int get(); void set(int value); };" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public int Offset { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Offset As Integer" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+      <MemberSignature Language="F#" Value="member this.Offset : int" Usage="System.Reflection.Metadata.BlobReader.Offset" FrameworkAlternate="netcore-1.0;netcore-1.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Offset { int get(); };" FrameworkAlternate="netcore-1.0;netcore-1.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -390,9 +390,9 @@ Blobs that contain references to other blobs are used in Portable PDB format, fo
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="byteCount" Type="System.Int32" Index="0" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="buffer" Type="System.Byte[]" Index="1" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-        <Parameter Name="bufferOffset" Type="System.Int32" Index="2" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="byteCount" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+        <Parameter Name="buffer" Type="System.Byte[]" Index="1" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+        <Parameter Name="bufferOffset" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="byteCount">The number of bytes to read.</param>
@@ -524,7 +524,7 @@ Blobs that contain references to other blobs are used in Portable PDB format, fo
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="typeCode" Type="System.Reflection.Metadata.ConstantTypeCode" Index="0" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="typeCode" Type="System.Reflection.Metadata.ConstantTypeCode" />
       </Parameters>
       <Docs>
         <param name="typeCode">To be added.</param>
@@ -826,13 +826,13 @@ Decimal number is encoded in 13 bytes as follows:
       </Docs>
     </Member>
     <Member MemberName="ReadSerializedString">
-      <MemberSignature Language="C#" Value="public string ReadSerializedString ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? ReadSerializedString ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ReadSerializedString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobReader.ReadSerializedString" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadSerializedString () As String" />
       <MemberSignature Language="F#" Value="member this.ReadSerializedString : unit -&gt; string" Usage="blobReader.ReadSerializedString " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ReadSerializedString();" />
-      <MemberSignature Language="C#" Value="public string? ReadSerializedString ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string ReadSerializedString ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>

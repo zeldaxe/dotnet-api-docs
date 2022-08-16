@@ -431,7 +431,7 @@ An error occurred during signature creation.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-6.0" />
+        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="net-6.0" />
       </Parameters>
       <Docs>
         <param name="disposing">
@@ -541,8 +541,8 @@ The objects returned by this method can safely be used even after this <xref:Sys
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-6.0" />
-        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-6.0" />
+        <Parameter Name="data" Type="System.IO.Stream" Index="0" FrameworkAlternate="net-6.0" />
+        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" Index="1" FrameworkAlternate="net-6.0" />
       </Parameters>
       <Docs>
         <param name="data">The binary stream to hash.</param>
@@ -576,10 +576,10 @@ The objects returned by this method can safely be used even after this <xref:Sys
         <ReturnType>System.Byte[]</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.Byte[]" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-6.0" />
-        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-6.0" />
-        <Parameter Name="count" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-6.0" />
-        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" Index="3" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-6.0" />
+        <Parameter Name="data" Type="System.Byte[]" Index="0" FrameworkAlternate="net-6.0" />
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="net-6.0" />
+        <Parameter Name="count" Type="System.Int32" Index="2" FrameworkAlternate="net-6.0" />
+        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" Index="3" FrameworkAlternate="net-6.0" />
       </Parameters>
       <Docs>
         <param name="data">The data to be hashed.</param>

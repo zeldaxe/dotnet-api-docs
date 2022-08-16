@@ -1,6 +1,6 @@
 <Type Name="NameObjectCollectionBase+KeysCollection" FullName="System.Collections.Specialized.NameObjectCollectionBase+KeysCollection">
   <TypeSignature Language="C#" Value="public class NameObjectCollectionBase.KeysCollection : System.Collections.ICollection" />
-  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit NameObjectCollectionBase/KeysCollection extends System.Object implements class System.Collections.ICollection, class System.Collections.IEnumerable" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit NameObjectCollectionBase/KeysCollection extends System.Object implements class System.Collections.ICollection, class System.Collections.IEnumerable" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
   <TypeSignature Language="DocId" Value="T:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class NameObjectCollectionBase.KeysCollection&#xA;Implements ICollection" />
   <TypeSignature Language="F#" Value="type NameObjectCollectionBase.KeysCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable" />
@@ -112,13 +112,13 @@
       </Docs>
     </Member>
     <Member MemberName="Get">
-      <MemberSignature Language="C#" Value="public virtual string Get (int index);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual string? Get (int index);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Get(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection.Get(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Get (index As Integer) As String" />
       <MemberSignature Language="F#" Value="abstract member Get : int -&gt; string&#xA;override this.Get : int -&gt; string" Usage="keysCollection.Get index" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ Get(int index);" />
-      <MemberSignature Language="C#" Value="public virtual string? Get (int index);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public virtual string Get (int index);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Specialized</AssemblyName>
@@ -233,13 +233,13 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
-      <MemberSignature Language="C#" Value="public string this[int index] { get; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string? this[int index] { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Item(int32)" />
       <MemberSignature Language="DocId" Value="P:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As String" />
       <MemberSignature Language="F#" Value="member this.Item(int) : string" Usage="System.Collections.Specialized.NameObjectCollectionBase.KeysCollection.Item" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[int] { System::String ^ get(int index); };" />
-      <MemberSignature Language="C#" Value="public string? this[int index] { get; }" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public string this[int index] { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Specialized</AssemblyName>

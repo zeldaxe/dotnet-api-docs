@@ -34,8 +34,6 @@
     <AssemblyName>System.Xml.Serialization</AssemblyName>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="System.Xml" FromVersion="4.0.0.0" To="System.Xml.XmlSerializer" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
-    <TypeForwarding From="System.Xml.Serialization" FromVersion="4.0.0.0" To="System.Xml.XmlSerializer" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Xml.XmlSerializer" FromVersion="5.0.0.0" To="System.Xml.ReaderWriter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
@@ -289,13 +287,13 @@ ns.Add("", "")
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public void Add (string prefix, string ns);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void Add (string prefix, string? ns);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(string prefix, string ns) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializerNamespaces.Add(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Add (prefix As String, ns As String)" />
       <MemberSignature Language="F#" Value="member this.Add : string * string -&gt; unit" Usage="xmlSerializerNamespaces.Add (prefix, ns)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::String ^ prefix, System::String ^ ns);" />
-      <MemberSignature Language="C#" Value="public void Add (string prefix, string? ns);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public void Add (string prefix, string ns);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlSerializer</AssemblyName>

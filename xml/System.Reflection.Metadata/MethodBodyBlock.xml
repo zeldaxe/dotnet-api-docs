@@ -107,13 +107,13 @@ This example shows how to read method bodies for all methods in the specified ty
       </Docs>
     </Member>
     <Member MemberName="GetILBytes">
-      <MemberSignature Language="C#" Value="public byte[] GetILBytes ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public byte[]? GetILBytes ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance unsigned int8[] GetILBytes() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.MethodBodyBlock.GetILBytes" />
       <MemberSignature Language="VB.NET" Value="Public Function GetILBytes () As Byte()" />
       <MemberSignature Language="F#" Value="member this.GetILBytes : unit -&gt; byte[]" Usage="methodBodyBlock.GetILBytes " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::Byte&gt; ^ GetILBytes();" />
-      <MemberSignature Language="C#" Value="public byte[]? GetILBytes ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public byte[] GetILBytes ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>

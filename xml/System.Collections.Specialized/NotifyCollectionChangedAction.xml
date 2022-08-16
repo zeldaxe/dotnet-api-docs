@@ -34,8 +34,6 @@
     <AssemblyName>System.Windows</AssemblyName>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="System" FromVersion="4.0.0.0" To="System.ObjectModel" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
-    <TypeForwarding From="System.Windows" FromVersion="4.0.0.0" To="System.ObjectModel" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ObjectModel" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ObjectModel" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ObjectModel" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />

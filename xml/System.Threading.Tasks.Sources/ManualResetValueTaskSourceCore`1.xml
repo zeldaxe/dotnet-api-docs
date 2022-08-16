@@ -17,11 +17,7 @@
     <AssemblyName>netstandard</AssemblyName>
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
-  <AssemblyInfo>
-    <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
-  </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="Microsoft.Bcl.AsyncInterfaces" FromVersion="1.0.0.0" To="netstandard" ToVersion="2.1.0.0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="7.0.0.0" FrameworkAlternate="net-7.0" />
@@ -59,9 +55,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
       </ReturnValue>
@@ -95,9 +88,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Sources.ValueTaskSourceStatus</ReturnType>
       </ReturnValue>
@@ -112,7 +102,7 @@
       </Docs>
     </Member>
     <Member MemberName="OnCompleted">
-      <MemberSignature Language="C#" Value="public void OnCompleted (Action&lt;object?&gt; continuation, object? state, short token, System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags flags);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public void OnCompleted (Action&lt;object?&gt; continuation, object? state, short token, System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags flags);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void OnCompleted(class System.Action`1&lt;object&gt; continuation, object state, int16 token, valuetype System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags flags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1.OnCompleted(System.Action{System.Object},System.Object,System.Int16,System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub OnCompleted (continuation As Action(Of Object), state As Object, token As Short, flags As ValueTaskSourceOnCompletedFlags)" />
@@ -131,9 +121,6 @@
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -173,9 +160,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -205,11 +189,8 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
-      </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;net-5.0;net-6.0;net-7.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -250,9 +231,6 @@ Continuations may run asynchronously if this value is `false`, but they'll never
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -285,9 +263,6 @@ Continuations may run asynchronously if this value is `false`, but they'll never
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
-      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -319,9 +294,6 @@ Continuations may run asynchronously if this value is `false`, but they'll never
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int16</ReturnType>

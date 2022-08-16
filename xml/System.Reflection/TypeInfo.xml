@@ -1,15 +1,15 @@
 <Type Name="TypeInfo" FullName="System.Reflection.TypeInfo">
-  <TypeSignature Language="C#" Value="public abstract class TypeInfo : System.Reflection.MemberInfo, System.Reflection.IReflectableType" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TypeInfo extends System.Reflection.MemberInfo implements class System.Reflection.IReflectableType" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
-  <TypeSignature Language="DocId" Value="T:System.Reflection.TypeInfo" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class TypeInfo&#xA;Inherits MemberInfo&#xA;Implements IReflectableType" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
-  <TypeSignature Language="F#" Value="type TypeInfo = class&#xA;    inherit MemberInfo&#xA;    interface IReflectableType" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TypeInfo abstract : System::Reflection::MemberInfo, System::Reflection::IReflectableType" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
   <TypeSignature Language="C#" Value="public abstract class TypeInfo : Type, System.Reflection.IReflectableType" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TypeInfo extends System.Type implements class System.Reflection.IReflectableType" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1" />
+  <TypeSignature Language="DocId" Value="T:System.Reflection.TypeInfo" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TypeInfo&#xA;Inherits Type&#xA;Implements IReflectableType" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="F#" Value="type TypeInfo = class&#xA;    inherit Type&#xA;    interface IReflectableType" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="C++ CLI" Value="public ref class TypeInfo abstract : Type, System::Reflection::IReflectableType" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="C#" Value="public abstract class TypeInfo : System.Reflection.MemberInfo, System.Reflection.IReflectableType" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TypeInfo extends System.Reflection.MemberInfo implements class System.Reflection.IReflectableType" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class TypeInfo&#xA;Inherits MemberInfo&#xA;Implements IReflectableType" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+  <TypeSignature Language="F#" Value="type TypeInfo = class&#xA;    inherit MemberInfo&#xA;    interface IReflectableType" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TypeInfo abstract : System::Reflection::MemberInfo, System::Reflection::IReflectableType" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit TypeInfo extends System.Type implements class System.Reflection.IReflectableType" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection</AssemblyName>
@@ -37,7 +37,6 @@
     <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Reflection" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Reflection" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
@@ -49,8 +48,8 @@
     <TypeForwarding From="System.Reflection" FromVersion="4.2.2.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
   </TypeForwardingChain>
   <Base>
-    <BaseTypeName>System.Reflection.MemberInfo</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Type</BaseTypeName>
+    <BaseTypeName>System.Type</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6">System.Reflection.MemberInfo</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
@@ -94,11 +93,11 @@ The following example uses the reflection types and members in .NET to retrieve 
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected TypeInfo ();" FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.#ctor" FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; TypeInfo();" FrameworkAlternate="netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="protected TypeInfo ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.#ctor" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; TypeInfo();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -109,14 +108,11 @@ The following example uses the reflection types and members in .NET to retrieve 
         <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -1140,13 +1136,13 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredEvent">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.EventInfo GetDeclaredEvent (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.EventInfo? GetDeclaredEvent (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.EventInfo GetDeclaredEvent(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredEvent(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredEvent (name As String) As EventInfo" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredEvent : string -&gt; System.Reflection.EventInfo&#xA;override this.GetDeclaredEvent : string -&gt; System.Reflection.EventInfo" Usage="typeInfo.GetDeclaredEvent name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::EventInfo ^ GetDeclaredEvent(System::String ^ name);" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.EventInfo? GetDeclaredEvent (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.EventInfo GetDeclaredEvent (string name);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1195,13 +1191,13 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredField">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.FieldInfo GetDeclaredField (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.FieldInfo? GetDeclaredField (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.FieldInfo GetDeclaredField(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredField(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredField (name As String) As FieldInfo" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredField : string -&gt; System.Reflection.FieldInfo&#xA;override this.GetDeclaredField : string -&gt; System.Reflection.FieldInfo" Usage="typeInfo.GetDeclaredField name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::FieldInfo ^ GetDeclaredField(System::String ^ name);" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.FieldInfo? GetDeclaredField (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.FieldInfo GetDeclaredField (string name);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1250,13 +1246,13 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredMethod">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.MethodInfo GetDeclaredMethod (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.MethodInfo? GetDeclaredMethod (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.MethodInfo GetDeclaredMethod(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredMethod(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredMethod (name As String) As MethodInfo" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredMethod : string -&gt; System.Reflection.MethodInfo&#xA;override this.GetDeclaredMethod : string -&gt; System.Reflection.MethodInfo" Usage="typeInfo.GetDeclaredMethod name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::MethodInfo ^ GetDeclaredMethod(System::String ^ name);" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.MethodInfo? GetDeclaredMethod (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.MethodInfo GetDeclaredMethod (string name);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1308,7 +1304,7 @@ The following example uses the reflection types and members in .NET to retrieve 
       <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;System.Reflection.MethodInfo&gt; GetDeclaredMethods (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class System.Reflection.MethodInfo&gt; GetDeclaredMethods(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredMethods(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredMethods (name As String) As IEnumerable(Of MethodInfo)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredMethods (name As String) As IEnumerable(Of MethodInfo)" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredMethods : string -&gt; seq&lt;System.Reflection.MethodInfo&gt;&#xA;override this.GetDeclaredMethods : string -&gt; seq&lt;System.Reflection.MethodInfo&gt;" Usage="typeInfo.GetDeclaredMethods name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerable&lt;System::Reflection::MethodInfo ^&gt; ^ GetDeclaredMethods(System::String ^ name);" />
       <MemberSignature Language="VB.NET" Value="Public Iterator Overridable Function GetDeclaredMethods (name As String) As IEnumerable(Of MethodInfo)" FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -1368,13 +1364,13 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredNestedType">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.TypeInfo GetDeclaredNestedType (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.TypeInfo? GetDeclaredNestedType (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.TypeInfo GetDeclaredNestedType(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredNestedType(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredNestedType (name As String) As TypeInfo" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredNestedType : string -&gt; System.Reflection.TypeInfo&#xA;override this.GetDeclaredNestedType : string -&gt; System.Reflection.TypeInfo" Usage="typeInfo.GetDeclaredNestedType name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::TypeInfo ^ GetDeclaredNestedType(System::String ^ name);" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.TypeInfo? GetDeclaredNestedType (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.TypeInfo GetDeclaredNestedType (string name);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1423,13 +1419,13 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredProperty">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.PropertyInfo GetDeclaredProperty (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.PropertyInfo? GetDeclaredProperty (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.PropertyInfo GetDeclaredProperty(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredProperty(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredProperty (name As String) As PropertyInfo" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredProperty : string -&gt; System.Reflection.PropertyInfo&#xA;override this.GetDeclaredProperty : string -&gt; System.Reflection.PropertyInfo" Usage="typeInfo.GetDeclaredProperty name" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::PropertyInfo ^ GetDeclaredProperty(System::String ^ name);" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.PropertyInfo? GetDeclaredProperty (string name);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.PropertyInfo GetDeclaredProperty (string name);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -3147,14 +3143,14 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="IsAssignableFrom">
-      <MemberSignature Language="C#" Value="public virtual bool IsAssignableFrom (System.Reflection.TypeInfo typeInfo);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual bool IsAssignableFrom (System.Reflection.TypeInfo? typeInfo);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsAssignableFrom(class System.Reflection.TypeInfo typeInfo) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.IsAssignableFrom(System.Reflection.TypeInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function IsAssignableFrom (typeInfo As TypeInfo) As Boolean" />
-      <MemberSignature Language="F#" Value="abstract member IsAssignableFrom : System.Reflection.TypeInfo -&gt; bool&#xA;override this.IsAssignableFrom : System.Reflection.TypeInfo -&gt; bool" Usage="typeInfo.IsAssignableFrom typeInfo" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsAssignableFrom(System::Reflection::TypeInfo ^ typeInfo);" />
-      <MemberSignature Language="C#" Value="public virtual bool IsAssignableFrom (System.Reflection.TypeInfo? typeInfo);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="F#" Value="override this.IsAssignableFrom : System.Reflection.TypeInfo -&gt; bool" Usage="typeInfo.IsAssignableFrom typeInfo" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsAssignableFrom(System::Reflection::TypeInfo ^ typeInfo);" />
+      <MemberSignature Language="C#" Value="public virtual bool IsAssignableFrom (System.Reflection.TypeInfo typeInfo);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="abstract member IsAssignableFrom : System.Reflection.TypeInfo -&gt; bool&#xA;override this.IsAssignableFrom : System.Reflection.TypeInfo -&gt; bool" Usage="typeInfo.IsAssignableFrom typeInfo" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -4073,12 +4069,12 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="IsPrimitive">
-      <MemberSignature Language="C#" Value="public virtual bool IsPrimitive { get; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+      <MemberSignature Language="C#" Value="public virtual bool IsPrimitive { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsPrimitive" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.TypeInfo.IsPrimitive" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsPrimitive As Boolean" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsPrimitive As Boolean" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
       <MemberSignature Language="F#" Value="member this.IsPrimitive : bool" Usage="System.Reflection.TypeInfo.IsPrimitive" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsPrimitive { bool get(); };" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsPrimitive { bool get(); };" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
       <MemberSignature Language="C#" Value="public bool IsPrimitive { get; }" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPrimitive As Boolean" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPrimitive { bool get(); };" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
@@ -4304,12 +4300,12 @@ The following example uses the reflection types and members in .NET to retrieve 
       </Docs>
     </Member>
     <Member MemberName="IsValueType">
-      <MemberSignature Language="C#" Value="public virtual bool IsValueType { get; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+      <MemberSignature Language="C#" Value="public virtual bool IsValueType { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsValueType" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.TypeInfo.IsValueType" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsValueType As Boolean" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsValueType As Boolean" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
       <MemberSignature Language="F#" Value="member this.IsValueType : bool" Usage="System.Reflection.TypeInfo.IsValueType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsValueType { bool get(); };" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsValueType { bool get(); };" FrameworkAlternate="netcore-1.0;netcore-1.1;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6" />
       <MemberSignature Language="C#" Value="public bool IsValueType { get; }" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsValueType As Boolean" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsValueType { bool get(); };" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />

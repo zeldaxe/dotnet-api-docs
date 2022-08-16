@@ -65,13 +65,13 @@
   </Docs>
   <Members>
     <Member MemberName="CreateOperation">
-      <MemberSignature Language="C#" Value="public static System.ComponentModel.AsyncOperation CreateOperation (object userSuppliedState);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static System.ComponentModel.AsyncOperation CreateOperation (object? userSuppliedState);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.ComponentModel.AsyncOperation CreateOperation(object userSuppliedState) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ComponentModel.AsyncOperationManager.CreateOperation(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateOperation (userSuppliedState As Object) As AsyncOperation" />
       <MemberSignature Language="F#" Value="static member CreateOperation : obj -&gt; System.ComponentModel.AsyncOperation" Usage="System.ComponentModel.AsyncOperationManager.CreateOperation userSuppliedState" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::ComponentModel::AsyncOperation ^ CreateOperation(System::Object ^ userSuppliedState);" />
-      <MemberSignature Language="C#" Value="public static System.ComponentModel.AsyncOperation CreateOperation (object? userSuppliedState);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static System.ComponentModel.AsyncOperation CreateOperation (object userSuppliedState);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.EventBasedAsync</AssemblyName>
@@ -139,7 +139,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Threading.SynchronizationContext SynchronizationContext" />
       <MemberSignature Language="DocId" Value="P:System.ComponentModel.AsyncOperationManager.SynchronizationContext" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property SynchronizationContext As SynchronizationContext" />
-      <MemberSignature Language="F#" Value="member this.SynchronizationContext : System.Threading.SynchronizationContext with get, set" Usage="System.ComponentModel.AsyncOperationManager.SynchronizationContext" />
+      <MemberSignature Language="F#" Value="static member SynchronizationContext : System.Threading.SynchronizationContext with get, set" Usage="System.ComponentModel.AsyncOperationManager.SynchronizationContext" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Threading::SynchronizationContext ^ SynchronizationContext { System::Threading::SynchronizationContext ^ get(); void set(System::Threading::SynchronizationContext ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>

@@ -93,7 +93,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Connect" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Connect" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Connect As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Connect : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Connect" />
+      <MemberSignature Language="F#" Value="static member Connect : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Connect" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Connect { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -117,7 +117,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Delete" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Delete" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Delete As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Delete : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Delete" />
+      <MemberSignature Language="F#" Value="static member Delete : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Delete" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Delete { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -159,13 +159,13 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public bool Equals (System.Net.Http.HttpMethod other);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public bool Equals (System.Net.Http.HttpMethod? other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(class System.Net.Http.HttpMethod other) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpMethod.Equals(System.Net.Http.HttpMethod)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As HttpMethod) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : System.Net.Http.HttpMethod -&gt; bool" Usage="httpMethod.Equals other" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Net::Http::HttpMethod ^ other);" />
-      <MemberSignature Language="C#" Value="public bool Equals (System.Net.Http.HttpMethod? other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public bool Equals (System.Net.Http.HttpMethod other);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -209,13 +209,13 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpMethod.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="httpMethod.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -260,7 +260,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Get" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Get" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Get As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Get : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Get" />
+      <MemberSignature Language="F#" Value="static member Get : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Get" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Get { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -336,7 +336,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Head" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Head" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Head As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Head : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Head" />
+      <MemberSignature Language="F#" Value="static member Head : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Head" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Head { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -400,13 +400,13 @@
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
-      <MemberSignature Language="C#" Value="public static bool operator == (System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Net.Http.HttpMethod? left, System.Net.Http.HttpMethod? right);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class System.Net.Http.HttpMethod left, class System.Net.Http.HttpMethod right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpMethod.op_Equality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As HttpMethod, right As HttpMethod) As Boolean" />
       <MemberSignature Language="F#" Value="static member ( = ) : System.Net.Http.HttpMethod * System.Net.Http.HttpMethod -&gt; bool" Usage="left = right" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(System::Net::Http::HttpMethod ^ left, System::Net::Http::HttpMethod ^ right);" />
-      <MemberSignature Language="C#" Value="public static bool operator == (System.Net.Http.HttpMethod? left, System.Net.Http.HttpMethod? right);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static bool operator == (System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -442,13 +442,13 @@
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
-      <MemberSignature Language="C#" Value="public static bool operator != (System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Net.Http.HttpMethod? left, System.Net.Http.HttpMethod? right);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class System.Net.Http.HttpMethod left, class System.Net.Http.HttpMethod right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpMethod.op_Inequality(System.Net.Http.HttpMethod,System.Net.Http.HttpMethod)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As HttpMethod, right As HttpMethod) As Boolean" />
       <MemberSignature Language="F#" Value="static member op_Inequality : System.Net.Http.HttpMethod * System.Net.Http.HttpMethod -&gt; bool" Usage="System.Net.Http.HttpMethod.op_Inequality (left, right)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(System::Net::Http::HttpMethod ^ left, System::Net::Http::HttpMethod ^ right);" />
-      <MemberSignature Language="C#" Value="public static bool operator != (System.Net.Http.HttpMethod? left, System.Net.Http.HttpMethod? right);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public static bool operator != (System.Net.Http.HttpMethod left, System.Net.Http.HttpMethod right);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -488,7 +488,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Options" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Options" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Options As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Options : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Options" />
+      <MemberSignature Language="F#" Value="static member Options : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Options" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Options { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -522,7 +522,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Patch" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Patch" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Patch As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Patch : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Patch" />
+      <MemberSignature Language="F#" Value="static member Patch : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Patch" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Patch { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -551,7 +551,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Post" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Post" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Post As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Post : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Post" />
+      <MemberSignature Language="F#" Value="static member Post : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Post" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Post { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -585,7 +585,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Put" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Put" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Put As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Put : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Put" />
+      <MemberSignature Language="F#" Value="static member Put : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Put" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Put { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -654,7 +654,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Net.Http.HttpMethod Trace" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpMethod.Trace" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Trace As HttpMethod" />
-      <MemberSignature Language="F#" Value="member this.Trace : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Trace" />
+      <MemberSignature Language="F#" Value="static member Trace : System.Net.Http.HttpMethod" Usage="System.Net.Http.HttpMethod.Trace" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Net::Http::HttpMethod ^ Trace { System::Net::Http::HttpMethod ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>

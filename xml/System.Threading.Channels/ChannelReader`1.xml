@@ -165,7 +165,7 @@
         <ReturnType>System.Collections.Generic.IAsyncEnumerable&lt;T&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;netcore-3.0;netcore-3.1;net-5.0;net-6.0;net-7.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">The cancellation token to use to cancel the enumeration. If data is immediately ready for reading, then that data may be yielded even after cancellation has been requested.</param>

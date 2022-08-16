@@ -1,11 +1,11 @@
 <Type Name="AssemblyFileHandle" FullName="System.Reflection.Metadata.AssemblyFileHandle">
-  <TypeSignature Language="C#" Value="public struct AssemblyFileHandle : IEquatable&lt;System.Reflection.Metadata.AssemblyFileHandle&gt;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0" />
+  <TypeSignature Language="C#" Value="public readonly struct AssemblyFileHandle : IEquatable&lt;System.Reflection.Metadata.AssemblyFileHandle&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit AssemblyFileHandle extends System.ValueType implements class System.IEquatable`1&lt;valuetype System.Reflection.Metadata.AssemblyFileHandle&gt;" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.Metadata.AssemblyFileHandle" />
   <TypeSignature Language="VB.NET" Value="Public Structure AssemblyFileHandle&#xA;Implements IEquatable(Of AssemblyFileHandle)" />
   <TypeSignature Language="F#" Value="type AssemblyFileHandle = struct" />
   <TypeSignature Language="C++ CLI" Value="public value class AssemblyFileHandle : IEquatable&lt;System::Reflection::Metadata::AssemblyFileHandle&gt;" />
-  <TypeSignature Language="C#" Value="public readonly struct AssemblyFileHandle : IEquatable&lt;System.Reflection.Metadata.AssemblyFileHandle&gt;" FrameworkAlternate="net-5.0;net-6.0;net-7.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C#" Value="public struct AssemblyFileHandle : IEquatable&lt;System.Reflection.Metadata.AssemblyFileHandle&gt;" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Metadata</AssemblyName>
     <AssemblyVersion>1.0.22.0</AssemblyVersion>
@@ -39,13 +39,13 @@
   </Docs>
   <Members>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.AssemblyFileHandle.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="assemblyFileHandle.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
