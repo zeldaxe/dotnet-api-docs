@@ -74,12 +74,12 @@
       </Docs>
     </Member>
     <Member MemberName="Back">
-      <MemberSignature Language="C#" Value="public const char Back;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char Back" />
+      <MemberSignature Language="C#" Value="public const char Back = &#x8;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char Back = (&#x8;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.Back" />
-      <MemberSignature Language="VB.NET" Value="Public Const Back As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const Back As Char  = &#x8;" />
       <MemberSignature Language="F#" Value="val mutable Back : char" Usage="Microsoft.VisualBasic.ControlChars.Back" />
-      <MemberSignature Language="C++ CLI" Value="public: char Back;" />
+      <MemberSignature Language="C++ CLI" Value="public: char Back = &#x8;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -98,6 +98,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&#x8;</MemberValue>
       <Docs>
         <summary>Represents a backspace character (<see langword="vbBack" />).</summary>
         <remarks>To be added.</remarks>
@@ -110,12 +111,12 @@
       </Docs>
     </Member>
     <Member MemberName="Cr">
-      <MemberSignature Language="C#" Value="public const char Cr;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char Cr" />
+      <MemberSignature Language="C#" Value="public const char Cr = &#xD;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char Cr = (&#xD;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.Cr" />
-      <MemberSignature Language="VB.NET" Value="Public Const Cr As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const Cr As Char  = &#xD;" />
       <MemberSignature Language="F#" Value="val mutable Cr : char" Usage="Microsoft.VisualBasic.ControlChars.Cr" />
-      <MemberSignature Language="C++ CLI" Value="public: char Cr;" />
+      <MemberSignature Language="C++ CLI" Value="public: char Cr = &#xD;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -134,6 +135,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue></MemberValue>
       <Docs>
         <summary>Represents a carriage return character (<see langword="vbCr" />).</summary>
         <remarks>To be added.</remarks>
@@ -182,12 +184,12 @@
       </Docs>
     </Member>
     <Member MemberName="FormFeed">
-      <MemberSignature Language="C#" Value="public const char FormFeed;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char FormFeed" />
+      <MemberSignature Language="C#" Value="public const char FormFeed = &#xC;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char FormFeed = (&#xC;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.FormFeed" />
-      <MemberSignature Language="VB.NET" Value="Public Const FormFeed As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const FormFeed As Char  = &#xC;" />
       <MemberSignature Language="F#" Value="val mutable FormFeed : char" Usage="Microsoft.VisualBasic.ControlChars.FormFeed" />
-      <MemberSignature Language="C++ CLI" Value="public: char FormFeed;" />
+      <MemberSignature Language="C++ CLI" Value="public: char FormFeed = &#xC;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -206,6 +208,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&#xC;</MemberValue>
       <Docs>
         <summary>Represents a form feed character for print functions (<see langword="vbFormFeed" />).</summary>
         <remarks>To be added.</remarks>
@@ -218,12 +221,12 @@
       </Docs>
     </Member>
     <Member MemberName="Lf">
-      <MemberSignature Language="C#" Value="public const char Lf;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char Lf" />
+      <MemberSignature Language="C#" Value="public const char Lf = &#xA;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char Lf = (&#xA;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.Lf" />
-      <MemberSignature Language="VB.NET" Value="Public Const Lf As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const Lf As Char  = &#xA;" />
       <MemberSignature Language="F#" Value="val mutable Lf : char" Usage="Microsoft.VisualBasic.ControlChars.Lf" />
-      <MemberSignature Language="C++ CLI" Value="public: char Lf;" />
+      <MemberSignature Language="C++ CLI" Value="public: char Lf = &#xA;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -242,6 +245,8 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>
+</MemberValue>
       <Docs>
         <summary>Represents a line feed character (<see langword="vbLf" />).</summary>
         <remarks>To be added.</remarks>
@@ -297,12 +302,12 @@
       </Docs>
     </Member>
     <Member MemberName="NullChar">
-      <MemberSignature Language="C#" Value="public const char NullChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char NullChar" />
+      <MemberSignature Language="C#" Value="public const char NullChar = &#x0;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char NullChar = (&#x0;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.NullChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const NullChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const NullChar As Char  = &#x0;" />
       <MemberSignature Language="F#" Value="val mutable NullChar : char" Usage="Microsoft.VisualBasic.ControlChars.NullChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char NullChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char NullChar = &#x0;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -321,6 +326,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&#x0;</MemberValue>
       <Docs>
         <summary>Represents a null character (<see langword="vbNullChar" />).</summary>
         <remarks>To be added.</remarks>
@@ -333,12 +339,12 @@
       </Docs>
     </Member>
     <Member MemberName="Quote">
-      <MemberSignature Language="C#" Value="public const char Quote;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char Quote" />
+      <MemberSignature Language="C#" Value="public const char Quote = &quot;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char Quote = (&quot;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.Quote" />
-      <MemberSignature Language="VB.NET" Value="Public Const Quote As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const Quote As Char  = &quot;" />
       <MemberSignature Language="F#" Value="val mutable Quote : char" Usage="Microsoft.VisualBasic.ControlChars.Quote" />
-      <MemberSignature Language="C++ CLI" Value="public: char Quote;" />
+      <MemberSignature Language="C++ CLI" Value="public: char Quote = &quot;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -357,6 +363,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>"</MemberValue>
       <Docs>
         <summary>Represents a double-quote character.</summary>
         <remarks>To be added.</remarks>
@@ -369,12 +376,12 @@
       </Docs>
     </Member>
     <Member MemberName="Tab">
-      <MemberSignature Language="C#" Value="public const char Tab;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char Tab" />
+      <MemberSignature Language="C#" Value="public const char Tab = 	;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char Tab = (	)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.Tab" />
-      <MemberSignature Language="VB.NET" Value="Public Const Tab As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const Tab As Char  = 	" />
       <MemberSignature Language="F#" Value="val mutable Tab : char" Usage="Microsoft.VisualBasic.ControlChars.Tab" />
-      <MemberSignature Language="C++ CLI" Value="public: char Tab;" />
+      <MemberSignature Language="C++ CLI" Value="public: char Tab = 	;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -393,6 +400,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>	</MemberValue>
       <Docs>
         <summary>Represents a tab character (<see langword="vbTab" />).</summary>
         <remarks>To be added.</remarks>
@@ -405,12 +413,12 @@
       </Docs>
     </Member>
     <Member MemberName="VerticalTab">
-      <MemberSignature Language="C#" Value="public const char VerticalTab;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char VerticalTab" />
+      <MemberSignature Language="C#" Value="public const char VerticalTab = &#xB;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char VerticalTab = (&#xB;)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.VisualBasic.ControlChars.VerticalTab" />
-      <MemberSignature Language="VB.NET" Value="Public Const VerticalTab As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const VerticalTab As Char  = &#xB;" />
       <MemberSignature Language="F#" Value="val mutable VerticalTab : char" Usage="Microsoft.VisualBasic.ControlChars.VerticalTab" />
-      <MemberSignature Language="C++ CLI" Value="public: char VerticalTab;" />
+      <MemberSignature Language="C++ CLI" Value="public: char VerticalTab = &#xB;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -429,6 +437,7 @@
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&#xB;</MemberValue>
       <Docs>
         <summary>Represents a vertical tab character (<see langword="vbVerticalTab" />).</summary>
         <remarks>To be added.</remarks>

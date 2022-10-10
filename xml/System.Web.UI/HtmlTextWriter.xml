@@ -735,12 +735,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="DoubleQuoteChar">
-      <MemberSignature Language="C#" Value="public const char DoubleQuoteChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char DoubleQuoteChar" />
+      <MemberSignature Language="C#" Value="public const char DoubleQuoteChar = &quot;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char DoubleQuoteChar = (&quot;)" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.DoubleQuoteChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const DoubleQuoteChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const DoubleQuoteChar As Char  = &quot;" />
       <MemberSignature Language="F#" Value="val mutable DoubleQuoteChar : char" Usage="System.Web.UI.HtmlTextWriter.DoubleQuoteChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char DoubleQuoteChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char DoubleQuoteChar = &quot;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -751,6 +751,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>"</MemberValue>
       <Docs>
         <summary>Represents the quotation mark (") character.</summary>
         <remarks>
@@ -1158,12 +1159,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="EqualsChar">
-      <MemberSignature Language="C#" Value="public const char EqualsChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char EqualsChar" />
+      <MemberSignature Language="C#" Value="public const char EqualsChar = =;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char EqualsChar = (=)" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.EqualsChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const EqualsChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const EqualsChar As Char  = =" />
       <MemberSignature Language="F#" Value="val mutable EqualsChar : char" Usage="System.Web.UI.HtmlTextWriter.EqualsChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char EqualsChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char EqualsChar = =;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1174,6 +1175,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>=</MemberValue>
       <Docs>
         <summary>Represents the equal sign (<see langword="=" />).</summary>
         <remarks>
@@ -2917,12 +2919,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="SemicolonChar">
-      <MemberSignature Language="C#" Value="public const char SemicolonChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char SemicolonChar" />
+      <MemberSignature Language="C#" Value="public const char SemicolonChar = ;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char SemicolonChar = (;)" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.SemicolonChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const SemicolonChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const SemicolonChar As Char  = ;" />
       <MemberSignature Language="F#" Value="val mutable SemicolonChar : char" Usage="System.Web.UI.HtmlTextWriter.SemicolonChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char SemicolonChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char SemicolonChar = ;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -2933,6 +2935,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>;</MemberValue>
       <Docs>
         <summary>Represents the semicolon (;).</summary>
         <remarks>
@@ -2960,12 +2963,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="SingleQuoteChar">
-      <MemberSignature Language="C#" Value="public const char SingleQuoteChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char SingleQuoteChar" />
+      <MemberSignature Language="C#" Value="public const char SingleQuoteChar = ';" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char SingleQuoteChar = (')" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.SingleQuoteChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const SingleQuoteChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const SingleQuoteChar As Char  = '" />
       <MemberSignature Language="F#" Value="val mutable SingleQuoteChar : char" Usage="System.Web.UI.HtmlTextWriter.SingleQuoteChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char SingleQuoteChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char SingleQuoteChar = ';" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -2976,6 +2979,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>'</MemberValue>
       <Docs>
         <summary>Represents an apostrophe (').</summary>
         <remarks>
@@ -2990,12 +2994,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="SlashChar">
-      <MemberSignature Language="C#" Value="public const char SlashChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char SlashChar" />
+      <MemberSignature Language="C#" Value="public const char SlashChar = /;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char SlashChar = (/)" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.SlashChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const SlashChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const SlashChar As Char  = /" />
       <MemberSignature Language="F#" Value="val mutable SlashChar : char" Usage="System.Web.UI.HtmlTextWriter.SlashChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char SlashChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char SlashChar = /;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -3006,6 +3010,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>/</MemberValue>
       <Docs>
         <summary>Represents the slash mark (/).</summary>
         <remarks>
@@ -3033,12 +3038,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="SpaceChar">
-      <MemberSignature Language="C#" Value="public const char SpaceChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char SpaceChar" />
+      <MemberSignature Language="C#" Value="public const char SpaceChar =  ;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char SpaceChar = ( )" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.SpaceChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const SpaceChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const SpaceChar As Char  =  " />
       <MemberSignature Language="F#" Value="val mutable SpaceChar : char" Usage="System.Web.UI.HtmlTextWriter.SpaceChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char SpaceChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char SpaceChar =  ;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -3049,6 +3054,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue> </MemberValue>
       <Docs>
         <summary>Represents a space ( ) character.</summary>
         <remarks>
@@ -3088,12 +3094,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="StyleEqualsChar">
-      <MemberSignature Language="C#" Value="public const char StyleEqualsChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char StyleEqualsChar" />
+      <MemberSignature Language="C#" Value="public const char StyleEqualsChar = :;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char StyleEqualsChar = (:)" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.StyleEqualsChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const StyleEqualsChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const StyleEqualsChar As Char  = :" />
       <MemberSignature Language="F#" Value="val mutable StyleEqualsChar : char" Usage="System.Web.UI.HtmlTextWriter.StyleEqualsChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char StyleEqualsChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char StyleEqualsChar = :;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -3104,6 +3110,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>:</MemberValue>
       <Docs>
         <summary>Represents the style equals (<see langword=":" />) character used to set style attributes equal to values.</summary>
         <remarks>
@@ -3181,12 +3188,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="TagLeftChar">
-      <MemberSignature Language="C#" Value="public const char TagLeftChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char TagLeftChar" />
+      <MemberSignature Language="C#" Value="public const char TagLeftChar = &lt;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char TagLeftChar = (&lt;)" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.TagLeftChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const TagLeftChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const TagLeftChar As Char  = &lt;" />
       <MemberSignature Language="F#" Value="val mutable TagLeftChar : char" Usage="System.Web.UI.HtmlTextWriter.TagLeftChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char TagLeftChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char TagLeftChar = &lt;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -3197,6 +3204,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&lt;</MemberValue>
       <Docs>
         <summary>Represents the opening angle bracket (&lt;) of a markup tag.</summary>
         <remarks>
@@ -3276,12 +3284,12 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       </Docs>
     </Member>
     <Member MemberName="TagRightChar">
-      <MemberSignature Language="C#" Value="public const char TagRightChar;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char TagRightChar" />
+      <MemberSignature Language="C#" Value="public const char TagRightChar = &gt;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char TagRightChar = (&gt;)" />
       <MemberSignature Language="DocId" Value="F:System.Web.UI.HtmlTextWriter.TagRightChar" />
-      <MemberSignature Language="VB.NET" Value="Public Const TagRightChar As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const TagRightChar As Char  = &gt;" />
       <MemberSignature Language="F#" Value="val mutable TagRightChar : char" Usage="System.Web.UI.HtmlTextWriter.TagRightChar" />
-      <MemberSignature Language="C++ CLI" Value="public: char TagRightChar;" />
+      <MemberSignature Language="C++ CLI" Value="public: char TagRightChar = &gt;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -3292,6 +3300,7 @@ If the attribute type is `Style`, the value won't be encoded even if `fEndode` i
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&gt;</MemberValue>
       <Docs>
         <summary>Represents the closing angle bracket (&gt;) of a markup tag.</summary>
         <remarks>

@@ -4261,12 +4261,12 @@ The following code example demonstrates <xref:System.Char.IsLetter%2A>.
       </Docs>
     </Member>
     <Member MemberName="MaxValue">
-      <MemberSignature Language="C#" Value="public const char MaxValue;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char MaxValue" />
+      <MemberSignature Language="C#" Value="public const char MaxValue = &#xFFFF;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char MaxValue = char(&#xFFFF;)" />
       <MemberSignature Language="DocId" Value="F:System.Char.MaxValue" />
-      <MemberSignature Language="VB.NET" Value="Public Const MaxValue As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxValue As Char  = &#xFFFF;" />
       <MemberSignature Language="F#" Value="val mutable MaxValue : char" Usage="System.char.MaxValue" />
-      <MemberSignature Language="C++ CLI" Value="public: char MaxValue;" />
+      <MemberSignature Language="C++ CLI" Value="public: char MaxValue = &#xFFFF;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4296,6 +4296,7 @@ The following code example demonstrates <xref:System.Char.IsLetter%2A>.
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&#xFFFF;</MemberValue>
       <Docs>
         <summary>Represents the largest possible value of a <see cref="T:System.Char" />. This field is constant.</summary>
         <remarks>
@@ -4310,12 +4311,12 @@ The following code example demonstrates <xref:System.Char.IsLetter%2A>.
       </Docs>
     </Member>
     <Member MemberName="MinValue">
-      <MemberSignature Language="C#" Value="public const char MinValue;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal char MinValue" />
+      <MemberSignature Language="C#" Value="public const char MinValue = &#x0;;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal char MinValue = char(&#x0;)" />
       <MemberSignature Language="DocId" Value="F:System.Char.MinValue" />
-      <MemberSignature Language="VB.NET" Value="Public Const MinValue As Char " />
+      <MemberSignature Language="VB.NET" Value="Public Const MinValue As Char  = &#x0;" />
       <MemberSignature Language="F#" Value="val mutable MinValue : char" Usage="System.char.MinValue" />
-      <MemberSignature Language="C++ CLI" Value="public: char MinValue;" />
+      <MemberSignature Language="C++ CLI" Value="public: char MinValue = &#x0;;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4345,6 +4346,7 @@ The following code example demonstrates <xref:System.Char.IsLetter%2A>.
       <ReturnValue>
         <ReturnType>System.Char</ReturnType>
       </ReturnValue>
+      <MemberValue>&#x0;</MemberValue>
       <Docs>
         <summary>Represents the smallest possible value of a <see cref="T:System.Char" />. This field is constant.</summary>
         <remarks>

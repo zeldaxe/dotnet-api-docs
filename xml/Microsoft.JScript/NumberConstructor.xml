@@ -123,12 +123,12 @@
       </Docs>
     </Member>
     <Member MemberName="MIN_VALUE">
-      <MemberSignature Language="C#" Value="public const double MIN_VALUE = 4.94065645841247E-324;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float64 MIN_VALUE = (4.94065645841247E-324)" />
+      <MemberSignature Language="C#" Value="public const double MIN_VALUE = 5E-324;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float64 MIN_VALUE = (5E-324)" />
       <MemberSignature Language="DocId" Value="F:Microsoft.JScript.NumberConstructor.MIN_VALUE" />
-      <MemberSignature Language="VB.NET" Value="Public Const MIN_VALUE As Double  = 4.94065645841247E-324" />
+      <MemberSignature Language="VB.NET" Value="Public Const MIN_VALUE As Double  = 5E-324" />
       <MemberSignature Language="F#" Value="val mutable MIN_VALUE : double" Usage="Microsoft.JScript.NumberConstructor.MIN_VALUE" />
-      <MemberSignature Language="C++ CLI" Value="public: double MIN_VALUE = 4.94065645841247E-324;" />
+      <MemberSignature Language="C++ CLI" Value="public: double MIN_VALUE = 5E-324;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.JScript</AssemblyName>
@@ -139,7 +139,7 @@
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
-      <MemberValue>4.94065645841247E-324</MemberValue>
+      <MemberValue>5E-324</MemberValue>
       <Docs>
         <summary>Represents the smallest positive <see cref="T:System.Double" /> value that is greater than zero. This field is constant.</summary>
         <remarks>To be added.</remarks>

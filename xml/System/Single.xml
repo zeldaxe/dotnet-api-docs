@@ -1686,12 +1686,12 @@ This computes `cos(x * π)`.
       </Docs>
     </Member>
     <Member MemberName="E">
-      <MemberSignature Language="C#" Value="public const float E = 2.71828175;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float32 E = float32(2.71828175)" />
+      <MemberSignature Language="C#" Value="public const float E = 2.7182817;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 E = float32(2.7182817)" />
       <MemberSignature Language="DocId" Value="F:System.Single.E" />
-      <MemberSignature Language="VB.NET" Value="Public Const E As Single  = 2.71828175" />
+      <MemberSignature Language="VB.NET" Value="Public Const E As Single  = 2.7182817" />
       <MemberSignature Language="F#" Value="val mutable E : single" Usage="System.single.E" />
-      <MemberSignature Language="C++ CLI" Value="public: float E = 2.71828175;" />
+      <MemberSignature Language="C++ CLI" Value="public: float E = 2.7182817;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -1706,7 +1706,7 @@ This computes `cos(x * π)`.
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
-      <MemberValue>2.71828175</MemberValue>
+      <MemberValue>2.7182817</MemberValue>
       <Docs>
         <summary>Represents the natural logarithmic base, specified by the constant, e.</summary>
         <remarks>
@@ -1721,12 +1721,12 @@ This is known as Euler's number and is approximately 2.7182818284590452354.
       </Docs>
     </Member>
     <Member MemberName="Epsilon">
-      <MemberSignature Language="C#" Value="public const float Epsilon = 1.401298E-45;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float32 Epsilon = float32(1.401298E-45)" />
+      <MemberSignature Language="C#" Value="public const float Epsilon = 1E-45;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 Epsilon = float32(1E-45)" />
       <MemberSignature Language="DocId" Value="F:System.Single.Epsilon" />
-      <MemberSignature Language="VB.NET" Value="Public Const Epsilon As Single  = 1.401298E-45" />
+      <MemberSignature Language="VB.NET" Value="Public Const Epsilon As Single  = 1E-45" />
       <MemberSignature Language="F#" Value="val mutable Epsilon : single" Usage="System.single.Epsilon" />
-      <MemberSignature Language="C++ CLI" Value="public: float Epsilon = 1.401298E-45;" />
+      <MemberSignature Language="C++ CLI" Value="public: float Epsilon = 1E-45;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -1756,7 +1756,7 @@ This is known as Euler's number and is approximately 2.7182818284590452354.
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
-      <MemberValue>1.401298E-45</MemberValue>
+      <MemberValue>1E-45</MemberValue>
       <Docs>
         <summary>Represents the smallest positive <see cref="T:System.Single" /> value that is greater than zero. This field is constant.</summary>
         <remarks>
@@ -3673,12 +3673,12 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
       </Docs>
     </Member>
     <Member MemberName="MaxValue">
-      <MemberSignature Language="C#" Value="public const float MaxValue = 3.40282347E+38;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float32 MaxValue = float32(3.40282347E+38)" />
+      <MemberSignature Language="C#" Value="public const float MaxValue = 3.4028235E+38;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 MaxValue = float32(3.4028235E+38)" />
       <MemberSignature Language="DocId" Value="F:System.Single.MaxValue" />
-      <MemberSignature Language="VB.NET" Value="Public Const MaxValue As Single  = 3.40282347E+38" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxValue As Single  = 3.4028235E+38" />
       <MemberSignature Language="F#" Value="val mutable MaxValue : single" Usage="System.single.MaxValue" />
-      <MemberSignature Language="C++ CLI" Value="public: float MaxValue = 3.40282347E+38;" />
+      <MemberSignature Language="C++ CLI" Value="public: float MaxValue = 3.4028235E+38;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3708,7 +3708,7 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
-      <MemberValue>3.40282347E+38</MemberValue>
+      <MemberValue>3.4028235E+38</MemberValue>
       <Docs>
         <summary>Represents the largest possible value of <see cref="T:System.Single" />. This field is constant.</summary>
         <remarks>
@@ -3923,12 +3923,12 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
       </Docs>
     </Member>
     <Member MemberName="MinValue">
-      <MemberSignature Language="C#" Value="public const float MinValue = -3.40282347E+38;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float32 MinValue = float32(-3.40282347E+38)" />
+      <MemberSignature Language="C#" Value="public const float MinValue = -3.4028235E+38;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 MinValue = float32(-3.4028235E+38)" />
       <MemberSignature Language="DocId" Value="F:System.Single.MinValue" />
-      <MemberSignature Language="VB.NET" Value="Public Const MinValue As Single  = -3.40282347E+38" />
+      <MemberSignature Language="VB.NET" Value="Public Const MinValue As Single  = -3.4028235E+38" />
       <MemberSignature Language="F#" Value="val mutable MinValue : single" Usage="System.single.MinValue" />
-      <MemberSignature Language="C++ CLI" Value="public: float MinValue = -3.40282347E+38;" />
+      <MemberSignature Language="C++ CLI" Value="public: float MinValue = -3.4028235E+38;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3958,7 +3958,7 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
-      <MemberValue>-3.40282347E+38</MemberValue>
+      <MemberValue>-3.4028235E+38</MemberValue>
       <Docs>
         <summary>Represents the smallest possible value of <see cref="T:System.Single" />. This field is constant.</summary>
         <remarks>
@@ -4131,12 +4131,12 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
       </Docs>
     </Member>
     <Member MemberName="NegativeZero">
-      <MemberSignature Language="C#" Value="public const float NegativeZero = 0;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float32 NegativeZero = float32(0)" />
+      <MemberSignature Language="C#" Value="public const float NegativeZero = -0;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 NegativeZero = float32(-0)" />
       <MemberSignature Language="DocId" Value="F:System.Single.NegativeZero" />
-      <MemberSignature Language="VB.NET" Value="Public Const NegativeZero As Single  = 0" />
+      <MemberSignature Language="VB.NET" Value="Public Const NegativeZero As Single  = -0" />
       <MemberSignature Language="F#" Value="val mutable NegativeZero : single" Usage="System.single.NegativeZero" />
-      <MemberSignature Language="C++ CLI" Value="public: float NegativeZero = 0;" />
+      <MemberSignature Language="C++ CLI" Value="public: float NegativeZero = -0;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4151,7 +4151,7 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
-      <MemberValue>0</MemberValue>
+      <MemberValue>-0</MemberValue>
       <Docs>
         <summary>Represents the number negative zero (-0).</summary>
         <remarks>To be added.</remarks>
@@ -5120,12 +5120,12 @@ If a separator is encountered in the `s` parameter during a parse operation, and
       </Docs>
     </Member>
     <Member MemberName="Pi">
-      <MemberSignature Language="C#" Value="public const float Pi = 3.14159274;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float32 Pi = float32(3.14159274)" />
+      <MemberSignature Language="C#" Value="public const float Pi = 3.1415927;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 Pi = float32(3.1415927)" />
       <MemberSignature Language="DocId" Value="F:System.Single.Pi" />
-      <MemberSignature Language="VB.NET" Value="Public Const Pi As Single  = 3.14159274" />
+      <MemberSignature Language="VB.NET" Value="Public Const Pi As Single  = 3.1415927" />
       <MemberSignature Language="F#" Value="val mutable Pi : single" Usage="System.single.Pi" />
-      <MemberSignature Language="C++ CLI" Value="public: float Pi = 3.14159274;" />
+      <MemberSignature Language="C++ CLI" Value="public: float Pi = 3.1415927;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5140,7 +5140,7 @@ If a separator is encountered in the `s` parameter during a parse operation, and
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
-      <MemberValue>3.14159274</MemberValue>
+      <MemberValue>3.1415927</MemberValue>
       <Docs>
         <summary>Represents the ratio of the circumference of a circle to its diameter, specified by the constant, π.</summary>
         <remarks>
@@ -7167,12 +7167,12 @@ This computes `tan(x * π)`.
       </Docs>
     </Member>
     <Member MemberName="Tau">
-      <MemberSignature Language="C#" Value="public const float Tau = 6.28318548;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal float32 Tau = float32(6.28318548)" />
+      <MemberSignature Language="C#" Value="public const float Tau = 6.2831855;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal float32 Tau = float32(6.2831855)" />
       <MemberSignature Language="DocId" Value="F:System.Single.Tau" />
-      <MemberSignature Language="VB.NET" Value="Public Const Tau As Single  = 6.28318548" />
+      <MemberSignature Language="VB.NET" Value="Public Const Tau As Single  = 6.2831855" />
       <MemberSignature Language="F#" Value="val mutable Tau : single" Usage="System.single.Tau" />
-      <MemberSignature Language="C++ CLI" Value="public: float Tau = 6.28318548;" />
+      <MemberSignature Language="C++ CLI" Value="public: float Tau = 6.2831855;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7187,7 +7187,7 @@ This computes `tan(x * π)`.
       <ReturnValue>
         <ReturnType>System.Single</ReturnType>
       </ReturnValue>
-      <MemberValue>6.28318548</MemberValue>
+      <MemberValue>6.2831855</MemberValue>
       <Docs>
         <summary>Represents the number of radians in one turn, specified by the constant, τ.</summary>
         <remarks>
