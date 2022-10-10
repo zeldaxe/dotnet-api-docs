@@ -20,6 +20,10 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.Private.CoreLib</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="Microsoft.Bcl.HashCode" FromVersion="1.0.0.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;dotnet-plat-ext-7.0" />
     <TypeForwarding From="Microsoft.Bcl.HashCode" FromVersion="1.0.0.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="dotnet-plat-ext-3.1" />
@@ -109,6 +113,10 @@ The <xref:System.HashCode> structure must be passed by-reference to other method
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -148,6 +156,10 @@ The <xref:System.HashCode> structure must be passed by-reference to other method
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -231,6 +243,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -272,6 +288,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -316,6 +336,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -364,6 +388,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -416,6 +444,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -472,6 +504,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -532,6 +568,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -596,6 +636,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -666,6 +710,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
@@ -713,6 +761,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
@@ -756,6 +808,10 @@ This method does not guarantee that the result of adding a span of bytes will ma
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.HashCode</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

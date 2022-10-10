@@ -29,6 +29,8 @@
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Private.CoreLib</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
@@ -102,6 +104,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -161,6 +165,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -218,6 +224,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -275,6 +283,8 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

@@ -18,6 +18,10 @@
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
+    <AssemblyName>System.Private.CoreLib</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
     <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
   </AssemblyInfo>
   <TypeForwardingChain>
@@ -77,6 +81,10 @@ Use the <xref:System.IAsyncDisposable.DisposeAsync%2A> method to perform whateve
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Private.CoreLib</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Bcl.AsyncInterfaces</AssemblyName>
