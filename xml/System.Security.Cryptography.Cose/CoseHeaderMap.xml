@@ -323,7 +323,7 @@
         <returns>
           <see langword="true" /> if the <see cref="T:System.Collections.Generic.IDictionary`2" /> contains an element with the key; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
-        <inheritdoc />
+        <inheritdoc cref="M:System.Collections.Generic.IDictionary`2.ContainsKey(`0)" />
       </Docs>
     </Member>
     <Member MemberName="CopyTo">
