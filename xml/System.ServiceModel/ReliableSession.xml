@@ -1,0 +1,120 @@
+<Type Name="ReliableSession" FullName="System.ServiceModel.ReliableSession">
+  <TypeSignature Language="C#" Value="public class ReliableSession" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ReliableSession extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.ReliableSession" />
+  <TypeSignature Language="VB.NET" Value="Public Class ReliableSession" />
+  <TypeSignature Language="F#" Value="type ReliableSession = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ReliableSession" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReliableSession ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.ReliableSession.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ReliableSession();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReliableSession (System.ServiceModel.Channels.ReliableSessionBindingElement reliableSessionBindingElement);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ServiceModel.Channels.ReliableSessionBindingElement reliableSessionBindingElement) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.ReliableSession.#ctor(System.ServiceModel.Channels.ReliableSessionBindingElement)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (reliableSessionBindingElement As ReliableSessionBindingElement)" />
+      <MemberSignature Language="F#" Value="new System.ServiceModel.ReliableSession : System.ServiceModel.Channels.ReliableSessionBindingElement -&gt; System.ServiceModel.ReliableSession" Usage="new System.ServiceModel.ReliableSession reliableSessionBindingElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ReliableSession(System::ServiceModel::Channels::ReliableSessionBindingElement ^ reliableSessionBindingElement);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="reliableSessionBindingElement" Type="System.ServiceModel.Channels.ReliableSessionBindingElement" />
+      </Parameters>
+      <Docs>
+        <param name="reliableSessionBindingElement">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InactivityTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan InactivityTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan InactivityTimeout" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.ReliableSession.InactivityTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property InactivityTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.InactivityTimeout : TimeSpan with get, set" Usage="System.ServiceModel.ReliableSession.InactivityTimeout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan InactivityTimeout { TimeSpan get(); void set(TimeSpan value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ordered">
+      <MemberSignature Language="C#" Value="public bool Ordered { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Ordered" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.ReliableSession.Ordered" />
+      <MemberSignature Language="VB.NET" Value="Public Property Ordered As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Ordered : bool with get, set" Usage="System.ServiceModel.ReliableSession.Ordered" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Ordered { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

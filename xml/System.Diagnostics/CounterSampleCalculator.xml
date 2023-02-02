@@ -1,0 +1,74 @@
+<Type Name="CounterSampleCalculator" FullName="System.Diagnostics.CounterSampleCalculator">
+  <TypeSignature Language="C#" Value="public static class CounterSampleCalculator" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CounterSampleCalculator extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.Diagnostics.CounterSampleCalculator" />
+  <TypeSignature Language="VB.NET" Value="Public Class CounterSampleCalculator" />
+  <TypeSignature Language="F#" Value="type CounterSampleCalculator = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CounterSampleCalculator abstract sealed" />
+  <AssemblyInfo>
+    <AssemblyName>System.Diagnostics.PerformanceCounter</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ComputeCounterValue">
+      <MemberSignature Language="C#" Value="public static float ComputeCounterValue (System.Diagnostics.CounterSample newSample);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 ComputeCounterValue(valuetype System.Diagnostics.CounterSample newSample) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.CounterSampleCalculator.ComputeCounterValue(System.Diagnostics.CounterSample)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ComputeCounterValue (newSample As CounterSample) As Single" />
+      <MemberSignature Language="F#" Value="static member ComputeCounterValue : System.Diagnostics.CounterSample -&gt; single" Usage="System.Diagnostics.CounterSampleCalculator.ComputeCounterValue newSample" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static float ComputeCounterValue(System::Diagnostics::CounterSample newSample);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.PerformanceCounter</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newSample" Type="System.Diagnostics.CounterSample" />
+      </Parameters>
+      <Docs>
+        <param name="newSample">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComputeCounterValue">
+      <MemberSignature Language="C#" Value="public static float ComputeCounterValue (System.Diagnostics.CounterSample oldSample, System.Diagnostics.CounterSample newSample);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 ComputeCounterValue(valuetype System.Diagnostics.CounterSample oldSample, valuetype System.Diagnostics.CounterSample newSample) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.CounterSampleCalculator.ComputeCounterValue(System.Diagnostics.CounterSample,System.Diagnostics.CounterSample)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ComputeCounterValue (oldSample As CounterSample, newSample As CounterSample) As Single" />
+      <MemberSignature Language="F#" Value="static member ComputeCounterValue : System.Diagnostics.CounterSample * System.Diagnostics.CounterSample -&gt; single" Usage="System.Diagnostics.CounterSampleCalculator.ComputeCounterValue (oldSample, newSample)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static float ComputeCounterValue(System::Diagnostics::CounterSample oldSample, System::Diagnostics::CounterSample newSample);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.PerformanceCounter</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oldSample" Type="System.Diagnostics.CounterSample" />
+        <Parameter Name="newSample" Type="System.Diagnostics.CounterSample" />
+      </Parameters>
+      <Docs>
+        <param name="oldSample">To be added.</param>
+        <param name="newSample">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

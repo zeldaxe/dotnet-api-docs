@@ -1,0 +1,120 @@
+<Type Name="WSHttpSecurity" FullName="System.ServiceModel.WSHttpSecurity">
+  <TypeSignature Language="C#" Value="public sealed class WSHttpSecurity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit WSHttpSecurity extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.WSHttpSecurity" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class WSHttpSecurity" />
+  <TypeSignature Language="F#" Value="type WSHttpSecurity = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WSHttpSecurity sealed" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Http</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Http" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WSHttpSecurity ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.WSHttpSecurity.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WSHttpSecurity();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.NonDualMessageSecurityOverHttp Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.NonDualMessageSecurityOverHttp Message" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.WSHttpSecurity.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As NonDualMessageSecurityOverHttp" />
+      <MemberSignature Language="F#" Value="member this.Message : System.ServiceModel.NonDualMessageSecurityOverHttp with get, set" Usage="System.ServiceModel.WSHttpSecurity.Message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::NonDualMessageSecurityOverHttp ^ Message { System::ServiceModel::NonDualMessageSecurityOverHttp ^ get(); void set(System::ServiceModel::NonDualMessageSecurityOverHttp ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.NonDualMessageSecurityOverHttp</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mode">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.SecurityMode Mode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ServiceModel.SecurityMode Mode" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.WSHttpSecurity.Mode" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mode As SecurityMode" />
+      <MemberSignature Language="F#" Value="member this.Mode : System.ServiceModel.SecurityMode with get, set" Usage="System.ServiceModel.WSHttpSecurity.Mode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::SecurityMode Mode { System::ServiceModel::SecurityMode get(); void set(System::ServiceModel::SecurityMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.SecurityMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Transport">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.HttpTransportSecurity Transport { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.HttpTransportSecurity Transport" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.WSHttpSecurity.Transport" />
+      <MemberSignature Language="VB.NET" Value="Public Property Transport As HttpTransportSecurity" />
+      <MemberSignature Language="F#" Value="member this.Transport : System.ServiceModel.HttpTransportSecurity with get, set" Usage="System.ServiceModel.WSHttpSecurity.Transport" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::HttpTransportSecurity ^ Transport { System::ServiceModel::HttpTransportSecurity ^ get(); void set(System::ServiceModel::HttpTransportSecurity ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.HttpTransportSecurity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,44 @@
+<Type Name="ICodeParser" FullName="System.CodeDom.Compiler.ICodeParser">
+  <TypeSignature Language="C#" Value="public interface ICodeParser" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICodeParser" />
+  <TypeSignature Language="DocId" Value="T:System.CodeDom.Compiler.ICodeParser" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICodeParser" />
+  <TypeSignature Language="F#" Value="type ICodeParser = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICodeParser" />
+  <AssemblyInfo>
+    <AssemblyName>System.CodeDom</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Parse">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeCompileUnit Parse (System.IO.TextReader codeStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.CodeDom.CodeCompileUnit Parse(class System.IO.TextReader codeStream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.Compiler.ICodeParser.Parse(System.IO.TextReader)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Parse (codeStream As TextReader) As CodeCompileUnit" />
+      <MemberSignature Language="F#" Value="abstract member Parse : System.IO.TextReader -&gt; System.CodeDom.CodeCompileUnit" Usage="iCodeParser.Parse codeStream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::CodeDom::CodeCompileUnit ^ Parse(System::IO::TextReader ^ codeStream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeCompileUnit</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="codeStream" Type="System.IO.TextReader" />
+      </Parameters>
+      <Docs>
+        <param name="codeStream">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

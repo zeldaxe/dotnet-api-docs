@@ -1,0 +1,108 @@
+<Type Name="TcpTransportSecurity" FullName="System.ServiceModel.TcpTransportSecurity">
+  <TypeSignature Language="C#" Value="public sealed class TcpTransportSecurity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TcpTransportSecurity extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.TcpTransportSecurity" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TcpTransportSecurity" />
+  <TypeSignature Language="F#" Value="type TcpTransportSecurity = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TcpTransportSecurity sealed" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.NetTcp</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.NetTcp" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TcpTransportSecurity ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.TcpTransportSecurity.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TcpTransportSecurity();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.NetTcp</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientCredentialType">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.TcpClientCredentialType ClientCredentialType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ServiceModel.TcpClientCredentialType ClientCredentialType" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.TcpTransportSecurity.ClientCredentialType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientCredentialType As TcpClientCredentialType" />
+      <MemberSignature Language="F#" Value="member this.ClientCredentialType : System.ServiceModel.TcpClientCredentialType with get, set" Usage="System.ServiceModel.TcpTransportSecurity.ClientCredentialType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::TcpClientCredentialType ClientCredentialType { System::ServiceModel::TcpClientCredentialType get(); void set(System::ServiceModel::TcpClientCredentialType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.NetTcp</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.ServiceModel.TcpClientCredentialType.Windows)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.ServiceModel.TcpClientCredentialType.Windows)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.TcpClientCredentialType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SslProtocols">
+      <MemberSignature Language="C#" Value="public System.Security.Authentication.SslProtocols SslProtocols { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Security.Authentication.SslProtocols SslProtocols" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.TcpTransportSecurity.SslProtocols" />
+      <MemberSignature Language="VB.NET" Value="Public Property SslProtocols As SslProtocols" />
+      <MemberSignature Language="F#" Value="member this.SslProtocols : System.Security.Authentication.SslProtocols with get, set" Usage="System.ServiceModel.TcpTransportSecurity.SslProtocols" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Authentication::SslProtocols SslProtocols { System::Security::Authentication::SslProtocols get(); void set(System::Security::Authentication::SslProtocols value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.NetTcp</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Security.Authentication.SslProtocols.Default | System.Security.Authentication.SslProtocols.Tls11 | System.Security.Authentication.SslProtocols.Tls12)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Security.Authentication.SslProtocols.Default | System.Security.Authentication.SslProtocols.Tls11 | System.Security.Authentication.SslProtocols.Tls12)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Security.Authentication.SslProtocols</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

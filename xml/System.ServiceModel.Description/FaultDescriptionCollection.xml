@@ -1,0 +1,30 @@
+<Type Name="FaultDescriptionCollection" FullName="System.ServiceModel.Description.FaultDescriptionCollection">
+  <TypeSignature Language="C#" Value="public class FaultDescriptionCollection : System.Collections.ObjectModel.Collection&lt;System.ServiceModel.Description.FaultDescription&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FaultDescriptionCollection extends System.Collections.ObjectModel.Collection`1&lt;class System.ServiceModel.Description.FaultDescription&gt;" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.Description.FaultDescriptionCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Class FaultDescriptionCollection&#xA;Inherits Collection(Of FaultDescription)" />
+  <TypeSignature Language="F#" Value="type FaultDescriptionCollection = class&#xA;    inherit Collection&lt;FaultDescription&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FaultDescriptionCollection : System::Collections::ObjectModel::Collection&lt;System::ServiceModel::Description::FaultDescription ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Collections.ObjectModel.Collection&lt;System.ServiceModel.Description.FaultDescription&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">System.ServiceModel.Description.FaultDescription</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

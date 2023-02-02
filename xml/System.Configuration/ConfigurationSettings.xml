@@ -1,0 +1,80 @@
+<Type Name="ConfigurationSettings" FullName="System.Configuration.ConfigurationSettings">
+  <TypeSignature Language="C#" Value="public sealed class ConfigurationSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConfigurationSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.Configuration.ConfigurationSettings" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConfigurationSettings" />
+  <TypeSignature Language="F#" Value="type ConfigurationSettings = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConfigurationSettings sealed" />
+  <AssemblyInfo>
+    <AssemblyName>System.Configuration.ConfigurationManager</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AppSettings">
+      <MemberSignature Language="C#" Value="public static System.Collections.Specialized.NameValueCollection AppSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.Collections.Specialized.NameValueCollection AppSettings" />
+      <MemberSignature Language="DocId" Value="P:System.Configuration.ConfigurationSettings.AppSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AppSettings As NameValueCollection" />
+      <MemberSignature Language="F#" Value="static member AppSettings : System.Collections.Specialized.NameValueCollection" Usage="System.Configuration.ConfigurationSettings.AppSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Specialized::NameValueCollection ^ AppSettings { System::Collections::Specialized::NameValueCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Configuration.ConfigurationManager</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("ConfigurationSettings.AppSettings has been deprecated. Use System.Configuration.ConfigurationManager.AppSettings instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("ConfigurationSettings.AppSettings has been deprecated. Use System.Configuration.ConfigurationManager.AppSettings instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Specialized.NameValueCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfig">
+      <MemberSignature Language="C#" Value="public static object GetConfig (string sectionName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetConfig(string sectionName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Configuration.ConfigurationSettings.GetConfig(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetConfig (sectionName As String) As Object" />
+      <MemberSignature Language="F#" Value="static member GetConfig : string -&gt; obj" Usage="System.Configuration.ConfigurationSettings.GetConfig sectionName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetConfig(System::String ^ sectionName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Configuration.ConfigurationManager</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("ConfigurationSettings.GetConfig has been deprecated. Use System.Configuration.ConfigurationManager.GetSection instead.")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("ConfigurationSettings.GetConfig has been deprecated. Use System.Configuration.ConfigurationManager.GetSection instead.")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sectionName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="sectionName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

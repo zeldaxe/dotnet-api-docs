@@ -1,0 +1,91 @@
+<Type Name="OleDbRowUpdatingEventArgs" FullName="System.Data.OleDb.OleDbRowUpdatingEventArgs">
+  <TypeSignature Language="C#" Value="public sealed class OleDbRowUpdatingEventArgs : System.Data.Common.RowUpdatingEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OleDbRowUpdatingEventArgs extends System.Data.Common.RowUpdatingEventArgs" />
+  <TypeSignature Language="DocId" Value="T:System.Data.OleDb.OleDbRowUpdatingEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OleDbRowUpdatingEventArgs&#xA;Inherits RowUpdatingEventArgs" />
+  <TypeSignature Language="F#" Value="type OleDbRowUpdatingEventArgs = class&#xA;    inherit RowUpdatingEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OleDbRowUpdatingEventArgs sealed : System::Data::Common::RowUpdatingEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>System.Data.OleDb</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Data.Common.RowUpdatingEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OleDbRowUpdatingEventArgs (System.Data.DataRow dataRow, System.Data.IDbCommand? command, System.Data.StatementType statementType, System.Data.Common.DataTableMapping tableMapping);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Data.DataRow dataRow, class System.Data.IDbCommand command, valuetype System.Data.StatementType statementType, class System.Data.Common.DataTableMapping tableMapping) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.OleDb.OleDbRowUpdatingEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (dataRow As DataRow, command As IDbCommand, statementType As StatementType, tableMapping As DataTableMapping)" />
+      <MemberSignature Language="F#" Value="new System.Data.OleDb.OleDbRowUpdatingEventArgs : System.Data.DataRow * System.Data.IDbCommand * System.Data.StatementType * System.Data.Common.DataTableMapping -&gt; System.Data.OleDb.OleDbRowUpdatingEventArgs" Usage="new System.Data.OleDb.OleDbRowUpdatingEventArgs (dataRow, command, statementType, tableMapping)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OleDbRowUpdatingEventArgs(System::Data::DataRow ^ dataRow, System::Data::IDbCommand ^ command, System::Data::StatementType statementType, System::Data::Common::DataTableMapping ^ tableMapping);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.OleDb</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="dataRow" Type="System.Data.DataRow" />
+        <Parameter Name="command" Type="System.Data.IDbCommand" />
+        <Parameter Name="statementType" Type="System.Data.StatementType" />
+        <Parameter Name="tableMapping" Type="System.Data.Common.DataTableMapping" />
+      </Parameters>
+      <Docs>
+        <param name="dataRow">To be added.</param>
+        <param name="command">To be added.</param>
+        <param name="statementType">To be added.</param>
+        <param name="tableMapping">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseCommand">
+      <MemberSignature Language="C#" Value="protected override System.Data.IDbCommand? BaseCommand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Data.IDbCommand BaseCommand" />
+      <MemberSignature Language="DocId" Value="P:System.Data.OleDb.OleDbRowUpdatingEventArgs.BaseCommand" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Property BaseCommand As IDbCommand" />
+      <MemberSignature Language="F#" Value="member this.BaseCommand : System.Data.IDbCommand with get, set" Usage="System.Data.OleDb.OleDbRowUpdatingEventArgs.BaseCommand" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property System::Data::IDbCommand ^ BaseCommand { System::Data::IDbCommand ^ get(); void set(System::Data::IDbCommand ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.OleDb</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.IDbCommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbCommand? Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Data.OleDb.OleDbCommand Command" />
+      <MemberSignature Language="DocId" Value="P:System.Data.OleDb.OleDbRowUpdatingEventArgs.Command" />
+      <MemberSignature Language="VB.NET" Value="Public Property Command As OleDbCommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Data.OleDb.OleDbCommand with get, set" Usage="System.Data.OleDb.OleDbRowUpdatingEventArgs.Command" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Data::OleDb::OleDbCommand ^ Command { System::Data::OleDb::OleDbCommand ^ get(); void set(System::Data::OleDb::OleDbCommand ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.OleDb</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.OleDb.OleDbCommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

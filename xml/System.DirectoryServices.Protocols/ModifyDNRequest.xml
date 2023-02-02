@@ -1,0 +1,148 @@
+<Type Name="ModifyDNRequest" FullName="System.DirectoryServices.Protocols.ModifyDNRequest">
+  <TypeSignature Language="C#" Value="public class ModifyDNRequest : System.DirectoryServices.Protocols.DirectoryRequest" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ModifyDNRequest extends System.DirectoryServices.Protocols.DirectoryRequest" />
+  <TypeSignature Language="DocId" Value="T:System.DirectoryServices.Protocols.ModifyDNRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class ModifyDNRequest&#xA;Inherits DirectoryRequest" />
+  <TypeSignature Language="F#" Value="type ModifyDNRequest = class&#xA;    inherit DirectoryRequest" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ModifyDNRequest : System::DirectoryServices::Protocols::DirectoryRequest" />
+  <AssemblyInfo>
+    <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.DirectoryServices.Protocols.DirectoryRequest</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModifyDNRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.Protocols.ModifyDNRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ModifyDNRequest();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModifyDNRequest (string distinguishedName, string newParentDistinguishedName, string newName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string distinguishedName, string newParentDistinguishedName, string newName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.Protocols.ModifyDNRequest.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (distinguishedName As String, newParentDistinguishedName As String, newName As String)" />
+      <MemberSignature Language="F#" Value="new System.DirectoryServices.Protocols.ModifyDNRequest : string * string * string -&gt; System.DirectoryServices.Protocols.ModifyDNRequest" Usage="new System.DirectoryServices.Protocols.ModifyDNRequest (distinguishedName, newParentDistinguishedName, newName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ModifyDNRequest(System::String ^ distinguishedName, System::String ^ newParentDistinguishedName, System::String ^ newName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="distinguishedName" Type="System.String" />
+        <Parameter Name="newParentDistinguishedName" Type="System.String" />
+        <Parameter Name="newName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="distinguishedName">To be added.</param>
+        <param name="newParentDistinguishedName">To be added.</param>
+        <param name="newName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteOldRdn">
+      <MemberSignature Language="C#" Value="public bool DeleteOldRdn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DeleteOldRdn" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.ModifyDNRequest.DeleteOldRdn" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteOldRdn As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DeleteOldRdn : bool with get, set" Usage="System.DirectoryServices.Protocols.ModifyDNRequest.DeleteOldRdn" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DeleteOldRdn { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedName">
+      <MemberSignature Language="C#" Value="public string DistinguishedName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DistinguishedName" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.ModifyDNRequest.DistinguishedName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedName As String" />
+      <MemberSignature Language="F#" Value="member this.DistinguishedName : string with get, set" Usage="System.DirectoryServices.Protocols.ModifyDNRequest.DistinguishedName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DistinguishedName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewName">
+      <MemberSignature Language="C#" Value="public string NewName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NewName" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.ModifyDNRequest.NewName" />
+      <MemberSignature Language="VB.NET" Value="Public Property NewName As String" />
+      <MemberSignature Language="F#" Value="member this.NewName : string with get, set" Usage="System.DirectoryServices.Protocols.ModifyDNRequest.NewName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NewName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewParentDistinguishedName">
+      <MemberSignature Language="C#" Value="public string NewParentDistinguishedName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NewParentDistinguishedName" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.ModifyDNRequest.NewParentDistinguishedName" />
+      <MemberSignature Language="VB.NET" Value="Public Property NewParentDistinguishedName As String" />
+      <MemberSignature Language="F#" Value="member this.NewParentDistinguishedName : string with get, set" Usage="System.DirectoryServices.Protocols.ModifyDNRequest.NewParentDistinguishedName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NewParentDistinguishedName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

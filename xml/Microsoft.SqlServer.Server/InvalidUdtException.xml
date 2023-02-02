@@ -1,0 +1,21 @@
+<Type Name="InvalidUdtException" FullName="Microsoft.SqlServer.Server.InvalidUdtException">
+  <TypeSignature Language="C#" Value="public sealed class InvalidUdtException : SystemException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit InvalidUdtException extends System.SystemException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.SqlServer.Server.InvalidUdtException" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class InvalidUdtException&#xA;Inherits SystemException" />
+  <TypeSignature Language="F#" Value="type InvalidUdtException = class&#xA;    inherit SystemException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InvalidUdtException sealed : SystemException" />
+  <AssemblyInfo>
+    <AssemblyName>System.Data.SqlClient</AssemblyName>
+    <AssemblyVersion>4.6.1.5</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.SystemException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

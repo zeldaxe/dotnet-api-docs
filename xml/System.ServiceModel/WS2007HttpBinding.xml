@@ -1,0 +1,123 @@
+<Type Name="WS2007HttpBinding" FullName="System.ServiceModel.WS2007HttpBinding">
+  <TypeSignature Language="C#" Value="public class WS2007HttpBinding : System.ServiceModel.WSHttpBinding" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WS2007HttpBinding extends System.ServiceModel.WSHttpBinding" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.WS2007HttpBinding" />
+  <TypeSignature Language="VB.NET" Value="Public Class WS2007HttpBinding&#xA;Inherits WSHttpBinding" />
+  <TypeSignature Language="F#" Value="type WS2007HttpBinding = class&#xA;    inherit WSHttpBinding" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WS2007HttpBinding : System::ServiceModel::WSHttpBinding" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Http</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Http" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.ServiceModel.WSHttpBinding</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WS2007HttpBinding ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.WS2007HttpBinding.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WS2007HttpBinding();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WS2007HttpBinding (System.ServiceModel.SecurityMode securityMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ServiceModel.SecurityMode securityMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.WS2007HttpBinding.#ctor(System.ServiceModel.SecurityMode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (securityMode As SecurityMode)" />
+      <MemberSignature Language="F#" Value="new System.ServiceModel.WS2007HttpBinding : System.ServiceModel.SecurityMode -&gt; System.ServiceModel.WS2007HttpBinding" Usage="new System.ServiceModel.WS2007HttpBinding securityMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WS2007HttpBinding(System::ServiceModel::SecurityMode securityMode);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="securityMode" Type="System.ServiceModel.SecurityMode" />
+      </Parameters>
+      <Docs>
+        <param name="securityMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WS2007HttpBinding (System.ServiceModel.SecurityMode securityMode, bool reliableSessionEnabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ServiceModel.SecurityMode securityMode, bool reliableSessionEnabled) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.WS2007HttpBinding.#ctor(System.ServiceModel.SecurityMode,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (securityMode As SecurityMode, reliableSessionEnabled As Boolean)" />
+      <MemberSignature Language="F#" Value="new System.ServiceModel.WS2007HttpBinding : System.ServiceModel.SecurityMode * bool -&gt; System.ServiceModel.WS2007HttpBinding" Usage="new System.ServiceModel.WS2007HttpBinding (securityMode, reliableSessionEnabled)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WS2007HttpBinding(System::ServiceModel::SecurityMode securityMode, bool reliableSessionEnabled);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="securityMode" Type="System.ServiceModel.SecurityMode" />
+        <Parameter Name="reliableSessionEnabled" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="securityMode">To be added.</param>
+        <param name="reliableSessionEnabled">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMessageSecurity">
+      <MemberSignature Language="C#" Value="protected override System.ServiceModel.Channels.SecurityBindingElement CreateMessageSecurity ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.ServiceModel.Channels.SecurityBindingElement CreateMessageSecurity() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.WS2007HttpBinding.CreateMessageSecurity" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateMessageSecurity () As SecurityBindingElement" />
+      <MemberSignature Language="F#" Value="override this.CreateMessageSecurity : unit -&gt; System.ServiceModel.Channels.SecurityBindingElement" Usage="wS2007HttpBinding.CreateMessageSecurity " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::ServiceModel::Channels::SecurityBindingElement ^ CreateMessageSecurity();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Http</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.SecurityBindingElement</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

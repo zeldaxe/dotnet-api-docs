@@ -1,0 +1,351 @@
+<Type Name="SqlBulkCopyColumnMappingCollection" FullName="System.Data.SqlClient.SqlBulkCopyColumnMappingCollection">
+  <TypeSignature Language="C#" Value="public sealed class SqlBulkCopyColumnMappingCollection : System.Collections.CollectionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SqlBulkCopyColumnMappingCollection extends System.Collections.CollectionBase" />
+  <TypeSignature Language="DocId" Value="T:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SqlBulkCopyColumnMappingCollection&#xA;Inherits CollectionBase" />
+  <TypeSignature Language="F#" Value="type SqlBulkCopyColumnMappingCollection = class&#xA;    inherit CollectionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SqlBulkCopyColumnMappingCollection sealed : System::Collections::CollectionBase" />
+  <AssemblyInfo>
+    <AssemblyName>System.Data.SqlClient</AssemblyName>
+    <AssemblyVersion>4.6.1.5</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Collections.CollectionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public System.Data.SqlClient.SqlBulkCopyColumnMapping Add (System.Data.SqlClient.SqlBulkCopyColumnMapping bulkCopyColumnMapping);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.SqlClient.SqlBulkCopyColumnMapping Add(class System.Data.SqlClient.SqlBulkCopyColumnMapping bulkCopyColumnMapping) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.Data.SqlClient.SqlBulkCopyColumnMapping)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (bulkCopyColumnMapping As SqlBulkCopyColumnMapping) As SqlBulkCopyColumnMapping" />
+      <MemberSignature Language="F#" Value="member this.Add : System.Data.SqlClient.SqlBulkCopyColumnMapping -&gt; System.Data.SqlClient.SqlBulkCopyColumnMapping" Usage="sqlBulkCopyColumnMappingCollection.Add bulkCopyColumnMapping" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::SqlClient::SqlBulkCopyColumnMapping ^ Add(System::Data::SqlClient::SqlBulkCopyColumnMapping ^ bulkCopyColumnMapping);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.SqlClient.SqlBulkCopyColumnMapping</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bulkCopyColumnMapping" Type="System.Data.SqlClient.SqlBulkCopyColumnMapping" />
+      </Parameters>
+      <Docs>
+        <param name="bulkCopyColumnMapping">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public System.Data.SqlClient.SqlBulkCopyColumnMapping Add (int sourceColumnIndex, int destinationColumnIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.SqlClient.SqlBulkCopyColumnMapping Add(int32 sourceColumnIndex, int32 destinationColumnIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (sourceColumnIndex As Integer, destinationColumnIndex As Integer) As SqlBulkCopyColumnMapping" />
+      <MemberSignature Language="F#" Value="member this.Add : int * int -&gt; System.Data.SqlClient.SqlBulkCopyColumnMapping" Usage="sqlBulkCopyColumnMappingCollection.Add (sourceColumnIndex, destinationColumnIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::SqlClient::SqlBulkCopyColumnMapping ^ Add(int sourceColumnIndex, int destinationColumnIndex);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.SqlClient.SqlBulkCopyColumnMapping</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceColumnIndex" Type="System.Int32" />
+        <Parameter Name="destinationColumnIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sourceColumnIndex">To be added.</param>
+        <param name="destinationColumnIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public System.Data.SqlClient.SqlBulkCopyColumnMapping Add (int sourceColumnIndex, string destinationColumn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.SqlClient.SqlBulkCopyColumnMapping Add(int32 sourceColumnIndex, string destinationColumn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (sourceColumnIndex As Integer, destinationColumn As String) As SqlBulkCopyColumnMapping" />
+      <MemberSignature Language="F#" Value="member this.Add : int * string -&gt; System.Data.SqlClient.SqlBulkCopyColumnMapping" Usage="sqlBulkCopyColumnMappingCollection.Add (sourceColumnIndex, destinationColumn)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::SqlClient::SqlBulkCopyColumnMapping ^ Add(int sourceColumnIndex, System::String ^ destinationColumn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.SqlClient.SqlBulkCopyColumnMapping</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceColumnIndex" Type="System.Int32" />
+        <Parameter Name="destinationColumn" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="sourceColumnIndex">To be added.</param>
+        <param name="destinationColumn">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public System.Data.SqlClient.SqlBulkCopyColumnMapping Add (string sourceColumn, int destinationColumnIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.SqlClient.SqlBulkCopyColumnMapping Add(string sourceColumn, int32 destinationColumnIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (sourceColumn As String, destinationColumnIndex As Integer) As SqlBulkCopyColumnMapping" />
+      <MemberSignature Language="F#" Value="member this.Add : string * int -&gt; System.Data.SqlClient.SqlBulkCopyColumnMapping" Usage="sqlBulkCopyColumnMappingCollection.Add (sourceColumn, destinationColumnIndex)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::SqlClient::SqlBulkCopyColumnMapping ^ Add(System::String ^ sourceColumn, int destinationColumnIndex);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.SqlClient.SqlBulkCopyColumnMapping</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceColumn" Type="System.String" />
+        <Parameter Name="destinationColumnIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="sourceColumn">To be added.</param>
+        <param name="destinationColumnIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public System.Data.SqlClient.SqlBulkCopyColumnMapping Add (string sourceColumn, string destinationColumn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.SqlClient.SqlBulkCopyColumnMapping Add(string sourceColumn, string destinationColumn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Add(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (sourceColumn As String, destinationColumn As String) As SqlBulkCopyColumnMapping" />
+      <MemberSignature Language="F#" Value="member this.Add : string * string -&gt; System.Data.SqlClient.SqlBulkCopyColumnMapping" Usage="sqlBulkCopyColumnMappingCollection.Add (sourceColumn, destinationColumn)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::SqlClient::SqlBulkCopyColumnMapping ^ Add(System::String ^ sourceColumn, System::String ^ destinationColumn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.SqlClient.SqlBulkCopyColumnMapping</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceColumn" Type="System.String" />
+        <Parameter Name="destinationColumn" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="sourceColumn">To be added.</param>
+        <param name="destinationColumn">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="F#" Value="override this.Clear : unit -&gt; unit" Usage="sqlBulkCopyColumnMappingCollection.Clear " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (System.Data.SqlClient.SqlBulkCopyColumnMapping value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(class System.Data.SqlClient.SqlBulkCopyColumnMapping value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Contains(System.Data.SqlClient.SqlBulkCopyColumnMapping)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Contains (value As SqlBulkCopyColumnMapping) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.Contains : System.Data.SqlClient.SqlBulkCopyColumnMapping -&gt; bool" Usage="sqlBulkCopyColumnMappingCollection.Contains value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(System::Data::SqlClient::SqlBulkCopyColumnMapping ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Data.SqlClient.SqlBulkCopyColumnMapping" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CopyTo">
+      <MemberSignature Language="C#" Value="public void CopyTo (System.Data.SqlClient.SqlBulkCopyColumnMapping[] array, int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CopyTo(class System.Data.SqlClient.SqlBulkCopyColumnMapping[] array, int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.CopyTo(System.Data.SqlClient.SqlBulkCopyColumnMapping[],System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (array As SqlBulkCopyColumnMapping(), index As Integer)" />
+      <MemberSignature Language="F#" Value="member this.CopyTo : System.Data.SqlClient.SqlBulkCopyColumnMapping[] * int -&gt; unit" Usage="sqlBulkCopyColumnMappingCollection.CopyTo (array, index)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CopyTo(cli::array &lt;System::Data::SqlClient::SqlBulkCopyColumnMapping ^&gt; ^ array, int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="array" Type="System.Data.SqlClient.SqlBulkCopyColumnMapping[]" />
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="array">To be added.</param>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexOf">
+      <MemberSignature Language="C#" Value="public int IndexOf (System.Data.SqlClient.SqlBulkCopyColumnMapping value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 IndexOf(class System.Data.SqlClient.SqlBulkCopyColumnMapping value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.IndexOf(System.Data.SqlClient.SqlBulkCopyColumnMapping)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IndexOf (value As SqlBulkCopyColumnMapping) As Integer" />
+      <MemberSignature Language="F#" Value="member this.IndexOf : System.Data.SqlClient.SqlBulkCopyColumnMapping -&gt; int" Usage="sqlBulkCopyColumnMappingCollection.IndexOf value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int IndexOf(System::Data::SqlClient::SqlBulkCopyColumnMapping ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Data.SqlClient.SqlBulkCopyColumnMapping" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Insert">
+      <MemberSignature Language="C#" Value="public void Insert (int index, System.Data.SqlClient.SqlBulkCopyColumnMapping value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Insert(int32 index, class System.Data.SqlClient.SqlBulkCopyColumnMapping value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Insert(System.Int32,System.Data.SqlClient.SqlBulkCopyColumnMapping)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Insert (index As Integer, value As SqlBulkCopyColumnMapping)" />
+      <MemberSignature Language="F#" Value="member this.Insert : int * System.Data.SqlClient.SqlBulkCopyColumnMapping -&gt; unit" Usage="sqlBulkCopyColumnMappingCollection.Insert (index, value)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Insert(int index, System::Data::SqlClient::SqlBulkCopyColumnMapping ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+        <Parameter Name="value" Type="System.Data.SqlClient.SqlBulkCopyColumnMapping" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public System.Data.SqlClient.SqlBulkCopyColumnMapping this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Data.SqlClient.SqlBulkCopyColumnMapping Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As SqlBulkCopyColumnMapping" />
+      <MemberSignature Language="F#" Value="member this.Item(int) : System.Data.SqlClient.SqlBulkCopyColumnMapping" Usage="System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Data::SqlClient::SqlBulkCopyColumnMapping ^ default[int] { System::Data::SqlClient::SqlBulkCopyColumnMapping ^ get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.SqlClient.SqlBulkCopyColumnMapping</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (System.Data.SqlClient.SqlBulkCopyColumnMapping value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Remove(class System.Data.SqlClient.SqlBulkCopyColumnMapping value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.Remove(System.Data.SqlClient.SqlBulkCopyColumnMapping)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (value As SqlBulkCopyColumnMapping)" />
+      <MemberSignature Language="F#" Value="member this.Remove : System.Data.SqlClient.SqlBulkCopyColumnMapping -&gt; unit" Usage="sqlBulkCopyColumnMappingCollection.Remove value" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(System::Data::SqlClient::SqlBulkCopyColumnMapping ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.Data.SqlClient.SqlBulkCopyColumnMapping" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlBulkCopyColumnMappingCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="F#" Value="override this.RemoveAt : int -&gt; unit" Usage="sqlBulkCopyColumnMappingCollection.RemoveAt index" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.SqlClient</AssemblyName>
+        <AssemblyVersion>4.6.1.5</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

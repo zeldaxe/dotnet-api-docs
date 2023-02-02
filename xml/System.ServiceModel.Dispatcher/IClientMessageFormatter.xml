@@ -1,0 +1,85 @@
+<Type Name="IClientMessageFormatter" FullName="System.ServiceModel.Dispatcher.IClientMessageFormatter">
+  <TypeSignature Language="C#" Value="public interface IClientMessageFormatter" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IClientMessageFormatter" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.Dispatcher.IClientMessageFormatter" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IClientMessageFormatter" />
+  <TypeSignature Language="F#" Value="type IClientMessageFormatter = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IClientMessageFormatter" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeserializeReply">
+      <MemberSignature Language="C#" Value="public object DeserializeReply (System.ServiceModel.Channels.Message message, object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object DeserializeReply(class System.ServiceModel.Channels.Message message, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.Dispatcher.IClientMessageFormatter.DeserializeReply(System.ServiceModel.Channels.Message,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeserializeReply (message As Message, parameters As Object()) As Object" />
+      <MemberSignature Language="F#" Value="abstract member DeserializeReply : System.ServiceModel.Channels.Message * obj[] -&gt; obj" Usage="iClientMessageFormatter.DeserializeReply (message, parameters)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ DeserializeReply(System::ServiceModel::Channels::Message ^ message, cli::array &lt;System::Object ^&gt; ^ parameters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.ServiceModel.Channels.Message" />
+        <Parameter Name="parameters" Type="System.Object[]" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializeRequest">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.Message SerializeRequest (System.ServiceModel.Channels.MessageVersion messageVersion, object[] parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ServiceModel.Channels.Message SerializeRequest(class System.ServiceModel.Channels.MessageVersion messageVersion, object[] parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.Dispatcher.IClientMessageFormatter.SerializeRequest(System.ServiceModel.Channels.MessageVersion,System.Object[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function SerializeRequest (messageVersion As MessageVersion, parameters As Object()) As Message" />
+      <MemberSignature Language="F#" Value="abstract member SerializeRequest : System.ServiceModel.Channels.MessageVersion * obj[] -&gt; System.ServiceModel.Channels.Message" Usage="iClientMessageFormatter.SerializeRequest (messageVersion, parameters)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::ServiceModel::Channels::Message ^ SerializeRequest(System::ServiceModel::Channels::MessageVersion ^ messageVersion, cli::array &lt;System::Object ^&gt; ^ parameters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.Message</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="messageVersion" Type="System.ServiceModel.Channels.MessageVersion" />
+        <Parameter Name="parameters" Type="System.Object[]" />
+      </Parameters>
+      <Docs>
+        <param name="messageVersion">To be added.</param>
+        <param name="parameters">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

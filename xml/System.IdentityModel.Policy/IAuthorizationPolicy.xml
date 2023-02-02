@@ -1,0 +1,18 @@
+<Type Name="IAuthorizationPolicy" FullName="System.IdentityModel.Policy.IAuthorizationPolicy">
+  <TypeSignature Language="C#" Value="public interface IAuthorizationPolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAuthorizationPolicy" />
+  <TypeSignature Language="DocId" Value="T:System.IdentityModel.Policy.IAuthorizationPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAuthorizationPolicy" />
+  <TypeSignature Language="F#" Value="type IAuthorizationPolicy = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAuthorizationPolicy" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Security</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

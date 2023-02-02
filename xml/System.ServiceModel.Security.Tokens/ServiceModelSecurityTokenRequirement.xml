@@ -1,0 +1,72 @@
+<Type Name="ServiceModelSecurityTokenRequirement" FullName="System.ServiceModel.Security.Tokens.ServiceModelSecurityTokenRequirement">
+  <TypeSignature Language="C#" Value="public abstract class ServiceModelSecurityTokenRequirement : System.IdentityModel.Selectors.SecurityTokenRequirement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceModelSecurityTokenRequirement extends System.IdentityModel.Selectors.SecurityTokenRequirement" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.Security.Tokens.ServiceModelSecurityTokenRequirement" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceModelSecurityTokenRequirement&#xA;Inherits SecurityTokenRequirement" />
+  <TypeSignature Language="F#" Value="type ServiceModelSecurityTokenRequirement = class&#xA;    inherit SecurityTokenRequirement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceModelSecurityTokenRequirement abstract : System::IdentityModel::Selectors::SecurityTokenRequirement" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Security</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Security" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.IdentityModel.Selectors.SecurityTokenRequirement</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ServiceModelSecurityTokenRequirement ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.Security.Tokens.ServiceModelSecurityTokenRequirement.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; ServiceModelSecurityTokenRequirement();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChannelParametersCollectionProperty">
+      <MemberSignature Language="C#" Value="public static string ChannelParametersCollectionProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string ChannelParametersCollectionProperty" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Security.Tokens.ServiceModelSecurityTokenRequirement.ChannelParametersCollectionProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ChannelParametersCollectionProperty As String" />
+      <MemberSignature Language="F#" Value="static member ChannelParametersCollectionProperty : string" Usage="System.ServiceModel.Security.Tokens.ServiceModelSecurityTokenRequirement.ChannelParametersCollectionProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::String ^ ChannelParametersCollectionProperty { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

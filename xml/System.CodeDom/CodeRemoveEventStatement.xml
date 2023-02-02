@@ -1,0 +1,129 @@
+<Type Name="CodeRemoveEventStatement" FullName="System.CodeDom.CodeRemoveEventStatement">
+  <TypeSignature Language="C#" Value="public class CodeRemoveEventStatement : System.CodeDom.CodeStatement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CodeRemoveEventStatement extends System.CodeDom.CodeStatement" />
+  <TypeSignature Language="DocId" Value="T:System.CodeDom.CodeRemoveEventStatement" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodeRemoveEventStatement&#xA;Inherits CodeStatement" />
+  <TypeSignature Language="F#" Value="type CodeRemoveEventStatement = class&#xA;    inherit CodeStatement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CodeRemoveEventStatement : System::CodeDom::CodeStatement" />
+  <AssemblyInfo>
+    <AssemblyName>System.CodeDom</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.CodeDom.CodeStatement</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeRemoveEventStatement ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeRemoveEventStatement.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeRemoveEventStatement();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeRemoveEventStatement (System.CodeDom.CodeEventReferenceExpression eventRef, System.CodeDom.CodeExpression listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.CodeDom.CodeEventReferenceExpression eventRef, class System.CodeDom.CodeExpression listener) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeRemoveEventStatement.#ctor(System.CodeDom.CodeEventReferenceExpression,System.CodeDom.CodeExpression)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (eventRef As CodeEventReferenceExpression, listener As CodeExpression)" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeRemoveEventStatement : System.CodeDom.CodeEventReferenceExpression * System.CodeDom.CodeExpression -&gt; System.CodeDom.CodeRemoveEventStatement" Usage="new System.CodeDom.CodeRemoveEventStatement (eventRef, listener)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeRemoveEventStatement(System::CodeDom::CodeEventReferenceExpression ^ eventRef, System::CodeDom::CodeExpression ^ listener);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="eventRef" Type="System.CodeDom.CodeEventReferenceExpression" />
+        <Parameter Name="listener" Type="System.CodeDom.CodeExpression" />
+      </Parameters>
+      <Docs>
+        <param name="eventRef">To be added.</param>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeRemoveEventStatement (System.CodeDom.CodeExpression targetObject, string eventName, System.CodeDom.CodeExpression listener);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.CodeDom.CodeExpression targetObject, string eventName, class System.CodeDom.CodeExpression listener) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeRemoveEventStatement.#ctor(System.CodeDom.CodeExpression,System.String,System.CodeDom.CodeExpression)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetObject As CodeExpression, eventName As String, listener As CodeExpression)" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeRemoveEventStatement : System.CodeDom.CodeExpression * string * System.CodeDom.CodeExpression -&gt; System.CodeDom.CodeRemoveEventStatement" Usage="new System.CodeDom.CodeRemoveEventStatement (targetObject, eventName, listener)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeRemoveEventStatement(System::CodeDom::CodeExpression ^ targetObject, System::String ^ eventName, System::CodeDom::CodeExpression ^ listener);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetObject" Type="System.CodeDom.CodeExpression" />
+        <Parameter Name="eventName" Type="System.String" />
+        <Parameter Name="listener" Type="System.CodeDom.CodeExpression" />
+      </Parameters>
+      <Docs>
+        <param name="targetObject">To be added.</param>
+        <param name="eventName">To be added.</param>
+        <param name="listener">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Event">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeEventReferenceExpression Event { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeEventReferenceExpression Event" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeRemoveEventStatement.Event" />
+      <MemberSignature Language="VB.NET" Value="Public Property Event As CodeEventReferenceExpression" />
+      <MemberSignature Language="F#" Value="member this.Event : System.CodeDom.CodeEventReferenceExpression with get, set" Usage="System.CodeDom.CodeRemoveEventStatement.Event" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeEventReferenceExpression ^ Event { System::CodeDom::CodeEventReferenceExpression ^ get(); void set(System::CodeDom::CodeEventReferenceExpression ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeEventReferenceExpression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Listener">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeExpression Listener { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeExpression Listener" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeRemoveEventStatement.Listener" />
+      <MemberSignature Language="VB.NET" Value="Public Property Listener As CodeExpression" />
+      <MemberSignature Language="F#" Value="member this.Listener : System.CodeDom.CodeExpression with get, set" Usage="System.CodeDom.CodeRemoveEventStatement.Listener" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeExpression ^ Listener { System::CodeDom::CodeExpression ^ get(); void set(System::CodeDom::CodeExpression ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeExpression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

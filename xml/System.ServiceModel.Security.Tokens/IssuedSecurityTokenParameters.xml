@@ -1,0 +1,217 @@
+<Type Name="IssuedSecurityTokenParameters" FullName="System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters">
+  <TypeSignature Language="C#" Value="public class IssuedSecurityTokenParameters : System.ServiceModel.Security.Tokens.SecurityTokenParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit IssuedSecurityTokenParameters extends System.ServiceModel.Security.Tokens.SecurityTokenParameters" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters" />
+  <TypeSignature Language="VB.NET" Value="Public Class IssuedSecurityTokenParameters&#xA;Inherits SecurityTokenParameters" />
+  <TypeSignature Language="F#" Value="type IssuedSecurityTokenParameters = class&#xA;    inherit SecurityTokenParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class IssuedSecurityTokenParameters : System::ServiceModel::Security::Tokens::SecurityTokenParameters" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Security</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Security" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.ServiceModel.Security.Tokens.SecurityTokenParameters</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IssuedSecurityTokenParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IssuedSecurityTokenParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected IssuedSecurityTokenParameters (System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters other);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.#ctor(System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (other As IssuedSecurityTokenParameters)" />
+      <MemberSignature Language="F#" Value="new System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters : System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters -&gt; System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters" Usage="new System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters other" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; IssuedSecurityTokenParameters(System::ServiceModel::Security::Tokens::IssuedSecurityTokenParameters ^ other);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="other" Type="System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters" />
+      </Parameters>
+      <Docs>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloneCore">
+      <MemberSignature Language="C#" Value="protected override System.ServiceModel.Security.Tokens.SecurityTokenParameters CloneCore ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.ServiceModel.Security.Tokens.SecurityTokenParameters CloneCore() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.CloneCore" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function CloneCore () As SecurityTokenParameters" />
+      <MemberSignature Language="F#" Value="override this.CloneCore : unit -&gt; System.ServiceModel.Security.Tokens.SecurityTokenParameters" Usage="issuedSecurityTokenParameters.CloneCore " />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::ServiceModel::Security::Tokens::SecurityTokenParameters ^ CloneCore();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Security.Tokens.SecurityTokenParameters</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultMessageSecurityVersion">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.MessageSecurityVersion DefaultMessageSecurityVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.MessageSecurityVersion DefaultMessageSecurityVersion" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.DefaultMessageSecurityVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property DefaultMessageSecurityVersion As MessageSecurityVersion" />
+      <MemberSignature Language="F#" Value="member this.DefaultMessageSecurityVersion : System.ServiceModel.MessageSecurityVersion with get, set" Usage="System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.DefaultMessageSecurityVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::MessageSecurityVersion ^ DefaultMessageSecurityVersion { System::ServiceModel::MessageSecurityVersion ^ get(); void set(System::ServiceModel::MessageSecurityVersion ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.MessageSecurityVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssuerAddress">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.EndpointAddress IssuerAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.EndpointAddress IssuerAddress" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.IssuerAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property IssuerAddress As EndpointAddress" />
+      <MemberSignature Language="F#" Value="member this.IssuerAddress : System.ServiceModel.EndpointAddress with get, set" Usage="System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.IssuerAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::EndpointAddress ^ IssuerAddress { System::ServiceModel::EndpointAddress ^ get(); void set(System::ServiceModel::EndpointAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.EndpointAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssuerBinding">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.Binding IssuerBinding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Channels.Binding IssuerBinding" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.IssuerBinding" />
+      <MemberSignature Language="VB.NET" Value="Public Property IssuerBinding As Binding" />
+      <MemberSignature Language="F#" Value="member this.IssuerBinding : System.ServiceModel.Channels.Binding with get, set" Usage="System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.IssuerBinding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Channels::Binding ^ IssuerBinding { System::ServiceModel::Channels::Binding ^ get(); void set(System::ServiceModel::Channels::Binding ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.Binding</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyType">
+      <MemberSignature Language="C#" Value="public System.IdentityModel.Tokens.SecurityKeyType KeyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.IdentityModel.Tokens.SecurityKeyType KeyType" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.KeyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeyType As SecurityKeyType" />
+      <MemberSignature Language="F#" Value="member this.KeyType : System.IdentityModel.Tokens.SecurityKeyType with get, set" Usage="System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.KeyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::IdentityModel::Tokens::SecurityKeyType KeyType { System::IdentityModel::Tokens::SecurityKeyType get(); void set(System::IdentityModel::Tokens::SecurityKeyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IdentityModel.Tokens.SecurityKeyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenType">
+      <MemberSignature Language="C#" Value="public string TokenType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TokenType" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.TokenType" />
+      <MemberSignature Language="VB.NET" Value="Public Property TokenType As String" />
+      <MemberSignature Language="F#" Value="member this.TokenType : string with get, set" Usage="System.ServiceModel.Security.Tokens.IssuedSecurityTokenParameters.TokenType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TokenType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Security</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

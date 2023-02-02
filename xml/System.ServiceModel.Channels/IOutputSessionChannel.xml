@@ -1,0 +1,37 @@
+<Type Name="IOutputSessionChannel" FullName="System.ServiceModel.Channels.IOutputSessionChannel">
+  <TypeSignature Language="C#" Value="public interface IOutputSessionChannel : System.ServiceModel.Channels.IOutputChannel, System.ServiceModel.Channels.ISessionChannel&lt;System.ServiceModel.Channels.IOutputSession&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IOutputSessionChannel implements class System.ServiceModel.Channels.IChannel, class System.ServiceModel.Channels.IOutputChannel, class System.ServiceModel.Channels.ISessionChannel`1&lt;class System.ServiceModel.Channels.IOutputSession&gt;, class System.ServiceModel.ICommunicationObject" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.Channels.IOutputSessionChannel" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IOutputSessionChannel&#xA;Implements IOutputChannel, ISessionChannel(Of IOutputSession)" />
+  <TypeSignature Language="F#" Value="type IOutputSessionChannel = interface&#xA;    interface IChannel&#xA;    interface ICommunicationObject&#xA;    interface IOutputChannel&#xA;    interface ISessionChannel&lt;IOutputSession&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IOutputSessionChannel : System::ServiceModel::Channels::IOutputChannel, System::ServiceModel::Channels::ISessionChannel&lt;System::ServiceModel::Channels::IOutputSession ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ServiceModel.Channels.IChannel</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ServiceModel.Channels.IOutputChannel</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ServiceModel.Channels.ISessionChannel&lt;System.ServiceModel.Channels.IOutputSession&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ServiceModel.ICommunicationObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

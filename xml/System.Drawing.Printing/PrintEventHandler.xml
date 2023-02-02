@@ -1,0 +1,28 @@
+<Type Name="PrintEventHandler" FullName="System.Drawing.Printing.PrintEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void PrintEventHandler(object sender, PrintEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PrintEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:System.Drawing.Printing.PrintEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub PrintEventHandler(sender As Object, e As PrintEventArgs)" />
+  <TypeSignature Language="F#" Value="type PrintEventHandler = delegate of obj * PrintEventArgs -&gt; unit" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void PrintEventHandler(System::Object ^ sender, PrintEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>System.Drawing.Common</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="System.Drawing.Printing.PrintEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

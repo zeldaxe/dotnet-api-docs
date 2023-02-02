@@ -1,0 +1,1436 @@
+<Type Name="Region" FullName="System.Drawing.Region">
+  <TypeSignature Language="C#" Value="public sealed class Region : MarshalByRefObject, IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Region extends System.MarshalByRefObject implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:System.Drawing.Region" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Region&#xA;Inherits MarshalByRefObject&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type Region = class&#xA;    inherit MarshalByRefObject&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Region sealed : MarshalByRefObject, IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>System.Drawing.Common</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.MarshalByRefObject</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Region ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Region();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Region (System.Drawing.Drawing2D.GraphicsPath path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Drawing2D.GraphicsPath path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.#ctor(System.Drawing.Drawing2D.GraphicsPath)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (path As GraphicsPath)" />
+      <MemberSignature Language="F#" Value="new System.Drawing.Region : System.Drawing.Drawing2D.GraphicsPath -&gt; System.Drawing.Region" Usage="new System.Drawing.Region path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Region(System::Drawing::Drawing2D::GraphicsPath ^ path);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="path" Type="System.Drawing.Drawing2D.GraphicsPath" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Region (System.Drawing.Drawing2D.RegionData rgnData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Drawing2D.RegionData rgnData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.#ctor(System.Drawing.Drawing2D.RegionData)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (rgnData As RegionData)" />
+      <MemberSignature Language="F#" Value="new System.Drawing.Region : System.Drawing.Drawing2D.RegionData -&gt; System.Drawing.Region" Usage="new System.Drawing.Region rgnData" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Region(System::Drawing::Drawing2D::RegionData ^ rgnData);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rgnData" Type="System.Drawing.Drawing2D.RegionData" />
+      </Parameters>
+      <Docs>
+        <param name="rgnData">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Region (System.Drawing.Rectangle rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Drawing.Rectangle rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.#ctor(System.Drawing.Rectangle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (rect As Rectangle)" />
+      <MemberSignature Language="F#" Value="new System.Drawing.Region : System.Drawing.Rectangle -&gt; System.Drawing.Region" Usage="new System.Drawing.Region rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Region(System::Drawing::Rectangle rect);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Region (System.Drawing.RectangleF rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Drawing.RectangleF rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.#ctor(System.Drawing.RectangleF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (rect As RectangleF)" />
+      <MemberSignature Language="F#" Value="new System.Drawing.Region : System.Drawing.RectangleF -&gt; System.Drawing.Region" Usage="new System.Drawing.Region rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Region(System::Drawing::RectangleF rect);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="public System.Drawing.Region Clone ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Drawing.Region Clone() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Clone" />
+      <MemberSignature Language="VB.NET" Value="Public Function Clone () As Region" />
+      <MemberSignature Language="F#" Value="member this.Clone : unit -&gt; System.Drawing.Region" Usage="region.Clone " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::Region ^ Clone();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Region</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Complement">
+      <MemberSignature Language="C#" Value="public void Complement (System.Drawing.Drawing2D.GraphicsPath path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Complement(class System.Drawing.Drawing2D.GraphicsPath path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Complement(System.Drawing.Drawing2D.GraphicsPath)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Complement (path As GraphicsPath)" />
+      <MemberSignature Language="F#" Value="member this.Complement : System.Drawing.Drawing2D.GraphicsPath -&gt; unit" Usage="region.Complement path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Complement(System::Drawing::Drawing2D::GraphicsPath ^ path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.Drawing.Drawing2D.GraphicsPath" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Complement">
+      <MemberSignature Language="C#" Value="public void Complement (System.Drawing.Rectangle rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Complement(valuetype System.Drawing.Rectangle rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Complement(System.Drawing.Rectangle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Complement (rect As Rectangle)" />
+      <MemberSignature Language="F#" Value="member this.Complement : System.Drawing.Rectangle -&gt; unit" Usage="region.Complement rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Complement(System::Drawing::Rectangle rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Complement">
+      <MemberSignature Language="C#" Value="public void Complement (System.Drawing.RectangleF rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Complement(valuetype System.Drawing.RectangleF rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Complement(System.Drawing.RectangleF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Complement (rect As RectangleF)" />
+      <MemberSignature Language="F#" Value="member this.Complement : System.Drawing.RectangleF -&gt; unit" Usage="region.Complement rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Complement(System::Drawing::RectangleF rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Complement">
+      <MemberSignature Language="C#" Value="public void Complement (System.Drawing.Region region);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Complement(class System.Drawing.Region region) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Complement(System.Drawing.Region)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Complement (region As Region)" />
+      <MemberSignature Language="F#" Value="member this.Complement : System.Drawing.Region -&gt; unit" Usage="region.Complement region" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Complement(System::Drawing::Region ^ region);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="region" Type="System.Drawing.Region" />
+      </Parameters>
+      <Docs>
+        <param name="region">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="region.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (System.Drawing.Region region, System.Drawing.Graphics g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Equals(class System.Drawing.Region region, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Equals(System.Drawing.Region,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (region As Region, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : System.Drawing.Region * System.Drawing.Graphics -&gt; bool" Usage="region.Equals (region, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Equals(System::Drawing::Region ^ region, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="region" Type="System.Drawing.Region" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="region">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exclude">
+      <MemberSignature Language="C#" Value="public void Exclude (System.Drawing.Drawing2D.GraphicsPath path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Exclude(class System.Drawing.Drawing2D.GraphicsPath path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Exclude(System.Drawing.Drawing2D.GraphicsPath)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Exclude (path As GraphicsPath)" />
+      <MemberSignature Language="F#" Value="member this.Exclude : System.Drawing.Drawing2D.GraphicsPath -&gt; unit" Usage="region.Exclude path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Exclude(System::Drawing::Drawing2D::GraphicsPath ^ path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.Drawing.Drawing2D.GraphicsPath" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exclude">
+      <MemberSignature Language="C#" Value="public void Exclude (System.Drawing.Rectangle rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Exclude(valuetype System.Drawing.Rectangle rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Exclude(System.Drawing.Rectangle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Exclude (rect As Rectangle)" />
+      <MemberSignature Language="F#" Value="member this.Exclude : System.Drawing.Rectangle -&gt; unit" Usage="region.Exclude rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Exclude(System::Drawing::Rectangle rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exclude">
+      <MemberSignature Language="C#" Value="public void Exclude (System.Drawing.RectangleF rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Exclude(valuetype System.Drawing.RectangleF rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Exclude(System.Drawing.RectangleF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Exclude (rect As RectangleF)" />
+      <MemberSignature Language="F#" Value="member this.Exclude : System.Drawing.RectangleF -&gt; unit" Usage="region.Exclude rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Exclude(System::Drawing::RectangleF rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exclude">
+      <MemberSignature Language="C#" Value="public void Exclude (System.Drawing.Region region);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Exclude(class System.Drawing.Region region) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Exclude(System.Drawing.Region)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Exclude (region As Region)" />
+      <MemberSignature Language="F#" Value="member this.Exclude : System.Drawing.Region -&gt; unit" Usage="region.Exclude region" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Exclude(System::Drawing::Region ^ region);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="region" Type="System.Drawing.Region" />
+      </Parameters>
+      <Docs>
+        <param name="region">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Finalize">
+      <MemberSignature Language="C#" Value="~Region ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Finalize" />
+      <MemberSignature Language="VB.NET" Value="Finalize ()" />
+      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="region.Finalize " />
+      <MemberSignature Language="C++ CLI" Value="!Region ()" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromHrgn">
+      <MemberSignature Language="C#" Value="public static System.Drawing.Region FromHrgn (IntPtr hrgn);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Drawing.Region FromHrgn(native int hrgn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.FromHrgn(System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromHrgn (hrgn As IntPtr) As Region" />
+      <MemberSignature Language="F#" Value="static member FromHrgn : nativeint -&gt; System.Drawing.Region" Usage="System.Drawing.Region.FromHrgn hrgn" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Drawing::Region ^ FromHrgn(IntPtr hrgn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Region</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="hrgn" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="hrgn">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBounds">
+      <MemberSignature Language="C#" Value="public System.Drawing.RectangleF GetBounds (System.Drawing.Graphics g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Drawing.RectangleF GetBounds(class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.GetBounds(System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetBounds (g As Graphics) As RectangleF" />
+      <MemberSignature Language="F#" Value="member this.GetBounds : System.Drawing.Graphics -&gt; System.Drawing.RectangleF" Usage="region.GetBounds g" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::RectangleF GetBounds(System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.RectangleF</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHrgn">
+      <MemberSignature Language="C#" Value="public IntPtr GetHrgn (System.Drawing.Graphics g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance native int GetHrgn(class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.GetHrgn(System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHrgn (g As Graphics) As IntPtr" />
+      <MemberSignature Language="F#" Value="member this.GetHrgn : System.Drawing.Graphics -&gt; nativeint" Usage="region.GetHrgn g" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IntPtr GetHrgn(System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRegionData">
+      <MemberSignature Language="C#" Value="public System.Drawing.Drawing2D.RegionData? GetRegionData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Drawing.Drawing2D.RegionData GetRegionData() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.GetRegionData" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRegionData () As RegionData" />
+      <MemberSignature Language="F#" Value="member this.GetRegionData : unit -&gt; System.Drawing.Drawing2D.RegionData" Usage="region.GetRegionData " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::Drawing2D::RegionData ^ GetRegionData();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Drawing2D.RegionData</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRegionScans">
+      <MemberSignature Language="C#" Value="public System.Drawing.RectangleF[] GetRegionScans (System.Drawing.Drawing2D.Matrix matrix);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Drawing.RectangleF[] GetRegionScans(class System.Drawing.Drawing2D.Matrix matrix) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.GetRegionScans(System.Drawing.Drawing2D.Matrix)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRegionScans (matrix As Matrix) As RectangleF()" />
+      <MemberSignature Language="F#" Value="member this.GetRegionScans : System.Drawing.Drawing2D.Matrix -&gt; System.Drawing.RectangleF[]" Usage="region.GetRegionScans matrix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::Drawing::RectangleF&gt; ^ GetRegionScans(System::Drawing::Drawing2D::Matrix ^ matrix);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.RectangleF[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="matrix" Type="System.Drawing.Drawing2D.Matrix" />
+      </Parameters>
+      <Docs>
+        <param name="matrix">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Intersect">
+      <MemberSignature Language="C#" Value="public void Intersect (System.Drawing.Drawing2D.GraphicsPath path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Intersect(class System.Drawing.Drawing2D.GraphicsPath path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Intersect(System.Drawing.Drawing2D.GraphicsPath)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Intersect (path As GraphicsPath)" />
+      <MemberSignature Language="F#" Value="member this.Intersect : System.Drawing.Drawing2D.GraphicsPath -&gt; unit" Usage="region.Intersect path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Intersect(System::Drawing::Drawing2D::GraphicsPath ^ path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.Drawing.Drawing2D.GraphicsPath" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Intersect">
+      <MemberSignature Language="C#" Value="public void Intersect (System.Drawing.Rectangle rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Intersect(valuetype System.Drawing.Rectangle rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Intersect(System.Drawing.Rectangle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Intersect (rect As Rectangle)" />
+      <MemberSignature Language="F#" Value="member this.Intersect : System.Drawing.Rectangle -&gt; unit" Usage="region.Intersect rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Intersect(System::Drawing::Rectangle rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Intersect">
+      <MemberSignature Language="C#" Value="public void Intersect (System.Drawing.RectangleF rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Intersect(valuetype System.Drawing.RectangleF rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Intersect(System.Drawing.RectangleF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Intersect (rect As RectangleF)" />
+      <MemberSignature Language="F#" Value="member this.Intersect : System.Drawing.RectangleF -&gt; unit" Usage="region.Intersect rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Intersect(System::Drawing::RectangleF rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Intersect">
+      <MemberSignature Language="C#" Value="public void Intersect (System.Drawing.Region region);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Intersect(class System.Drawing.Region region) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Intersect(System.Drawing.Region)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Intersect (region As Region)" />
+      <MemberSignature Language="F#" Value="member this.Intersect : System.Drawing.Region -&gt; unit" Usage="region.Intersect region" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Intersect(System::Drawing::Region ^ region);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="region" Type="System.Drawing.Region" />
+      </Parameters>
+      <Docs>
+        <param name="region">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEmpty">
+      <MemberSignature Language="C#" Value="public bool IsEmpty (System.Drawing.Graphics g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsEmpty(class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsEmpty(System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsEmpty (g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsEmpty : System.Drawing.Graphics -&gt; bool" Usage="region.IsEmpty g" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsEmpty(System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInfinite">
+      <MemberSignature Language="C#" Value="public bool IsInfinite (System.Drawing.Graphics g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsInfinite(class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsInfinite(System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsInfinite (g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsInfinite : System.Drawing.Graphics -&gt; bool" Usage="region.IsInfinite g" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsInfinite(System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.Point point);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.Point point) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.Point)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (point As Point) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.Point -&gt; bool" Usage="region.IsVisible point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::Point point);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="System.Drawing.Point" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.PointF point);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.PointF point) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.PointF)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (point As PointF) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.PointF -&gt; bool" Usage="region.IsVisible point" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::PointF point);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="System.Drawing.PointF" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.Rectangle rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.Rectangle rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.Rectangle)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (rect As Rectangle) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.Rectangle -&gt; bool" Usage="region.IsVisible rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::Rectangle rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.RectangleF rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.RectangleF rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.RectangleF)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (rect As RectangleF) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.RectangleF -&gt; bool" Usage="region.IsVisible rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::RectangleF rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.Point point, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.Point point, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.Point,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (point As Point, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.Point * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (point, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::Point point, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="System.Drawing.Point" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.PointF point, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.PointF point, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.PointF,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (point As PointF, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.PointF * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (point, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::PointF point, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="point" Type="System.Drawing.PointF" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="point">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.Rectangle rect, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.Rectangle rect, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.Rectangle,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (rect As Rectangle, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.Rectangle * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (rect, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::Rectangle rect, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (System.Drawing.RectangleF rect, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(valuetype System.Drawing.RectangleF rect, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Drawing.RectangleF,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (rect As RectangleF, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : System.Drawing.RectangleF * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (rect, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(System::Drawing::RectangleF rect, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (float x, float y);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(float32 x, float32 y) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (x As Single, y As Single) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : single * single -&gt; bool" Usage="region.IsVisible (x, y)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(float x, float y);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single" />
+        <Parameter Name="y" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (int x, int y, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(int32 x, int32 y, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Int32,System.Int32,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (x As Integer, y As Integer, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : int * int * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (x, y, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(int x, int y, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32" />
+        <Parameter Name="y" Type="System.Int32" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (float x, float y, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(float32 x, float32 y, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Single,System.Single,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (x As Single, y As Single, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : single * single * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (x, y, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(float x, float y, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single" />
+        <Parameter Name="y" Type="System.Single" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (int x, int y, int width, int height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(int32 x, int32 y, int32 width, int32 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (x As Integer, y As Integer, width As Integer, height As Integer) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : int * int * int * int -&gt; bool" Usage="region.IsVisible (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(int x, int y, int width, int height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32" />
+        <Parameter Name="y" Type="System.Int32" />
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (float x, float y, float width, float height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(float32 x, float32 y, float32 width, float32 height) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (x As Single, y As Single, width As Single, height As Single) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : single * single * single * single -&gt; bool" Usage="region.IsVisible (x, y, width, height)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(float x, float y, float width, float height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single" />
+        <Parameter Name="y" Type="System.Single" />
+        <Parameter Name="width" Type="System.Single" />
+        <Parameter Name="height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (int x, int y, int width, int height, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(int32 x, int32 y, int32 width, int32 height, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (x As Integer, y As Integer, width As Integer, height As Integer, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : int * int * int * int * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (x, y, width, height, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(int x, int y, int width, int height, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Int32" />
+        <Parameter Name="y" Type="System.Int32" />
+        <Parameter Name="width" Type="System.Int32" />
+        <Parameter Name="height" Type="System.Int32" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible (float x, float y, float width, float height, System.Drawing.Graphics? g);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool IsVisible(float32 x, float32 y, float32 width, float32 height, class System.Drawing.Graphics g) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.IsVisible(System.Single,System.Single,System.Single,System.Single,System.Drawing.Graphics)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsVisible (x As Single, y As Single, width As Single, height As Single, g As Graphics) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsVisible : single * single * single * single * System.Drawing.Graphics -&gt; bool" Usage="region.IsVisible (x, y, width, height, g)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsVisible(float x, float y, float width, float height, System::Drawing::Graphics ^ g);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="x" Type="System.Single" />
+        <Parameter Name="y" Type="System.Single" />
+        <Parameter Name="width" Type="System.Single" />
+        <Parameter Name="height" Type="System.Single" />
+        <Parameter Name="g" Type="System.Drawing.Graphics" />
+      </Parameters>
+      <Docs>
+        <param name="x">To be added.</param>
+        <param name="y">To be added.</param>
+        <param name="width">To be added.</param>
+        <param name="height">To be added.</param>
+        <param name="g">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MakeEmpty">
+      <MemberSignature Language="C#" Value="public void MakeEmpty ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MakeEmpty() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.MakeEmpty" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MakeEmpty ()" />
+      <MemberSignature Language="F#" Value="member this.MakeEmpty : unit -&gt; unit" Usage="region.MakeEmpty " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MakeEmpty();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MakeInfinite">
+      <MemberSignature Language="C#" Value="public void MakeInfinite ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void MakeInfinite() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.MakeInfinite" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MakeInfinite ()" />
+      <MemberSignature Language="F#" Value="member this.MakeInfinite : unit -&gt; unit" Usage="region.MakeInfinite " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MakeInfinite();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReleaseHrgn">
+      <MemberSignature Language="C#" Value="public void ReleaseHrgn (IntPtr regionHandle);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReleaseHrgn(native int regionHandle) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.ReleaseHrgn(System.IntPtr)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReleaseHrgn (regionHandle As IntPtr)" />
+      <MemberSignature Language="F#" Value="member this.ReleaseHrgn : nativeint -&gt; unit" Usage="region.ReleaseHrgn regionHandle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReleaseHrgn(IntPtr regionHandle);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="regionHandle" Type="System.IntPtr" />
+      </Parameters>
+      <Docs>
+        <param name="regionHandle">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Transform">
+      <MemberSignature Language="C#" Value="public void Transform (System.Drawing.Drawing2D.Matrix matrix);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Transform(class System.Drawing.Drawing2D.Matrix matrix) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Transform(System.Drawing.Drawing2D.Matrix)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Transform (matrix As Matrix)" />
+      <MemberSignature Language="F#" Value="member this.Transform : System.Drawing.Drawing2D.Matrix -&gt; unit" Usage="region.Transform matrix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Transform(System::Drawing::Drawing2D::Matrix ^ matrix);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="matrix" Type="System.Drawing.Drawing2D.Matrix" />
+      </Parameters>
+      <Docs>
+        <param name="matrix">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (int dx, int dy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Translate(int32 dx, int32 dy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Translate(System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Translate (dx As Integer, dy As Integer)" />
+      <MemberSignature Language="F#" Value="member this.Translate : int * int -&gt; unit" Usage="region.Translate (dx, dy)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Translate(int dx, int dy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dx" Type="System.Int32" />
+        <Parameter Name="dy" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="dx">To be added.</param>
+        <param name="dy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public void Translate (float dx, float dy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Translate(float32 dx, float32 dy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Translate(System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Translate (dx As Single, dy As Single)" />
+      <MemberSignature Language="F#" Value="member this.Translate : single * single -&gt; unit" Usage="region.Translate (dx, dy)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Translate(float dx, float dy);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="dx" Type="System.Single" />
+        <Parameter Name="dy" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="dx">To be added.</param>
+        <param name="dy">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Union">
+      <MemberSignature Language="C#" Value="public void Union (System.Drawing.Drawing2D.GraphicsPath path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Union(class System.Drawing.Drawing2D.GraphicsPath path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Union(System.Drawing.Drawing2D.GraphicsPath)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Union (path As GraphicsPath)" />
+      <MemberSignature Language="F#" Value="member this.Union : System.Drawing.Drawing2D.GraphicsPath -&gt; unit" Usage="region.Union path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Union(System::Drawing::Drawing2D::GraphicsPath ^ path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.Drawing.Drawing2D.GraphicsPath" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Union">
+      <MemberSignature Language="C#" Value="public void Union (System.Drawing.Rectangle rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Union(valuetype System.Drawing.Rectangle rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Union(System.Drawing.Rectangle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Union (rect As Rectangle)" />
+      <MemberSignature Language="F#" Value="member this.Union : System.Drawing.Rectangle -&gt; unit" Usage="region.Union rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Union(System::Drawing::Rectangle rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Union">
+      <MemberSignature Language="C#" Value="public void Union (System.Drawing.RectangleF rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Union(valuetype System.Drawing.RectangleF rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Union(System.Drawing.RectangleF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Union (rect As RectangleF)" />
+      <MemberSignature Language="F#" Value="member this.Union : System.Drawing.RectangleF -&gt; unit" Usage="region.Union rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Union(System::Drawing::RectangleF rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Union">
+      <MemberSignature Language="C#" Value="public void Union (System.Drawing.Region region);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Union(class System.Drawing.Region region) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Union(System.Drawing.Region)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Union (region As Region)" />
+      <MemberSignature Language="F#" Value="member this.Union : System.Drawing.Region -&gt; unit" Usage="region.Union region" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Union(System::Drawing::Region ^ region);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="region" Type="System.Drawing.Region" />
+      </Parameters>
+      <Docs>
+        <param name="region">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Xor">
+      <MemberSignature Language="C#" Value="public void Xor (System.Drawing.Drawing2D.GraphicsPath path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Xor(class System.Drawing.Drawing2D.GraphicsPath path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Xor(System.Drawing.Drawing2D.GraphicsPath)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Xor (path As GraphicsPath)" />
+      <MemberSignature Language="F#" Value="member this.Xor : System.Drawing.Drawing2D.GraphicsPath -&gt; unit" Usage="region.Xor path" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Xor(System::Drawing::Drawing2D::GraphicsPath ^ path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="path" Type="System.Drawing.Drawing2D.GraphicsPath" />
+      </Parameters>
+      <Docs>
+        <param name="path">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Xor">
+      <MemberSignature Language="C#" Value="public void Xor (System.Drawing.Rectangle rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Xor(valuetype System.Drawing.Rectangle rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Xor(System.Drawing.Rectangle)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Xor (rect As Rectangle)" />
+      <MemberSignature Language="F#" Value="member this.Xor : System.Drawing.Rectangle -&gt; unit" Usage="region.Xor rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Xor(System::Drawing::Rectangle rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.Rectangle" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Xor">
+      <MemberSignature Language="C#" Value="public void Xor (System.Drawing.RectangleF rect);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Xor(valuetype System.Drawing.RectangleF rect) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Xor(System.Drawing.RectangleF)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Xor (rect As RectangleF)" />
+      <MemberSignature Language="F#" Value="member this.Xor : System.Drawing.RectangleF -&gt; unit" Usage="region.Xor rect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Xor(System::Drawing::RectangleF rect);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rect" Type="System.Drawing.RectangleF" />
+      </Parameters>
+      <Docs>
+        <param name="rect">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Xor">
+      <MemberSignature Language="C#" Value="public void Xor (System.Drawing.Region region);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Xor(class System.Drawing.Region region) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Region.Xor(System.Drawing.Region)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Xor (region As Region)" />
+      <MemberSignature Language="F#" Value="member this.Xor : System.Drawing.Region -&gt; unit" Usage="region.Xor region" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Xor(System::Drawing::Region ^ region);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="region" Type="System.Drawing.Region" />
+      </Parameters>
+      <Docs>
+        <param name="region">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

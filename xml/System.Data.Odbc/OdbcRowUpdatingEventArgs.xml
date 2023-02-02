@@ -1,0 +1,91 @@
+<Type Name="OdbcRowUpdatingEventArgs" FullName="System.Data.Odbc.OdbcRowUpdatingEventArgs">
+  <TypeSignature Language="C#" Value="public sealed class OdbcRowUpdatingEventArgs : System.Data.Common.RowUpdatingEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OdbcRowUpdatingEventArgs extends System.Data.Common.RowUpdatingEventArgs" />
+  <TypeSignature Language="DocId" Value="T:System.Data.Odbc.OdbcRowUpdatingEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OdbcRowUpdatingEventArgs&#xA;Inherits RowUpdatingEventArgs" />
+  <TypeSignature Language="F#" Value="type OdbcRowUpdatingEventArgs = class&#xA;    inherit RowUpdatingEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OdbcRowUpdatingEventArgs sealed : System::Data::Common::RowUpdatingEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>System.Data.Odbc</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Data.Common.RowUpdatingEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OdbcRowUpdatingEventArgs (System.Data.DataRow row, System.Data.IDbCommand? command, System.Data.StatementType statementType, System.Data.Common.DataTableMapping tableMapping);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Data.DataRow row, class System.Data.IDbCommand command, valuetype System.Data.StatementType statementType, class System.Data.Common.DataTableMapping tableMapping) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Data.Odbc.OdbcRowUpdatingEventArgs.#ctor(System.Data.DataRow,System.Data.IDbCommand,System.Data.StatementType,System.Data.Common.DataTableMapping)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (row As DataRow, command As IDbCommand, statementType As StatementType, tableMapping As DataTableMapping)" />
+      <MemberSignature Language="F#" Value="new System.Data.Odbc.OdbcRowUpdatingEventArgs : System.Data.DataRow * System.Data.IDbCommand * System.Data.StatementType * System.Data.Common.DataTableMapping -&gt; System.Data.Odbc.OdbcRowUpdatingEventArgs" Usage="new System.Data.Odbc.OdbcRowUpdatingEventArgs (row, command, statementType, tableMapping)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OdbcRowUpdatingEventArgs(System::Data::DataRow ^ row, System::Data::IDbCommand ^ command, System::Data::StatementType statementType, System::Data::Common::DataTableMapping ^ tableMapping);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.Odbc</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="row" Type="System.Data.DataRow" />
+        <Parameter Name="command" Type="System.Data.IDbCommand" />
+        <Parameter Name="statementType" Type="System.Data.StatementType" />
+        <Parameter Name="tableMapping" Type="System.Data.Common.DataTableMapping" />
+      </Parameters>
+      <Docs>
+        <param name="row">To be added.</param>
+        <param name="command">To be added.</param>
+        <param name="statementType">To be added.</param>
+        <param name="tableMapping">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseCommand">
+      <MemberSignature Language="C#" Value="protected override System.Data.IDbCommand? BaseCommand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Data.IDbCommand BaseCommand" />
+      <MemberSignature Language="DocId" Value="P:System.Data.Odbc.OdbcRowUpdatingEventArgs.BaseCommand" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Property BaseCommand As IDbCommand" />
+      <MemberSignature Language="F#" Value="member this.BaseCommand : System.Data.IDbCommand with get, set" Usage="System.Data.Odbc.OdbcRowUpdatingEventArgs.BaseCommand" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property System::Data::IDbCommand ^ BaseCommand { System::Data::IDbCommand ^ get(); void set(System::Data::IDbCommand ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.Odbc</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.IDbCommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Command">
+      <MemberSignature Language="C#" Value="public System.Data.Odbc.OdbcCommand? Command { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Data.Odbc.OdbcCommand Command" />
+      <MemberSignature Language="DocId" Value="P:System.Data.Odbc.OdbcRowUpdatingEventArgs.Command" />
+      <MemberSignature Language="VB.NET" Value="Public Property Command As OdbcCommand" />
+      <MemberSignature Language="F#" Value="member this.Command : System.Data.Odbc.OdbcCommand with get, set" Usage="System.Data.Odbc.OdbcRowUpdatingEventArgs.Command" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Data::Odbc::OdbcCommand ^ Command { System::Data::Odbc::OdbcCommand ^ get(); void set(System::Data::Odbc::OdbcCommand ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Data.Odbc</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Data.Odbc.OdbcCommand</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

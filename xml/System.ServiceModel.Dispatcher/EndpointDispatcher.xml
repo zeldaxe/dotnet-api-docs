@@ -1,0 +1,27 @@
+<Type Name="EndpointDispatcher" FullName="System.ServiceModel.Dispatcher.EndpointDispatcher">
+  <TypeSignature Language="C#" Value="public class EndpointDispatcher" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EndpointDispatcher extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.Dispatcher.EndpointDispatcher" />
+  <TypeSignature Language="VB.NET" Value="Public Class EndpointDispatcher" />
+  <TypeSignature Language="F#" Value="type EndpointDispatcher = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EndpointDispatcher" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

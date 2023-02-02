@@ -1,0 +1,118 @@
+<Type Name="EventWaitHandleAcl" FullName="System.Threading.EventWaitHandleAcl">
+  <TypeSignature Language="C#" Value="public static class EventWaitHandleAcl" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit EventWaitHandleAcl extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.Threading.EventWaitHandleAcl" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventWaitHandleAcl" />
+  <TypeSignature Language="F#" Value="type EventWaitHandleAcl = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EventWaitHandleAcl abstract sealed" />
+  <AssemblyInfo>
+    <AssemblyName>System.Threading.AccessControl</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="public static System.Threading.EventWaitHandle Create (bool initialState, System.Threading.EventResetMode mode, string? name, out bool createdNew, System.Security.AccessControl.EventWaitHandleSecurity? eventSecurity);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.EventWaitHandle Create(bool initialState, valuetype System.Threading.EventResetMode mode, string name, [out] bool&amp; createdNew, class System.Security.AccessControl.EventWaitHandleSecurity eventSecurity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Threading.EventWaitHandleAcl.Create(System.Boolean,System.Threading.EventResetMode,System.String,System.Boolean@,System.Security.AccessControl.EventWaitHandleSecurity)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (initialState As Boolean, mode As EventResetMode, name As String, ByRef createdNew As Boolean, eventSecurity As EventWaitHandleSecurity) As EventWaitHandle" />
+      <MemberSignature Language="F#" Value="static member Create : bool * System.Threading.EventResetMode * string * bool * System.Security.AccessControl.EventWaitHandleSecurity -&gt; System.Threading.EventWaitHandle" Usage="System.Threading.EventWaitHandleAcl.Create (initialState, mode, name, createdNew, eventSecurity)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::EventWaitHandle ^ Create(bool initialState, System::Threading::EventResetMode mode, System::String ^ name, [Runtime::InteropServices::Out] bool % createdNew, System::Security::AccessControl::EventWaitHandleSecurity ^ eventSecurity);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Threading.AccessControl</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.EventWaitHandle</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="initialState" Type="System.Boolean" />
+        <Parameter Name="mode" Type="System.Threading.EventResetMode" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="createdNew" Type="System.Boolean" RefType="out" />
+        <Parameter Name="eventSecurity" Type="System.Security.AccessControl.EventWaitHandleSecurity" />
+      </Parameters>
+      <Docs>
+        <param name="initialState">To be added.</param>
+        <param name="mode">To be added.</param>
+        <param name="name">To be added.</param>
+        <param name="createdNew">To be added.</param>
+        <param name="eventSecurity">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenExisting">
+      <MemberSignature Language="C#" Value="public static System.Threading.EventWaitHandle OpenExisting (string name, System.Security.AccessControl.EventWaitHandleRights rights);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.EventWaitHandle OpenExisting(string name, valuetype System.Security.AccessControl.EventWaitHandleRights rights) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Threading.EventWaitHandleAcl.OpenExisting(System.String,System.Security.AccessControl.EventWaitHandleRights)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function OpenExisting (name As String, rights As EventWaitHandleRights) As EventWaitHandle" />
+      <MemberSignature Language="F#" Value="static member OpenExisting : string * System.Security.AccessControl.EventWaitHandleRights -&gt; System.Threading.EventWaitHandle" Usage="System.Threading.EventWaitHandleAcl.OpenExisting (name, rights)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::EventWaitHandle ^ OpenExisting(System::String ^ name, System::Security::AccessControl::EventWaitHandleRights rights);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Threading.AccessControl</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.EventWaitHandle</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="rights" Type="System.Security.AccessControl.EventWaitHandleRights" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="rights">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryOpenExisting">
+      <MemberSignature Language="C#" Value="public static bool TryOpenExisting (string name, System.Security.AccessControl.EventWaitHandleRights rights, out System.Threading.EventWaitHandle? result);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryOpenExisting(string name, valuetype System.Security.AccessControl.EventWaitHandleRights rights, [out] class System.Threading.EventWaitHandle&amp; result) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Threading.EventWaitHandleAcl.TryOpenExisting(System.String,System.Security.AccessControl.EventWaitHandleRights,System.Threading.EventWaitHandle@)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenExisting (name As String, rights As EventWaitHandleRights, ByRef result As EventWaitHandle) As Boolean" />
+      <MemberSignature Language="F#" Value="static member TryOpenExisting : string * System.Security.AccessControl.EventWaitHandleRights * EventWaitHandle -&gt; bool" Usage="System.Threading.EventWaitHandleAcl.TryOpenExisting (name, rights, result)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryOpenExisting(System::String ^ name, System::Security::AccessControl::EventWaitHandleRights rights, [Runtime::InteropServices::Out] System::Threading::EventWaitHandle ^ % result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Threading.AccessControl</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="rights" Type="System.Security.AccessControl.EventWaitHandleRights" />
+        <Parameter Name="result" Type="System.Threading.EventWaitHandle" RefType="out">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="rights">To be added.</param>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

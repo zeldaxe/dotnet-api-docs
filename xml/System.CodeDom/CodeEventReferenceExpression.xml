@@ -1,0 +1,104 @@
+<Type Name="CodeEventReferenceExpression" FullName="System.CodeDom.CodeEventReferenceExpression">
+  <TypeSignature Language="C#" Value="public class CodeEventReferenceExpression : System.CodeDom.CodeExpression" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CodeEventReferenceExpression extends System.CodeDom.CodeExpression" />
+  <TypeSignature Language="DocId" Value="T:System.CodeDom.CodeEventReferenceExpression" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodeEventReferenceExpression&#xA;Inherits CodeExpression" />
+  <TypeSignature Language="F#" Value="type CodeEventReferenceExpression = class&#xA;    inherit CodeExpression" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CodeEventReferenceExpression : System::CodeDom::CodeExpression" />
+  <AssemblyInfo>
+    <AssemblyName>System.CodeDom</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.CodeDom.CodeExpression</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeEventReferenceExpression ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeEventReferenceExpression.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeEventReferenceExpression();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeEventReferenceExpression (System.CodeDom.CodeExpression targetObject, string eventName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.CodeDom.CodeExpression targetObject, string eventName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeEventReferenceExpression.#ctor(System.CodeDom.CodeExpression,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetObject As CodeExpression, eventName As String)" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeEventReferenceExpression : System.CodeDom.CodeExpression * string -&gt; System.CodeDom.CodeEventReferenceExpression" Usage="new System.CodeDom.CodeEventReferenceExpression (targetObject, eventName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeEventReferenceExpression(System::CodeDom::CodeExpression ^ targetObject, System::String ^ eventName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetObject" Type="System.CodeDom.CodeExpression" />
+        <Parameter Name="eventName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="targetObject">To be added.</param>
+        <param name="eventName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventName">
+      <MemberSignature Language="C#" Value="public string EventName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EventName" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeEventReferenceExpression.EventName" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventName As String" />
+      <MemberSignature Language="F#" Value="member this.EventName : string with get, set" Usage="System.CodeDom.CodeEventReferenceExpression.EventName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EventName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetObject">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeExpression TargetObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeExpression TargetObject" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeEventReferenceExpression.TargetObject" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetObject As CodeExpression" />
+      <MemberSignature Language="F#" Value="member this.TargetObject : System.CodeDom.CodeExpression with get, set" Usage="System.CodeDom.CodeEventReferenceExpression.TargetObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeExpression ^ TargetObject { System::CodeDom::CodeExpression ^ get(); void set(System::CodeDom::CodeExpression ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeExpression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

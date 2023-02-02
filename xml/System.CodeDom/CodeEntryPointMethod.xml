@@ -1,0 +1,39 @@
+<Type Name="CodeEntryPointMethod" FullName="System.CodeDom.CodeEntryPointMethod">
+  <TypeSignature Language="C#" Value="public class CodeEntryPointMethod : System.CodeDom.CodeMemberMethod" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CodeEntryPointMethod extends System.CodeDom.CodeMemberMethod" />
+  <TypeSignature Language="DocId" Value="T:System.CodeDom.CodeEntryPointMethod" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodeEntryPointMethod&#xA;Inherits CodeMemberMethod" />
+  <TypeSignature Language="F#" Value="type CodeEntryPointMethod = class&#xA;    inherit CodeMemberMethod" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CodeEntryPointMethod : System::CodeDom::CodeMemberMethod" />
+  <AssemblyInfo>
+    <AssemblyName>System.CodeDom</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.CodeDom.CodeMemberMethod</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeEntryPointMethod ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeEntryPointMethod.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeEntryPointMethod();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

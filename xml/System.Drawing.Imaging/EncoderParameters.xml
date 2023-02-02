@@ -1,0 +1,109 @@
+<Type Name="EncoderParameters" FullName="System.Drawing.Imaging.EncoderParameters">
+  <TypeSignature Language="C#" Value="public sealed class EncoderParameters : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EncoderParameters extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:System.Drawing.Imaging.EncoderParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EncoderParameters&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type EncoderParameters = class&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EncoderParameters sealed : IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>System.Drawing.Common</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EncoderParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EncoderParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EncoderParameters (int count);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 count) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameters.#ctor(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (count As Integer)" />
+      <MemberSignature Language="F#" Value="new System.Drawing.Imaging.EncoderParameters : int -&gt; System.Drawing.Imaging.EncoderParameters" Usage="new System.Drawing.Imaging.EncoderParameters count" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EncoderParameters(int count);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="count" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="count">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameters.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="encoderParameters.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Param">
+      <MemberSignature Language="C#" Value="public System.Drawing.Imaging.EncoderParameter[] Param { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Drawing.Imaging.EncoderParameter[] Param" />
+      <MemberSignature Language="DocId" Value="P:System.Drawing.Imaging.EncoderParameters.Param" />
+      <MemberSignature Language="VB.NET" Value="Public Property Param As EncoderParameter()" />
+      <MemberSignature Language="F#" Value="member this.Param : System.Drawing.Imaging.EncoderParameter[] with get, set" Usage="System.Drawing.Imaging.EncoderParameters.Param" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Drawing::Imaging::EncoderParameter ^&gt; ^ Param { cli::array &lt;System::Drawing::Imaging::EncoderParameter ^&gt; ^ get(); void set(cli::array &lt;System::Drawing::Imaging::EncoderParameter ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Imaging.EncoderParameter[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,351 @@
+<Type Name="OperationContext" FullName="System.ServiceModel.OperationContext">
+  <TypeSignature Language="C#" Value="public sealed class OperationContext : System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.OperationContext&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OperationContext extends System.Object implements class System.ServiceModel.IExtensibleObject`1&lt;class System.ServiceModel.OperationContext&gt;" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.OperationContext" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OperationContext&#xA;Implements IExtensibleObject(Of OperationContext)" />
+  <TypeSignature Language="F#" Value="type OperationContext = class&#xA;    interface IExtensibleObject&lt;OperationContext&gt;" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OperationContext sealed : System::ServiceModel::IExtensibleObject&lt;System::ServiceModel::OperationContext ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.OperationContext&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OperationContext (System.ServiceModel.IContextChannel channel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ServiceModel.IContextChannel channel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.OperationContext.#ctor(System.ServiceModel.IContextChannel)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (channel As IContextChannel)" />
+      <MemberSignature Language="F#" Value="new System.ServiceModel.OperationContext : System.ServiceModel.IContextChannel -&gt; System.ServiceModel.OperationContext" Usage="new System.ServiceModel.OperationContext channel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OperationContext(System::ServiceModel::IContextChannel ^ channel);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="channel" Type="System.ServiceModel.IContextChannel" />
+      </Parameters>
+      <Docs>
+        <param name="channel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Channel">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.IContextChannel Channel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.IContextChannel Channel" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.Channel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Channel As IContextChannel" />
+      <MemberSignature Language="F#" Value="member this.Channel : System.ServiceModel.IContextChannel" Usage="System.ServiceModel.OperationContext.Channel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::IContextChannel ^ Channel { System::ServiceModel::IContextChannel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.IContextChannel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Current">
+      <MemberSignature Language="C#" Value="public static System.ServiceModel.OperationContext Current { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.ServiceModel.OperationContext Current" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.Current" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Property Current As OperationContext" />
+      <MemberSignature Language="F#" Value="static member Current : System.ServiceModel.OperationContext with get, set" Usage="System.ServiceModel.OperationContext.Current" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::ServiceModel::OperationContext ^ Current { System::ServiceModel::OperationContext ^ get(); void set(System::ServiceModel::OperationContext ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.OperationContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Extensions">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.IExtensionCollection&lt;System.ServiceModel.OperationContext&gt; Extensions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.IExtensionCollection`1&lt;class System.ServiceModel.OperationContext&gt; Extensions" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.Extensions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Extensions As IExtensionCollection(Of OperationContext)" />
+      <MemberSignature Language="F#" Value="member this.Extensions : System.ServiceModel.IExtensionCollection&lt;System.ServiceModel.OperationContext&gt;" Usage="System.ServiceModel.OperationContext.Extensions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::IExtensionCollection&lt;System::ServiceModel::OperationContext ^&gt; ^ Extensions { System::ServiceModel::IExtensionCollection&lt;System::ServiceModel::OperationContext ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.ServiceModel.IExtensibleObject`1.Extensions</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.IExtensionCollection&lt;System.ServiceModel.OperationContext&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCallbackChannel&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public T GetCallbackChannel&lt;T&gt; ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T GetCallbackChannel&lt;T&gt;() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.OperationContext.GetCallbackChannel``1" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCallbackChannel(Of T) () As T" />
+      <MemberSignature Language="F#" Value="member this.GetCallbackChannel : unit -&gt; 'T" Usage="operationContext.GetCallbackChannel " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; T GetCallbackChannel();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>T</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters />
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncomingMessageHeaders">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.MessageHeaders IncomingMessageHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Channels.MessageHeaders IncomingMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.IncomingMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IncomingMessageHeaders As MessageHeaders" />
+      <MemberSignature Language="F#" Value="member this.IncomingMessageHeaders : System.ServiceModel.Channels.MessageHeaders" Usage="System.ServiceModel.OperationContext.IncomingMessageHeaders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Channels::MessageHeaders ^ IncomingMessageHeaders { System::ServiceModel::Channels::MessageHeaders ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.MessageHeaders</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncomingMessageProperties">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.MessageProperties IncomingMessageProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Channels.MessageProperties IncomingMessageProperties" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.IncomingMessageProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IncomingMessageProperties As MessageProperties" />
+      <MemberSignature Language="F#" Value="member this.IncomingMessageProperties : System.ServiceModel.Channels.MessageProperties" Usage="System.ServiceModel.OperationContext.IncomingMessageProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Channels::MessageProperties ^ IncomingMessageProperties { System::ServiceModel::Channels::MessageProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.MessageProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncomingMessageVersion">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.MessageVersion IncomingMessageVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Channels.MessageVersion IncomingMessageVersion" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.IncomingMessageVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IncomingMessageVersion As MessageVersion" />
+      <MemberSignature Language="F#" Value="member this.IncomingMessageVersion : System.ServiceModel.Channels.MessageVersion" Usage="System.ServiceModel.OperationContext.IncomingMessageVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Channels::MessageVersion ^ IncomingMessageVersion { System::ServiceModel::Channels::MessageVersion ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.MessageVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUserContext">
+      <MemberSignature Language="C#" Value="public bool IsUserContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUserContext" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.IsUserContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUserContext As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsUserContext : bool" Usage="System.ServiceModel.OperationContext.IsUserContext" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUserContext { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationCompleted">
+      <MemberSignature Language="C#" Value="public event EventHandler OperationCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler OperationCompleted" />
+      <MemberSignature Language="DocId" Value="E:System.ServiceModel.OperationContext.OperationCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event OperationCompleted As EventHandler " />
+      <MemberSignature Language="F#" Value="member this.OperationCompleted : EventHandler " Usage="member this.OperationCompleted : System.EventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ OperationCompleted;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutgoingMessageHeaders">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.MessageHeaders OutgoingMessageHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Channels.MessageHeaders OutgoingMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.OutgoingMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutgoingMessageHeaders As MessageHeaders" />
+      <MemberSignature Language="F#" Value="member this.OutgoingMessageHeaders : System.ServiceModel.Channels.MessageHeaders" Usage="System.ServiceModel.OperationContext.OutgoingMessageHeaders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Channels::MessageHeaders ^ OutgoingMessageHeaders { System::ServiceModel::Channels::MessageHeaders ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.MessageHeaders</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutgoingMessageProperties">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.MessageProperties OutgoingMessageProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Channels.MessageProperties OutgoingMessageProperties" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.OutgoingMessageProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutgoingMessageProperties As MessageProperties" />
+      <MemberSignature Language="F#" Value="member this.OutgoingMessageProperties : System.ServiceModel.Channels.MessageProperties" Usage="System.ServiceModel.OperationContext.OutgoingMessageProperties" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Channels::MessageProperties ^ OutgoingMessageProperties { System::ServiceModel::Channels::MessageProperties ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.MessageProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestContext">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.RequestContext RequestContext { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.Channels.RequestContext RequestContext" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.OperationContext.RequestContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestContext As RequestContext" />
+      <MemberSignature Language="F#" Value="member this.RequestContext : System.ServiceModel.Channels.RequestContext with get, set" Usage="System.ServiceModel.OperationContext.RequestContext" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::Channels::RequestContext ^ RequestContext { System::ServiceModel::Channels::RequestContext ^ get(); void set(System::ServiceModel::Channels::RequestContext ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.Channels.RequestContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

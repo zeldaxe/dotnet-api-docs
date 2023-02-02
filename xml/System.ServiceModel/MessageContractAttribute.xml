@@ -1,0 +1,126 @@
+<Type Name="MessageContractAttribute" FullName="System.ServiceModel.MessageContractAttribute">
+  <TypeSignature Language="C#" Value="public sealed class MessageContractAttribute : Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MessageContractAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.MessageContractAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MessageContractAttribute&#xA;Inherits Attribute" />
+  <TypeSignature Language="F#" Value="type MessageContractAttribute = class&#xA;    inherit Attribute" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessageContractAttribute sealed : Attribute" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Struct, AllowMultiple=false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Struct, AllowMultiple=false)&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageContractAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.MessageContractAttribute.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageContractAttribute();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWrapped">
+      <MemberSignature Language="C#" Value="public bool IsWrapped { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWrapped" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.MessageContractAttribute.IsWrapped" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsWrapped As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsWrapped : bool with get, set" Usage="System.ServiceModel.MessageContractAttribute.IsWrapped" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsWrapped { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WrapperName">
+      <MemberSignature Language="C#" Value="public string WrapperName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WrapperName" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.MessageContractAttribute.WrapperName" />
+      <MemberSignature Language="VB.NET" Value="Public Property WrapperName As String" />
+      <MemberSignature Language="F#" Value="member this.WrapperName : string with get, set" Usage="System.ServiceModel.MessageContractAttribute.WrapperName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WrapperName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WrapperNamespace">
+      <MemberSignature Language="C#" Value="public string WrapperNamespace { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WrapperNamespace" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.MessageContractAttribute.WrapperNamespace" />
+      <MemberSignature Language="VB.NET" Value="Public Property WrapperNamespace As String" />
+      <MemberSignature Language="F#" Value="member this.WrapperNamespace : string with get, set" Usage="System.ServiceModel.MessageContractAttribute.WrapperNamespace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WrapperNamespace { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

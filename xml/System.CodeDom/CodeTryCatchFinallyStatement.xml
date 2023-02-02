@@ -1,0 +1,150 @@
+<Type Name="CodeTryCatchFinallyStatement" FullName="System.CodeDom.CodeTryCatchFinallyStatement">
+  <TypeSignature Language="C#" Value="public class CodeTryCatchFinallyStatement : System.CodeDom.CodeStatement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CodeTryCatchFinallyStatement extends System.CodeDom.CodeStatement" />
+  <TypeSignature Language="DocId" Value="T:System.CodeDom.CodeTryCatchFinallyStatement" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodeTryCatchFinallyStatement&#xA;Inherits CodeStatement" />
+  <TypeSignature Language="F#" Value="type CodeTryCatchFinallyStatement = class&#xA;    inherit CodeStatement" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CodeTryCatchFinallyStatement : System::CodeDom::CodeStatement" />
+  <AssemblyInfo>
+    <AssemblyName>System.CodeDom</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.CodeDom.CodeStatement</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeTryCatchFinallyStatement ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeTryCatchFinallyStatement.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeTryCatchFinallyStatement();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeTryCatchFinallyStatement (System.CodeDom.CodeStatement[] tryStatements, System.CodeDom.CodeCatchClause[] catchClauses);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.CodeDom.CodeStatement[] tryStatements, class System.CodeDom.CodeCatchClause[] catchClauses) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeTryCatchFinallyStatement.#ctor(System.CodeDom.CodeStatement[],System.CodeDom.CodeCatchClause[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tryStatements As CodeStatement(), catchClauses As CodeCatchClause())" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeTryCatchFinallyStatement : System.CodeDom.CodeStatement[] * System.CodeDom.CodeCatchClause[] -&gt; System.CodeDom.CodeTryCatchFinallyStatement" Usage="new System.CodeDom.CodeTryCatchFinallyStatement (tryStatements, catchClauses)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeTryCatchFinallyStatement(cli::array &lt;System::CodeDom::CodeStatement ^&gt; ^ tryStatements, cli::array &lt;System::CodeDom::CodeCatchClause ^&gt; ^ catchClauses);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="tryStatements" Type="System.CodeDom.CodeStatement[]" />
+        <Parameter Name="catchClauses" Type="System.CodeDom.CodeCatchClause[]" />
+      </Parameters>
+      <Docs>
+        <param name="tryStatements">To be added.</param>
+        <param name="catchClauses">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeTryCatchFinallyStatement (System.CodeDom.CodeStatement[] tryStatements, System.CodeDom.CodeCatchClause[] catchClauses, System.CodeDom.CodeStatement[] finallyStatements);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.CodeDom.CodeStatement[] tryStatements, class System.CodeDom.CodeCatchClause[] catchClauses, class System.CodeDom.CodeStatement[] finallyStatements) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeTryCatchFinallyStatement.#ctor(System.CodeDom.CodeStatement[],System.CodeDom.CodeCatchClause[],System.CodeDom.CodeStatement[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tryStatements As CodeStatement(), catchClauses As CodeCatchClause(), finallyStatements As CodeStatement())" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeTryCatchFinallyStatement : System.CodeDom.CodeStatement[] * System.CodeDom.CodeCatchClause[] * System.CodeDom.CodeStatement[] -&gt; System.CodeDom.CodeTryCatchFinallyStatement" Usage="new System.CodeDom.CodeTryCatchFinallyStatement (tryStatements, catchClauses, finallyStatements)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeTryCatchFinallyStatement(cli::array &lt;System::CodeDom::CodeStatement ^&gt; ^ tryStatements, cli::array &lt;System::CodeDom::CodeCatchClause ^&gt; ^ catchClauses, cli::array &lt;System::CodeDom::CodeStatement ^&gt; ^ finallyStatements);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="tryStatements" Type="System.CodeDom.CodeStatement[]" />
+        <Parameter Name="catchClauses" Type="System.CodeDom.CodeCatchClause[]" />
+        <Parameter Name="finallyStatements" Type="System.CodeDom.CodeStatement[]" />
+      </Parameters>
+      <Docs>
+        <param name="tryStatements">To be added.</param>
+        <param name="catchClauses">To be added.</param>
+        <param name="finallyStatements">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CatchClauses">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeCatchClauseCollection CatchClauses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeCatchClauseCollection CatchClauses" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeTryCatchFinallyStatement.CatchClauses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CatchClauses As CodeCatchClauseCollection" />
+      <MemberSignature Language="F#" Value="member this.CatchClauses : System.CodeDom.CodeCatchClauseCollection" Usage="System.CodeDom.CodeTryCatchFinallyStatement.CatchClauses" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeCatchClauseCollection ^ CatchClauses { System::CodeDom::CodeCatchClauseCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeCatchClauseCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FinallyStatements">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeStatementCollection FinallyStatements { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeStatementCollection FinallyStatements" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeTryCatchFinallyStatement.FinallyStatements" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FinallyStatements As CodeStatementCollection" />
+      <MemberSignature Language="F#" Value="member this.FinallyStatements : System.CodeDom.CodeStatementCollection" Usage="System.CodeDom.CodeTryCatchFinallyStatement.FinallyStatements" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeStatementCollection ^ FinallyStatements { System::CodeDom::CodeStatementCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeStatementCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryStatements">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeStatementCollection TryStatements { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeStatementCollection TryStatements" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeTryCatchFinallyStatement.TryStatements" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TryStatements As CodeStatementCollection" />
+      <MemberSignature Language="F#" Value="member this.TryStatements : System.CodeDom.CodeStatementCollection" Usage="System.CodeDom.CodeTryCatchFinallyStatement.TryStatements" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeStatementCollection ^ TryStatements { System::CodeDom::CodeStatementCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeStatementCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

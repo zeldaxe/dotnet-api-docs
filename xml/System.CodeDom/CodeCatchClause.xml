@@ -1,0 +1,178 @@
+<Type Name="CodeCatchClause" FullName="System.CodeDom.CodeCatchClause">
+  <TypeSignature Language="C#" Value="public class CodeCatchClause" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CodeCatchClause extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.CodeDom.CodeCatchClause" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodeCatchClause" />
+  <TypeSignature Language="F#" Value="type CodeCatchClause = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CodeCatchClause" />
+  <AssemblyInfo>
+    <AssemblyName>System.CodeDom</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeCatchClause ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeCatchClause.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeCatchClause();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeCatchClause (string localName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string localName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeCatchClause.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (localName As String)" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeCatchClause : string -&gt; System.CodeDom.CodeCatchClause" Usage="new System.CodeDom.CodeCatchClause localName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeCatchClause(System::String ^ localName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="localName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="localName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeCatchClause (string localName, System.CodeDom.CodeTypeReference catchExceptionType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string localName, class System.CodeDom.CodeTypeReference catchExceptionType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeCatchClause.#ctor(System.String,System.CodeDom.CodeTypeReference)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (localName As String, catchExceptionType As CodeTypeReference)" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeCatchClause : string * System.CodeDom.CodeTypeReference -&gt; System.CodeDom.CodeCatchClause" Usage="new System.CodeDom.CodeCatchClause (localName, catchExceptionType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeCatchClause(System::String ^ localName, System::CodeDom::CodeTypeReference ^ catchExceptionType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="localName" Type="System.String" />
+        <Parameter Name="catchExceptionType" Type="System.CodeDom.CodeTypeReference" />
+      </Parameters>
+      <Docs>
+        <param name="localName">To be added.</param>
+        <param name="catchExceptionType">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeCatchClause (string localName, System.CodeDom.CodeTypeReference catchExceptionType, params System.CodeDom.CodeStatement[] statements);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string localName, class System.CodeDom.CodeTypeReference catchExceptionType, class System.CodeDom.CodeStatement[] statements) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeCatchClause.#ctor(System.String,System.CodeDom.CodeTypeReference,System.CodeDom.CodeStatement[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (localName As String, catchExceptionType As CodeTypeReference, ParamArray statements As CodeStatement())" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeCatchClause : string * System.CodeDom.CodeTypeReference * System.CodeDom.CodeStatement[] -&gt; System.CodeDom.CodeCatchClause" Usage="new System.CodeDom.CodeCatchClause (localName, catchExceptionType, statements)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeCatchClause(System::String ^ localName, System::CodeDom::CodeTypeReference ^ catchExceptionType, ... cli::array &lt;System::CodeDom::CodeStatement ^&gt; ^ statements);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="localName" Type="System.String" />
+        <Parameter Name="catchExceptionType" Type="System.CodeDom.CodeTypeReference" />
+        <Parameter Name="statements" Type="System.CodeDom.CodeStatement[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="localName">To be added.</param>
+        <param name="catchExceptionType">To be added.</param>
+        <param name="statements">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CatchExceptionType">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeTypeReference CatchExceptionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeTypeReference CatchExceptionType" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeCatchClause.CatchExceptionType" />
+      <MemberSignature Language="VB.NET" Value="Public Property CatchExceptionType As CodeTypeReference" />
+      <MemberSignature Language="F#" Value="member this.CatchExceptionType : System.CodeDom.CodeTypeReference with get, set" Usage="System.CodeDom.CodeCatchClause.CatchExceptionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeTypeReference ^ CatchExceptionType { System::CodeDom::CodeTypeReference ^ get(); void set(System::CodeDom::CodeTypeReference ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeTypeReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalName">
+      <MemberSignature Language="C#" Value="public string LocalName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeCatchClause.LocalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property LocalName As String" />
+      <MemberSignature Language="F#" Value="member this.LocalName : string with get, set" Usage="System.CodeDom.CodeCatchClause.LocalName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LocalName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Statements">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeStatementCollection Statements { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeStatementCollection Statements" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeCatchClause.Statements" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Statements As CodeStatementCollection" />
+      <MemberSignature Language="F#" Value="member this.Statements : System.CodeDom.CodeStatementCollection" Usage="System.CodeDom.CodeCatchClause.Statements" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeStatementCollection ^ Statements { System::CodeDom::CodeStatementCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeStatementCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

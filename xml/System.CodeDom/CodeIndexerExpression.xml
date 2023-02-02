@@ -1,0 +1,111 @@
+<Type Name="CodeIndexerExpression" FullName="System.CodeDom.CodeIndexerExpression">
+  <TypeSignature Language="C#" Value="public class CodeIndexerExpression : System.CodeDom.CodeExpression" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CodeIndexerExpression extends System.CodeDom.CodeExpression" />
+  <TypeSignature Language="DocId" Value="T:System.CodeDom.CodeIndexerExpression" />
+  <TypeSignature Language="VB.NET" Value="Public Class CodeIndexerExpression&#xA;Inherits CodeExpression" />
+  <TypeSignature Language="F#" Value="type CodeIndexerExpression = class&#xA;    inherit CodeExpression" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CodeIndexerExpression : System::CodeDom::CodeExpression" />
+  <AssemblyInfo>
+    <AssemblyName>System.CodeDom</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.CodeDom.CodeExpression</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeIndexerExpression ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeIndexerExpression.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeIndexerExpression();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CodeIndexerExpression (System.CodeDom.CodeExpression targetObject, params System.CodeDom.CodeExpression[] indices);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.CodeDom.CodeExpression targetObject, class System.CodeDom.CodeExpression[] indices) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.CodeDom.CodeIndexerExpression.#ctor(System.CodeDom.CodeExpression,System.CodeDom.CodeExpression[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (targetObject As CodeExpression, ParamArray indices As CodeExpression())" />
+      <MemberSignature Language="F#" Value="new System.CodeDom.CodeIndexerExpression : System.CodeDom.CodeExpression * System.CodeDom.CodeExpression[] -&gt; System.CodeDom.CodeIndexerExpression" Usage="new System.CodeDom.CodeIndexerExpression (targetObject, indices)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CodeIndexerExpression(System::CodeDom::CodeExpression ^ targetObject, ... cli::array &lt;System::CodeDom::CodeExpression ^&gt; ^ indices);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="targetObject" Type="System.CodeDom.CodeExpression" />
+        <Parameter Name="indices" Type="System.CodeDom.CodeExpression[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="targetObject">To be added.</param>
+        <param name="indices">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Indices">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeExpressionCollection Indices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeExpressionCollection Indices" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeIndexerExpression.Indices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Indices As CodeExpressionCollection" />
+      <MemberSignature Language="F#" Value="member this.Indices : System.CodeDom.CodeExpressionCollection" Usage="System.CodeDom.CodeIndexerExpression.Indices" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeExpressionCollection ^ Indices { System::CodeDom::CodeExpressionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeExpressionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetObject">
+      <MemberSignature Language="C#" Value="public System.CodeDom.CodeExpression TargetObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.CodeExpression TargetObject" />
+      <MemberSignature Language="DocId" Value="P:System.CodeDom.CodeIndexerExpression.TargetObject" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetObject As CodeExpression" />
+      <MemberSignature Language="F#" Value="member this.TargetObject : System.CodeDom.CodeExpression with get, set" Usage="System.CodeDom.CodeIndexerExpression.TargetObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::CodeExpression ^ TargetObject { System::CodeDom::CodeExpression ^ get(); void set(System::CodeDom::CodeExpression ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.CodeDom</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.CodeDom.CodeExpression</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

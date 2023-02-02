@@ -1,0 +1,85 @@
+<Type Name="SearchResultEntry" FullName="System.DirectoryServices.Protocols.SearchResultEntry">
+  <TypeSignature Language="C#" Value="public class SearchResultEntry" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchResultEntry extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:System.DirectoryServices.Protocols.SearchResultEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchResultEntry" />
+  <TypeSignature Language="F#" Value="type SearchResultEntry = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchResultEntry" />
+  <AssemblyInfo>
+    <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Attributes">
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.Protocols.SearchResultAttributeCollection Attributes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.DirectoryServices.Protocols.SearchResultAttributeCollection Attributes" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.SearchResultEntry.Attributes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attributes As SearchResultAttributeCollection" />
+      <MemberSignature Language="F#" Value="member this.Attributes : System.DirectoryServices.Protocols.SearchResultAttributeCollection" Usage="System.DirectoryServices.Protocols.SearchResultEntry.Attributes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::DirectoryServices::Protocols::SearchResultAttributeCollection ^ Attributes { System::DirectoryServices::Protocols::SearchResultAttributeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DirectoryServices.Protocols.SearchResultAttributeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Controls">
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.Protocols.DirectoryControl[] Controls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.DirectoryServices.Protocols.DirectoryControl[] Controls" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.SearchResultEntry.Controls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Controls As DirectoryControl()" />
+      <MemberSignature Language="F#" Value="member this.Controls : System.DirectoryServices.Protocols.DirectoryControl[]" Usage="System.DirectoryServices.Protocols.SearchResultEntry.Controls" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::DirectoryServices::Protocols::DirectoryControl ^&gt; ^ Controls { cli::array &lt;System::DirectoryServices::Protocols::DirectoryControl ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DirectoryServices.Protocols.DirectoryControl[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedName">
+      <MemberSignature Language="C#" Value="public string DistinguishedName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DistinguishedName" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.SearchResultEntry.DistinguishedName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DistinguishedName As String" />
+      <MemberSignature Language="F#" Value="member this.DistinguishedName : string" Usage="System.DirectoryServices.Protocols.SearchResultEntry.DistinguishedName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DistinguishedName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

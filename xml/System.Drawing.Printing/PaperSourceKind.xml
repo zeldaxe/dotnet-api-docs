@@ -1,0 +1,301 @@
+<Type Name="PaperSourceKind" FullName="System.Drawing.Printing.PaperSourceKind">
+  <TypeSignature Language="C#" Value="public enum PaperSourceKind" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PaperSourceKind extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:System.Drawing.Printing.PaperSourceKind" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PaperSourceKind" />
+  <TypeSignature Language="F#" Value="type PaperSourceKind = " />
+  <TypeSignature Language="C++ CLI" Value="public enum class PaperSourceKind" />
+  <AssemblyInfo>
+    <AssemblyName>System.Drawing.Common</AssemblyName>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AutomaticFeed">
+      <MemberSignature Language="C#" Value="AutomaticFeed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind AutomaticFeed = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.AutomaticFeed" />
+      <MemberSignature Language="VB.NET" Value="AutomaticFeed" />
+      <MemberSignature Language="F#" Value="AutomaticFeed = 7" Usage="System.Drawing.Printing.PaperSourceKind.AutomaticFeed" />
+      <MemberSignature Language="C++ CLI" Value="AutomaticFeed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cassette">
+      <MemberSignature Language="C#" Value="Cassette" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind Cassette = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.Cassette" />
+      <MemberSignature Language="VB.NET" Value="Cassette" />
+      <MemberSignature Language="F#" Value="Cassette = 14" Usage="System.Drawing.Printing.PaperSourceKind.Cassette" />
+      <MemberSignature Language="C++ CLI" Value="Cassette" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="Custom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind Custom = int32(257)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.Custom" />
+      <MemberSignature Language="VB.NET" Value="Custom" />
+      <MemberSignature Language="F#" Value="Custom = 257" Usage="System.Drawing.Printing.PaperSourceKind.Custom" />
+      <MemberSignature Language="C++ CLI" Value="Custom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>257</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Envelope">
+      <MemberSignature Language="C#" Value="Envelope" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind Envelope = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.Envelope" />
+      <MemberSignature Language="VB.NET" Value="Envelope" />
+      <MemberSignature Language="F#" Value="Envelope = 5" Usage="System.Drawing.Printing.PaperSourceKind.Envelope" />
+      <MemberSignature Language="C++ CLI" Value="Envelope" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FormSource">
+      <MemberSignature Language="C#" Value="FormSource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind FormSource = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.FormSource" />
+      <MemberSignature Language="VB.NET" Value="FormSource" />
+      <MemberSignature Language="F#" Value="FormSource = 15" Usage="System.Drawing.Printing.PaperSourceKind.FormSource" />
+      <MemberSignature Language="C++ CLI" Value="FormSource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LargeCapacity">
+      <MemberSignature Language="C#" Value="LargeCapacity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind LargeCapacity = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.LargeCapacity" />
+      <MemberSignature Language="VB.NET" Value="LargeCapacity" />
+      <MemberSignature Language="F#" Value="LargeCapacity = 11" Usage="System.Drawing.Printing.PaperSourceKind.LargeCapacity" />
+      <MemberSignature Language="C++ CLI" Value="LargeCapacity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LargeFormat">
+      <MemberSignature Language="C#" Value="LargeFormat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind LargeFormat = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.LargeFormat" />
+      <MemberSignature Language="VB.NET" Value="LargeFormat" />
+      <MemberSignature Language="F#" Value="LargeFormat = 10" Usage="System.Drawing.Printing.PaperSourceKind.LargeFormat" />
+      <MemberSignature Language="C++ CLI" Value="LargeFormat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Lower">
+      <MemberSignature Language="C#" Value="Lower" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind Lower = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.Lower" />
+      <MemberSignature Language="VB.NET" Value="Lower" />
+      <MemberSignature Language="F#" Value="Lower = 2" Usage="System.Drawing.Printing.PaperSourceKind.Lower" />
+      <MemberSignature Language="C++ CLI" Value="Lower" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Manual">
+      <MemberSignature Language="C#" Value="Manual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind Manual = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.Manual" />
+      <MemberSignature Language="VB.NET" Value="Manual" />
+      <MemberSignature Language="F#" Value="Manual = 4" Usage="System.Drawing.Printing.PaperSourceKind.Manual" />
+      <MemberSignature Language="C++ CLI" Value="Manual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ManualFeed">
+      <MemberSignature Language="C#" Value="ManualFeed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind ManualFeed = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.ManualFeed" />
+      <MemberSignature Language="VB.NET" Value="ManualFeed" />
+      <MemberSignature Language="F#" Value="ManualFeed = 6" Usage="System.Drawing.Printing.PaperSourceKind.ManualFeed" />
+      <MemberSignature Language="C++ CLI" Value="ManualFeed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Middle">
+      <MemberSignature Language="C#" Value="Middle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind Middle = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.Middle" />
+      <MemberSignature Language="VB.NET" Value="Middle" />
+      <MemberSignature Language="F#" Value="Middle = 3" Usage="System.Drawing.Printing.PaperSourceKind.Middle" />
+      <MemberSignature Language="C++ CLI" Value="Middle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SmallFormat">
+      <MemberSignature Language="C#" Value="SmallFormat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind SmallFormat = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.SmallFormat" />
+      <MemberSignature Language="VB.NET" Value="SmallFormat" />
+      <MemberSignature Language="F#" Value="SmallFormat = 9" Usage="System.Drawing.Printing.PaperSourceKind.SmallFormat" />
+      <MemberSignature Language="C++ CLI" Value="SmallFormat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TractorFeed">
+      <MemberSignature Language="C#" Value="TractorFeed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind TractorFeed = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.TractorFeed" />
+      <MemberSignature Language="VB.NET" Value="TractorFeed" />
+      <MemberSignature Language="F#" Value="TractorFeed = 8" Usage="System.Drawing.Printing.PaperSourceKind.TractorFeed" />
+      <MemberSignature Language="C++ CLI" Value="TractorFeed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Upper">
+      <MemberSignature Language="C#" Value="Upper" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Printing.PaperSourceKind Upper = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Printing.PaperSourceKind.Upper" />
+      <MemberSignature Language="VB.NET" Value="Upper" />
+      <MemberSignature Language="F#" Value="Upper = 1" Usage="System.Drawing.Printing.PaperSourceKind.Upper" />
+      <MemberSignature Language="C++ CLI" Value="Upper" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Printing.PaperSourceKind</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

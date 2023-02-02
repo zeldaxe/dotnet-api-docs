@@ -1,0 +1,86 @@
+<Type Name="SymmetricSecurityKey" FullName="System.IdentityModel.Tokens.SymmetricSecurityKey">
+  <TypeSignature Language="C#" Value="public abstract class SymmetricSecurityKey : System.IdentityModel.Tokens.SecurityKey" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SymmetricSecurityKey extends System.IdentityModel.Tokens.SecurityKey" />
+  <TypeSignature Language="DocId" Value="T:System.IdentityModel.Tokens.SymmetricSecurityKey" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SymmetricSecurityKey&#xA;Inherits SecurityKey" />
+  <TypeSignature Language="F#" Value="type SymmetricSecurityKey = class&#xA;    inherit SecurityKey" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SymmetricSecurityKey abstract : System::IdentityModel::Tokens::SecurityKey" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.IdentityModel.Tokens.SecurityKey</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected SymmetricSecurityKey ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.IdentityModel.Tokens.SymmetricSecurityKey.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; SymmetricSecurityKey();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSymmetricAlgorithm">
+      <MemberSignature Language="C#" Value="public abstract System.Security.Cryptography.SymmetricAlgorithm GetSymmetricAlgorithm (string algorithm);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Security.Cryptography.SymmetricAlgorithm GetSymmetricAlgorithm(string algorithm) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GetSymmetricAlgorithm(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetSymmetricAlgorithm (algorithm As String) As SymmetricAlgorithm" />
+      <MemberSignature Language="F#" Value="abstract member GetSymmetricAlgorithm : string -&gt; System.Security.Cryptography.SymmetricAlgorithm" Usage="symmetricSecurityKey.GetSymmetricAlgorithm algorithm" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract System::Security::Cryptography::SymmetricAlgorithm ^ GetSymmetricAlgorithm(System::String ^ algorithm);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Security.Cryptography.SymmetricAlgorithm</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="algorithm" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="algorithm">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSymmetricKey">
+      <MemberSignature Language="C#" Value="public abstract byte[] GetSymmetricKey ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance unsigned int8[] GetSymmetricKey() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.IdentityModel.Tokens.SymmetricSecurityKey.GetSymmetricKey" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetSymmetricKey () As Byte()" />
+      <MemberSignature Language="F#" Value="abstract member GetSymmetricKey : unit -&gt; byte[]" Usage="symmetricSecurityKey.GetSymmetricKey " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract cli::array &lt;System::Byte&gt; ^ GetSymmetricKey();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

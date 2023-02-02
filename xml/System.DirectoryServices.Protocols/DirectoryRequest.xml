@@ -1,0 +1,64 @@
+<Type Name="DirectoryRequest" FullName="System.DirectoryServices.Protocols.DirectoryRequest">
+  <TypeSignature Language="C#" Value="public abstract class DirectoryRequest : System.DirectoryServices.Protocols.DirectoryOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit DirectoryRequest extends System.DirectoryServices.Protocols.DirectoryOperation" />
+  <TypeSignature Language="DocId" Value="T:System.DirectoryServices.Protocols.DirectoryRequest" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class DirectoryRequest&#xA;Inherits DirectoryOperation" />
+  <TypeSignature Language="F#" Value="type DirectoryRequest = class&#xA;    inherit DirectoryOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DirectoryRequest abstract : System::DirectoryServices::Protocols::DirectoryOperation" />
+  <AssemblyInfo>
+    <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.DirectoryServices.Protocols.DirectoryOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Controls">
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.Protocols.DirectoryControlCollection Controls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.DirectoryServices.Protocols.DirectoryControlCollection Controls" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.DirectoryRequest.Controls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Controls As DirectoryControlCollection" />
+      <MemberSignature Language="F#" Value="member this.Controls : System.DirectoryServices.Protocols.DirectoryControlCollection" Usage="System.DirectoryServices.Protocols.DirectoryRequest.Controls" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::DirectoryServices::Protocols::DirectoryControlCollection ^ Controls { System::DirectoryServices::Protocols::DirectoryControlCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DirectoryServices.Protocols.DirectoryControlCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestId">
+      <MemberSignature Language="C#" Value="public string RequestId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RequestId" />
+      <MemberSignature Language="DocId" Value="P:System.DirectoryServices.Protocols.DirectoryRequest.RequestId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestId As String" />
+      <MemberSignature Language="F#" Value="member this.RequestId : string with get, set" Usage="System.DirectoryServices.Protocols.DirectoryRequest.RequestId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RequestId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.DirectoryServices.Protocols</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

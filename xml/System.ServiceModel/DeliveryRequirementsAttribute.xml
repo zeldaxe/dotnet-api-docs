@@ -1,0 +1,234 @@
+<Type Name="DeliveryRequirementsAttribute" FullName="System.ServiceModel.DeliveryRequirementsAttribute">
+  <TypeSignature Language="C#" Value="public sealed class DeliveryRequirementsAttribute : Attribute, System.ServiceModel.Description.IContractBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeliveryRequirementsAttribute extends System.Attribute implements class System.ServiceModel.Description.IContractBehavior" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.DeliveryRequirementsAttribute" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeliveryRequirementsAttribute&#xA;Inherits Attribute&#xA;Implements IContractBehavior" />
+  <TypeSignature Language="F#" Value="type DeliveryRequirementsAttribute = class&#xA;    inherit Attribute&#xA;    interface IContractBehavior" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeliveryRequirementsAttribute sealed : Attribute, System::ServiceModel::Description::IContractBehavior" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Attribute</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ServiceModel.Description.IContractBehavior</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeliveryRequirementsAttribute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.DeliveryRequirementsAttribute.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeliveryRequirementsAttribute();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueuedDeliveryRequirements">
+      <MemberSignature Language="C#" Value="public System.ServiceModel.QueuedDeliveryRequirementsMode QueuedDeliveryRequirements { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ServiceModel.QueuedDeliveryRequirementsMode QueuedDeliveryRequirements" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.DeliveryRequirementsAttribute.QueuedDeliveryRequirements" />
+      <MemberSignature Language="VB.NET" Value="Public Property QueuedDeliveryRequirements As QueuedDeliveryRequirementsMode" />
+      <MemberSignature Language="F#" Value="member this.QueuedDeliveryRequirements : System.ServiceModel.QueuedDeliveryRequirementsMode with get, set" Usage="System.ServiceModel.DeliveryRequirementsAttribute.QueuedDeliveryRequirements" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ServiceModel::QueuedDeliveryRequirementsMode QueuedDeliveryRequirements { System::ServiceModel::QueuedDeliveryRequirementsMode get(); void set(System::ServiceModel::QueuedDeliveryRequirementsMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ServiceModel.QueuedDeliveryRequirementsMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequireOrderedDelivery">
+      <MemberSignature Language="C#" Value="public bool RequireOrderedDelivery { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RequireOrderedDelivery" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.DeliveryRequirementsAttribute.RequireOrderedDelivery" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequireOrderedDelivery As Boolean" />
+      <MemberSignature Language="F#" Value="member this.RequireOrderedDelivery : bool with get, set" Usage="System.ServiceModel.DeliveryRequirementsAttribute.RequireOrderedDelivery" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RequireOrderedDelivery { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ServiceModel.Description.IContractBehavior.AddBindingParameters">
+      <MemberSignature Language="C#" Value="void IContractBehavior.AddBindingParameters (System.ServiceModel.Description.ContractDescription contractDescription, System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Channels.BindingParameterCollection bindingParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ServiceModel.Description.IContractBehavior.AddBindingParameters(class System.ServiceModel.Description.ContractDescription contractDescription, class System.ServiceModel.Description.ServiceEndpoint endpoint, class System.ServiceModel.Channels.BindingParameterCollection bindingParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.DeliveryRequirementsAttribute.System#ServiceModel#Description#IContractBehavior#AddBindingParameters(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Channels.BindingParameterCollection)" />
+      <MemberSignature Language="VB.NET" Value="Sub AddBindingParameters (contractDescription As ContractDescription, endpoint As ServiceEndpoint, bindingParameters As BindingParameterCollection) Implements IContractBehavior.AddBindingParameters" />
+      <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IContractBehavior.AddBindingParameters : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint * System.ServiceModel.Channels.BindingParameterCollection -&gt; unit&#xA;override this.System.ServiceModel.Description.IContractBehavior.AddBindingParameters : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint * System.ServiceModel.Channels.BindingParameterCollection -&gt; unit" Usage="deliveryRequirementsAttribute.System.ServiceModel.Description.IContractBehavior.AddBindingParameters (contractDescription, endpoint, bindingParameters)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void System.ServiceModel.Description.IContractBehavior.AddBindingParameters(System::ServiceModel::Description::ContractDescription ^ contractDescription, System::ServiceModel::Description::ServiceEndpoint ^ endpoint, System::ServiceModel::Channels::BindingParameterCollection ^ bindingParameters) = System::ServiceModel::Description::IContractBehavior::AddBindingParameters;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ServiceModel.Description.IContractBehavior.AddBindingParameters(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Channels.BindingParameterCollection)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contractDescription" Type="System.ServiceModel.Description.ContractDescription" />
+        <Parameter Name="endpoint" Type="System.ServiceModel.Description.ServiceEndpoint" />
+        <Parameter Name="bindingParameters" Type="System.ServiceModel.Channels.BindingParameterCollection" />
+      </Parameters>
+      <Docs>
+        <param name="contractDescription">To be added.</param>
+        <param name="endpoint">To be added.</param>
+        <param name="bindingParameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior">
+      <MemberSignature Language="C#" Value="void IContractBehavior.ApplyClientBehavior (System.ServiceModel.Description.ContractDescription contractDescription, System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.ClientRuntime clientRuntime);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior(class System.ServiceModel.Description.ContractDescription contractDescription, class System.ServiceModel.Description.ServiceEndpoint endpoint, class System.ServiceModel.Dispatcher.ClientRuntime clientRuntime) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.DeliveryRequirementsAttribute.System#ServiceModel#Description#IContractBehavior#ApplyClientBehavior(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)" />
+      <MemberSignature Language="VB.NET" Value="Sub ApplyClientBehavior (contractDescription As ContractDescription, endpoint As ServiceEndpoint, clientRuntime As ClientRuntime) Implements IContractBehavior.ApplyClientBehavior" />
+      <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint * System.ServiceModel.Dispatcher.ClientRuntime -&gt; unit&#xA;override this.System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint * System.ServiceModel.Dispatcher.ClientRuntime -&gt; unit" Usage="deliveryRequirementsAttribute.System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior (contractDescription, endpoint, clientRuntime)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior(System::ServiceModel::Description::ContractDescription ^ contractDescription, System::ServiceModel::Description::ServiceEndpoint ^ endpoint, System::ServiceModel::Dispatcher::ClientRuntime ^ clientRuntime) = System::ServiceModel::Description::IContractBehavior::ApplyClientBehavior;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ServiceModel.Description.IContractBehavior.ApplyClientBehavior(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.ClientRuntime)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contractDescription" Type="System.ServiceModel.Description.ContractDescription" />
+        <Parameter Name="endpoint" Type="System.ServiceModel.Description.ServiceEndpoint" />
+        <Parameter Name="clientRuntime" Type="System.ServiceModel.Dispatcher.ClientRuntime" />
+      </Parameters>
+      <Docs>
+        <param name="contractDescription">To be added.</param>
+        <param name="endpoint">To be added.</param>
+        <param name="clientRuntime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior">
+      <MemberSignature Language="C#" Value="void IContractBehavior.ApplyDispatchBehavior (System.ServiceModel.Description.ContractDescription contractDescription, System.ServiceModel.Description.ServiceEndpoint endpoint, System.ServiceModel.Dispatcher.DispatchRuntime dispatchRuntime);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior(class System.ServiceModel.Description.ContractDescription contractDescription, class System.ServiceModel.Description.ServiceEndpoint endpoint, class System.ServiceModel.Dispatcher.DispatchRuntime dispatchRuntime) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.DeliveryRequirementsAttribute.System#ServiceModel#Description#IContractBehavior#ApplyDispatchBehavior(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.DispatchRuntime)" />
+      <MemberSignature Language="VB.NET" Value="Sub ApplyDispatchBehavior (contractDescription As ContractDescription, endpoint As ServiceEndpoint, dispatchRuntime As DispatchRuntime) Implements IContractBehavior.ApplyDispatchBehavior" />
+      <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint * System.ServiceModel.Dispatcher.DispatchRuntime -&gt; unit&#xA;override this.System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint * System.ServiceModel.Dispatcher.DispatchRuntime -&gt; unit" Usage="deliveryRequirementsAttribute.System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior (contractDescription, endpoint, dispatchRuntime)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior(System::ServiceModel::Description::ContractDescription ^ contractDescription, System::ServiceModel::Description::ServiceEndpoint ^ endpoint, System::ServiceModel::Dispatcher::DispatchRuntime ^ dispatchRuntime) = System::ServiceModel::Description::IContractBehavior::ApplyDispatchBehavior;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ServiceModel.Description.IContractBehavior.ApplyDispatchBehavior(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint,System.ServiceModel.Dispatcher.DispatchRuntime)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contractDescription" Type="System.ServiceModel.Description.ContractDescription" />
+        <Parameter Name="endpoint" Type="System.ServiceModel.Description.ServiceEndpoint" />
+        <Parameter Name="dispatchRuntime" Type="System.ServiceModel.Dispatcher.DispatchRuntime" />
+      </Parameters>
+      <Docs>
+        <param name="contractDescription">To be added.</param>
+        <param name="endpoint">To be added.</param>
+        <param name="dispatchRuntime">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ServiceModel.Description.IContractBehavior.Validate">
+      <MemberSignature Language="C#" Value="void IContractBehavior.Validate (System.ServiceModel.Description.ContractDescription contractDescription, System.ServiceModel.Description.ServiceEndpoint endpoint);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ServiceModel.Description.IContractBehavior.Validate(class System.ServiceModel.Description.ContractDescription contractDescription, class System.ServiceModel.Description.ServiceEndpoint endpoint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ServiceModel.DeliveryRequirementsAttribute.System#ServiceModel#Description#IContractBehavior#Validate(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint)" />
+      <MemberSignature Language="VB.NET" Value="Sub Validate (contractDescription As ContractDescription, endpoint As ServiceEndpoint) Implements IContractBehavior.Validate" />
+      <MemberSignature Language="F#" Value="abstract member System.ServiceModel.Description.IContractBehavior.Validate : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint -&gt; unit&#xA;override this.System.ServiceModel.Description.IContractBehavior.Validate : System.ServiceModel.Description.ContractDescription * System.ServiceModel.Description.ServiceEndpoint -&gt; unit" Usage="deliveryRequirementsAttribute.System.ServiceModel.Description.IContractBehavior.Validate (contractDescription, endpoint)" />
+      <MemberSignature Language="C++ CLI" Value=" virtual void System.ServiceModel.Description.IContractBehavior.Validate(System::ServiceModel::Description::ContractDescription ^ contractDescription, System::ServiceModel::Description::ServiceEndpoint ^ endpoint) = System::ServiceModel::Description::IContractBehavior::Validate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ServiceModel.Description.IContractBehavior.Validate(System.ServiceModel.Description.ContractDescription,System.ServiceModel.Description.ServiceEndpoint)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+        <AssemblyVersion>4.9.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contractDescription" Type="System.ServiceModel.Description.ContractDescription" />
+        <Parameter Name="endpoint" Type="System.ServiceModel.Description.ServiceEndpoint" />
+      </Parameters>
+      <Docs>
+        <param name="contractDescription">To be added.</param>
+        <param name="endpoint">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,37 @@
+<Type Name="IDuplexChannel" FullName="System.ServiceModel.Channels.IDuplexChannel">
+  <TypeSignature Language="C#" Value="public interface IDuplexChannel : System.ServiceModel.Channels.IInputChannel, System.ServiceModel.Channels.IOutputChannel" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDuplexChannel implements class System.ServiceModel.Channels.IChannel, class System.ServiceModel.Channels.IInputChannel, class System.ServiceModel.Channels.IOutputChannel, class System.ServiceModel.ICommunicationObject" />
+  <TypeSignature Language="DocId" Value="T:System.ServiceModel.Channels.IDuplexChannel" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IDuplexChannel&#xA;Implements IInputChannel, IOutputChannel" />
+  <TypeSignature Language="F#" Value="type IDuplexChannel = interface&#xA;    interface IChannel&#xA;    interface ICommunicationObject&#xA;    interface IInputChannel&#xA;    interface IOutputChannel" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IDuplexChannel : System::ServiceModel::Channels::IInputChannel, System::ServiceModel::Channels::IOutputChannel" />
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
+    <AssemblyVersion>4.9.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.ServiceModel</AssemblyName>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Primitives" ToVersion="4.9.0.0" />
+  </TypeForwardingChain>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ServiceModel.Channels.IChannel</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ServiceModel.Channels.IInputChannel</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ServiceModel.Channels.IOutputChannel</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ServiceModel.ICommunicationObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>
