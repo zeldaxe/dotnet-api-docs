@@ -51,7 +51,7 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
       <AttributeName Language="C#">[System.ComponentModel.TypeConverter("System.Drawing.SizeFConverter, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter("System.Drawing.SizeFConverter, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
     </Attribute>
@@ -379,13 +379,13 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public readonly bool Equals (System.Drawing.SizeF other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0" />
+      <MemberSignature Language="C#" Value="public readonly bool Equals (System.Drawing.SizeF other);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype System.Drawing.SizeF other) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.SizeF.Equals(System.Drawing.SizeF)" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As SizeF) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : System.Drawing.SizeF -&gt; bool" Usage="sizeF.Equals other" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Drawing::SizeF other);" />
-      <MemberSignature Language="C#" Value="public bool Equals (System.Drawing.SizeF other);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public bool Equals (System.Drawing.SizeF other);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
@@ -408,7 +408,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -428,13 +428,13 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override readonly bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0" />
+      <MemberSignature Language="C#" Value="public override readonly bool Equals (object? obj);" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.SizeF.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="sizeF.Equals obj" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -462,7 +462,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -473,7 +473,7 @@
       <Parameters>
         <Parameter Name="obj" Type="System.Object">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
             </Attribute>
@@ -489,13 +489,13 @@
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
-      <MemberSignature Language="C#" Value="public override readonly int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0" />
+      <MemberSignature Language="C#" Value="public override readonly int GetHashCode ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.SizeF.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="sizeF.GetHashCode " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
-      <MemberSignature Language="C#" Value="public override int GetHashCode ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -523,7 +523,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -572,7 +572,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -639,7 +639,7 @@
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -1161,13 +1161,13 @@
       </Docs>
     </Member>
     <Member MemberName="ToPointF">
-      <MemberSignature Language="C#" Value="public readonly System.Drawing.PointF ToPointF ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0" />
+      <MemberSignature Language="C#" Value="public readonly System.Drawing.PointF ToPointF ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Drawing.PointF ToPointF() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.SizeF.ToPointF" />
       <MemberSignature Language="VB.NET" Value="Public Function ToPointF () As PointF" />
       <MemberSignature Language="F#" Value="member this.ToPointF : unit -&gt; System.Drawing.PointF" Usage="sizeF.ToPointF " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::PointF ToPointF();" />
-      <MemberSignature Language="C#" Value="public System.Drawing.PointF ToPointF ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public System.Drawing.PointF ToPointF ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -1195,7 +1195,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -1211,13 +1211,13 @@
       </Docs>
     </Member>
     <Member MemberName="ToSize">
-      <MemberSignature Language="C#" Value="public readonly System.Drawing.Size ToSize ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0" />
+      <MemberSignature Language="C#" Value="public readonly System.Drawing.Size ToSize ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Drawing.Size ToSize() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.SizeF.ToSize" />
       <MemberSignature Language="VB.NET" Value="Public Function ToSize () As Size" />
       <MemberSignature Language="F#" Value="member this.ToSize : unit -&gt; System.Drawing.Size" Usage="sizeF.ToSize " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::Size ToSize();" />
-      <MemberSignature Language="C#" Value="public System.Drawing.Size ToSize ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public System.Drawing.Size ToSize ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -1245,7 +1245,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -1268,13 +1268,13 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public override readonly string ToString ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0" />
+      <MemberSignature Language="C#" Value="public override readonly string ToString ();" FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.SizeF.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="sizeF.ToString " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="C#" Value="public override string ToString ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public override string ToString ();" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing.Primitives</AssemblyName>
@@ -1302,7 +1302,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -1381,7 +1381,7 @@
         <AssemblyName>System.Drawing.Common</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-8.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>

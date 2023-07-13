@@ -116,8 +116,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Type GetDefaultReader() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResXResourceSet.GetDefaultReader" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetDefaultReader () As Type" />
-      <MemberSignature Language="F#" Value="override this.GetDefaultReader : unit -&gt; Type" Usage="resXResourceSet.GetDefaultReader " />
+      <MemberSignature Language="F#" Value="override this.GetDefaultReader : unit -&gt; Type" Usage="resXResourceSet.GetDefaultReader " FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;windowsdesktop-3.0;windowsdesktop-3.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override Type ^ GetDefaultReader();" />
+      <MemberSignature Language="F#" Value="abstract member GetDefaultReader : unit -&gt; Type&#xA;override this.GetDefaultReader : unit -&gt; Type" Usage="resXResourceSet.GetDefaultReader " FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -147,8 +148,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Type GetDefaultWriter() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.ResXResourceSet.GetDefaultWriter" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetDefaultWriter () As Type" />
-      <MemberSignature Language="F#" Value="override this.GetDefaultWriter : unit -&gt; Type" Usage="resXResourceSet.GetDefaultWriter " />
+      <MemberSignature Language="F#" Value="override this.GetDefaultWriter : unit -&gt; Type" Usage="resXResourceSet.GetDefaultWriter " FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;windowsdesktop-3.0;windowsdesktop-3.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override Type ^ GetDefaultWriter();" />
+      <MemberSignature Language="F#" Value="abstract member GetDefaultWriter : unit -&gt; Type&#xA;override this.GetDefaultWriter : unit -&gt; Type" Usage="resXResourceSet.GetDefaultWriter " FrameworkAlternate="windowsdesktop-5.0;windowsdesktop-6.0;windowsdesktop-7.0;windowsdesktop-8.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>

@@ -53,13 +53,13 @@
   </Docs>
   <Members>
     <Member MemberName="GetMethodInfo">
-      <MemberSignature Language="C#" Value="public static System.Reflection.MethodInfo GetMethodInfo (this Delegate del);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;net-8.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;windowsdesktop-5.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static System.Reflection.MethodInfo GetMethodInfo (this Delegate del);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;net-7.0;net-8.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.MethodInfo GetMethodInfo(class System.Delegate del) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.RuntimeReflectionExtensions.GetMethodInfo(System.Delegate)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetMethodInfo (del As Delegate) As MethodInfo" />
       <MemberSignature Language="F#" Value="static member GetMethodInfo : Delegate -&gt; System.Reflection.MethodInfo" Usage="System.Reflection.RuntimeReflectionExtensions.GetMethodInfo del" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Reflection::MethodInfo ^ GetMethodInfo(Delegate ^ del);" />
-      <MemberSignature Language="C#" Value="public static System.Reflection.MethodInfo? GetMethodInfo (this Delegate del);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Reflection.MethodInfo? GetMethodInfo (this Delegate del);" FrameworkAlternate="netcore-3.0;netcore-3.1;windowsdesktop-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Extensions</AssemblyName>
@@ -190,7 +190,7 @@
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicEvents)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicEvents)&gt;]</AttributeName>
             </Attribute>
@@ -252,7 +252,7 @@
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicEvents | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicEvents)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicEvents | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicEvents)&gt;]</AttributeName>
             </Attribute>
@@ -315,7 +315,7 @@
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicFields)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicFields)&gt;]</AttributeName>
             </Attribute>
@@ -377,7 +377,7 @@
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicFields | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicFields)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicFields | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicFields)&gt;]</AttributeName>
             </Attribute>
@@ -440,7 +440,7 @@
         <Parameter Name="typeInfo" Type="System.Reflection.TypeInfo" RefType="this" />
         <Parameter Name="interfaceType" Type="System.Type">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)&gt;]</AttributeName>
             </Attribute>
@@ -526,7 +526,7 @@ The invoked method is not supported in the base class. Derived classes must prov
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)&gt;]</AttributeName>
             </Attribute>
@@ -591,7 +591,7 @@ The invoked method is not supported in the base class. Derived classes must prov
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicMethods | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicMethods)&gt;]</AttributeName>
             </Attribute>
@@ -653,7 +653,7 @@ The invoked method is not supported in the base class. Derived classes must prov
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicProperties | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicProperties)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.NonPublicProperties | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicProperties)&gt;]</AttributeName>
             </Attribute>
@@ -716,7 +716,7 @@ The invoked method is not supported in the base class. Derived classes must prov
       <Parameters>
         <Parameter Name="type" Type="System.Type" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0;windowsdesktop-5.0">
+            <Attribute FrameworkAlternate="net-5.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicProperties)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicProperties)&gt;]</AttributeName>
             </Attribute>
