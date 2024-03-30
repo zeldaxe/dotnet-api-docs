@@ -19,8 +19,9 @@
   <TypeSignature Language="C#" Value="public readonly struct Double : IComparable&lt;double&gt;, IConvertible, IEquatable&lt;double&gt;, IParsable&lt;double&gt;, ISpanParsable&lt;double&gt;, IUtf8SpanParsable&lt;double&gt;, System.Numerics.IAdditionOperators&lt;double,double,double&gt;, System.Numerics.IAdditiveIdentity&lt;double,double&gt;, System.Numerics.IBinaryFloatingPointIeee754&lt;double&gt;, System.Numerics.IBinaryNumber&lt;double&gt;, System.Numerics.IBitwiseOperators&lt;double,double,double&gt;, System.Numerics.IComparisonOperators&lt;double,double,bool&gt;, System.Numerics.IDecrementOperators&lt;double&gt;, System.Numerics.IDivisionOperators&lt;double,double,double&gt;, System.Numerics.IEqualityOperators&lt;double,double,bool&gt;, System.Numerics.IExponentialFunctions&lt;double&gt;, System.Numerics.IFloatingPoint&lt;double&gt;, System.Numerics.IFloatingPointConstants&lt;double&gt;, System.Numerics.IFloatingPointIeee754&lt;double&gt;, System.Numerics.IHyperbolicFunctions&lt;double&gt;, System.Numerics.IIncrementOperators&lt;double&gt;, System.Numerics.ILogarithmicFunctions&lt;double&gt;, System.Numerics.IMinMaxValue&lt;double&gt;, System.Numerics.IModulusOperators&lt;double,double,double&gt;, System.Numerics.IMultiplicativeIdentity&lt;double,double&gt;, System.Numerics.IMultiplyOperators&lt;double,double,double&gt;, System.Numerics.INumber&lt;double&gt;, System.Numerics.INumberBase&lt;double&gt;, System.Numerics.IPowerFunctions&lt;double&gt;, System.Numerics.IRootFunctions&lt;double&gt;, System.Numerics.ISignedNumber&lt;double&gt;, System.Numerics.ISubtractionOperators&lt;double,double,double&gt;, System.Numerics.ITrigonometricFunctions&lt;double&gt;, System.Numerics.IUnaryNegationOperators&lt;double,double&gt;, System.Numerics.IUnaryPlusOperators&lt;double,double&gt;" FrameworkAlternate="net-8.0;net-9.0" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit float64 extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;float64&gt;, class System.IConvertible, class System.IEquatable`1&lt;float64&gt;, class System.IFormattable, class System.IParsable`1&lt;float64&gt;, class System.ISpanFormattable, class System.ISpanParsable`1&lt;float64&gt;, class System.IUtf8SpanFormattable, class System.IUtf8SpanParsable`1&lt;float64&gt;, class System.Numerics.IAdditionOperators`3&lt;float64, float64, float64&gt;, class System.Numerics.IAdditiveIdentity`2&lt;float64, float64&gt;, class System.Numerics.IBinaryFloatingPointIeee754`1&lt;float64&gt;, class System.Numerics.IBinaryNumber`1&lt;float64&gt;, class System.Numerics.IBitwiseOperators`3&lt;float64, float64, float64&gt;, class System.Numerics.IComparisonOperators`3&lt;float64, float64, bool&gt;, class System.Numerics.IDecrementOperators`1&lt;float64&gt;, class System.Numerics.IDivisionOperators`3&lt;float64, float64, float64&gt;, class System.Numerics.IEqualityOperators`3&lt;float64, float64, bool&gt;, class System.Numerics.IExponentialFunctions`1&lt;float64&gt;, class System.Numerics.IFloatingPoint`1&lt;float64&gt;, class System.Numerics.IFloatingPointConstants`1&lt;float64&gt;, class System.Numerics.IFloatingPointIeee754`1&lt;float64&gt;, class System.Numerics.IHyperbolicFunctions`1&lt;float64&gt;, class System.Numerics.IIncrementOperators`1&lt;float64&gt;, class System.Numerics.ILogarithmicFunctions`1&lt;float64&gt;, class System.Numerics.IMinMaxValue`1&lt;float64&gt;, class System.Numerics.IModulusOperators`3&lt;float64, float64, float64&gt;, class System.Numerics.IMultiplicativeIdentity`2&lt;float64, float64&gt;, class System.Numerics.IMultiplyOperators`3&lt;float64, float64, float64&gt;, class System.Numerics.INumber`1&lt;float64&gt;, class System.Numerics.INumberBase`1&lt;float64&gt;, class System.Numerics.IPowerFunctions`1&lt;float64&gt;, class System.Numerics.IRootFunctions`1&lt;float64&gt;, class System.Numerics.ISignedNumber`1&lt;float64&gt;, class System.Numerics.ISubtractionOperators`3&lt;float64, float64, float64&gt;, class System.Numerics.ITrigonometricFunctions`1&lt;float64&gt;, class System.Numerics.IUnaryNegationOperators`2&lt;float64, float64&gt;, class System.Numerics.IUnaryPlusOperators`2&lt;float64, float64&gt;" FrameworkAlternate="net-8.0;net-9.0" />
   <TypeSignature Language="VB.NET" Value="Public Structure Double&#xA;Implements IAdditionOperators(Of Double, Double, Double), IAdditiveIdentity(Of Double, Double), IBinaryFloatingPointIeee754(Of Double), IBinaryNumber(Of Double), IBitwiseOperators(Of Double, Double, Double), IComparable(Of Double), IComparisonOperators(Of Double, Double, Boolean), IConvertible, IDecrementOperators(Of Double), IDivisionOperators(Of Double, Double, Double), IEqualityOperators(Of Double, Double, Boolean), IEquatable(Of Double), IExponentialFunctions(Of Double), IFloatingPoint(Of Double), IFloatingPointConstants(Of Double), IFloatingPointIeee754(Of Double), IHyperbolicFunctions(Of Double), IIncrementOperators(Of Double), ILogarithmicFunctions(Of Double), IMinMaxValue(Of Double), IModulusOperators(Of Double, Double, Double), IMultiplicativeIdentity(Of Double, Double), IMultiplyOperators(Of Double, Double, Double), INumber(Of Double), INumberBase(Of Double), IParsable(Of Double), IPowerFunctions(Of Double), IRootFunctions(Of Double), ISignedNumber(Of Double), ISpanParsable(Of Double), ISubtractionOperators(Of Double, Double, Double), ITrigonometricFunctions(Of Double), IUnaryNegationOperators(Of Double, Double), IUnaryPlusOperators(Of Double, Double), IUtf8SpanParsable(Of Double)" FrameworkAlternate="net-8.0;net-9.0" />
-  <TypeSignature Language="F#" Value="type double = struct&#xA;    interface IConvertible&#xA;    interface IFormattable&#xA;    interface IParsable&lt;double&gt;&#xA;    interface ISpanFormattable&#xA;    interface ISpanParsable&lt;double&gt;&#xA;    interface IAdditionOperators&lt;double, double, double&gt;&#xA;    interface IAdditiveIdentity&lt;double, double&gt;&#xA;    interface IBinaryFloatingPointIeee754&lt;double&gt;&#xA;    interface IBinaryNumber&lt;double&gt;&#xA;    interface IBitwiseOperators&lt;double, double, double&gt;&#xA;    interface IComparisonOperators&lt;double, double, bool&gt;&#xA;    interface IEqualityOperators&lt;double, double, bool&gt;&#xA;    interface IDecrementOperators&lt;double&gt;&#xA;    interface IDivisionOperators&lt;double, double, double&gt;&#xA;    interface IIncrementOperators&lt;double&gt;&#xA;    interface IModulusOperators&lt;double, double, double&gt;&#xA;    interface IMultiplicativeIdentity&lt;double, double&gt;&#xA;    interface IMultiplyOperators&lt;double, double, double&gt;&#xA;    interface INumber&lt;double&gt;&#xA;    interface INumberBase&lt;double&gt;&#xA;    interface ISubtractionOperators&lt;double, double, double&gt;&#xA;    interface IUnaryNegationOperators&lt;double, double&gt;&#xA;    interface IUnaryPlusOperators&lt;double, double&gt;&#xA;    interface IUtf8SpanFormattable&#xA;    interface IUtf8SpanParsable&lt;double&gt;&#xA;    interface IExponentialFunctions&lt;double&gt;&#xA;    interface IFloatingPointConstants&lt;double&gt;&#xA;    interface IFloatingPoint&lt;double&gt;&#xA;    interface ISignedNumber&lt;double&gt;&#xA;    interface IFloatingPointIeee754&lt;double&gt;&#xA;    interface IHyperbolicFunctions&lt;double&gt;&#xA;    interface ILogarithmicFunctions&lt;double&gt;&#xA;    interface IPowerFunctions&lt;double&gt;&#xA;    interface IRootFunctions&lt;double&gt;&#xA;    interface ITrigonometricFunctions&lt;double&gt;&#xA;    interface IMinMaxValue&lt;double&gt;" FrameworkAlternate="net-8.0;net-9.0" />
+  <TypeSignature Language="F#" Value="type double = struct&#xA;    interface IConvertible&#xA;    interface IFormattable&#xA;    interface IParsable&lt;double&gt;&#xA;    interface ISpanFormattable&#xA;    interface ISpanParsable&lt;double&gt;&#xA;    interface IAdditionOperators&lt;double, double, double&gt;&#xA;    interface IAdditiveIdentity&lt;double, double&gt;&#xA;    interface IBinaryFloatingPointIeee754&lt;double&gt;&#xA;    interface IBinaryNumber&lt;double&gt;&#xA;    interface IBitwiseOperators&lt;double, double, double&gt;&#xA;    interface IComparisonOperators&lt;double, double, bool&gt;&#xA;    interface IEqualityOperators&lt;double, double, bool&gt;&#xA;    interface IDecrementOperators&lt;double&gt;&#xA;    interface IDivisionOperators&lt;double, double, double&gt;&#xA;    interface IIncrementOperators&lt;double&gt;&#xA;    interface IModulusOperators&lt;double, double, double&gt;&#xA;    interface IMultiplicativeIdentity&lt;double, double&gt;&#xA;    interface IMultiplyOperators&lt;double, double, double&gt;&#xA;    interface INumber&lt;double&gt;&#xA;    interface INumberBase&lt;double&gt;&#xA;    interface ISubtractionOperators&lt;double, double, double&gt;&#xA;    interface IUnaryNegationOperators&lt;double, double&gt;&#xA;    interface IUnaryPlusOperators&lt;double, double&gt;&#xA;    interface IUtf8SpanFormattable&#xA;    interface IUtf8SpanParsable&lt;double&gt;&#xA;    interface IExponentialFunctions&lt;double&gt;&#xA;    interface IFloatingPointConstants&lt;double&gt;&#xA;    interface IFloatingPoint&lt;double&gt;&#xA;    interface ISignedNumber&lt;double&gt;&#xA;    interface IFloatingPointIeee754&lt;double&gt;&#xA;    interface IHyperbolicFunctions&lt;double&gt;&#xA;    interface ILogarithmicFunctions&lt;double&gt;&#xA;    interface IPowerFunctions&lt;double&gt;&#xA;    interface IRootFunctions&lt;double&gt;&#xA;    interface ITrigonometricFunctions&lt;double&gt;&#xA;    interface IMinMaxValue&lt;double&gt;" FrameworkAlternate="net-8.0" />
   <TypeSignature Language="C++ CLI" Value="public value class double : IComparable&lt;double&gt;, IConvertible, IEquatable&lt;double&gt;, IParsable&lt;double&gt;, ISpanParsable&lt;double&gt;, IUtf8SpanParsable&lt;double&gt;, System::Numerics::IAdditionOperators&lt;double, double, double&gt;, System::Numerics::IAdditiveIdentity&lt;double, double&gt;, System::Numerics::IBinaryFloatingPointIeee754&lt;double&gt;, System::Numerics::IBinaryNumber&lt;double&gt;, System::Numerics::IBitwiseOperators&lt;double, double, double&gt;, System::Numerics::IComparisonOperators&lt;double, double, bool&gt;, System::Numerics::IDecrementOperators&lt;double&gt;, System::Numerics::IDivisionOperators&lt;double, double, double&gt;, System::Numerics::IEqualityOperators&lt;double, double, bool&gt;, System::Numerics::IExponentialFunctions&lt;double&gt;, System::Numerics::IFloatingPoint&lt;double&gt;, System::Numerics::IFloatingPointConstants&lt;double&gt;, System::Numerics::IFloatingPointIeee754&lt;double&gt;, System::Numerics::IHyperbolicFunctions&lt;double&gt;, System::Numerics::IIncrementOperators&lt;double&gt;, System::Numerics::ILogarithmicFunctions&lt;double&gt;, System::Numerics::IMinMaxValue&lt;double&gt;, System::Numerics::IModulusOperators&lt;double, double, double&gt;, System::Numerics::IMultiplicativeIdentity&lt;double, double&gt;, System::Numerics::IMultiplyOperators&lt;double, double, double&gt;, System::Numerics::INumber&lt;double&gt;, System::Numerics::INumberBase&lt;double&gt;, System::Numerics::IPowerFunctions&lt;double&gt;, System::Numerics::IRootFunctions&lt;double&gt;, System::Numerics::ISignedNumber&lt;double&gt;, System::Numerics::ISubtractionOperators&lt;double, double, double&gt;, System::Numerics::ITrigonometricFunctions&lt;double&gt;, System::Numerics::IUnaryNegationOperators&lt;double, double&gt;, System::Numerics::IUnaryPlusOperators&lt;double, double&gt;" FrameworkAlternate="net-8.0;net-9.0" />
+  <TypeSignature Language="F#" Value="type double = struct&#xA;    interface IConvertible&#xA;    interface IFormattable&#xA;    interface IParsable&lt;double&gt;&#xA;    interface ISpanFormattable&#xA;    interface ISpanParsable&lt;double&gt;&#xA;    interface IUtf8SpanFormattable&#xA;    interface IUtf8SpanParsable&lt;double&gt;&#xA;    interface IAdditionOperators&lt;double, double, double&gt;&#xA;    interface IAdditiveIdentity&lt;double, double&gt;&#xA;    interface IBinaryFloatingPointIeee754&lt;double&gt;&#xA;    interface IBinaryNumber&lt;double&gt;&#xA;    interface IBitwiseOperators&lt;double, double, double&gt;&#xA;    interface IComparisonOperators&lt;double, double, bool&gt;&#xA;    interface IEqualityOperators&lt;double, double, bool&gt;&#xA;    interface IDecrementOperators&lt;double&gt;&#xA;    interface IDivisionOperators&lt;double, double, double&gt;&#xA;    interface IIncrementOperators&lt;double&gt;&#xA;    interface IModulusOperators&lt;double, double, double&gt;&#xA;    interface IMultiplicativeIdentity&lt;double, double&gt;&#xA;    interface IMultiplyOperators&lt;double, double, double&gt;&#xA;    interface INumber&lt;double&gt;&#xA;    interface INumberBase&lt;double&gt;&#xA;    interface ISubtractionOperators&lt;double, double, double&gt;&#xA;    interface IUnaryNegationOperators&lt;double, double&gt;&#xA;    interface IUnaryPlusOperators&lt;double, double&gt;&#xA;    interface IExponentialFunctions&lt;double&gt;&#xA;    interface IFloatingPointConstants&lt;double&gt;&#xA;    interface IFloatingPoint&lt;double&gt;&#xA;    interface ISignedNumber&lt;double&gt;&#xA;    interface IFloatingPointIeee754&lt;double&gt;&#xA;    interface IHyperbolicFunctions&lt;double&gt;&#xA;    interface ILogarithmicFunctions&lt;double&gt;&#xA;    interface IPowerFunctions&lt;double&gt;&#xA;    interface IRootFunctions&lt;double&gt;&#xA;    interface ITrigonometricFunctions&lt;double&gt;&#xA;    interface IMinMaxValue&lt;double&gt;" FrameworkAlternate="net-9.0" />
   <TypeSignature Language="C#" Value="public struct Double : IComparable, IConvertible, IFormattable" FrameworkAlternate="netframework-1.1" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi serializable sealed beforefieldinit float64 extends System.ValueType implements class System.IComparable, class System.IConvertible, class System.IFormattable" FrameworkAlternate="netframework-1.1" />
   <TypeSignature Language="VB.NET" Value="Public Structure Double&#xA;Implements IComparable, IConvertible, IFormattable" FrameworkAlternate="netframework-1.1" />
@@ -1149,7 +1150,7 @@ The following code example demonstrates generic and nongeneric versions of the <
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0;netframework-4.8.1;net-8.0;net-9.0" />
+        <Parameter Name="value" Type="System.Object" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0;net-7.0;netframework-4.8.1;net-8.0;net-9.0" />
       </Parameters>
       <Docs>
         <param name="value">An object to compare, or <see langword="null" />.</param>
@@ -3958,34 +3959,32 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
         <remarks>
           <format type="text/markdown"><![CDATA[
 
-## Remarks
- A method or operator returns <xref:System.Double.NaN> when the result of an operation is undefined. For example, the result of dividing zero by zero is <xref:System.Double.NaN>, as the following example shows. (But note that dividing a non-zero number by zero returns either <xref:System.Double.PositiveInfinity> or <xref:System.Double.NegativeInfinity>, depending on the sign of the divisor.)
+A method or operator returns <xref:System.Double.NaN> when the result of an operation is undefined. For example, the result of dividing zero by zero is <xref:System.Double.NaN>, as the following example shows. (However, dividing a non-zero number by zero returns either <xref:System.Double.PositiveInfinity> or <xref:System.Double.NegativeInfinity>, depending on the sign of the divisor.)
 
- :::code language="csharp" source="~/snippets/csharp/System/Double/NaN/nan1.cs" interactive="try-dotnet-method" id="Snippet1":::
- :::code language="fsharp" source="~/snippets/fsharp/System/Double/NaN/nan1.fs" id="Snippet1":::
- :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.double.nan/vb/nan1.vb" id="Snippet1":::
+:::code language="csharp" source="~/snippets/csharp/System/Double/NaN/nan1.cs" interactive="try-dotnet-method" id="Snippet1":::
+:::code language="fsharp" source="~/snippets/fsharp/System/Double/NaN/nan1.fs" id="Snippet1":::
+:::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.double.nan/vb/nan1.vb" id="Snippet1":::
 
- In addition, a method call with a <xref:System.Double.NaN> value or an operation on a <xref:System.Double.NaN> value returns <xref:System.Double.NaN>, as the following example shows.
+In addition, a method call with a <xref:System.Double.NaN> value or an operation on a <xref:System.Double.NaN> value returns <xref:System.Double.NaN>, as the following example shows.
 
- :::code language="csharp" source="~/snippets/csharp/System/Double/NaN/nan1.cs" interactive="try-dotnet-method" id="Snippet2":::
- :::code language="fsharp" source="~/snippets/fsharp/System/Double/NaN/nan1.fs" id="Snippet2":::
- :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.double.nan/vb/nan1.vb" id="Snippet2":::
+:::code language="csharp" source="~/snippets/csharp/System/Double/NaN/nan1.cs" interactive="try-dotnet-method" id="Snippet2":::
+:::code language="fsharp" source="~/snippets/fsharp/System/Double/NaN/nan1.fs" id="Snippet2":::
+:::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.double.nan/vb/nan1.vb" id="Snippet2":::
 
- Use the <xref:System.Double.IsNaN%2A> method to determine whether a value is not a number. The <xref:System.Double.op_Equality%2A> operator considers two <xref:System.Double.NaN> values to be unequal to one another. In general, <xref:System.Double> operators cannot be used to compare <xref:System.Double.NaN?displayProperty=nameWithType> with other <xref:System.Double> values, although comparison methods (such as <xref:System.Double.Equals%2A> and <xref:System.Double.CompareTo%2A>) can. The following example illustrates the difference in behavior between <xref:System.Double> comparison operators and methods.
+Use the <xref:System.Double.IsNaN%2A> method to determine whether a value is not a number. The <xref:System.Double.op_Equality%2A> operator considers two <xref:System.Double.NaN> values to be unequal to one another. In general, <xref:System.Double> operators cannot be used to compare <xref:System.Double.NaN?displayProperty=nameWithType> with other <xref:System.Double> values, although comparison methods (such as <xref:System.Double.Equals%2A> and <xref:System.Double.CompareTo%2A>) can. The following example illustrates the difference in behavior between <xref:System.Double> comparison operators and methods.
 
- :::code language="csharp" source="~/snippets/csharp/System/Double/NaN/double.nan4.cs" interactive="try-dotnet" id="Snippet4":::
- :::code language="fsharp" source="~/snippets/fsharp/System/Double/NaN/double.nan4.fs" id="Snippet4":::
- :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.double.nan/vb/double.nan4.vb" id="Snippet4":::
-
-
+:::code language="csharp" source="~/snippets/csharp/System/Double/NaN/double.nan4.cs" interactive="try-dotnet" id="Snippet4":::
+:::code language="fsharp" source="~/snippets/fsharp/System/Double/NaN/double.nan4.fs" id="Snippet4":::
+:::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.double.nan/vb/double.nan4.vb" id="Snippet4":::
 
 ## Examples
- The following example illustrates the use of <xref:System.Double.NaN>:
 
- :::code language="cpp" source="~/snippets/cpp/VS_Snippets_CLR_System/system.Double/CPP/doublesample.cpp" id="Snippet7":::
- :::code language="csharp" source="~/snippets/csharp/System/Double/CompareTo/doublesample.cs" interactive="try-dotnet-method" id="Snippet7":::
- :::code language="fsharp" source="~/snippets/fsharp/System/Double/CompareTo/doublesample.fs" id="Snippet7":::
- :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.Double/VB/doublesample.vb" id="Snippet7":::
+The following example illustrates the use of <xref:System.Double.NaN>.
+
+:::code language="cpp" source="~/snippets/cpp/VS_Snippets_CLR_System/system.Double/CPP/doublesample.cpp" id="Snippet7":::
+:::code language="csharp" source="~/snippets/csharp/System/Double/CompareTo/doublesample.cs" interactive="try-dotnet-method" id="Snippet7":::
+:::code language="fsharp" source="~/snippets/fsharp/System/Double/CompareTo/doublesample.fs" id="Snippet7":::
+:::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.Double/VB/doublesample.vb" id="Snippet7":::
 
  ]]></format>
         </remarks>
@@ -4036,22 +4035,20 @@ For <xref:System.Numerics.IFloatingPoint%601> this method matches the IEEE 754:2
         <remarks>
           <format type="text/markdown"><![CDATA[
 
-## Remarks
- The value of this constant is the result of dividing a negative number by zero.
+The value of this constant is the result of dividing a negative number by zero.
 
- This constant is returned when the result of an operation is less than <xref:System.Double.MinValue?displayProperty=nameWithType>.
+This constant is returned when the result of an operation is less than <xref:System.Double.MinValue?displayProperty=nameWithType>.
 
- Use <xref:System.Double.IsNegativeInfinity%2A> to determine whether a value evaluates to negative infinity.
-
-
+Use <xref:System.Double.IsNegativeInfinity%2A> to determine whether a value evaluates to negative infinity.
 
 ## Examples
- The following code example illustrates the use of <xref:System.Double.NegativeInfinity>:
 
- :::code language="cpp" source="~/snippets/cpp/VS_Snippets_CLR_System/system.Double/CPP/doublesample.cpp" id="Snippet9":::
- :::code language="csharp" source="~/snippets/csharp/System/Double/CompareTo/doublesample.cs" interactive="try-dotnet-method" id="Snippet9":::
- :::code language="fsharp" source="~/snippets/fsharp/System/Double/CompareTo/doublesample.fs" id="Snippet9":::
- :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.Double/VB/doublesample.vb" id="Snippet9":::
+The following code example illustrates the use of <xref:System.Double.NegativeInfinity>:
+
+:::code language="cpp" source="~/snippets/cpp/VS_Snippets_CLR_System/system.Double/CPP/doublesample.cpp" id="Snippet9":::
+:::code language="csharp" source="~/snippets/csharp/System/Double/CompareTo/doublesample.cs" interactive="try-dotnet-method" id="Snippet9":::
+:::code language="fsharp" source="~/snippets/fsharp/System/Double/CompareTo/doublesample.fs" id="Snippet9":::
+:::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.Double/VB/doublesample.vb" id="Snippet9":::
 
  ]]></format>
         </remarks>
@@ -5296,22 +5293,20 @@ Pi is approximately 3.1415926535897932385.
         <remarks>
           <format type="text/markdown"><![CDATA[
 
-## Remarks
- The value of this constant is the result of dividing a positive number by zero.
+The value of this constant is the result of dividing a positive number by zero.
 
- This constant is returned when the result of an operation is greater than <xref:System.Double.MaxValue?displayProperty=nameWithType>.
+This constant is returned when the result of an operation is greater than <xref:System.Double.MaxValue?displayProperty=nameWithType>.
 
- Use <xref:System.Double.IsPositiveInfinity%2A> to determine whether a value evaluates to positive infinity.
-
-
+Use <xref:System.Double.IsPositiveInfinity%2A> to determine whether a value evaluates to positive infinity.
 
 ## Examples
- The following code example illustrates the use of <xref:System.Double.PositiveInfinity>:
 
- :::code language="cpp" source="~/snippets/cpp/VS_Snippets_CLR_System/system.Double/CPP/doublesample.cpp" id="Snippet10":::
- :::code language="csharp" source="~/snippets/csharp/System/Double/CompareTo/doublesample.cs" interactive="try-dotnet-method" id="Snippet10":::
- :::code language="fsharp" source="~/snippets/fsharp/System/Double/CompareTo/doublesample.fs" id="Snippet10":::
- :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.Double/VB/doublesample.vb" id="Snippet10":::
+The following code example illustrates the use of <xref:System.Double.PositiveInfinity>:
+
+:::code language="cpp" source="~/snippets/cpp/VS_Snippets_CLR_System/system.Double/CPP/doublesample.cpp" id="Snippet10":::
+:::code language="csharp" source="~/snippets/csharp/System/Double/CompareTo/doublesample.cs" interactive="try-dotnet-method" id="Snippet10":::
+:::code language="fsharp" source="~/snippets/fsharp/System/Double/CompareTo/doublesample.fs" id="Snippet10":::
+:::code language="vb" source="~/snippets/visualbasic/VS_Snippets_CLR_System/system.Double/VB/doublesample.vb" id="Snippet10":::
 
  ]]></format>
         </remarks>
@@ -9443,6 +9438,7 @@ Tau is approximately 6.2831853071795864769.
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Numerics.INumberBase`1.System#IUtf8SpanFormattable#TryFormat(System.Span{System.Byte},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-9.0">M:System.IUtf8SpanFormattable.TryFormat(System.Span{System.Byte},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
